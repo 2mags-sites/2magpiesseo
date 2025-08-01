@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | 2 Magpies SEO - Digital Marketing Success Stories</title>
+    <meta name="description" content="View our portfolio of successful digital marketing campaigns, SEO results, and web design projects. Real results for businesses across North West UK.">
+    <link rel="canonical" href="https://2magpiesseo.co.uk/portfolio">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "2 Magpies SEO Portfolio",
+      "description": "Portfolio showcasing successful digital marketing campaigns, SEO results, and web design projects",
+      "url": "https://2magpiesseo.co.uk/portfolio",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "2 Magpies SEO",
+        "url": "https://2magpiesseo.co.uk"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://2magpiesseo.co.uk/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Portfolio",
+            "item": "https://2magpiesseo.co.uk/portfolio"
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
+        }
+
+        /* Header Styles - Same as index */
+        .header {
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .logo:hover {
+            opacity: 0.8;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #60a5fa;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: rgba(30, 41, 59, 0.98);
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            min-width: 250px;
+            padding: 0.5rem 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-item:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+        .dropdown a:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: #60a5fa;
+            padding-left: 2rem;
+            border-left-color: #60a5fa;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 4px;
+        }
+
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            transition: all 0.3s ease;
+            border-radius: 3px;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background: rgba(30, 41, 59, 0.98);
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+                padding: 2rem 0;
+                max-height: calc(100vh - 70px);
+                overflow-y: auto;
+            }
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .nav-item {
+                margin: 0.5rem 0;
+            }
+
+            .dropdown {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                display: none;
+                margin-top: 0.5rem;
+                background: rgba(0, 0, 0, 0.2);
+                border-radius: 8px;
+            }
+
+            .nav-item.active .dropdown {
+                display: block;
+            }
+
+            .mobile-menu-toggle.active span:nth-child(2) {
+                opacity: 0;
+            }
+
+            .mobile-menu-toggle.active span:nth-child(1) {
+                transform: translateY(7px) rotate(45deg);
+            }
+
+            .mobile-menu-toggle.active span:nth-child(3) {
+                transform: translateY(-7px) rotate(-45deg);
+            }
+        }
+
+        body {
+            padding-top: 70px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            padding: 5rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .page-header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .page-header p {
+            font-size: 1.3rem;
+            color: #cbd5e1;
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        /* Testimonials Section */
+        .testimonials-section {
+            background: #f8fafc;
+            padding: 5rem 0;
+        }
+
+        .testimonials-section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .testimonials-section h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-text {
+            font-size: 1.1rem;
+            color: #475569;
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-text::before {
+            content: '"';
+            font-size: 3rem;
+            color: #60a5fa;
+            line-height: 0;
+            display: inline-block;
+            vertical-align: -0.4em;
+            margin-right: 0.1em;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.25rem;
+        }
+
+        .testimonial-role {
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        /* Portfolio Gallery Section */
+        .portfolio-gallery-section {
+            background: white;
+            padding: 5rem 0;
+        }
+
+        .portfolio-gallery-section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .portfolio-gallery-section h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.05);
+        }
+        .portfolio-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(30, 41, 59, 0.9) 0%, transparent 100%);
+            padding: 2rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            transform: translateY(0);
+        }
+
+        .portfolio-title {
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .portfolio-category {
+            color: #cbd5e1;
+            font-size: 0.9rem;
+        }
+
+        /* Industries Section - Same as index */
+        .industry-stats {
+            background: #1e293b;
+            padding: 5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .industry-stats::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .industry-stats::after {
+            content: '';
+            position: absolute;
+            bottom: -40%;
+            right: -5%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(236, 72, 153, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .industries-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .industry-stats h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        .industry-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .industry-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #8b5cf6;
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);
+        }
+
+        .industry-icon {
+            font-size: 2.5rem;
+            color: #a78bfa;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .industry-card:hover .industry-icon {
+            color: #c4b5fd;
+            transform: scale(1.1);
+        }
+
+        .industry-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+            padding: 5rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .cta-section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .cta-section h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: white;
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 4rem 0 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo img {
+            height: 40px;
+        }
+
+        .footer-logo h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .footer-description {
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .social-link:hover {
+            background: #60a5fa;
+            transform: translateY(-2px);
+        }
+
+        .footer-column h4 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column a {
+            color: #94a3b8;
+            text-decoration: none;
+            line-height: 2;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column a:hover {
+            color: #60a5fa;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            text-align: center;
+            color: #64748b;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .industries-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2.5rem;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .portfolio-item img {
+                height: 200px;
+            }
+
+            .industries-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .footer-social {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .industries-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="content/images/2Magpies_Logo.png" alt="2magpiesseo">
+            </a>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="seo-manchester.html">SEO</a>
+                        <a href="website-design-manchester.html">Website Design</a>
+                        <a href="digital-marketing-manchester.html">Digital Marketing</a>
+                        <a href="lead-generation-manchester.html">Lead Generation</a>
+                        <a href="website-marketing-manchester.html">Website Marketing</a>
+                        <a href="digital-agency-manchester.html">Digital Agency</a>
+                        <a href="wordpress-manchester.html">WordPress</a>
+                        <a href="web-development-manchester.html">Web Development</a>
+                        <a href="ecommerce-manchester.html">Ecommerce</a>
+                        <a href="linkedin-marketing-manchester.html">LinkedIn Marketing</a>
+                    </div>
+                </li>                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Locations <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="seo-manchester.html">Manchester</a>
+                        <a href="seo-altrincham.html">Altrincham</a>
+                        <a href="seo-stockport.html">Stockport</a>
+                        <a href="seo-liverpool.html">Liverpool</a>
+                        <a href="seo-warrington.html">Warrington</a>
+                        <a href="seo-wigan.html">Wigan</a>
+                        <a href="seo-preston.html">Preston</a>
+                        <a href="seo-macclesfield.html">Macclesfield</a>
+                        <a href="seo-wilmslow.html">Wilmslow</a>
+                        <a href="seo-knutsford.html">Knutsford</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="i/news" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="i/contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Real results from real businesses across the North West of England</p>
+        </div>
+    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Client Testimonials -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Working with 2 Magpies has been like a breath of fresh air. We see them regularly, they take the time to understand our business, and most importantly, they deliver what they promise.</p>
+                        <div class="testimonial-author">Sandi Hodkinson</div>
+                        <div class="testimonial-role">Photographer</div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">We were struggling to get anywhere near the first page of google for our main search terms until 2 Magpies came along. Paul is brilliant to work with, can't recommend enough.</p>
+                        <div class="testimonial-author">Robert Sands</div>
+                        <div class="testimonial-role">Optician</div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">2 Magpies are our secret weapon. I still don't fully understand how they work their magic, but they get us to the top of Google for the search terms that matter, and that's been bringing in loads of leads.</p>
+                        <div class="testimonial-author">Dr. Martin J. Kinsella</div>
+                        <div class="testimonial-role">Aesthetic and anti ageing doctor</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery -->
+        <section class="portfolio-gallery-section">
+            <div class="container">
+                <h2>Websites We've Built</h2>
+                <div class="portfolio-grid">                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/barringtons.jpg" alt="Barringtons Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">Barringtons</div>
+                            <div class="portfolio-category">Corporate Website</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/countrywide.jpg" alt="Countrywide Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">Countrywide</div>
+                            <div class="portfolio-category">Property Services</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/csg.jpeg" alt="CSG Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">CSG</div>
+                            <div class="portfolio-category">Business Services</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/fineline.jpg" alt="Fineline Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">Fineline</div>
+                            <div class="portfolio-category">Design Agency</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/pelorus.jpg" alt="Pelorus Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">Pelorus</div>
+                            <div class="portfolio-category">Luxury Services</div>
+                        </div>
+                    </div>                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/project.jpg" alt="Project Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">The Project</div>
+                            <div class="portfolio-category">Creative Studio</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/sh_photo.jpg" alt="SH Photo Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">SH Photography</div>
+                            <div class="portfolio-category">Photography Portfolio</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/studio.jpg" alt="Studio Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">The Studio</div>
+                            <div class="portfolio-category">Creative Agency</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="content/galleries/portfolio/venteuro.jpg" alt="Venteuro Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-title">Venteuro</div>
+                            <div class="portfolio-category">E-commerce Platform</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industry Experience -->
+        <section class="industry-stats">
+            <div class="industries-container">                <h2>Industries We Serve</h2>
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-user-md"></i></div>
+                        <div class="industry-name">Healthcare</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-store"></i></div>
+                        <div class="industry-name">Retail</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-home"></i></div>
+                        <div class="industry-name">Property</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-utensils"></i></div>
+                        <div class="industry-name">Hospitality</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-tools"></i></div>
+                        <div class="industry-name">Professional Services</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="industry-name">Education</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-car"></i></div>
+                        <div class="industry-name">Automotive</div>
+                    </div>                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-spa"></i></div>
+                        <div class="industry-name">Beauty & Wellness</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-wrench"></i></div>
+                        <div class="industry-name">Home Services</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-balance-scale"></i></div>
+                        <div class="industry-name">Legal Services</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-coffee"></i></div>
+                        <div class="industry-name">Food & Beverage</div>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon"><i class="fas fa-hard-hat"></i></div>
+                        <div class="industry-name">Construction & Trade</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Join Our Success Stories?</h2>
+                <p>Let's create something amazing for your business</p>
+                <a href="contact.html" class="cta-button">Start Your Project</a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <img src="content/images/2Magpies_Logo.png" alt="2magpiesseo">
+                        <h3>2magpiesseo</h3>
+                    </div>
+                    <p class="footer-description">
+                        Award-winning digital marketing agency specializing in SEO, PPC, and web development across North West England. Helping businesses grow their online presence since 2010.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/2magpiesseo" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/2magpiesseo" class="social-link x-logo" target="_blank" rel="noopener">
+                            <span style="font-weight: 800; font-size: 1.2rem;">𝕏</span>
+                        </a>
+                        <a href="skype:2magpiesseo?chat" class="social-link">
+                            <i class="fab fa-skype"></i>
+                        </a>
+                        <a href="https://wa.me/447799727395" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="seo-manchester.html">SEO Services</a></li>
+                        <li><a href="website-design-manchester.html">Web Design</a></li>
+                        <li><a href="digital-marketing-manchester.html">Digital Marketing</a></li>
+                        <li><a href="lead-generation-manchester.html">Lead Generation</a></li>
+                    </ul>
+                </div>                
+                <div class="footer-column">
+                    <h4>Locations</h4>
+                    <ul>
+                        <li><a href="seo-manchester.html">Manchester</a></li>
+                        <li><a href="seo-liverpool.html">Liverpool</a></li>
+                        <li><a href="seo-altrincham.html">Altrincham</a></li>
+                        <li><a href="seo-warrington.html">Warrington</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 2magpiesseo. All rights reserved. | <a href="#" style="color: #64748b;">Privacy Policy</a> | <a href="#" style="color: #64748b;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            const dropdownItems = document.querySelectorAll('.nav-item');
+
+            if (mobileToggle && navMenu) {
+                mobileToggle.addEventListener('click', function() {
+                    mobileToggle.classList.toggle('active');
+                    navMenu.classList.toggle('active');                });
+
+                // Handle dropdown toggles on mobile
+                dropdownItems.forEach(item => {
+                    const link = item.querySelector('.nav-link');
+                    const dropdown = item.querySelector('.dropdown');
+                    
+                    if (dropdown && link) {
+                        link.addEventListener('click', function(e) {
+                            // Only prevent default on mobile when there's a dropdown
+                            if (window.innerWidth <= 768 && dropdown) {
+                                e.preventDefault();
+                                item.classList.toggle('active');
+                            }
+                        });
+                    }
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!mobileToggle.contains(e.target) && !navMenu.contains(e.target)) {
+                        mobileToggle.classList.remove('active');
+                        navMenu.classList.remove('active');
+                        dropdownItems.forEach(item => {
+                            item.classList.remove('active');
+                        });
+                    }
+                });
+            }
+
+            // Add scroll effect to header
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (header) {
+                    if (window.scrollY > 100) {
+                        header.style.background = 'rgba(30, 41, 59, 0.98)';
+                    } else {
+                        header.style.background = 'rgba(30, 41, 59, 0.95)';
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
