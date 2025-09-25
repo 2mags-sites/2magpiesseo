@@ -1,0 +1,466 @@
+{
+  "project_name": "my_law_firm",
+  "current_stage": 0,
+  "current_stage_name": "discovery",
+  "stage_outputs": {
+    "discovery": {
+      "url": "https://www.robertleelawoffices.com",
+      "business_info": {
+        "name": "Robert Lee Law Offices"
+      },
+      "business_type": "law_firm",
+      "contact": {
+        "phone": "25296976",
+        "email": "general@interasialawoffice.com",
+        "address_structured": {
+          "@type": "PostalAddress",
+          "addressCountry": "HK",
+          "streetAddress": "302-308 Hennessy Road"
+        }
+      },
+      "services": [
+        {
+          "name": "Practice Areas | Robert Lee Law Offices",
+          "description": "PRACTICESCOMMITMENT TO RESULTSFees and Charging Arrangements\u200bThe first concern of most clients when seeking legal advice is cost.\u200bWe have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result.We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outse",
+          "url": "https://www.robertleelawoffices.com/practices",
+          "source": "initial_analysis",
+          "content": "",
+          "sections": [
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "PRACTICES"
+            },
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "COMMITMENT TO RESULTS"
+            },
+            {
+              "type": "paragraph",
+              "text": "The first concern of most clients when seeking legal advice is cost."
+            },
+            {
+              "type": "paragraph",
+              "text": "We have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result."
+            },
+            {
+              "type": "paragraph",
+              "text": "We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim."
+            }
+          ]
+        },
+        {
+          "name": "Practice Areas",
+          "description": "Our lawyers endeavour to provide insightful, practical and commercial legal advice at competitive rates. Our core practice areas include: Dispute Resolution, Corporate & Commercial Law, Wills, Probate & Trusts and Intellectual Property.",
+          "url": "https://www.robertleelawoffices.com/practices",
+          "source": "crawled_page",
+          "content": "PRACTICESCOMMITMENT TO RESULTSFees and Charging Arrangements\u200bThe first concern of most clients when seeking legal advice is cost.\u200bWe have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result.We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim.It's important our clients know:\u200bWe do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work.We do not use timesheets to calculate fees.Adjustments are made to fit the client's budget in special cases.\u200bAll fees take into account whether or not the objective has been achieved to the client's satisfaction.CORPORATE LAWCompany FormationManaging Corporate EntitiesStructuring & Closing DownCross-Border InvestmentsContracts & AgreementsJoint ventures, Partnerships, and StartupsMergers & AcquisitionsPre-IPO investmentsIntellectual PropertyEmployment Law & ImmigrationInsolvency, Bankruptcy RestructuringCorporate LawCOMPANY SERVICESAnti-Money Laundering (AML)Compliance ServicesCounter-Terrorism FinancingPrivacy and Data ProtectionsCorporate GovernanceDue DiligenceKnow Your Client (KYC)AUTHENTICATION & VERIFICATIONSERVICESNotary Public Services with ApostilleChina Attesting ServicesWitnessingCertificationsCommissioner for OathsDISPUTE RESOLUTIONMediation & ArbitrationCivil LitigationMinor CriminalEmployment LawIntellectual Property LawGovernment Tribunals (Tax, Anti-Competition, Telecommunications, Securities & Monetary Authorities)Corporate Secretarial ServicesCORPORATE SECRETARIAL SERVICESAdministration/Management of Client CompaniesGovernment Authority Annual FilingsProcedures for Directors and Shareholders MeetingsWinding UpProvision of LiquidatorsStriking Off/DeregistrationBusiness FormationIncorporation and maintenance of Hong Kong companies, offshore companiesRegistration of foreign companies in Hong KongWEALTH MANAGEMENT & FAMILY OFFICE SERVICESWills & TrustsEstate PlanningProbate and Letters of AdministrationFamily Law (marriage, separation & divorce, division of assets & custody)Setting up family office structuresTax-related AdviceWealth Management",
+          "sections": [
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "PRACTICES"
+            },
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "COMMITMENT TO RESULTS"
+            },
+            {
+              "type": "paragraph",
+              "text": "The first concern of most clients when seeking legal advice is cost."
+            },
+            {
+              "type": "paragraph",
+              "text": "We have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result."
+            },
+            {
+              "type": "paragraph",
+              "text": "We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim."
+            },
+            {
+              "type": "list",
+              "items": [
+                "We do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work.",
+                "We do not use timesheets to calculate fees.",
+                "Adjustments are made to fit the client's budget in special cases."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "We do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work."
+            },
+            {
+              "type": "paragraph",
+              "text": "Adjustments are made to fit the client's budget in special cases."
+            },
+            {
+              "type": "paragraph",
+              "text": "All fees take into account whether or not the objective has been achieved to the client's satisfaction."
+            },
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "CORPORATE LAW"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Company Formation",
+                "Managing Corporate Entities",
+                "Structuring & Closing Down",
+                "Cross-Border Investments",
+                "Contracts & Agreements",
+                "Joint ventures, Partnerships, and Startups",
+                "Mergers & Acquisitions",
+                "Pre-IPO investments",
+                "Intellectual Property",
+                "Employment Law & Immigration",
+                "Insolvency, Bankruptcy Restructuring"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "COMPANY SERVICES"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Anti-Money Laundering (AML)",
+                "Compliance Services",
+                "Counter-Terrorism Financing",
+                "Privacy and Data Protections",
+                "Corporate Governance",
+                "Due Diligence",
+                "Know Your Client (KYC)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "AUTHENTICATION & VERIFICATIONSERVICES"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Notary Public Services with Apostille",
+                "China Attesting Services",
+                "Witnessing",
+                "Certifications",
+                "Commissioner for Oaths"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": "h2",
+              "text": "DISPUTE RESOLUTION"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mediation & Arbitration",
+                "Civil Litigation",
+                "Minor Criminal",
+                "Employment Law",
+                "Intellectual Property Law",
+                "Government Tribunals (Tax, Anti-Competition, Telecommunications, Securities & Monetary Authorities)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Practices",
+          "description": "",
+          "url": "https://www.robertleelawoffices.com/practices",
+          "source": "navigation",
+          "content": "",
+          "sections": []
+        }
+      ],
+      "service_taxonomy": {
+        "General Services": [
+          {
+            "name": "Practice Areas | Robert Lee Law Offices",
+            "description": "PRACTICESCOMMITMENT TO RESULTSFees and Charging Arrangements\u200bThe first concern of most clients when seeking legal advice is cost.\u200bWe have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result.We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outse",
+            "url": "https://www.robertleelawoffices.com/practices",
+            "source": "initial_analysis",
+            "content": "",
+            "sections": [
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "PRACTICES"
+              },
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "COMMITMENT TO RESULTS"
+              },
+              {
+                "type": "paragraph",
+                "text": "The first concern of most clients when seeking legal advice is cost."
+              },
+              {
+                "type": "paragraph",
+                "text": "We have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result."
+              },
+              {
+                "type": "paragraph",
+                "text": "We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim."
+              }
+            ]
+          },
+          {
+            "name": "Practice Areas",
+            "description": "Our lawyers endeavour to provide insightful, practical and commercial legal advice at competitive rates. Our core practice areas include: Dispute Resolution, Corporate & Commercial Law, Wills, Probate & Trusts and Intellectual Property.",
+            "url": "https://www.robertleelawoffices.com/practices",
+            "source": "crawled_page",
+            "content": "PRACTICESCOMMITMENT TO RESULTSFees and Charging Arrangements\u200bThe first concern of most clients when seeking legal advice is cost.\u200bWe have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result.We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim.It's important our clients know:\u200bWe do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work.We do not use timesheets to calculate fees.Adjustments are made to fit the client's budget in special cases.\u200bAll fees take into account whether or not the objective has been achieved to the client's satisfaction.CORPORATE LAWCompany FormationManaging Corporate EntitiesStructuring & Closing DownCross-Border InvestmentsContracts & AgreementsJoint ventures, Partnerships, and StartupsMergers & AcquisitionsPre-IPO investmentsIntellectual PropertyEmployment Law & ImmigrationInsolvency, Bankruptcy RestructuringCorporate LawCOMPANY SERVICESAnti-Money Laundering (AML)Compliance ServicesCounter-Terrorism FinancingPrivacy and Data ProtectionsCorporate GovernanceDue DiligenceKnow Your Client (KYC)AUTHENTICATION & VERIFICATIONSERVICESNotary Public Services with ApostilleChina Attesting ServicesWitnessingCertificationsCommissioner for OathsDISPUTE RESOLUTIONMediation & ArbitrationCivil LitigationMinor CriminalEmployment LawIntellectual Property LawGovernment Tribunals (Tax, Anti-Competition, Telecommunications, Securities & Monetary Authorities)Corporate Secretarial ServicesCORPORATE SECRETARIAL SERVICESAdministration/Management of Client CompaniesGovernment Authority Annual FilingsProcedures for Directors and Shareholders MeetingsWinding UpProvision of LiquidatorsStriking Off/DeregistrationBusiness FormationIncorporation and maintenance of Hong Kong companies, offshore companiesRegistration of foreign companies in Hong KongWEALTH MANAGEMENT & FAMILY OFFICE SERVICESWills & TrustsEstate PlanningProbate and Letters of AdministrationFamily Law (marriage, separation & divorce, division of assets & custody)Setting up family office structuresTax-related AdviceWealth Management",
+            "sections": [
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "PRACTICES"
+              },
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "COMMITMENT TO RESULTS"
+              },
+              {
+                "type": "paragraph",
+                "text": "The first concern of most clients when seeking legal advice is cost."
+              },
+              {
+                "type": "paragraph",
+                "text": "We have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result."
+              },
+              {
+                "type": "paragraph",
+                "text": "We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim."
+              },
+              {
+                "type": "list",
+                "items": [
+                  "We do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work.",
+                  "We do not use timesheets to calculate fees.",
+                  "Adjustments are made to fit the client's budget in special cases."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "We do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work."
+              },
+              {
+                "type": "paragraph",
+                "text": "Adjustments are made to fit the client's budget in special cases."
+              },
+              {
+                "type": "paragraph",
+                "text": "All fees take into account whether or not the objective has been achieved to the client's satisfaction."
+              },
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "CORPORATE LAW"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Company Formation",
+                  "Managing Corporate Entities",
+                  "Structuring & Closing Down",
+                  "Cross-Border Investments",
+                  "Contracts & Agreements",
+                  "Joint ventures, Partnerships, and Startups",
+                  "Mergers & Acquisitions",
+                  "Pre-IPO investments",
+                  "Intellectual Property",
+                  "Employment Law & Immigration",
+                  "Insolvency, Bankruptcy Restructuring"
+                ]
+              },
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "COMPANY SERVICES"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Anti-Money Laundering (AML)",
+                  "Compliance Services",
+                  "Counter-Terrorism Financing",
+                  "Privacy and Data Protections",
+                  "Corporate Governance",
+                  "Due Diligence",
+                  "Know Your Client (KYC)"
+                ]
+              },
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "AUTHENTICATION & VERIFICATIONSERVICES"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Notary Public Services with Apostille",
+                  "China Attesting Services",
+                  "Witnessing",
+                  "Certifications",
+                  "Commissioner for Oaths"
+                ]
+              },
+              {
+                "type": "heading",
+                "level": "h2",
+                "text": "DISPUTE RESOLUTION"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Mediation & Arbitration",
+                  "Civil Litigation",
+                  "Minor Criminal",
+                  "Employment Law",
+                  "Intellectual Property Law",
+                  "Government Tribunals (Tax, Anti-Competition, Telecommunications, Securities & Monetary Authorities)"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Practices",
+            "description": "",
+            "url": "https://www.robertleelawoffices.com/practices",
+            "source": "navigation",
+            "content": "",
+            "sections": []
+          }
+        ]
+      },
+      "pages": {
+        "about": {
+          "url": "https://www.robertleelawoffices.com/about-team",
+          "title": "Our Team | Robert Lee Law Offices",
+          "content": "ABOUT US OUR TEAM ROBERT O. LEE FOUNDER Established Robert Lee & Fong in 1988 which was the beginning of InterAsia Alliance with the desire to give his clients professional, solution-driven service across Asia. Robert now splits time between the Alliance offices in Hong Kong, Japan, and Singapore. \u200b 40+ years experience with a focus on general practice of corporate and commercial law in Hong Kong, Japan and China, with significant transactional experience in London, Thailand, Vietnam, Canada and the United States. \u200b Robert is fluent in English, French and Japanese. \u200b robert@interasialawoffices.com Phone Read More GARY SHIU WING HO SENIOR ASSOCIATE Gary has 25+ years of experience in corporate finance, securities, investment, intellectual property, insolvency and litigation. He is a Notary Public, China\u2013Appointed Attesting Officer in Hong Kong and can serve as Civil Celebrant of Marriages \u200b Fluent in Chinese (Cantonese and Mandarin), English, and he writes, reads and speaks elementary Japanese. Mail Phone Read More MUNENORI KAKU SENIOR OF COUNSEL Munenori (Muny) has over 25 years of experience in corporate and M&A, financial regulations, and cross-border transactions. Muny has previously served as Head of Legal of a global financial institution, Consultant and Senior Of-Counsel at several major firms in Hong Kong. He was also an in-house counsel for multi-national companies and an associate at an international law firm in Tokyo and New York. Muny holds Bachelor\u2019s and Master\u2019s degrees in Law from Keio University as well as LL.M and Juris Doctorate from Washington University in St Louis School of Law. He is qualified to practice as a Solicitor in Hong Kong and an Attorney at Law in New York. He is fluent in English and a native Japanese speaker. Mail Phone Read More LILLIAN TAM SENIOR ASSOCIATE Lillian has extensive experience in handling a wide range of civil litigation matters including probate, family and matrimonial law and personal injuries. \u00a0She has also dealt with numerous cases involving debt recovery, insolvency, and fraud. \u00a0She acts for a broad spectrum of clients, such as listed companies, partnerships, creditors and debtors alike and high-net-worth individuals. Lillian obtained her Bachelor of Laws degree (LLB) from the London School of Economics and Political Science (LSE) and her Postgraduate Certificate in Laws (PCLL) from the University of Hong Kong (HKU). Lillian was admitted as a solicitor in 2012 and joined Robert Lee Law Offices in 2021. \u00a0She is fluent in English and Cantonese and conversant in Mandarin and French. \u200b Mail Phone ATHENE LAW ASSOCIATE Athene qualified as a solicitor in Hong Kong in 2010. She embarked on her articleship in the Department of Justice working as a prosecutor and conducting advisory work and civil litigation in various seats. Since completion of her training, her practice has mainly been focusing on commercial and civil litigation. Athene has her law degree from Nottingham Law School (NLS) and her Master"
+        },
+        "practices": {
+          "url": "https://www.robertleelawoffices.com/practices",
+          "title": "Practice Areas | Robert Lee Law Offices",
+          "content": "PRACTICES COMMITMENT TO RESULTS Fees and Charging Arrangements \u200b The first concern of most clients when seeking legal advice is cost. \u200b We have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result. We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME\u2019s we advise from the outset what the cost will be for each stage of the process so that the client can assess the risk and decide in advance how far it wants to go in pursuing or defending a claim. It's important our clients know: \u200b We do not charge for each fee-earner depending on seniority; while partners charge higher fees than assistants or paralegals in general, the amount will be adjusted downward for simple or routine work. We do not use timesheets to calculate fees. Adjustments are made to fit the client's budget in special cases. \u200b All fees take into account whether or not the objective has been achieved to the client's satisfaction. CORPORATE LAW Company Formation Managing Corporate Entities Structuring & Closing Down Cross-Border Investments Contracts & Agreements Joint ventures, Partnerships, and Startups Mergers & Acquisitions Pre-IPO investments Intellectual Property Employment Law & Immigration Insolvency, Bankruptcy Restructuring Corporate Law COMPANY SERVICES Anti-Money Laundering (AML) Compliance Services Counter-Terrorism Financing Privacy and Data Protections Corporate Governance Due Diligence Know Your Client (KYC) AUTHENTICATION & VERIFICATION SERVICES Notary Public Services with Apostille China Attesting Services Witnessing Certifications Commissioner for Oaths DISPUTE RESOLUTION Mediation & Arbitration Civil Litigation Minor Criminal Employment Law Intellectual Property Law Government Tribunals (Tax, Anti-Competition, Telecommunications, Securities & Monetary Authorities) Corporate Secretarial Services CORPORATE SECRETARIAL SERVICES Administration/Management of Client Companies Government Authority Annual Filings Procedures for Directors and Shareholders Meetings Winding Up Provision of Liquidators Striking Off/Deregistration Business Formation Incorporation and maintenance of Hong Kong companies, offshore companies Registration of foreign companies in Hong Kong WEALTH MANAGEMENT & FAMILY OFFICE SERVICES Wills & Trusts Estate Planning Probate and Letters of Administration Family Law (marriage, separation & divorce, division of assets & custody) Setting up family office structures Tax-related Advice Wealth Management"
+        },
+        "contact": {
+          "url": "https://www.robertleelawoffices.com",
+          "title": "Law Firm In Hong Kong | Robert Lee Law Offices",
+          "content": "WELCOME TO ROBERT LEE LAW OFFICES Hong Kong regional and international legal services. Experienced multilingual, multicultural professionals providing legal advice and solutions for cost-conscious corporate and individual clients. CORPORATE & COMMERCIAL LAW ASSET PROTECTION MANAGEMENT & ESTATE PLANNING DISPUTE RESOLUTION WHY CHOOSE US? Established since 1988 in Hong Kong, with additional offices in China, Tokyo, Singapore, Myanmar, New Zealand & London Flexible Cost-Sensitive Billing Arrangements Tailored to Each Client Multi-Jurisdictional & Multi-Disciplinary Expertise Hong Kong  1988 2503-2505 25th Floor CC Wu Building 302-308 Hennessy Road Wan Chai Hong Kong Tokyo 1996 3-23-5 Nishi Azabu Minato-Kum Tokyo 106-0031 Japan Guangzhou 2010 2315-17, 23/F Grandbuy Building 18-28 Xihu Road Yuexiu, Guangzhou China 510030 Singapore 2018 KGP Legal 10 Anson Road #23-05 International Plaza Singapore 079903 WHAT MATTERS TO US Dispute Resolution Jungle Traditional litigation in court is in serious dis-array in almost every jurisdiction. It has become almost inaccessible for all but large corporations or wealthy individuals as fees for solicitors and barristers are prohibitive for ordinary individuals, SME\u2019s and even cost conscious larger corporations. \u200b Procedures remain archaic and time-consuming despite numerous reforms and attempts to streamline court procedures. Read More New Era of Regulation A new era of regulation is upon us. Not just by governments, but also through the economic dominance of banks, large corporations, and the super giant social media, for more than a decade, regulatory initiatives claiming justification on the basis of the need to combat terrorism, or to prevent money-laundering, or tax-evasion (so-called CTF or AML or KYC) or privacy and data protection and even to support international economic sanctions, have been implemented around the world. Read More How to Save Money Steadily with Prevailing Economic Uncertainty Worldwide? Questions on how to minimize personal and corporate tax across multiple jurisdictions and how to protect personal assets and corporate wealth to enable clients to pass on family and corporate assets smoothly and safely to succeeding generations. This is becoming an important and growing part of our client\u2019s need for legal services. \u200b \u200b Do I need a will/wills? What is a trust? How does it work? Is it legally effective? How to organize and coordinate the professional advice needed to deal with these issues? Read More Contact"
+        }
+      },
+      "discovered_pages": {
+        "services": [
+          "https://www.robertleelawoffices.com/practices"
+        ],
+        "about": [
+          "https://www.robertleelawoffices.com/about-4",
+          "https://www.robertleelawoffices.com/about-4-2",
+          "https://www.robertleelawoffices.com/about-team",
+          "https://www.robertleelawoffices.com/about-robert",
+          "https://www.robertleelawoffices.com/about-gary",
+          "https://www.robertleelawoffices.com/about-4-1"
+        ],
+        "team": [],
+        "contact": [],
+        "other": [
+          "https://www.robertleelawoffices.com/articles",
+          "https://www.robertleelawoffices.com",
+          "https://www.robertleelawoffices.com/munenori-kaku"
+        ]
+      },
+      "navigation": [
+        {
+          "label": "Home",
+          "url": "https://www.robertleelawoffices.com",
+          "relative_url": "https://www.robertleelawoffices.com"
+        },
+        {
+          "label": "About",
+          "url": "https://www.robertleelawoffices.com/about-team",
+          "relative_url": "https://www.robertleelawoffices.com/about-team"
+        },
+        {
+          "label": "Practices",
+          "url": "https://www.robertleelawoffices.com/practices",
+          "relative_url": "https://www.robertleelawoffices.com/practices"
+        },
+        {
+          "label": "Contact",
+          "url": "https://www.robertleelawoffices.com",
+          "relative_url": "https://www.robertleelawoffices.com"
+        },
+        {
+          "label": "Articles",
+          "url": "https://www.robertleelawoffices.com/articles",
+          "relative_url": "https://www.robertleelawoffices.com/articles"
+        }
+      ],
+      "seo_data": {
+        "title": "Law Firm In Hong Kong | Robert Lee Law Offices",
+        "description": "Robert Lee Law Offices with 40+ years of exp in Hong Kong, Singapore & Japan.  Legal advice, corporate law, company secretarial service (board resolution, company set up), will & probate, certification, notarisation of documents.  Customer-centric, multi-lingual & affordable. Contact us now.  ",
+        "open_graph": {
+          "title": "Law Firm In Hong Kong | Robert Lee Law Offices",
+          "description": "Robert Lee Law Offices with 40+ years of exp in Hong Kong, Singapore & Japan.  Legal advice, corporate law, company secretarial service (board resolution, company set up), will & probate, certification, notarisation of documents.  Customer-centric, multi-lingual & affordable. Contact us now.  ",
+          "image": "https://static.wixstatic.com/media/6ad9f8_6a6a272609c14fd4ac1935c440b17504%7Emv2.png/v1/fit/w_2500,h_1330,al_c/6ad9f8_6a6a272609c14fd4ac1935c440b17504%7Emv2.png",
+          "image:width": "2500",
+          "image:height": "1330",
+          "url": "https://www.robertleelawoffices.com",
+          "site_name": "RobertLeeLawOffices",
+          "type": "website"
+        },
+        "h1_tags": [],
+        "heading_structure": {
+          "h1": 0,
+          "h2": 14,
+          "h3": 0
+        }
+      },
+      "content_analysis": {
+        "total_pages": 3,
+        "pages_with_content": 3,
+        "average_content_length": 2721,
+        "content_quality_scores": {
+          "about": 30,
+          "practices": 20,
+          "contact": 50
+        },
+        "missing_content": [
+          "about: No testimonials",
+          "about: No FAQs",
+          "practices: No testimonials",
+          "practices: No FAQs",
+          "contact: No testimonials",
+          "contact: No FAQs"
+        ]
+      },
+      "content_patterns": {
+        "has_blog": true,
+        "has_case_studies": false,
+        "has_testimonials": false,
+        "has_team_profiles": false,
+        "has_service_pages": true,
+        "has_location_pages": true,
+        "content_style": "detailed",
+        "common_sections": []
+      },
+      "team": [],
+      "social_media": {
+        "linkedin": "https://www.linkedin.com/company/robert-lee-law-offices-hong-kong/about/"
+      }
+    }
+  },
+  "user_modifications": {},
+  "checkpoints_passed": [],
+  "timestamp": "2025-09-13T14:04:37.930900"
+}

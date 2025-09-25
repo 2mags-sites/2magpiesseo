@@ -1,0 +1,55 @@
+{
+  "project_name": "Barringtons",
+  "business_type": "Funeral Services",
+  "website_url": "barringtonsfunerals.co.uk",
+  "current_phase": "seo_planning",
+  "phases_completed": {
+    "discovery": true,
+    "planning": true,
+    "seo": true,
+    "content": false,
+    "design": false,
+    "html_preview": true,
+    "php_build": false
+  },
+  "created_date": "2025-01-18",
+  "last_updated": "2025-01-18",
+  "settings": {
+    "architecture_style": "traditional_multi_page",
+    "seo_approach": "full_seo",
+    "contact_form": true,
+    "blog_enabled": false,
+    "service_page_layout": "full_width",
+    "total_pages": 20
+  },
+  "files_created": {
+    "scraping": ["business-info.json"],
+    "planning": ["information-architecture.json"],
+    "seo": ["keyword-mapping.json", "meta-descriptions.json"],
+    "content": [],
+    "design": [],
+    "preview": [
+      "index.html",
+      "about-us.html",
+      "immediate-need.html",
+      "when-a-death-occurs.html",
+      "planning-ahead.html",
+      "standardised-price-list-CORRECTED.html",
+      "services-overview.html",
+      "coffins.html",
+      "personalisation.html",
+      "transport.html",
+      "pet-products.html",
+      "frequently-asked-questions.html",
+      "etiquette.html",
+      "social-security-benefits.html",
+      "helpful-links.html",
+      "muchloved-tributes.html",
+      "funeral-notices.html",
+      "our-location.html",
+      "our-facilities.html"
+    ],
+    "php": []
+  },
+  "notes": "Reverse-engineered site structure from existing HTML preview. SEO planning complete with keyword mapping and meta descriptions for all 20 pages. Images to preserve: logo.png, hero-background.jpg, storefront.jpg, waterloo.jpg, netherton.jpg, formby.png, family.jpg, arrange.jpg, estimator.jpg, finance.jpg, planning.jpg"
+}

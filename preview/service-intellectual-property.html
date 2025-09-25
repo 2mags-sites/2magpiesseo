@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellectual Property Hong Kong | Trademark Registration & Patent Lawyer</title>
+    <meta name="description" content="Expert intellectual property services in Hong Kong. Trademark registration, patent applications, copyright protection, IP litigation and enforcement strategies.">
+    <meta name="keywords" content="intellectual property Hong Kong, trademark registration HK, patent lawyer, copyright protection, IP litigation, brand protection">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #17a2b8;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .service-hero {
+            background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px;
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .ip-stats {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        .service-box {
+            background: white;
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .service-box h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .ip-highlight {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .ip-outcome {
+            color: #0c5460;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--primary-color);
+        }
+
+        .ip-process {
+            background: linear-gradient(45deg, #d1ecf1 0%, #bee5eb 100%);
+            border: 1px solid #bee5eb;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            position: relative;
+        }
+
+        .process-number {
+            background: #17a2b8;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            position: absolute;
+            top: -15px;
+            left: 20px;
+        }
+
+        .ip-type {
+            background: white;
+            border: 2px solid #17a2b8;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .type-title {
+            color: #0c5460;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .enforcement-action {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .enforcement-title {
+            color: #721c24;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .timeline-item {
+            border-left: 3px solid #17a2b8;
+            padding-left: 20px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -7px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #17a2b8;
+        }
+
+        .timeline-duration {
+            color: #17a2b8;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Intellectual Property</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Intellectual Property Services</h1>
+            <p class="lead">Protecting and maximizing the value of your innovations, brands, and creative works</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Comprehensive IP Protection & Strategy</h2>
+                        <p class="lead-text">Safeguarding your intellectual property assets with strategic registration, enforcement, and commercialization expertise.</p>
+
+                        <p>Robert Lee Law Offices provides full-service intellectual property counsel to innovators, creators, and businesses across all industries. Our experienced IP team combines technical expertise with commercial acumen to develop comprehensive strategies that protect, exploit, and monetize intellectual property assets.</p>
+
+                        <p>From startups developing their first patents to multinational corporations managing global IP portfolios, we provide practical, business-focused advice that aligns legal strategy with commercial objectives. Our services span the complete IP lifecycle from initial protection through enforcement and commercialization.</p>
+
+                        <p>With deep expertise in Hong Kong IP law, regional filing strategies, and international IP treaties, we help clients build robust IP portfolios that create competitive advantages and drive business value in today's knowledge economy.</p>
+                    </section>
+
+                    <!-- Core Services -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Intellectual Property Services</h2>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-trademark me-2"></i>Trademark Protection & Registration</h4>
+                            <p>Comprehensive brand protection services across multiple jurisdictions:</p>
+                            <ul>
+                                <li>Trademark searches and clearance analysis</li>
+                                <li>Hong Kong and international trademark registration</li>
+                                <li>Madrid Protocol and regional filing strategies</li>
+                                <li>Trademark portfolio management and renewal</li>
+                                <li>Opposition and cancellation proceedings</li>
+                                <li>Domain name disputes and UDRP proceedings</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-lightbulb me-2"></i>Patent Applications & Prosecution</h4>
+                            <p>Strategic patent protection for innovations and technical developments:</p>
+                            <ul>
+                                <li>Patent drafting and prosecution strategy</li>
+                                <li>Prior art searches and patentability analysis</li>
+                                <li>PCT applications and national phase entries</li>
+                                <li>Patent portfolio development and management</li>
+                                <li>Freedom to operate analysis</li>
+                                <li>Patent licensing and technology transfer</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-copyright me-2"></i>Copyright & Design Rights</h4>
+                            <p>Protection for creative works and industrial designs:</p>
+                            <ul>
+                                <li>Copyright registration and protection strategies</li>
+                                <li>Industrial design registration and enforcement</li>
+                                <li>Software copyright and licensing</li>
+                                <li>Creative content protection and monetization</li>
+                                <li>DMCA takedown and anti-piracy measures</li>
+                                <li>Work-for-hire and assignment agreements</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-gavel me-2"></i>IP Litigation & Enforcement</h4>
+                            <p>Aggressive enforcement of IP rights and defense against infringement claims:</p>
+                            <ul>
+                                <li>IP infringement litigation and injunctive relief</li>
+                                <li>Counterfeiting and anti-piracy enforcement</li>
+                                <li>Customs enforcement and border protection</li>
+                                <li>Trade secret protection and misappropriation claims</li>
+                                <li>IP arbitration and alternative dispute resolution</li>
+                                <li>Cross-border enforcement coordination</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- IP Registration Process -->
+                    <section class="content-section">
+                        <h2 class="section-title">Trademark Registration Process</h2>
+                        <p>Our systematic approach to securing trademark protection in Hong Kong:</p>
+
+                        <div class="ip-process">
+                            <div class="process-number">1</div>
+                            <h5 style="margin-left: 50px;">Comprehensive Search & Analysis</h5>
+                            <p style="margin-left: 50px;">Detailed trademark search to identify potential conflicts and assess registration prospects across relevant classes.</p>
+                        </div>
+
+                        <div class="ip-process">
+                            <div class="process-number">2</div>
+                            <h5 style="margin-left: 50px;">Application Preparation & Filing</h5>
+                            <p style="margin-left: 50px;">Strategic application drafting with optimal class selection and specification of goods/services for maximum protection.</p>
+                        </div>
+
+                        <div class="ip-process">
+                            <div class="process-number">3</div>
+                            <h5 style="margin-left: 50px;">Examination & Response</h5>
+                            <p style="margin-left: 50px;">Managing examination process, responding to objections, and navigating office actions to secure registration.</p>
+                        </div>
+
+                        <div class="ip-process">
+                            <div class="process-number">4</div>
+                            <h5 style="margin-left: 50px;">Publication & Opposition</h5>
+                            <p style="margin-left: 50px;">Monitoring publication period and defending against opposition proceedings or challenging conflicting applications.</p>
+                        </div>
+
+                        <div class="ip-process">
+                            <div class="process-number">5</div>
+                            <h5 style="margin-left: 50px;">Registration & Maintenance</h5>
+                            <p style="margin-left: 50px;">Securing registration certificate and ongoing portfolio management including renewals and enforcement monitoring.</p>
+                        </div>
+                    </section>
+
+                    <!-- IP Portfolio Types -->
+                    <section class="content-section">
+                        <h2 class="section-title">Intellectual Property Categories</h2>
+                        <p>Protecting different types of IP assets with specialized strategies:</p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="ip-type">
+                                    <div class="type-title">Trade Marks</div>
+                                    <p>Brand names, logos, slogans, and distinctive signs that identify your business and differentiate products/services.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ip-type">
+                                    <div class="type-title">Patents</div>
+                                    <p>Inventions, technical innovations, processes, and methods providing exclusive rights for commercial exploitation.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ip-type">
+                                    <div class="type-title">Copyright</div>
+                                    <p>Creative works including literature, music, software, artistic works, and original expressions of ideas.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ip-type">
+                                    <div class="type-title">Trade Secrets</div>
+                                    <p>Confidential business information, know-how, formulas, processes providing competitive advantages.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Registration Timeline -->
+                    <section class="content-section">
+                        <h2 class="section-title">Typical Registration Timelines</h2>
+                        <p>Understanding the registration process duration for different IP types:</p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="timeline-item">
+                                    <h5>Hong Kong Trademark</h5>
+                                    <span class="timeline-duration">6-8 months</span>
+                                    <p>From filing to registration if no objections or oppositions are encountered.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="timeline-item">
+                                    <h5>Standard Patent (via PCT)</h5>
+                                    <span class="timeline-duration">3-5 years</span>
+                                    <p>Including PCT phase and Hong Kong national phase prosecution.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="timeline-item">
+                                    <h5>Registered Design</h5>
+                                    <span class="timeline-duration">6-9 months</span>
+                                    <p>Subject to examination and any substantive objections raised.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="timeline-item">
+                                    <h5>Copyright (automatic)</h5>
+                                    <span class="timeline-duration">Immediate</span>
+                                    <p>Protection arises automatically upon creation of original work.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- IP Statistics -->
+                    <section class="content-section">
+                        <div class="ip-stats">
+                            <h3 class="text-center mb-4">Our IP Practice Performance</h3>
+                            <div class="row">
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">2,500+</div>
+                                    <div class="stat-label">IP Applications Filed</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">95%</div>
+                                    <div class="stat-label">Success Rate</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">50+</div>
+                                    <div class="stat-label">Jurisdictions</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">20+</div>
+                                    <div class="stat-label">Years Experience</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Recent Success Stories -->
+                    <section class="content-section">
+                        <h2 class="section-title">Recent IP Victories</h2>
+
+                        <div class="ip-highlight">
+                            <h5>Trademark Portfolio Protection</h5>
+                            <p>Successfully registered and defended comprehensive trademark portfolio for tech startup across 15 jurisdictions, preventing 12 copycat applications and securing <strong>HK$50M</strong> in brand value.</p>
+                            <div class="ip-outcome">Result: Global brand protection, market exclusivity</div>
+                        </div>
+
+                        <div class="ip-highlight">
+                            <h5>Patent Infringement Victory</h5>
+                            <p>Won landmark patent litigation for biotech client, securing <strong>HK$180M</strong> damages award and permanent injunction against infringer in Federal Court.</p>
+                            <div class="ip-outcome">Result: Market protection, substantial compensation</div>
+                        </div>
+
+                        <div class="ip-highlight">
+                            <h5>Anti-Counterfeiting Success</h5>
+                            <p>Coordinated multi-jurisdictional enforcement action against counterfeit network, resulting in seizure of <strong>HK$25M</strong> worth of fake goods and criminal prosecutions.</p>
+                            <div class="ip-outcome">Result: Network disruption, deterrent effect</div>
+                        </div>
+
+                        <div class="ip-highlight">
+                            <h5>Software Copyright Defense</h5>
+                            <p>Successfully defended software company against copyright infringement claims, achieving complete dismissal and recovery of <strong>HK$3.2M</strong> in legal costs.</p>
+                            <div class="ip-outcome">Result: Claims dismissed, costs recovered</div>
+                        </div>
+                    </section>
+
+                    <!-- Enforcement Strategies -->
+                    <section class="content-section">
+                        <h2 class="section-title">IP Enforcement Arsenal</h2>
+                        <p>Multiple enforcement tools to protect your intellectual property rights:</p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="enforcement-action">
+                                    <div class="enforcement-title">Cease & Desist Letters</div>
+                                    <p>Strategic correspondence to halt infringement and negotiate resolution without litigation costs.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="enforcement-action">
+                                    <div class="enforcement-title">Interim Injunctions</div>
+                                    <p>Emergency court orders to immediately stop damaging infringement pending trial.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="enforcement-action">
+                                    <div class="enforcement-title">Customs Enforcement</div>
+                                    <p>Border protection measures to intercept counterfeit goods at ports of entry.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="enforcement-action">
+                                    <div class="enforcement-title">Criminal Prosecution</div>
+                                    <p>Coordination with law enforcement for criminal proceedings against serious infringers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How long does trademark registration take in Hong Kong?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Trademark registration typically takes 6-8 months if there are no objections or oppositions. The process includes examination (2-3 months), publication (3 months opposition period), and registration (1-2 months). Complex cases may take longer.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What can be patented in Hong Kong?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Patents protect inventions that are new, involve an inventive step, and are industrially applicable. This includes processes, methods, devices, compositions, and improvements to existing technology. Software algorithms and business methods generally cannot be patented.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How do I enforce my IP rights against infringers?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Enforcement options include cease and desist letters, opposition/cancellation proceedings, civil litigation for damages and injunctions, customs enforcement, and criminal prosecution for serious cases. We develop enforcement strategies based on the specific circumstances and commercial objectives.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Should I file internationally or just in Hong Kong?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Filing strategy depends on your business plans and budget. For trademarks, consider Madrid Protocol for multiple countries. For patents, PCT applications provide international filing options. We analyze your commercial needs and recommend cost-effective filing strategies.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What happens if someone opposes my trademark application?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Opposition proceedings involve formal hearings before the Intellectual Property Department. We defend applications by filing counter-statements, presenting evidence, and arguing legal grounds. Many oppositions are resolved through negotiation or amendments without full hearings.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How do I protect trade secrets and confidential information?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Trade secret protection requires implementing confidentiality policies, non-disclosure agreements, employee contracts, access controls, and marking systems. Unlike registered IP, trade secrets rely on maintaining secrecy and have unlimited duration if properly protected.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- IP Consultation -->
+                    <div class="card mb-4" style="border-color: #17a2b8;">
+                        <div class="card-body text-center">
+                            <h4 style="color: #0c5460;">IP Strategy Session</h4>
+                            <p>Discuss your intellectual property protection needs with our experts</p>
+                            <a href="tel:+85222345678" class="btn btn-lg w-100 mb-2" style="background-color: #17a2b8; color: white;">
+                                <i class="fas fa-phone"></i> Book Consultation
+                            </a>
+                            <p class="small text-muted mb-0">Initial consultation available</p>
+                        </div>
+                    </div>
+
+                    <!-- IP Team -->
+                    <div class="card mb-4">
+                        <div class="card-header text-white" style="background-color: #17a2b8;">
+                            <h5 class="mb-0">IP Specialists</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <strong>Jennifer Liu</strong><br>
+                                <small class="text-muted">Partner, IP & Technology<br>
+                                Registered Patent Attorney</small>
+                            </div>
+                            <div class="mb-3">
+                                <strong>Mark Tang</strong><br>
+                                <small class="text-muted">Senior Associate, Trademarks<br>
+                                Brand protection specialist</small>
+                            </div>
+                            <div>
+                                <strong>Amy Zhao</strong><br>
+                                <small class="text-muted">Associate, IP Litigation<br>
+                                Enforcement & disputes</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Resources -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">IP Resources</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none" style="color: #0c5460;">
+                                        <i class="fas fa-search"></i> Trademark Search Tool
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none" style="color: #0c5460;">
+                                        <i class="fas fa-calculator"></i> IP Cost Calculator
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none" style="color: #0c5460;">
+                                        <i class="fas fa-file-download"></i> Filing Guides
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none" style="color: #0c5460;">
+                                        <i class="fas fa-gavel"></i> Enforcement Toolkit
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Protect Your Innovations Today</h2>
+                <p class="lead mb-4">Don't let competitors steal your ideas. Secure your intellectual property rights now.</p>
+                <a href="/contact" class="btn-white">Start IP Protection Strategy</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

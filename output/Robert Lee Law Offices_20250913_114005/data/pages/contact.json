@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Contact Law Firm In Hong Kong",
+    "description": "Get in touch with Law Firm In Hong Kong. Call 25296976 or email us.",
+    "keywords": [
+      "contact",
+      "Law Firm In Hong Kong",
+      "phone",
+      "email",
+      "location"
+    ],
+    "canonical_url": "/contact"
+  },
+  "content": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help"
+    },
+    "contact_info": {
+      "phone": "25296976",
+      "email": "general@interasialawoffice.com",
+      "address": "",
+      "hours": "Monday-Friday 9AM-5PM"
+    },
+    "contact_form": {
+      "enabled": true,
+      "fields": [
+        "name",
+        "email",
+        "phone",
+        "message"
+      ],
+      "submit_text": "Send Message"
+    },
+    "map": {
+      "enabled": false,
+      "latitude": null,
+      "longitude": null
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+    "meta": {
+        "title": "Plan Ahead - Funeral Pre-Planning | Barringtons Liverpool",
+        "description": "Pre-plan your funeral with Barringtons. Lock in today's prices, document your wishes, and give your family peace of mind. Free consultation. Call 0151 928 1625.",
+        "keywords": "funeral pre-planning Liverpool, prepaid funeral plans, funeral wishes, advance funeral planning, funeral payment plans"
+    },
+    "intro": {
+        "title": "Plan Your Farewell, Your Way",
+        "subtitle": "Taking time now to plan your funeral isn't morbid \u2013 it's one of the most thoughtful gifts you can give your family. It ensures your wishes are known and removes difficult decisions during an emotional time."
+    },
+    "benefits": {
+        "family": {
+            "title": "A Gift to Your Family",
+            "description": "Remove the burden of difficult decisions and second-guessing. Your family can focus on remembering and grieving, not planning."
+        },
+        "wishes": {
+            "title": "Your Wishes, Honored",
+            "description": "Ensure your funeral reflects your personality, beliefs, and values. From music to readings, every detail can be just as you'd like."
+        },
+        "financial": {
+            "title": "Financial Peace of Mind",
+            "description": "Lock in today's prices and protect against inflation. Spread the cost with flexible payment plans that suit your budget."
+        }
+    },
+    "process": {
+        "title": "How It Works",
+        "steps": [
+            {
+                "title": "Initial Conversation",
+                "description": "Meet with us for a relaxed, no-obligation chat about your preferences. This can be in person, over the phone, or even via video call."
+            },
+            {
+                "title": "Document Your Wishes",
+                "description": "We'll help you think through all the details \u2013 burial or cremation, service location, music, readings, and any special requests."
+            },
+            {
+                "title": "Choose Your Payment Option",
+                "description": "Pay in full, set up a payment plan, or simply keep your wishes on file. We offer flexible options to suit everyone."
+            },
+            {
+                "title": "Peace of Mind",
+                "description": "Your plan is securely stored and can be updated anytime. We'll provide documentation for you and your family."
+            }
+        ]
+    },
+    "plans": {
+        "title": "Planning Options",
+        "wishes": {
+            "title": "Wishes Only",
+            "price": "Free",
+            "description": "Document your preferences without financial commitment. Your wishes are kept on file for when needed.",
+            "features": [
+                "Record all preferences",
+                "Update anytime",
+                "Family notification",
+                "No financial obligation"
+            ]
+        },
+        "prepaid": {
+            "title": "Prepaid Plan",
+            "price": "Fixed Price",
+            "description": "Lock in today's prices and protect against inflation. Full peace of mind for you and your family.",
+            "badge": "Most Popular",
+            "features": [
+                "Price guarantee",
+                "Flexible payment options",
+                "Fully transferable",
+                "Protected in trust",
+                "Complete peace of mind"
+            ]
+        },
+        "installment": {
+            "title": "Installment Plan",
+            "price": "Monthly Payments",
+            "description": "Spread the cost over time with affordable monthly payments. No credit checks required.",
+            "features": [
+                "Low monthly payments",
+                "No interest charges",
+                "Flexible terms",
+                "Can upgrade anytime"
+            ]
+        }
+    },
+    "faq": {
+        "title": "Common Questions",
+        "items": [
+            {
+                "question": "Can I change my mind?",
+                "answer": "Absolutely. Your plan can be updated anytime, and prepaid plans can be cancelled with a full refund if unused."
+            },
+            {
+                "question": "What if I move away?",
+                "answer": "Your plan can be transferred to any funeral director in the UK, or we can arrange services anywhere in the country."
+            },
+            {
+                "question": "Is my money safe?",
+                "answer": "Yes. All prepaid funds are held in an independent trust or insurance policy, completely separate from our business."
+            },
+            {
+                "question": "What's included in the price?",
+                "answer": "Our services, care of your loved one, coffin, hearse, and administration. Third-party costs like crematorium fees are also covered if you choose."
+            },
+            {
+                "question": "Can I plan for someone else?",
+                "answer": "Yes, with their consent. Many people arrange plans for elderly parents or relatives to ensure their wishes are met."
+            },
+            {
+                "question": "How do I start?",
+                "answer": "Simply call us on 0151 928 1625 or complete our online form. There's no pressure, just a friendly chat about your options."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Start Your Plan Today",
+        "subtitle": "Take the first step towards peace of mind. Contact us for a free, no-obligation consultation.",
+        "phone": "0151 928 1625"
+    },
+    "hero": {
+        "title": "Planning Ahead",
+        "image": "\/assets\/images\/uploads\/img_68cf99b938566_1758435769.jpg"
+    }
+}

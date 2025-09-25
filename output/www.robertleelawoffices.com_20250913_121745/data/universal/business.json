@@ -1,0 +1,34 @@
+{
+  "name": "Robert Lee Law Offices",
+  "tagline": "Professional Services You Can Trust",
+  "founded": null,
+  "contact": {
+    "phone": "25296976",
+    "email": "general@interasialawoffice.com",
+    "address": {
+      "street": "",
+      "city": "",
+      "region": "",
+      "postal_code": "",
+      "country": ""
+    }
+  },
+  "hours": {
+    "monday": "9:00 AM - 5:00 PM",
+    "tuesday": "9:00 AM - 5:00 PM",
+    "wednesday": "9:00 AM - 5:00 PM",
+    "thursday": "9:00 AM - 5:00 PM",
+    "friday": "9:00 AM - 5:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "languages": [
+    "English"
+  ],
+  "certifications": [],
+  "service_areas": [
+    "Local Area",
+    "Surrounding Region"
+  ],
+  "description": ""
+}

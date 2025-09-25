@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Contact Dynasurf | Get a Quote | Sandbach, Cheshire",
+    "description": "Contact Dynasurf for hydraulic repairs, cylinder honing & chrome plating quotes. Call 01270 763032 or email sales@dynasurf.co.uk. Same-day service available.",
+    "keywords": "contact Dynasurf Sandbach, engineering services Cheshire contact, hydraulic repair quote, chrome plating enquiry"
+  },
+  "hero": {
+    "title": "Contact Dynasurf",
+    "subtitle": "Get in touch for expert engineering solutions and rapid quotes",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Contact", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Get Your Engineering Quote Today",
+    "subtitle": "Expert advice and competitive pricing for all your precision engineering needs"
+  },
+  "contact_methods": [
+    {
+      "icon": "📞",
+      "title": "Phone",
+      "primary": "01270 763032",
+      "description": "Speak directly with our technical team for immediate advice and quotations. Lines open Monday to Friday.",
+      "additional": "Emergency Line: Available 24/7 for urgent repairs"
+    },
+    {
+      "icon": "✉️",
+      "title": "Email",
+      "primary": "sales@dynasurf.co.uk",
+      "description": "Send detailed enquiries, drawings, or photos of components requiring attention. We respond to all emails within 2 hours during business hours.",
+      "additional": "Emergency: emergency@dynasurf.co.uk"
+    },
+    {
+      "icon": "📍",
+      "title": "Visit Us",
+      "primary": "Sandbach, Cheshire",
+      "description": "Visit our workshop to discuss your requirements in person. Tours available by appointment to see our capabilities first-hand.",
+      "additional": "Easy access from M6 Junction 17"
+    }
+  ],
+  "form": {
+    "title": "Request a Quote",
+    "description": "Complete the form below with details of your requirements. Our technical team will respond with a comprehensive quote and advice on the best approach for your project.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Dynasurf+team+ready+to+help+with+your+project"
+  },
+  "business_info": {
+    "title": "Business Hours & Location",
+    "hours": {
+      "title": "Workshop Hours",
+      "schedule": [
+        {"days": "Monday - Thursday", "hours": "7:15am - 4:30pm"},
+        {"days": "Friday", "hours": "7:15am - 12:00pm (noon)"},
+        {"days": "Saturday - Sunday", "hours": "Closed (Emergency service available)"}
+      ]
+    },
+    "address": {
+      "title": "Address",
+      "company": "Dynasurf UK Ltd",
+      "street": "Industrial Estate",
+      "city": "Sandbach",
+      "county": "Cheshire",
+      "postcode": "CW11 3XX",
+      "country": "United Kingdom"
+    },
+    "directions": {
+      "title": "Directions",
+      "points": [
+        "Easy access from M6 Junction 17",
+        "Follow signs for Sandbach Industrial Estate",
+        "Ample parking available on-site",
+        "Loading/unloading facilities for large components"
+      ]
+    },
+    "map_image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Interactive+Map+Placeholder"
+  },
+  "additional_contacts": {
+    "title": "Additional Contact Options",
+    "subtitle": "Multiple ways to reach our team for different requirements",
+    "options": [
+      {
+        "icon": "🚚",
+        "title": "Collection & Delivery",
+        "description": "Arrange pickup and delivery of components throughout the UK. Call to schedule collection at your convenience.",
+        "contact": "Phone: 01270 763032"
+      },
+      {
+        "icon": "🔧",
+        "title": "Technical Support",
+        "description": "Pre-sales technical advice and engineering consultation. Speak with our qualified engineers about your specific requirements.",
+        "contact": "Email: technical@dynasurf.co.uk"
+      },
+      {
+        "icon": "💼",
+        "title": "Accounts & Administration",
+        "description": "Invoice queries, payment information, and account setup for trade customers and regular clients.",
+        "contact": "Email: accounts@dynasurf.co.uk"
+      },
+      {
+        "icon": "📋",
+        "title": "Quality & Compliance",
+        "description": "Certification requests, quality documentation, and compliance information for regulated industries.",
+        "contact": "Email: quality@dynasurf.co.uk"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How quickly can you provide a quote for my project?",
+      "answer": "We aim to provide quotes within 2 hours during business hours for standard enquiries. Complex projects may require site visit or detailed technical assessment, which we can usually arrange within 24 hours. For urgent requirements, call us directly for immediate pricing."
+    },
+    {
+      "question": "Do you offer collection and delivery services?",
+      "answer": "Yes, we provide comprehensive collection and delivery throughout the UK. Local collection (Cheshire and surrounding areas) is usually same-day, while nationwide service is typically next working day. Emergency collection can be arranged for urgent repairs."
+    },
+    {
+      "question": "What information do you need for an accurate quote?",
+      "answer": "For hydraulic repairs: component dimensions, operating pressure, and photos of damage. For manufacturing: technical drawings or sample parts. For all services: quantity, timeline, and specific requirements. The more detail you provide, the more accurate our quote will be."
+    },
+    {
+      "question": "Can I visit your workshop to discuss my requirements?",
+      "answer": "Absolutely. We welcome visitors to our Sandbach facility. Please call ahead to arrange an appointment so we can ensure the right technical person is available to discuss your specific requirements. Workshop tours are available to showcase our capabilities."
+    },
+    {
+      "question": "Do you work with international customers?",
+      "answer": "Yes, we serve customers throughout Europe and internationally. We can arrange international shipping and provide all necessary documentation for customs clearance. Our quality certifications are recognised internationally for regulated industries."
+    },
+    {
+      "question": "What payment terms do you offer?",
+      "answer": "We offer various payment terms depending on order value and customer relationship. Standard terms are 30 days for established accounts. We accept bank transfer, cheque, and card payments. Account terms available for regular trade customers with credit approval."
+    }
+  ],
+  "emergency_cta": {
+    "title": "Emergency? Call Now!",
+    "subtitle": "24/7 emergency response line for urgent hydraulic failures",
+    "phone": "01270 763032",
+    "message": "Don't let equipment failure cost you thousands in downtime"
+  }
+}

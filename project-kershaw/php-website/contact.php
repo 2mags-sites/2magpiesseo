@@ -1,0 +1,334 @@
+<?php
+// Start session for CSRF token
+session_start();
+
+// Generate CSRF token if not exists
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Contact Arthur Kershaw Funeral Directors Sale | 24/7 Support";
+$page_description = "Contact Arthur Kershaw Funeral Directors in Sale. Available 24/7 on 0161 969 2288. Visit us at 168-170 Washway Road, Sale M33 6RH. Emergency support anytime.";
+$page_keywords = "contact funeral directors Sale, emergency funeral directors, 24 hour funeral service";
+
+require_once 'includes/header.php';
+?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+            </nav>
+            <h1>Contact Us</h1>
+            <p class="lead">Available 24 hours a day, 7 days a week</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Overview -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">We're Here When You Need Us</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">Whether you need immediate assistance or want to plan ahead, our compassionate team at Arthur Kershaw Funeral Services is always available to help.</p>
+                        <div class="service-box">
+                            <h4><i class="fas fa-phone"></i> 24/7 Phone Support</h4>
+                            <p><strong>0161 969 2288</strong><br>
+                            Call anytime, day or night. Someone will always answer to provide immediate support and guidance.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-envelope"></i> Email</h4>
+                            <p><strong>info@arthurkershawfunerals.com</strong><br>
+                            For non-urgent enquiries, information requests, or to arrange an appointment.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-marker-alt"></i> Visit Us</h4>
+                            <p><strong>168-170 Washway Road, Sale, M33 6RH</strong><br>
+                            Open Monday-Friday 9am-5pm, Saturday 9am-12pm<br>
+                            Emergency support available 24/7</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-phone-alt fa-3x"></i>
+                        <p>Always Available<br>0161 969 2288</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="content-section" style="background: #f8f9fa;">
+            <div class="container">
+                <h2 class="section-title">Send Us a Message</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <p class="text-center mb-40">For non-urgent enquiries, you can send us a message using the form below. We'll respond within 24 hours.</p>
+
+                        <?php
+                        // Display success message
+                        if (isset($_SESSION['form_success'])): ?>
+                            <div class="alert alert-success" style="background: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                                <i class="fas fa-check-circle"></i> <?php echo $_SESSION['form_success']; ?>
+                            </div>
+                            <?php unset($_SESSION['form_success']); ?>
+                        <?php endif; ?>
+
+                        <?php
+                        // Display error message
+                        if (isset($_SESSION['form_error'])): ?>
+                            <div class="alert alert-danger" style="background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                                <i class="fas fa-exclamation-circle"></i> <?php echo $_SESSION['form_error']; ?>
+                            </div>
+                            <?php unset($_SESSION['form_error']); ?>
+                        <?php endif; ?>
+
+                        <div id="form-message" style="display: none; margin-bottom: 20px;"></div>
+
+                        <form method="POST" action="<?php echo BASE_URL; ?>/contact-handler.php" id="contact-form">
+                            <!-- CSRF Token -->
+                            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+
+                            <!-- Honeypot field (hidden from users) -->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="website" tabindex="-1" autocomplete="off">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group" style="margin-bottom: 20px;">
+                                        <label for="name" style="display: block; margin-bottom: 5px; font-weight: 600;">Full Name *</label>
+                                        <input type="text" class="form-control" id="name" name="name" required
+                                               value="<?php echo isset($_SESSION['form_data']['name']) ? htmlspecialchars($_SESSION['form_data']['name']) : ''; ?>"
+                                               style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group" style="margin-bottom: 20px;">
+                                        <label for="email" style="display: block; margin-bottom: 5px; font-weight: 600;">Email Address *</label>
+                                        <input type="email" class="form-control" id="email" name="email" required
+                                               value="<?php echo isset($_SESSION['form_data']['email']) ? htmlspecialchars($_SESSION['form_data']['email']) : ''; ?>"
+                                               style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label for="phone" style="display: block; margin-bottom: 5px; font-weight: 600;">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone"
+                                       value="<?php echo isset($_SESSION['form_data']['phone']) ? htmlspecialchars($_SESSION['form_data']['phone']) : ''; ?>"
+                                       style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                            </div>
+
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label for="message" style="display: block; margin-bottom: 5px; font-weight: 600;">Message *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required
+                                          style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"><?php echo isset($_SESSION['form_data']['message']) ? htmlspecialchars($_SESSION['form_data']['message']) : ''; ?></textarea>
+                            </div>
+
+                            <!-- Privacy Policy Checkbox -->
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label style="display: flex; align-items: flex-start;">
+                                    <input type="checkbox" name="privacy" required style="margin-right: 10px; margin-top: 5px;">
+                                    <span>I agree to the processing of my personal data in accordance with the <a href="/privacy-policy" target="_blank">Privacy Policy</a> *</span>
+                                </label>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary" style="padding: 12px 40px; font-size: 16px;">
+                                    <i class="fas fa-paper-plane"></i> Send Message
+                                </button>
+                            </div>
+
+                            <p class="text-center" style="margin-top: 20px; color: #666;">
+                                <strong>For immediate assistance, please call 0161 969 2288</strong>
+                            </p>
+                        </form>
+
+                        <?php
+                        // Clear form data after displaying
+                        unset($_SESSION['form_data']);
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Getting Here -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Finding Our Funeral Home</h2>
+                <div class="text-center mb-40">
+                    <h3>Easy Access from Across Greater Manchester</h3>
+                    <p class="lead">Our Sale funeral home is conveniently located on the A56 Washway Road:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-car"></i> By Car</h4>
+                            <p>On the A56 Washway Road, near the junction with Broad Road. Free customer parking available on-site. Just 10 minutes from M60 Junction 7.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-train"></i> By Metrolink</h4>
+                            <p>Sale station is a 10-minute walk. Direct trams from Manchester city centre, Altrincham, and Manchester Airport.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-bus"></i> By Bus</h4>
+                            <p>Regular buses along Washway Road including routes 19, 23, and 245. Bus stops directly outside our premises.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map fa-3x"></i>
+                        <p>Central Location<br>Easy Access</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- When to Contact -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">When to Contact Us</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>We're Here for Every Situation</h3>
+                        <div class="service-box">
+                            <h4><i class="fas fa-exclamation-circle"></i> Immediate Need</h4>
+                            <p>If someone has just passed away, call us immediately on 0161 969 2288. We'll guide you through what to do and can collect your loved one at any time.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-calendar-check"></i> Planning Ahead</h4>
+                            <p>Thinking about funeral plans? Visit during office hours or call to arrange a convenient appointment to discuss pre-paid plans.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-question-circle"></i> General Enquiries</h4>
+                            <p>Questions about our services, costs, or facilities? Call, email, or visit us. We're happy to provide information with no obligation.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-heart"></i> Bereavement Support</h4>
+                            <p>Need ongoing support after a funeral? We can provide resources and connect you with bereavement services.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-hands-helping fa-3x"></i>
+                        <p>Support for Every Need</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Hours -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Office Hours & Emergency Support</h2>
+                <div class="text-center mb-40">
+                    <h3>When We're Available</h3>
+                    <p class="lead">Our office welcomes visitors during regular hours, but emergency support is always available:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-clock"></i> Office Hours</h4>
+                            <p><strong>Monday - Friday:</strong> 9:00am - 5:00pm<br>
+                            <strong>Saturday:</strong> 9:00am - 12:00pm<br>
+                            <strong>Sunday:</strong> Closed (emergency support available)<br>
+                            <strong>Bank Holidays:</strong> Closed (emergency support available)</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-moon"></i> 24/7 Emergency Support</h4>
+                            <p>Death doesn't keep office hours, and neither do we. Call 0161 969 2288 at ANY time - nights, weekends, holidays - and someone will answer to help you.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-home"></i> Home Visits</h4>
+                            <p>If you prefer, we can visit you at home to discuss arrangements. Available throughout Greater Manchester, including evenings and weekends by appointment.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-clock fa-3x"></i>
+                        <p>Always Available<br>When You Need Us</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What should I do if someone dies at home?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>First, call their GP or 111 if out of hours to confirm the death. Then call us on 0161 969 2288. We'll guide you through everything and can collect your loved one when you're ready. There's no rush - take the time you need. We're here to support you through each step.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can you collect from hospitals and care homes?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we regularly collect from all local hospitals including Wythenshawe, Manchester Royal Infirmary, Salford Royal, and Stepping Hill. We also collect from care homes, hospices, and private residences throughout Greater Manchester. We handle all necessary paperwork with the facility.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How quickly can you respond?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We aim to collect your loved one within 2-4 hours of your call, any time of day or night. However, there's no pressure - if you need more time to say goodbye, we'll wait until you're ready. Some families prefer to wait until morning, which is perfectly fine.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you charge extra for out-of-hours calls?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, never. Our 24/7 service is part of what we do. Whether you call us at 2pm on a Tuesday or 2am on Christmas Day, there are no additional charges for evening, weekend, or holiday collections. The price is the same.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I email instead of calling?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For immediate needs, please call us on 0161 969 2288 as emails aren't monitored 24/7. For general enquiries, pre-planning discussions, or to request information, email is fine. We typically respond to emails within one business day.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Get In Touch Today</h2>
+                    <p class="lead">However you need us, we're here to help</p>
+                    <p><strong>24/7 Support: 0161 969 2288</strong></p>
+                    <p>168-170 Washway Road, Sale, M33 6RH<br>
+                    info@arthurkershawfunerals.com</p>
+                    <a href="tel:01619692288" class="btn btn-white">Call Us Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

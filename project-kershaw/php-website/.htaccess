@@ -1,0 +1,32 @@
+# Protect .env files
+<Files .env>
+    Order deny,allow
+    Deny from all
+</Files>
+
+# Block access to all dot files
+<FilesMatch "^\.">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# Protect sensitive file extensions
+<FilesMatch "\.(env|json|log|md|gitignore|gitattributes|lock)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# Protect includes directory
+<FilesMatch "^(includes|content|cache)">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# Disable directory browsing
+Options -Indexes
+
+# Prevent access to backup files
+<FilesMatch "(\.(bak|backup|old|orig|original|php~|php_bak|save|swo|swp)|~)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

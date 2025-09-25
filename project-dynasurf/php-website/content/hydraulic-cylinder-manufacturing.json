@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "title": "Custom Hydraulic Cylinder Manufacturing | Bespoke Components",
+    "description": "Custom hydraulic cylinder, piston & rod manufacturing in Sandbach. Bespoke components with materials in stock for same-day service. Call 01270 763032.",
+    "keywords": "hydraulic cylinder manufacturing UK, custom hydraulic pistons, cylinder rod manufacturing, bespoke hydraulic components"
+  },
+  "hero": {
+    "title": "Custom Hydraulic Cylinder Manufacturing",
+    "subtitle": "Precision manufacturing of bespoke hydraulic components and complete cylinder assemblies",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Hydraulic Cylinder Manufacturing", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Bespoke Hydraulic Component Manufacturing",
+    "subtitle": "Custom cylinders, pistons, rods and gland caps manufactured to your exact specifications",
+    "content": [
+      "Custom hydraulic cylinder manufacturing involves the complete design and production of bespoke hydraulic components tailored to specific application requirements. At Dynasurf, we specialise in manufacturing hydraulic cylinders, pistons, rods, gland caps, and sealing systems that meet unique operational demands where standard components simply won't suffice.",
+      "Our manufacturing capabilities extend from single prototypes to production runs, covering everything from heavy-duty industrial cylinders to precision pneumatic actuators. With over 50 years of engineering expertise, we understand that each application has unique pressure, stroke, mounting, and environmental requirements that demand custom solutions.",
+      "We maintain extensive material stocks including various grades of steel, stainless steel, bronze, and specialist alloys, enabling us to offer same-day manufacturing for urgent requirements. Our CNC machining centres and skilled craftsmen ensure every component meets or exceeds OEM specifications."
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Custom+hydraulic+cylinder+being+manufactured"
+  },
+  "capabilities": {
+    "title": "Manufacturing Capabilities & Specifications",
+    "content": "Dynasurf's manufacturing facility is equipped with state-of-the-art CNC machinery and precision measurement equipment. Our capabilities include:",
+    "specs": [
+      {
+        "label": "Cylinder Bore Sizes",
+        "description": "From 25mm to 300mm diameter with honing capabilities"
+      },
+      {
+        "label": "Rod Diameters",
+        "description": "12mm to 200mm with precision grinding and chrome plating"
+      },
+      {
+        "label": "Stroke Lengths",
+        "description": "Up to 2.2 meters with custom mounting arrangements"
+      },
+      {
+        "label": "Operating Pressures",
+        "description": "Standard up to 350 bar, high-pressure systems to 700 bar"
+      },
+      {
+        "label": "Materials",
+        "description": "EN24, EN8, stainless steel 316/304, bronze, and specialist alloys"
+      },
+      {
+        "label": "Surface Treatments",
+        "description": "Hard chrome plating, nitriding, anodising, and protective coatings"
+      }
+    ],
+    "additional_content": "We design cylinders for single-acting, double-acting, telescopic, and multi-stage operations, incorporating advanced sealing systems and precision bearings for extended service life and reliable performance.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=CNC+machining+center+manufacturing+cylinder+components"
+  },
+  "process": {
+    "title": "Design & Manufacturing Process",
+    "subtitle": "From concept to completion - engineered for performance",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Application Analysis",
+        "description": "Detailed analysis of operating conditions, mounting requirements, environmental factors, and performance specifications"
+      },
+      {
+        "number": "2",
+        "title": "Design & CAD",
+        "description": "3D CAD design with stress analysis, material selection, and optimisation for performance and manufacturability"
+      },
+      {
+        "number": "3",
+        "title": "Precision Manufacturing",
+        "description": "CNC machining, honing, grinding, and surface treatment using the latest equipment and quality control"
+      },
+      {
+        "number": "4",
+        "title": "Assembly & Testing",
+        "description": "Professional assembly with pressure testing, stroke testing, and final inspection before delivery"
+      }
+    ]
+  },
+  "components": {
+    "title": "Custom Component Manufacturing",
+    "content": "Beyond complete cylinder assemblies, we manufacture individual components to the highest standards:",
+    "types": [
+      {
+        "icon": "🔧",
+        "title": "Hydraulic Pistons",
+        "description": "Custom pistons with integral sealing or separate seal grooves, optimised for your application"
+      },
+      {
+        "icon": "⚙️",
+        "title": "Cylinder Rods",
+        "description": "Precision ground and chrome plated rods with custom end fittings and mounting arrangements"
+      },
+      {
+        "icon": "🛠️",
+        "title": "Gland Caps & Bodies",
+        "description": "Machined from solid billets with precision seal grooves and bearing surfaces"
+      },
+      {
+        "icon": "🔩",
+        "title": "Custom Fittings",
+        "description": "Bespoke mounting brackets, clevises, and connection hardware for unique installations"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+custom+manufactured+hydraulic+components"
+  },
+  "applications": {
+    "title": "Custom Manufacturing Applications",
+    "content": "Our bespoke manufacturing services support unique requirements across multiple industries:",
+    "sectors": [
+      {
+        "icon": "🏗️",
+        "title": "Construction & Earthmoving",
+        "description": "Replacement cylinders for obsolete machinery, heavy-duty applications, marine construction"
+      },
+      {
+        "icon": "🏭",
+        "title": "Industrial Automation",
+        "description": "Special-purpose cylinders for production lines, robotics, and material handling systems"
+      },
+      {
+        "icon": "⚓",
+        "title": "Marine & Offshore",
+        "description": "Corrosion-resistant cylinders for harsh environments, deck machinery, and subsea applications"
+      },
+      {
+        "icon": "🚛",
+        "title": "Specialist Vehicles",
+        "description": "Custom cylinders for emergency vehicles, military applications, and specialist transport"
+      }
+    ],
+    "additional_content": "Each custom cylinder is engineered for specific operational requirements including environmental conditions, duty cycle, and maintenance accessibility.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Custom+cylinders+in+various+industrial+applications"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Custom Manufacturing?",
+    "subtitle": "Engineering excellence with rapid delivery",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "Complete In-House Capability",
+        "description": "Design, manufacture, test, and support all under one roof in Sandbach"
+      },
+      {
+        "icon": "✓",
+        "title": "Materials in Stock",
+        "description": "Extensive inventory enables same-day manufacturing for urgent requirements"
+      },
+      {
+        "icon": "✓",
+        "title": "Quality Assured",
+        "description": "Full pressure testing and dimensional inspection with certification"
+      },
+      {
+        "icon": "✓",
+        "title": "Technical Support",
+        "description": "Ongoing support for installation, maintenance, and future modifications"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can you manufacture cylinders to replace obsolete components?",
+      "answer": "Yes, we specialise in reverse-engineering obsolete hydraulic cylinders where original manufacturers no longer support the equipment. We can often improve on the original design while maintaining mounting compatibility, providing better performance and longer service life."
+    },
+    {
+      "question": "What's the typical lead time for custom manufacturing?",
+      "answer": "Lead times vary depending on complexity and current workload. Simple cylinders with materials in stock can often be completed same-day or next-day. Complex custom designs typically take 5-10 working days. We'll provide accurate timelines with your quote and can expedite urgent requirements."
+    },
+    {
+      "question": "Do you provide technical design support?",
+      "answer": "Absolutely. Our engineers can assist with application analysis, material selection, mounting design, and performance optimisation. We use 3D CAD systems and can provide detailed drawings and stress analysis to ensure optimal performance for your specific application."
+    },
+    {
+      "question": "Can you manufacture high-pressure cylinders?",
+      "answer": "Yes, we regularly manufacture cylinders for operating pressures up to 700 bar. High-pressure cylinders require special attention to material selection, seal design, and safety factors. We design and test all high-pressure systems to appropriate safety standards with full certification."
+    },
+    {
+      "question": "What materials and surface treatments are available?",
+      "answer": "We work with various steel grades including EN24, EN8, stainless steel 316/304, and specialist alloys. Surface treatments include hard chrome plating, nitriding, anodising, and protective coatings. Material selection depends on your operating environment, pressure requirements, and compatibility needs."
+    },
+    {
+      "question": "Do you offer warranty on custom manufactured cylinders?",
+      "answer": "Yes, all custom manufactured cylinders come with a 12-month warranty covering materials, workmanship, and performance. This includes all seals, surface treatments, and assembly work. We stand behind our manufacturing quality and provide ongoing technical support throughout the product lifecycle."
+    }
+  ],
+  "cta": {
+    "title": "Need Custom Hydraulic Components?",
+    "subtitle": "Get expert design and manufacturing for your unique requirements",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Manufacturing Quote",
+    "button_link": "/contact.php"
+  }
+}

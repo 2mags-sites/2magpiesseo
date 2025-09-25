@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Law Firm In Hong Kong | Robert Lee Law Offices",
+    "description": "Robert Lee Law Offices with 40+ years of exp in Hong Kong, Singapore & Japan.  Legal advice, corporate law, company secretarial service (board resolution, company set up), will & probate, certification, notarisation of documents.  Customer-centric, multi-lingual & affordable. Contact us now.  ",
+    "keywords": [],
+    "canonical_url": "/"
+  },
+  "content": {
+    "hero": {
+      "title": "Robert Lee Law Offices",
+      "subtitle": "Professional Services You Can Trust",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More"
+    },
+    "features": [
+      {
+        "title": "Professional Service",
+        "description": "Expert solutions tailored to your needs"
+      },
+      {
+        "title": "Experienced Team",
+        "description": "Years of industry experience"
+      },
+      {
+        "title": "Customer Focused",
+        "description": "Your satisfaction is our priority"
+      },
+      {
+        "title": "Quality Guaranteed",
+        "description": "We stand behind our work"
+      }
+    ],
+    "services_overview": [
+      {
+        "title": "Practice Areas | Robert Lee Law Offices",
+        "description": "PRACTICESCOMMITMENT TO RESULTSFees and Charging Arrangements​The first concern of most clients when seeking legal advice is cost.​We have long been dissatisfied with hourly charge rates for the simple fact it lacks transparency and assurance to the client of the desired result.We work on retainer arrangements, fixed quotations for specific projects, and adjust fees to the complexity and amount of involvement, and ultimately the quality of the services provided. For SME’s we advise from the outse",
+        "link": "/practice-areas-robert-lee-law-offices"
+      }
+    ],
+    "why_choose": {
+      "title": "Why Choose Robert Lee Law Offices",
+      "points": [
+        "Proven track record of success",
+        "Dedicated professional team",
+        "Competitive pricing",
+        "Excellent customer service"
+      ]
+    },
+    "testimonials": []
+  }
+}

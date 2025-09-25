@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Barringtons Funeral Services | Independent Family Funeral Directors Liverpool",
+        "description": "Family funeral directors in Liverpool since 1902. Available 24\/7. Compassionate, professional service with transparent pricing. Call 0151 928 1625.",
+        "keywords": "funeral directors Liverpool, family funeral directors, Barringtons funerals, Liverpool funeral services"
+    },
+    "hero": {
+        "card1": {
+            "title": "Immediate Need",
+            "description": "Our caring team is here to guide you through every step",
+            "buttonText": "Begin Planning",
+            "buttonLink": "immediate-need.php"
+        },
+        "card2": {
+            "title": "Plan For The Future",
+            "description": "Take comfort in knowing your wishes are documented",
+            "buttonText": "Start Your Plan",
+            "buttonLink": "planning-ahead.php"
+        }
+    },
+    "reviews": {
+        "title": "Our Family Caring for Your Family",
+        "review1": {
+            "stars": 5,
+            "text": "David and Helen were absolutely wonderful during the most difficult time of our lives. Their compassion and attention to detail made everything so much easier. They treated our mum with such dignity and respect.",
+            "author": "Sarah Mitchell",
+            "source": "Google Review"
+        },
+        "review2": {
+            "stars": 5,
+            "text": "Cannot recommend Barringtons highly enough. As a family-run business, they understand the importance of personal touches. They went above and beyond to accommodate our special requests.",
+            "author": "James Thompson",
+            "source": "Facebook Review"
+        }
+    },
+    "family": {
+        "title": "Liverpool's Independent & Family Run Funeral Service",
+        "description1": "As a family-run funeral directors, David and Helen Barrington, together with their dedicated team, understand the importance of providing families with a service that is personal, warm, and completely individual.",
+        "description2": "We believe that every farewell should reflect the unique life it celebrates, and we're honored to help families create these meaningful moments.",
+        "image": "assets\/images\/family.jpg"
+    },
+    "services": {
+        "title": "Services We Offer",
+        "service1": {
+            "title": "Arrange a Funeral",
+            "description": "Compassionate guidance through every step of planning a meaningful farewell",
+            "image": "\/assets\/images\/uploads\/img_68d109bed49c4_1758529982.jpg"
+        },
+        "service2": {
+            "title": "Funeral Estimator",
+            "description": "Transparent pricing to help you plan within your budget, whatever your budget",
+            "image": "\/assets\/images\/uploads\/img_68d10c499c4de_1758530633.jpg"
+        },
+        "service3": {
+            "title": "Finance for Funerals",
+            "description": "Take care of your funeral wishes in advance.",
+            "image": "\/assets\/images\/uploads\/img_68d10c53f3315_1758530643.jpg"
+        },
+        "service4": {
+            "title": "Planning Ahead",
+            "description": "Beautiful memorials to honor your loved one",
+            "image": "\/assets\/images\/uploads\/img_68d10c5b11df2_1758530651.jpg"
+        }
+    },
+    "news": {
+        "title": "Latest News & Support",
+        "subtitle": "Updates and helpful resources for our community",
+        "articles": [
+            {
+                "date": "March 2024",
+                "title": "Understanding Grief: A Guide for Families",
+                "excerpt": "Grief is a natural response to loss, and everyone experiences it differently...",
+                "link": "helpful-links.php"
+            },
+            {
+                "date": "February 2024",
+                "title": "New Eco-Friendly Options Available",
+                "excerpt": "We're pleased to announce expanded green funeral options...",
+                "link": "services-overview.php"
+            }
+        ],
+        "cta": {
+            "text": "Need immediate assistance?",
+            "phone": "Call us 24\/7 on 0151 928 1625"
+        }
+    },
+    "branches": {
+        "title": "Our Branches",
+        "subtitle": "Three locations across Liverpool to serve you",
+        "locations": [
+            {
+                "name": "Waterloo",
+                "image": "\/assets\/images\/uploads\/img_68d0fb889e9be_1758526344.jpg",
+                "address": "23 Crosby Rd N, L22 4QF",
+                "phone": "0151 928 1625",
+                "hours": "24 Hours"
+            },
+            {
+                "name": "Formby",
+                "image": "\/assets\/images\/uploads\/img_68d1008e9e115_1758527630.jpg",
+                "address": "64 Elbow Lane, L37 4AB",
+                "phone": "0151 928 1625",
+                "hours": "By Appointment"
+            },
+            {
+                "name": "Netherton",
+                "image": "\/assets\/images\/uploads\/img_68d0fb8f69b65_1758526351.jpg",
+                "address": "47 Liverpool Road, L30 3QA",
+                "phone": "0151 928 1625",
+                "hours": "Mon-Fri 9am-5pm"
+            }
+        ]
+    }
+}

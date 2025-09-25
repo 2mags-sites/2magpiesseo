@@ -1,0 +1,11 @@
+# Deny access to all PHP files in this directory
+<Files "*.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Extra protection for sensitive files
+<FilesMatch "\.(env|json|log)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

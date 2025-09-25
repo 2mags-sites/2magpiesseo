@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litigation Services Hong Kong | Commercial Dispute Resolution</title>
+    <meta name="description" content="Expert litigation and dispute resolution services in Hong Kong. Commercial litigation, arbitration, mediation, and legal representation for complex disputes.">
+    <meta name="keywords" content="Hong Kong litigation lawyer, commercial litigation HK, dispute resolution Hong Kong, arbitration Hong Kong, legal representation">
+
+    <!-- Reuse the same styles from homepage for consistency -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Import the SAME styles from homepage */
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        /* Service page specific styles */
+        .service-hero {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px;
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #dc3545;
+            margin-bottom: 15px;
+        }
+
+        .expertise-list {
+            background: white;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .expertise-list h4 {
+            color: #dc3545;
+            margin-bottom: 15px;
+        }
+
+        .stats-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .stat-item {
+            margin-bottom: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #dc3545;
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        /* FAQ Styles */
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: #dc3545;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: #dc3545;
+        }
+
+        .case-study-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .case-study-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .case-result {
+            color: #28a745;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Litigation Services</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Litigation & Dispute Resolution</h1>
+            <p class="lead">Strategic legal representation for complex commercial disputes in Hong Kong courts</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Comprehensive Litigation Services</h2>
+                        <p class="lead-text">Protecting your interests through strategic litigation and alternative dispute resolution.</p>
+
+                        <p>Robert Lee Law Offices brings decades of experience in handling complex commercial litigation matters in Hong Kong. Our litigation team combines deep legal expertise with commercial acumen to deliver practical, results-oriented solutions for our clients' most challenging disputes.</p>
+
+                        <p>We understand that litigation can be disruptive and costly. Our approach focuses on achieving the best possible outcome efficiently, whether through negotiation, mediation, arbitration, or vigorous representation in court proceedings. We work closely with clients to understand their business objectives and develop strategies that align legal tactics with commercial goals.</p>
+                    </section>
+
+                    <!-- Practice Areas -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Litigation Expertise</h2>
+
+                        <div class="expertise-list">
+                            <h4>Commercial Litigation</h4>
+                            <ul>
+                                <li>Contract disputes and breach of agreement claims</li>
+                                <li>Shareholder and partnership disputes</li>
+                                <li>Directors' duties and corporate governance</li>
+                                <li>Joint venture and consortium disagreements</li>
+                                <li>Supply chain and distribution conflicts</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-list">
+                            <h4>Financial Services Disputes</h4>
+                            <ul>
+                                <li>Banking and finance litigation</li>
+                                <li>Securities and investment disputes</li>
+                                <li>Insurance claims and coverage disputes</li>
+                                <li>Regulatory investigations and enforcement</li>
+                                <li>Fund disputes and investor claims</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-list">
+                            <h4>Cross-Border Disputes</h4>
+                            <ul>
+                                <li>International commercial arbitration</li>
+                                <li>Enforcement of foreign judgments</li>
+                                <li>Multi-jurisdictional litigation</li>
+                                <li>China-related commercial disputes</li>
+                                <li>Asset recovery and freezing orders</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-list">
+                            <h4>Employment & Labor Disputes</h4>
+                            <ul>
+                                <li>Wrongful dismissal claims</li>
+                                <li>Non-compete and confidentiality breaches</li>
+                                <li>Executive compensation disputes</li>
+                                <li>Discrimination and harassment claims</li>
+                                <li>Trade union and collective actions</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Our Approach -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Strategic Approach</h2>
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-chess feature-icon"></i>
+                                <h4>Strategic Planning</h4>
+                                <p>Early case assessment and development of comprehensive litigation strategies aligned with business objectives.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-balance-scale feature-icon"></i>
+                                <h4>Risk Assessment</h4>
+                                <p>Thorough evaluation of legal merits, potential outcomes, and cost-benefit analysis for informed decision-making.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-handshake feature-icon"></i>
+                                <h4>Settlement Focus</h4>
+                                <p>Exploring settlement opportunities at every stage while maintaining readiness for trial when necessary.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-gavel feature-icon"></i>
+                                <h4>Trial Excellence</h4>
+                                <p>Aggressive courtroom advocacy with experienced barristers and solicitors when litigation becomes inevitable.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Success Metrics -->
+                    <section class="content-section">
+                        <div class="stats-box">
+                            <h3 class="mb-4">Our Track Record</h3>
+                            <div class="row">
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">500+</div>
+                                    <div class="stat-label">Cases Handled</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">85%</div>
+                                    <div class="stat-label">Success Rate</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">HK$2B+</div>
+                                    <div class="stat-label">Recovered for Clients</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">30+</div>
+                                    <div class="stat-label">Years Experience</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Recent Case Studies -->
+                    <section class="content-section">
+                        <h2 class="section-title">Recent Successes</h2>
+
+                        <div class="case-study-card">
+                            <h4>Multi-Million Dollar Contract Dispute</h4>
+                            <p>Represented a multinational corporation in a HK$150 million breach of contract claim involving complex supply chain agreements.</p>
+                            <div class="case-result">Result: Full recovery plus costs and interest</div>
+                        </div>
+
+                        <div class="case-study-card">
+                            <h4>Shareholder Oppression Action</h4>
+                            <p>Successfully defended minority shareholders against oppression by majority stakeholders in a listed company subsidiary.</p>
+                            <div class="case-result">Result: Court-ordered buyout at premium valuation</div>
+                        </div>
+
+                        <div class="case-study-card">
+                            <h4>International Arbitration Victory</h4>
+                            <p>Achieved favorable HKIAC arbitration award for technology company in IP licensing dispute with Chinese partner.</p>
+                            <div class="case-result">Result: US$25 million award plus enforcement in mainland China</div>
+                        </div>
+                    </section>
+
+                    <!-- Alternative Dispute Resolution -->
+                    <section class="content-section">
+                        <h2 class="section-title">Alternative Dispute Resolution</h2>
+                        <p>We recognize that traditional litigation isn't always the best path. Our ADR services include:</p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <h4><i class="fas fa-users text-danger me-2"></i>Mediation</h4>
+                                <p>Facilitating negotiated settlements through experienced mediators, reducing time and costs while preserving business relationships.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h4><i class="fas fa-file-contract text-danger me-2"></i>Arbitration</h4>
+                                <p>Expert representation in HKIAC, ICC, SIAC, and other arbitral proceedings with enforceability in 160+ countries.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h4><i class="fas fa-comments text-danger me-2"></i>Expert Determination</h4>
+                                <p>Quick resolution of technical disputes through binding expert determination processes.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h4><i class="fas fa-handshake-angle text-danger me-2"></i>Negotiation</h4>
+                                <p>Strategic negotiation services to achieve favorable settlements without formal proceedings.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What should I do if I receive a legal claim?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Contact us immediately. Time limits for responding to legal claims are strict. We'll review the claim, advise on merits, and prepare your defense strategy. Early action often leads to better outcomes and more options for resolution.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How long does litigation typically take in Hong Kong?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Simple cases may resolve in 6-12 months, while complex commercial litigation can take 2-3 years to reach trial. Factors include court schedules, case complexity, and settlement negotiations. We work to expedite resolution wherever possible.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What are the costs involved in litigation?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Costs vary based on complexity and duration. We provide transparent fee estimates and discuss funding options including conditional fee arrangements, after-the-event insurance, and third-party funding where appropriate.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Should I choose litigation or arbitration?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Each has advantages. Litigation offers appeal rights and established procedures. Arbitration provides confidentiality, expert arbitrators, and international enforceability. We'll advise based on your specific circumstances and objectives.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can Hong Kong judgments be enforced in mainland China?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Yes, under the 2019 reciprocal enforcement arrangement, many Hong Kong judgments can be enforced in mainland China. We have extensive experience navigating cross-border enforcement procedures.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Emergency Contact -->
+                    <div class="card mb-4 border-danger">
+                        <div class="card-body text-center">
+                            <h4 class="text-danger">Urgent Legal Matter?</h4>
+                            <p>Our litigation team is available 24/7 for urgent court applications and injunctions.</p>
+                            <a href="tel:+85222345678" class="btn btn-danger btn-lg w-100 mb-2">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <p class="small text-muted mb-0">Emergency Hotline: +852 9XXX XXXX</p>
+                        </div>
+                    </div>
+
+                    <!-- Key Contacts -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-danger text-white">
+                            <h5 class="mb-0">Litigation Team Leaders</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <strong>Robert Lee</strong><br>
+                                <small class="text-muted">Senior Partner<br>
+                                30+ years litigation experience</small>
+                            </div>
+                            <div class="mb-3">
+                                <strong>Sarah Chen</strong><br>
+                                <small class="text-muted">Partner, Commercial Litigation<br>
+                                Arbitration specialist</small>
+                            </div>
+                            <div>
+                                <strong>Michael Wong</strong><br>
+                                <small class="text-muted">Partner, Financial Disputes<br>
+                                Cross-border enforcement</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resources -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Litigation Resources</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fas fa-download text-danger"></i> Litigation Guide PDF
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fas fa-calculator text-danger"></i> Cost Calculator
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fas fa-clock text-danger"></i> Court Deadlines
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fas fa-book text-danger"></i> Case Law Updates
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Need Legal Representation?</h2>
+                <p class="lead mb-4">Don't wait. Early legal advice can make the difference between success and failure.</p>
+                <a href="/contact" class="btn-white">Get Immediate Assistance</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Note: In PHP implementation, header and footer would be included here -->
+    <!-- <?php include 'components/header.php'; ?> -->
+    <!-- <?php include 'components/footer.php'; ?> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

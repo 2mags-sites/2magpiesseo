@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "title": "Funeral Transport - Hearse, Limousines & Special Vehicles | Barringtons",
+        "description": "Traditional and alternative funeral transport options. Hearse, limousines, horse-drawn carriages, motorcycle hearses, and eco-friendly vehicles available.",
+        "keywords": "funeral transport Liverpool, hearse hire, funeral limousines, horse drawn hearse, motorcycle hearse"
+    },
+    "intro": {
+        "title": "Transport Options",
+        "subtitle": "From traditional hearses to unique alternatives, we offer various transport options to create a fitting final journey."
+    },
+    "vehicles": [
+        {
+            "name": "Fully Electric Etive Hearse",
+            "description": "Our fully electric Coleman Milne Etive Hearse is supporting us on our journey to net zero emissions for our business.",
+            "price": "\u00a3450",
+            "image": "\/assets\/images\/uploads\/img_68cf9708611fa_1758435080.jpg"
+        },
+        {
+            "name": "LFC \/ EFC Hearse",
+            "description": "The LFC\/EFC Hearses are perfect for people who's main interest is one of our great football teams.",
+            "price": "\u00a3995",
+            "image": "\/assets\/images\/uploads\/img_68cf956146897_1758434657.jpg"
+        },
+        {
+            "name": "Horse-Drawn Hearse",
+            "description": "Horse drawn hearses bring drama to the funeral procession. They are available in Black, White or Gold.&nbsp;",
+            "price": "\u00a31400",
+            "image": "\/assets\/images\/uploads\/img_68cf926580742_1758433893.png"
+        },
+        {
+            "name": "Motorcycle Hearse",
+            "description": "Motorcycle hearses are perfect final journey for motorbike enthusiasts. They have a range of hearses available.",
+            "price": "\u00a31400",
+            "image": "\/assets\/images\/uploads\/img_68cf94d473a4c_1758434516.jpg"
+        },
+        {
+            "name": "Morris Minor Hearse",
+            "description": "Classic cars from various eras for a nostalgic farewell.&nbsp;<br><br>",
+            "price": "\u00a3995",
+            "image": "\/assets\/images\/uploads\/img_68cf963522776_1758434869.jpg"
+        },
+        {
+            "name": "Landrover Hearses",
+            "description": "Landrover Hearses are great for anyone who loved the outdoors or off road enthusiasts.",
+            "price": "\u00a3995",
+            "image": "\/assets\/images\/uploads\/img_68cf98dddf44c_1758435549.jpg"
+        }
+    ],
+    "special": {
+        "title": "Special Requests",
+        "description": "We can arrange almost any type of transport you can imagine - from VW camper vans to fire engines. Let us know your ideas and we'll make it happen."
+    },
+    "hero": {
+        "title": "Funeral Transport",
+        "image": "\/assets\/images\/uploads\/img_68cf918bda759_1758433675.jpg"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "folder_name": "news",
+  "display_name": "News",
+  "wordpress_path": "/news/",
+  "api_endpoint": "/news/wp-json/wp/v2/posts",
+  "homepage_display": {
+    "show_latest": true,
+    "number_of_posts": 4,
+    "layout": "cards",
+    "section_title": "Latest News & Updates"
+  },
+  "navigation": {
+    "menu_label": "News",
+    "position": "main_nav"
+  }
+}

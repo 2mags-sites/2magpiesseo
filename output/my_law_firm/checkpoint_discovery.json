@@ -1,0 +1,17 @@
+{
+  "stage": "discovery",
+  "timestamp": "2025-09-13T14:04:37.934022",
+  "validation_results": {
+    "passed": true,
+    "warnings": [],
+    "errors": []
+  },
+  "output_summary": {
+    "business_name": "Robert Lee Law Offices",
+    "services_found": 3,
+    "pages_discovered": 3,
+    "has_contact_info": true
+  },
+  "next_stage": "ia_planning",
+  "can_proceed": true
+}

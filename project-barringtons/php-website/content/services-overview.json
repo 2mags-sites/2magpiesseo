@@ -1,0 +1,136 @@
+{
+    "meta": {
+        "title": "Funeral Services Overview - Traditional & Contemporary | Barringtons Liverpool",
+        "description": "Complete range of funeral services in Liverpool. Traditional burials, cremations, green funerals, and celebrations of life. Transparent pricing from £1,795.",
+        "keywords": "funeral services Liverpool, traditional funeral, cremation services, green funerals, celebration of life, funeral prices"
+    },
+    "intro": {
+        "title": "Comprehensive Funeral Services",
+        "subtitle": "Every life is unique, and every farewell should be too. We offer a complete range of services to create a meaningful tribute that honors your loved one's memory.",
+        "credentials": "Professional Standards: As proud members of NAFD, SAIF, Association of Green Funeral Directors, and recommended by the Good Funeral Guide, we maintain the highest standards in funeral care. Our director David Barrington served as NAFD President 2019-2021 and is a NAFD Approved Tutor."
+    },
+    "services": {
+        "traditional": {
+            "title": "Traditional Funerals",
+            "description": "Classic, dignified services following time-honored traditions. We'll help you create a respectful farewell with all the traditional elements your family values.",
+            "features": [
+                "Personalized chapel of rest viewing",
+                "Hearse and limousines",
+                "Traditional coffins",
+                "Formal funeral service",
+                "Family members as pallbearers",
+                "Books of condolence"
+            ]
+        },
+        "contemporary": {
+            "title": "Contemporary Celebrations",
+            "description": "Modern celebrations of life that focus on joy and remembrance. Create a unique farewell that truly reflects the person you're honoring.",
+            "features": [
+                "Personalized themes and decorations",
+                "Memory boards with life photos",
+                "Video tributes and slideshows",
+                "Personal tributes (poems, songs)",
+                "Travel past meaningful places",
+                "Flowers from your loved one's garden"
+            ]
+        },
+        "direct": {
+            "title": "Direct Cremation",
+            "description": "A simple, affordable option without a traditional service. Perfect for those who prefer a private goodbye or plan to hold a memorial later.",
+            "features": [
+                "Simple coffin included",
+                "Collection and care",
+                "All necessary paperwork",
+                "Return of ashes"
+            ]
+        },
+        "green": {
+            "title": "Green Funerals",
+            "description": "Environmentally conscious options for those who lived sustainably. We offer various eco-friendly choices to minimize environmental impact, including our memorial tree planting service.",
+            "features": [
+                "Biodegradable coffins",
+                "Natural burial grounds",
+                "Memorial tree planted for every funeral",
+                "Electric hearse and limousine options",
+                "Carbon offset options"
+            ]
+        },
+        "religious": {
+            "title": "Religious Services",
+            "description": "Respectful services honoring all faiths and beliefs. We work with religious leaders from all denominations to ensure traditions are observed.",
+            "features": [
+                "Catholic services",
+                "Protestant services",
+                "Jewish ceremonies",
+                "Islamic traditions",
+                "Hindu rituals",
+                "Buddhist customs"
+            ]
+        },
+        "home": {
+            "title": "Home Funerals",
+            "description": "Intimate farewells in familiar surroundings. We can arrange for your loved one to rest at home before the funeral, allowing private family time.",
+            "features": [
+                "Home chapel setup",
+                "Cooling equipment",
+                "24\/7 support",
+                "Flexible visiting"
+            ]
+        }
+    },
+    "additional": {
+        "title": "Additional Services",
+        "items": {
+            "stationery": {
+                "title": "Memorial Stationery",
+                "description": "Order of service booklets, memorial cards, and thank you cards designed to your specifications."
+            },
+            "floral": {
+                "title": "Floral Tributes",
+                "description": "Beautiful arrangements from local florists, including traditional wreaths and contemporary designs."
+            },
+            "catering": {
+                "title": "Catering Services",
+                "description": "Reception venues and catering for the gathering after the service, from simple refreshments to full meals."
+            },
+            "jewelry": {
+                "title": "Memorial Jewelry",
+                "description": "Keep your loved one close with fingerprint jewelry, ashes jewelry, and other memorial keepsakes."
+            },
+            "streaming": {
+                "title": "Live Streaming",
+                "description": "Allow distant friends and family to attend virtually with our professional webcasting service."
+            },
+            "repatriation": {
+                "title": "Repatriation",
+                "description": "International transportation arrangements for those who pass away abroad or wish to be laid to rest overseas."
+            }
+        }
+    },
+    "pricing": {
+        "title": "Transparent Pricing",
+        "subtitle": "We believe in complete transparency. All our prices are clearly displayed, with no hidden fees or surprise charges.",
+        "packages": {
+            "essential": {
+                "title": "Essential Service",
+                "price": "From \u00a31,795",
+                "description": "Our simplest option, including all necessary arrangements and a basic coffin."
+            },
+            "standard": {
+                "title": "Standard Service",
+                "price": "From \u00a32,995",
+                "description": "Our most popular package, including hearse, one limousine, and choice of coffin."
+            },
+            "premium": {
+                "title": "Premium Service",
+                "price": "From \u00a34,495",
+                "description": "Complete service with additional vehicles, premium coffin, and extended viewing."
+            }
+        },
+        "note": "All prices include our professional fees, care of your loved one, and essential administration. Additional costs such as crematorium fees and celebrant charges are shown separately."
+    },
+    "hero": {
+        "title": "Services Overview",
+        "image": "\/assets\/images\/uploads\/img_68cd78c7966ab_1758296263.jpg"
+    }
+}

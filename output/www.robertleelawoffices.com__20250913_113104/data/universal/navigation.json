@@ -1,0 +1,65 @@
+{
+  "primary_nav": [
+    {
+      "label": "Home",
+      "url": "/",
+      "active_pages": [
+        "home",
+        "index"
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about",
+      "active_pages": [
+        "about"
+      ]
+    },
+    {
+      "label": "Services",
+      "url": "/services",
+      "active_pages": [
+        "services"
+      ],
+      "dropdown": [
+        {
+          "label": "Divorce Lawyer",
+          "url": "/divorce-lawyer-hong-kong",
+          "active_pages": ["divorce-lawyer-hong-kong"]
+        },
+        {
+          "label": "Family Law",
+          "url": "/family-law-hong-kong",
+          "active_pages": ["family-law-hong-kong"]
+        },
+        {
+          "label": "Child Custody",
+          "url": "/child-custody-lawyer",
+          "active_pages": ["child-custody-lawyer"]
+        },
+        {
+          "label": "Prenuptial Agreement",
+          "url": "/prenuptial-agreement-hong-kong",
+          "active_pages": ["prenuptial-agreement-hong-kong"]
+        },
+        {
+          "label": "Matrimonial Lawyer",
+          "url": "/matrimonial-lawyer",
+          "active_pages": ["matrimonial-lawyer"]
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "active_pages": [
+        "contact"
+      ]
+    }
+  ],
+  "cta_button": {
+    "label": "Get Started",
+    "url": "/contact",
+    "class": "btn-primary"
+  }
+}

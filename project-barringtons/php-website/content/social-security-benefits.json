@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "title": "Social Security Benefits & Financial Support | Barringtons",
+        "description": "Guide to bereavement benefits, funeral payments, and financial support available after a death. Help with DWP claims and benefits advice.",
+        "keywords": "bereavement benefits, funeral payment, DWP benefits, widows pension, social security"
+    },
+    "hero": {
+        "title": "Social Security Benefits",
+        "image": "\/assets\/images\/uploads\/img_68cfc74209d6a_1758447426.jpg"
+    },
+    "intro": {
+        "title": "Financial Support Available",
+        "lead_text": "There are several benefits available to help with funeral costs and provide financial support after bereavement."
+    },
+    "guide_sections": [
+        {
+            "title": "Funeral Expenses Payment",
+            "description": "If you're on certain benefits, you may be able to get help with funeral costs from the DWP.",
+            "points": [
+                "Up to \u00a31,000 for funeral expenses",
+                "Covers burial or cremation fees",
+                "Must claim within 6 months",
+                "Depends on your relationship to deceased"
+            ]
+        },
+        {
+            "title": "Bereavement Support Payment",
+            "description": "For those whose spouse or civil partner died on or after 6 April 2017.",
+            "points": [
+                "Initial lump sum payment",
+                "Monthly payments for up to 18 months",
+                "Not means-tested",
+                "Must claim within 3 months"
+            ]
+        },
+        {
+            "title": "Other Support",
+            "description": "",
+            "points": [
+                "Widowed Parent's Allowance",
+                "War Widow(er) Pension",
+                "Child Benefit (guardian claims)",
+                "Housing Benefit adjustments",
+                "Council Tax reductions"
+            ]
+        }
+    ],
+    "cta_section": {
+        "title": "Need Help with Claims?",
+        "description": "We can provide guidance on available benefits and help you understand what you may be entitled to.",
+        "contacts": [
+            {
+                "name": "Citizens Advice",
+                "number": "0800 144 8848"
+            },
+            {
+                "name": "DWP Bereavement Service",
+                "number": "0800 731 0469"
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+# Dynasurf Website - Apache Configuration
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Protect sensitive files
+<FilesMatch "\.(env|json|log|md|gitignore|lock)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect .env file specifically
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Block all dot files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect includes directory
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block access to includes, content, and cache directories
+    RewriteRule ^(includes|content|cache)/ - [F,L]
+
+    # Block access to admin files for non-authenticated users
+    RewriteRule ^(admin-save|admin-upload|view-logs)\.php$ - [F,L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Protect uploads directory (allow images only)
+<Directory "assets/images/uploads">
+    # Only allow specific file types
+    <FilesMatch "\.(gif|jpe?g|png|webp)$">
+        Order Allow,Deny
+        Allow from all
+    </FilesMatch>
+</Directory>
+
+# Enable compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Cache control
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Images
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+
+    # HTML
+    ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# Default charset
+AddDefaultCharset UTF-8
+
+# Error pages (optional - create these if needed)
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 500 /500.php
+
+# PHP settings (if allowed)
+<IfModule mod_php.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>

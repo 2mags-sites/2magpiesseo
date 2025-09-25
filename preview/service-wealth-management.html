@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth Management Hong Kong | Estate Planning & Family Trust</title>
+    <meta name="description" content="Comprehensive wealth management services in Hong Kong. Estate planning, family trusts, succession planning, and asset protection for high net worth individuals and families.">
+    <meta name="keywords" content="wealth management Hong Kong, estate planning HK, family trust, asset protection, succession planning, private wealth">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #ffc107;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .service-hero {
+            background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px;
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .wealth-stats {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        .service-box {
+            background: white;
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .service-box h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .wealth-highlight {
+            background: #fff9c4;
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .wealth-value {
+            color: #b8860b;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--primary-color);
+        }
+
+        .planning-stage {
+            background: linear-gradient(45deg, #fff9c4 0%, #ffeaa7 100%);
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            position: relative;
+        }
+
+        .stage-number {
+            background: #ffc107;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            position: absolute;
+            top: -15px;
+            left: 20px;
+        }
+
+        .trust-structure {
+            background: white;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .trust-type {
+            color: #b8860b;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Wealth Management</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Wealth Management & Estate Planning</h1>
+            <p class="lead">Preserving and transferring wealth across generations with strategic planning and expertise</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Comprehensive Wealth Management Solutions</h2>
+                        <p class="lead-text">Protecting and growing your wealth while ensuring smooth succession planning for future generations.</p>
+
+                        <p>Robert Lee Law Offices provides sophisticated wealth management and estate planning services to high net worth individuals, families, and family offices. Our comprehensive approach combines legal expertise with strategic tax planning, asset protection, and succession planning to preserve and transfer wealth efficiently across generations.</p>
+
+                        <p>With deep expertise in Hong Kong and international tax laws, trust structures, and cross-border regulations, we design customized solutions that address the unique challenges facing affluent families in Asia. Our services span from individual estate planning to complex multi-generational family governance structures.</p>
+
+                        <p>We work closely with clients' existing advisors including private bankers, accountants, and investment managers to provide integrated wealth management solutions that optimize tax efficiency while achieving family objectives for wealth preservation and transfer.</p>
+                    </section>
+
+                    <!-- Core Services -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Wealth Management Services</h2>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-scroll me-2"></i>Estate Planning & Wills</h4>
+                            <p>Comprehensive estate planning to protect assets and ensure smooth succession:</p>
+                            <ul>
+                                <li>Will drafting and execution with tax optimization</li>
+                                <li>Estate administration and probate management</li>
+                                <li>Cross-border succession planning</li>
+                                <li>Inheritance tax planning and mitigation</li>
+                                <li>Advance healthcare directives and powers of attorney</li>
+                                <li>Charitable giving structures and foundations</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-shield-alt me-2"></i>Trust Structures & Administration</h4>
+                            <p>Sophisticated trust solutions for asset protection and wealth transfer:</p>
+                            <ul>
+                                <li>Family trust establishment and administration</li>
+                                <li>Discretionary and fixed trusts structuring</li>
+                                <li>Charitable trusts and purpose trusts</li>
+                                <li>Unit trusts and hybrid structures</li>
+                                <li>Trust migration and restructuring</li>
+                                <li>Trustee services and succession planning</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-users me-2"></i>Family Office Services</h4>
+                            <p>Comprehensive support for ultra-high net worth families:</p>
+                            <ul>
+                                <li>Single and multi-family office establishment</li>
+                                <li>Family constitution and governance frameworks</li>
+                                <li>Next generation education and mentoring</li>
+                                <li>Family dispute resolution and mediation</li>
+                                <li>Investment policy and strategy development</li>
+                                <li>Philanthropy and social impact planning</li>
+                            </ul>
+                        </div>
+
+                        <div class="service-box">
+                            <h4><i class="fas fa-globe me-2"></i>International Tax Planning</h4>
+                            <p>Cross-border tax optimization and compliance strategies:</p>
+                            <ul>
+                                <li>Hong Kong and offshore tax planning</li>
+                                <li>Double taxation treaty optimization</li>
+                                <li>Common Reporting Standard (CRS) compliance</li>
+                                <li>Foreign Account Tax Compliance Act (FATCA) advisory</li>
+                                <li>Pre-immigration and exit planning</li>
+                                <li>Tax-efficient investment structuring</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Estate Planning Process -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Estate Planning Process</h2>
+                        <p>A systematic approach to preserving and transferring your wealth:</p>
+
+                        <div class="planning-stage">
+                            <div class="stage-number">1</div>
+                            <h5 style="margin-left: 50px;">Wealth Assessment & Goal Setting</h5>
+                            <p style="margin-left: 50px;">Comprehensive review of assets, liabilities, and family objectives to establish planning goals and priorities.</p>
+                        </div>
+
+                        <div class="planning-stage">
+                            <div class="stage-number">2</div>
+                            <h5 style="margin-left: 50px;">Tax & Legal Analysis</h5>
+                            <p style="margin-left: 50px;">Detailed analysis of current tax position, potential exposures, and opportunities for optimization across jurisdictions.</p>
+                        </div>
+
+                        <div class="planning-stage">
+                            <div class="stage-number">3</div>
+                            <h5 style="margin-left: 50px;">Structure Design & Implementation</h5>
+                            <p style="margin-left: 50px;">Custom design of wealth management structures including trusts, holding companies, and family governance frameworks.</p>
+                        </div>
+
+                        <div class="planning-stage">
+                            <div class="stage-number">4</div>
+                            <h5 style="margin-left: 50px;">Documentation & Execution</h5>
+                            <p style="margin-left: 50px;">Preparation and execution of all legal documents including wills, trust deeds, and corporate structures.</p>
+                        </div>
+
+                        <div class="planning-stage">
+                            <div class="stage-number">5</div>
+                            <h5 style="margin-left: 50px;">Ongoing Management & Review</h5>
+                            <p style="margin-left: 50px;">Regular review and updates to ensure structures remain optimal as laws change and family circumstances evolve.</p>
+                        </div>
+                    </section>
+
+                    <!-- Trust Structure Options -->
+                    <section class="content-section">
+                        <h2 class="section-title">Trust Structure Solutions</h2>
+                        <p>Flexible trust options tailored to your wealth preservation and transfer objectives:</p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="trust-structure">
+                                    <div class="trust-type">Discretionary Family Trust</div>
+                                    <p>Maximum flexibility for distributions while maintaining asset protection and tax efficiency.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="trust-structure">
+                                    <div class="trust-type">Fixed Interest Trust</div>
+                                    <p>Predetermined distribution rights providing certainty and control over wealth transfer timing.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="trust-structure">
+                                    <div class="trust-type">Charitable Trust</div>
+                                    <p>Philanthropic structures combining charitable objectives with tax optimization benefits.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="trust-structure">
+                                    <div class="trust-type">Unit Trust</div>
+                                    <p>Investment-focused structure providing professional management with transparent reporting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Wealth Statistics -->
+                    <section class="content-section">
+                        <div class="wealth-stats">
+                            <h3 class="text-center mb-4">Our Wealth Management Impact</h3>
+                            <div class="row">
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">HK$15B+</div>
+                                    <div class="stat-label">Assets Under Management</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">150+</div>
+                                    <div class="stat-label">Family Clients</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">25%</div>
+                                    <div class="stat-label">Average Tax Savings</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">3</div>
+                                    <div class="stat-label">Generations Served</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Recent Success Stories -->
+                    <section class="content-section">
+                        <h2 class="section-title">Client Success Stories</h2>
+
+                        <div class="wealth-highlight">
+                            <h5>Multi-Generational Family Trust</h5>
+                            <p>Established comprehensive family trust structure for Hong Kong business dynasty, preserving <span class="wealth-value">HK$2.8 billion</span> in family wealth across four generations with 40% tax savings.</p>
+                            <div class="wealth-value">Result: Seamless succession, preserved family harmony</div>
+                        </div>
+
+                        <div class="wealth-highlight">
+                            <h5>Pre-Immigration Tax Planning</h5>
+                            <p>Structured pre-immigration planning for tech entrepreneur relocating to Singapore, optimizing tax position and protecting <span class="wealth-value">HK$1.2 billion</span> in equity holdings.</p>
+                            <div class="wealth-value">Result: HK$180M in tax savings, compliant structure</div>
+                        </div>
+
+                        <div class="wealth-highlight">
+                            <h5>Charitable Foundation Setup</h5>
+                            <p>Established private foundation for philanthropic family combining charitable objectives with tax optimization, managing <span class="wealth-value">HK$500 million</span> in charitable assets.</p>
+                            <div class="wealth-value">Result: Meaningful social impact, tax efficient giving</div>
+                        </div>
+
+                        <div class="wealth-highlight">
+                            <h5>Cross-Border Estate Restructuring</h5>
+                            <p>Restructured complex international estate spanning Hong Kong, UK, and Australia, eliminating double taxation and reducing inheritance costs by <span class="wealth-value">60%</span>.</p>
+                            <div class="wealth-value">Result: Simplified administration, reduced costs</div>
+                        </div>
+                    </section>
+
+                    <!-- Our Expertise -->
+                    <section class="content-section">
+                        <h2 class="section-title">Why Choose Our Wealth Management Team</h2>
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-graduation-cap feature-icon"></i>
+                                <h4>Deep Expertise</h4>
+                                <p>Specialized knowledge in international tax law, trust administration, and cross-border wealth planning.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-network-wired feature-icon"></i>
+                                <h4>Global Network</h4>
+                                <p>Established relationships with leading advisors worldwide for seamless international planning.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-lock feature-icon"></i>
+                                <h4>Privacy & Discretion</h4>
+                                <p>Absolute confidentiality and discretion in all client matters with secure wealth planning processes.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-chart-line feature-icon"></i>
+                                <h4>Long-term Perspective</h4>
+                                <p>Multi-generational approach to wealth preservation with regular strategy reviews and updates.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    When should I start estate planning?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Estate planning should begin when you have significant assets or family responsibilities. Early planning provides more options and can result in substantial tax savings. For business owners and high net worth individuals, planning becomes critical as wealth grows.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What are the benefits of establishing a family trust?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Family trusts provide asset protection, tax efficiency, succession planning, and privacy. They can protect assets from creditors, reduce tax burdens, ensure smooth wealth transfer, and maintain confidentiality of family financial affairs.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How do you handle cross-border tax issues?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>We analyze tax implications across all relevant jurisdictions, utilize double taxation treaties, and structure arrangements to minimize overall tax burden while ensuring compliance with all reporting requirements including CRS and FATCA.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What is involved in family office setup?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Family office setup involves establishing governance structures, investment policies, administrative systems, and next-generation programs. We handle legal structure, regulatory compliance, and coordinate with service providers for comprehensive family wealth management.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How do you ensure privacy and confidentiality?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>We maintain strict confidentiality through lawyer-client privilege, secure document handling, need-to-know information sharing, and anonymous structure design where appropriate. All staff sign comprehensive confidentiality agreements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Private Consultation -->
+                    <div class="card mb-4" style="border-color: #ffc107;">
+                        <div class="card-body text-center">
+                            <h4 style="color: #b8860b;">Private Consultation</h4>
+                            <p>Confidential discussion of your wealth management needs</p>
+                            <a href="tel:+85222345678" class="btn btn-lg w-100 mb-2" style="background-color: #ffc107; color: white;">
+                                <i class="fas fa-phone"></i> Arrange Meeting
+                            </a>
+                            <p class="small text-muted mb-0">All consultations strictly confidential</p>
+                        </div>
+                    </div>
+
+                    <!-- Wealth Planning Team -->
+                    <div class="card mb-4">
+                        <div class="card-header text-white" style="background-color: #ffc107;">
+                            <h5 class="mb-0">Wealth Planning Specialists</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <strong>Patricia Wong</strong><br>
+                                <small class="text-muted">Partner, Private Wealth<br>
+                                25+ years trust & estate experience</small>
+                            </div>
+                            <div class="mb-3">
+                                <strong>David Chen</strong><br>
+                                <small class="text-muted">Senior Associate, Tax Planning<br>
+                                International tax specialist</small>
+                            </div>
+                            <div>
+                                <strong>Rachel Li</strong><br>
+                                <small class="text-muted">Trust Administrator<br>
+                                Family office services</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Areas -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Specialized Services</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none" style="color: #b8860b;">
+                                        <i class="fas fa-crown"></i> Ultra High Net Worth
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none" style="color: #b8860b;">
+                                        <i class="fas fa-building"></i> Business Succession
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none" style="color: #b8860b;">
+                                        <i class="fas fa-heart"></i> Charitable Planning
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none" style="color: #b8860b;">
+                                        <i class="fas fa-plane"></i> Immigration Planning
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Secure Your Family's Financial Future</h2>
+                <p class="lead mb-4">Start building a comprehensive wealth management strategy that protects and grows your legacy</p>
+                <a href="/contact" class="btn-white">Schedule Private Consultation</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

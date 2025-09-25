@@ -1,0 +1,49 @@
+{
+  "members": [
+    {
+      "id": "john-smith",
+      "name": "John Smith",
+      "title": "Senior Partner",
+      "bio": "John Smith is the founding partner with over 25 years of experience in Hong Kong law. He specializes in complex commercial litigation and has represented numerous Fortune 500 companies.",
+      "image": "assets/images/team/john-smith.jpg",
+      "experience_years": null,
+      "education": [],
+      "languages": [
+        "English"
+      ],
+      "specialties": [
+        "Hong Kong Law"
+      ]
+    },
+    {
+      "id": "sarah-chen",
+      "name": "Sarah Chen",
+      "title": "Partner - Family Law",
+      "bio": "Sarah Chen leads our family law practice with expertise in high-net-worth divorces and international custody disputes.",
+      "image": "assets/images/team/sarah-chen.jpg",
+      "experience_years": null,
+      "education": [],
+      "languages": [
+        "English"
+      ],
+      "specialties": [
+        "In High-Net-Worth Divorces And International Custody Disputes"
+      ]
+    },
+    {
+      "id": "michael-wong",
+      "name": "Michael Wong",
+      "title": "Associate",
+      "bio": "Michael Wong focuses on corporate law and cross-border transactions.",
+      "image": "assets/images/team/michael-wong.jpg",
+      "experience_years": null,
+      "education": [],
+      "languages": [
+        "English"
+      ],
+      "specialties": [
+        "Es On Corporate Law And Cross-Border Transactions"
+      ]
+    }
+  ]
+}

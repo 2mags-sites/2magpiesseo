@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "Hydraulic Ram Repair Services | Express Service | Dynasurf",
+    "description": "Expert hydraulic ram repair, refurbishment & seal replacement for construction, agriculture & industry. Same-day service available. Call 01270 763032 for rapid response.",
+    "keywords": "hydraulic ram repair services, hydraulic cylinder repair UK, ram refurbishment Cheshire, emergency hydraulic ram repair"
+  },
+  "hero": {
+    "title": "Hydraulic Ram Repair Services",
+    "subtitle": "Complete repair, refurbishment and testing for all hydraulic cylinders",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Hydraulic Ram Repair", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Professional Hydraulic Ram Repair & Refurbishment",
+    "subtitle": "Serving construction, agriculture, manufacturing and transport sectors across the UK",
+    "content": [
+      "Hydraulic ram repair involves the complete restoration of hydraulic cylinders to their optimal working condition. At Dynasurf, we specialise in diagnosing and fixing all types of hydraulic ram issues, from minor seal replacements to complete cylinder rebuilds.",
+      "Our comprehensive repair service addresses common problems including fluid leaks, bent rods, scored cylinders, worn seals, and damaged pistons. With over 50 years of experience, we understand that hydraulic system failures can bring your operations to a standstill, which is why we offer express service options to minimise your downtime.",
+      "Every repair begins with a thorough assessment to identify all issues, followed by a detailed quote and timeline. Our expert technicians use state-of-the-art equipment to ensure precision repairs that restore your hydraulic rams to manufacturer specifications or better."
+    ],
+    "image": "assets/images/Hydraulic_Ram_Repairs.jpg"
+  },
+  "capabilities": {
+    "title": "Technical Capabilities & Specifications",
+    "content": "Dynasurf's hydraulic repair facility is equipped to handle cylinders of all sizes and types. Our capabilities include:",
+    "specs": [
+      {
+        "label": "Cylinder Sizes",
+        "description": "From small actuators to large industrial rams up to 300mm bore diameter"
+      },
+      {
+        "label": "Rod Lengths",
+        "description": "Up to 2.2 meters with precision straightening capabilities"
+      },
+      {
+        "label": "Pressure Testing",
+        "description": "Full pressure testing up to working pressure plus safety margin"
+      },
+      {
+        "label": "Chrome Plating",
+        "description": "Hard chrome plating up to 0.5mm thickness for maximum durability"
+      },
+      {
+        "label": "Honing Precision",
+        "description": "Surface finish to Ra 0.2-0.4 microns for optimal seal performance"
+      }
+    ],
+    "additional_content": "We maintain an extensive inventory of seals, bearings, and materials, allowing us to offer same-day service for many common repairs. Our workshop operates with the latest CNC equipment, ensuring consistent quality and precision on every job.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Technical+equipment+for+cylinder+testing"
+  },
+  "process": {
+    "title": "Our Repair Process",
+    "subtitle": "Systematic approach ensuring quality results every time",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Initial Assessment",
+        "description": "Complete disassembly and inspection to identify all wear, damage, and potential failure points"
+      },
+      {
+        "number": "2",
+        "title": "Detailed Quote",
+        "description": "Transparent pricing with photos of damage, repair recommendations, and timeline options"
+      },
+      {
+        "number": "3",
+        "title": "Precision Repair",
+        "description": "Expert machining, honing, chrome plating, and seal replacement using OEM or upgraded components"
+      },
+      {
+        "number": "4",
+        "title": "Testing & Quality Control",
+        "description": "Pressure testing, stroke testing, and final inspection before dispatch with warranty"
+      }
+    ]
+  },
+  "applications": {
+    "title": "Industries & Applications",
+    "content": "Our hydraulic ram repair services support critical equipment across multiple industries:",
+    "industries": [
+      {
+        "icon": "🏗️",
+        "title": "Construction Equipment",
+        "description": "Excavators, loaders, cranes, and concrete pumps"
+      },
+      {
+        "icon": "🚜",
+        "title": "Agricultural Machinery",
+        "description": "Tractors, harvesters, balers, and cultivation equipment"
+      },
+      {
+        "icon": "🏭",
+        "title": "Industrial Systems",
+        "description": "Presses, injection moulding, material handling"
+      },
+      {
+        "icon": "🚛",
+        "title": "Transport & Logistics",
+        "description": "Tail lifts, tippers, refuse vehicles, and loading equipment"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+industrial+hydraulic+cylinders"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Hydraulic Repairs?",
+    "subtitle": "Industry-leading service with unmatched expertise",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "50+ Years Experience",
+        "description": "Established in 1971, we've repaired thousands of hydraulic systems across every industry"
+      },
+      {
+        "icon": "✓",
+        "title": "Express Service Available",
+        "description": "Same-day turnaround for emergency repairs with materials kept in stock"
+      },
+      {
+        "icon": "✓",
+        "title": "Complete Service Range",
+        "description": "From minor seal replacements to complete rebuilds and custom manufacturing"
+      },
+      {
+        "icon": "✓",
+        "title": "Quality Guarantee",
+        "description": "All repairs backed by warranty with rigorous testing and quality control"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How quickly can you repair my hydraulic ram?",
+      "answer": "We offer express same-day service for urgent repairs where parts are in stock. Standard repairs typically take 2-3 working days depending on the extent of work required. Upon inspection, we'll provide you with an accurate timeline and can prioritise emergency cases to minimise your downtime."
+    },
+    {
+      "question": "What types of hydraulic cylinders can you repair?",
+      "answer": "We repair all types of hydraulic cylinders including single-acting, double-acting, telescopic, and custom-designed cylinders. Our facility can handle cylinders from small actuators right up to large industrial rams with bore diameters up to 300mm and lengths up to 2.2 meters. We work on all major brands and can source or manufacture replacement parts as needed."
+    },
+    {
+      "question": "How much does hydraulic ram repair cost?",
+      "answer": "Repair costs vary depending on the cylinder size, extent of damage, and parts required. Simple seal replacements start from around £150, while complete rebuilds of large cylinders can be several thousand pounds. We provide detailed quotes after inspection, with no hidden charges. Often, repair is 40-60% less expensive than replacement."
+    },
+    {
+      "question": "Do you offer on-site hydraulic repair services?",
+      "answer": "While we primarily operate from our fully-equipped Sandbach workshop for precision repairs, we can arrange collection and delivery services throughout the UK. For large or fixed installations, we can provide on-site assessment and some field repairs, though most precision work requires our workshop facilities."
+    },
+    {
+      "question": "What warranty do you provide on repairs?",
+      "answer": "All our hydraulic ram repairs come with a 12-month warranty covering workmanship and parts replaced during the repair. This includes all seals, chrome plating, honing work, and machining. The warranty is valid under normal operating conditions and covers any defects in our repair work."
+    },
+    {
+      "question": "Can you manufacture replacement parts if originals are unavailable?",
+      "answer": "Yes, we have full manufacturing capabilities for custom hydraulic components including pistons, rods, glands, and cylinders. If OEM parts are obsolete or unavailable, we can reverse-engineer and manufacture replacements to exact specifications, often improving on the original design for better longevity."
+    }
+  ],
+  "cta": {
+    "title": "Need Hydraulic Ram Repair?",
+    "subtitle": "Get expert service with minimal downtime - Express service available",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Repair Quote",
+    "button_link": "/contact.php"
+  }
+}

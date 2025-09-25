@@ -1,0 +1,59 @@
+{
+  "business": {
+    "name": "Dynasurf (UK) Ltd",
+    "legal_name": "Dynasurf (UK) Limited",
+    "established": "1971",
+    "type": "Precision Engineering Company",
+    "industry": "Industrial Surface Engineering",
+    "description": "Dynasurf specializes in hard chrome plating, cylindrical grinding, and cylinder tube honing services for industrial applications.",
+    "unique_value_propositions": [
+      "Over 50 years of precision engineering expertise since 1971",
+      "Purpose-built modern facility in Sandbach, Cheshire",
+      "Rapid turnaround times with express service available",
+      "Capacity to hone tubes up to 300mm diameter and 2.2 meters length",
+      "In-stock materials for same-day service",
+      "ISO quality standards and industry-leading precision"
+    ],
+    "contact": {
+      "phone_primary": "01270 763032",
+      "email": "sales@dynasurf.co.uk",
+      "address": {
+        "line1": "Millbuck Way",
+        "line2": "Springvale Industrial Estate",
+        "city": "Sandbach",
+        "county": "Cheshire",
+        "postcode": "CW11 3GQ",
+        "country": "United Kingdom"
+      },
+      "operating_hours": {
+        "monday": "7:15am - 4:30pm",
+        "tuesday": "7:15am - 4:30pm",
+        "wednesday": "7:15am - 4:30pm",
+        "thursday": "7:15am - 4:30pm",
+        "friday": "7:15am - 12:00pm",
+        "saturday": "Closed",
+        "sunday": "Closed"
+      }
+    },
+    "service_areas": [
+      "Cheshire",
+      "Greater Manchester",
+      "Staffordshire",
+      "Merseyside",
+      "North Wales",
+      "West Midlands",
+      "UK Nationwide"
+    ],
+    "industries_served": [
+      "Hydraulics",
+      "Construction",
+      "Agriculture",
+      "Manufacturing",
+      "Transport",
+      "Automotive",
+      "Industrial Equipment"
+    ],
+    "certifications": [],
+    "tone_of_voice": "Professional, technical, customer-focused with emphasis on precision, quality, and reliability"
+  }
+}

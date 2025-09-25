@@ -1,0 +1,225 @@
+# .htaccess Security Template for Editable PHP Websites
+# IMPORTANT: Rename this file to .htaccess when deploying to production
+# Place in the root directory of your PHP website
+
+# ==============================================================================
+# CORE SECURITY SETTINGS
+# ==============================================================================
+
+# Disable directory browsing
+Options -Indexes
+
+# Disable server signature
+ServerSignature Off
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# ==============================================================================
+# PROTECT SENSITIVE DIRECTORIES AND FILES
+# ==============================================================================
+
+# 1. Protect content directory (contains JSON files)
+<Directory ~ "/content">
+    Order Allow,Deny
+    Deny from all
+</Directory>
+
+# Alternative method if above doesn't work
+<FilesMatch "^content/.*">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# 2. Protect admin PHP files
+<FilesMatch "^admin-.*\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# 3. Block direct access to all JSON files
+<Files "*.json">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# 4. Protect includes directory
+<Directory ~ "/includes">
+    <FilesMatch "\.(php|inc)$">
+        Order Allow,Deny
+        Deny from all
+    </FilesMatch>
+</Directory>
+
+# 5. Protect .htaccess file itself
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# 6. Block access to backup files
+<FilesMatch "\.(bak|backup|old|orig|original|~)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# ==============================================================================
+# SECURE UPLOAD DIRECTORY
+# ==============================================================================
+
+<Directory ~ "/assets/images/uploads">
+    # Disable PHP execution in uploads folder
+    php_flag engine off
+
+    # Remove all handlers
+    RemoveHandler .php .phtml .php3 .php4 .php5 .php7
+    RemoveType .php .phtml .php3 .php4 .php5 .php7
+
+    # Only allow specific image file types
+    <FilesMatch "\.(?i:gif|jpe?g|png|webp|svg)$">
+        Order Deny,Allow
+        Allow from all
+    </FilesMatch>
+
+    # Deny everything else
+    <FilesMatch "\.(?!gif|jpe?g|png|webp|svg)">
+        Order Allow,Deny
+        Deny from all
+    </FilesMatch>
+</Directory>
+
+# ==============================================================================
+# PHP SECURITY SETTINGS (if allowed by host)
+# ==============================================================================
+
+# Disable dangerous PHP functions
+php_flag register_globals Off
+php_flag magic_quotes_gpc Off
+php_flag display_errors Off
+php_flag log_errors On
+
+# Session security
+php_flag session.cookie_httponly On
+php_flag session.use_only_cookies On
+php_flag session.cookie_secure On
+
+# ==============================================================================
+# REWRITE RULES FOR CLEAN URLs (Optional)
+# ==============================================================================
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Force HTTPS (uncomment in production)
+    # RewriteCond %{HTTPS} !=on
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+    # Remove .php extension (optional)
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteCond %{REQUEST_FILENAME}\.php -f
+    # RewriteRule ^(.*)$ $1.php [L]
+
+    # Block access to hidden files and directories
+    RewriteRule "(^|/)\.(?!well-known)" - [F]
+
+    # Block access to content directory via URL rewriting
+    RewriteRule ^content/ - [F,L]
+
+    # Block access to includes directory
+    RewriteRule ^includes/ - [F,L]
+</IfModule>
+
+# ==============================================================================
+# SECURITY HEADERS
+# ==============================================================================
+
+<IfModule mod_headers.c>
+    # Prevent MIME type sniffing
+    Header set X-Content-Type-Options "nosniff"
+
+    # Enable XSS filter
+    Header set X-XSS-Protection "1; mode=block"
+
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+
+    # Referrer Policy
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Content Security Policy (adjust as needed)
+    # Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com;"
+</IfModule>
+
+# ==============================================================================
+# FILE UPLOAD LIMITS
+# ==============================================================================
+
+# Set max upload size to 5MB
+php_value upload_max_filesize 5M
+php_value post_max_size 5M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# ==============================================================================
+# COMPRESSION (Optional - improves performance)
+# ==============================================================================
+
+<IfModule mod_deflate.c>
+    # Compress HTML, CSS, JavaScript, Text, XML
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# ==============================================================================
+# BROWSER CACHING (Optional - improves performance)
+# ==============================================================================
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Images
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # Others
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType application/x-font-ttf "access plus 1 year"
+    ExpiresByType application/x-font-woff "access plus 1 year"
+    ExpiresByType font/opentype "access plus 1 year"
+</IfModule>
+
+# ==============================================================================
+# ERROR DOCUMENTS (Optional - create custom error pages)
+# ==============================================================================
+
+# ErrorDocument 404 /404.php
+# ErrorDocument 403 /403.php
+# ErrorDocument 500 /500.php
+
+# ==============================================================================
+# NOTES FOR DEPLOYMENT
+# ==============================================================================
+
+# 1. Test all security rules after deployment
+# 2. Verify JSON files are not accessible: yoursite.com/content/index.json
+# 3. Verify admin files are protected: yoursite.com/admin-save.php
+# 4. Test that uploads directory blocks PHP execution
+# 5. Enable HTTPS redirect in production
+# 6. Adjust Content-Security-Policy as needed for your specific requirements
+# 7. Monitor error logs for any issues
+
+# End of .htaccess

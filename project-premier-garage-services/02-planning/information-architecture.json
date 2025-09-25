@@ -1,0 +1,160 @@
+{
+  "site_structure": {
+    "total_pages": 53,
+    "architecture_type": "hybrid",
+    "seo_approach": "full",
+    "last_updated": "2024-12-16",
+    "includes_brand_pages": true
+  },
+  "navigation": {
+    "main_nav": [
+      {"label": "Home", "url": "/"},
+      {
+        "label": "Services",
+        "type": "mega-menu",
+        "columns": [
+          {
+            "heading": "MOT Testing",
+            "links": [
+              {"label": "MOT Testing Overview", "url": "/mot-testing/"},
+              {"label": "Class 4 MOT", "url": "/class-4-mot/"},
+              {"label": "Class 5 MOT", "url": "/class-5-mot/"},
+              {"label": "Class 7 MOT", "url": "/class-7-mot/"},
+              {"label": "MOT Repairs", "url": "/mot-repairs/"},
+              {"label": "MOT Failure Reasons", "url": "/mot-failure-reasons/"}
+            ]
+          },
+          {
+            "heading": "Car Servicing",
+            "links": [
+              {"label": "Servicing Overview", "url": "/car-servicing/"},
+              {"label": "Interim Service", "url": "/interim-service/"},
+              {"label": "Full Service", "url": "/full-service/"},
+              {"label": "Oil Change Service", "url": "/oil-change/"},
+              {"label": "Warranty Service", "url": "/manufacturer-warranty-service/"}
+            ]
+          },
+          {
+            "heading": "Tyres & Wheels",
+            "links": [
+              {"label": "Tyres Overview", "url": "/tyres/"},
+              {"label": "Premium Tyres", "url": "/premium-tyres/"},
+              {"label": "Budget Tyres", "url": "/budget-tyres/"},
+              {"label": "Tyre Fitting", "url": "/tyre-fitting/"},
+              {"label": "Puncture Repair", "url": "/puncture-repair/"},
+              {"label": "Wheel Alignment", "url": "/wheel-alignment/"},
+              {"label": "4-Wheel Alignment", "url": "/4-wheel-alignment/"}
+            ]
+          },
+          {
+            "heading": "Repairs & Diagnostics",
+            "links": [
+              {"label": "Car Diagnostics", "url": "/diagnostics/"},
+              {"label": "Engine Diagnostics", "url": "/engine-diagnostics/"},
+              {"label": "Brake Repairs", "url": "/brake-repairs/"},
+              {"label": "Clutch Replacement", "url": "/clutch-replacement/"},
+              {"label": "Suspension Repairs", "url": "/suspension-repairs/"},
+              {"label": "Air Conditioning", "url": "/air-conditioning/"},
+              {"label": "AC Regas", "url": "/ac-regas/"}
+            ]
+          }
+        ]
+      },
+      {
+        "label": "MOT by Brand",
+        "type": "mega-menu",
+        "columns": [
+          {
+            "heading": "Popular Brands",
+            "links": [
+              {"label": "Ford MOT", "url": "/mot-ford/"},
+              {"label": "Vauxhall MOT", "url": "/mot-vauxhall/"},
+              {"label": "Volkswagen MOT", "url": "/mot-volkswagen/"},
+              {"label": "BMW MOT", "url": "/mot-bmw/"},
+              {"label": "Mercedes MOT", "url": "/mot-mercedes/"},
+              {"label": "Audi MOT", "url": "/mot-audi/"}
+            ]
+          },
+          {
+            "heading": "Premium Brands",
+            "links": [
+              {"label": "Jaguar MOT", "url": "/mot-jaguar/"},
+              {"label": "Land Rover MOT", "url": "/mot-land-rover/"},
+              {"label": "Porsche MOT", "url": "/mot-porsche/"},
+              {"label": "Lexus MOT", "url": "/mot-lexus/"},
+              {"label": "Tesla MOT", "url": "/mot-tesla/"},
+              {"label": "Volvo MOT", "url": "/mot-volvo/"}
+            ]
+          },
+          {
+            "heading": "Japanese Brands",
+            "links": [
+              {"label": "Toyota MOT", "url": "/mot-toyota/"},
+              {"label": "Honda MOT", "url": "/mot-honda/"},
+              {"label": "Nissan MOT", "url": "/mot-nissan/"},
+              {"label": "Mazda MOT", "url": "/mot-mazda/"},
+              {"label": "Mitsubishi MOT", "url": "/mot-mitsubishi/"},
+              {"label": "Suzuki MOT", "url": "/mot-suzuki/"}
+            ]
+          },
+          {
+            "heading": "Other Brands",
+            "links": [
+              {"label": "Peugeot MOT", "url": "/mot-peugeot/"},
+              {"label": "Citroen MOT", "url": "/mot-citroen/"},
+              {"label": "Renault MOT", "url": "/mot-renault/"},
+              {"label": "Fiat MOT", "url": "/mot-fiat/"},
+              {"label": "SEAT MOT", "url": "/mot-seat/"},
+              {"label": "Skoda MOT", "url": "/mot-skoda/"},
+              {"label": "MINI MOT", "url": "/mot-mini/"},
+              {"label": "Kia MOT", "url": "/mot-kia/"},
+              {"label": "Hyundai MOT", "url": "/mot-hyundai/"}
+            ]
+          }
+        ]
+      },
+      {"label": "About", "url": "/about/"},
+      {"label": "News", "url": "/news/"},
+      {"label": "Contact", "url": "/contact/"}
+    ],
+    "footer_nav": {
+      "column_1": {
+        "title": "MOT Services",
+        "links": [
+          {"label": "MOT Testing", "url": "/mot-testing/"},
+          {"label": "Class 4 MOT", "url": "/mot-testing/class-4-mot/"},
+          {"label": "MOT Repairs", "url": "/mot-repairs/"},
+          {"label": "MOT Failures", "url": "/mot-failure-reasons/"}
+        ]
+      },
+      "column_2": {
+        "title": "Car Services",
+        "links": [
+          {"label": "Car Servicing", "url": "/car-servicing/"},
+          {"label": "Full Service", "url": "/car-servicing/full-service/"},
+          {"label": "Diagnostics", "url": "/car-diagnostics/"},
+          {"label": "Air Conditioning", "url": "/air-conditioning/"}
+        ]
+      },
+      "column_3": {
+        "title": "Tyres & Wheels",
+        "links": [
+          {"label": "Tyres", "url": "/tyres/"},
+          {"label": "Wheel Alignment", "url": "/wheel-alignment/"},
+          {"label": "Suspension", "url": "/suspension-repairs/"},
+          {"label": "Puncture Repair", "url": "/puncture-repair/"}
+        ]
+      },
+      "column_4": {
+        "title": "Contact Info",
+        "content": [
+          "Premier Garage Services",
+          "Unit 8, National Trading Estate",
+          "Hazel Grove, Stockport SK7 5AA",
+          "Tel: 0161 483 8899",
+          "Email: premiergarage@hotmail.co.uk"
+        ]
+      }
+    }
+  }
+}

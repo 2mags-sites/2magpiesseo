@@ -1,0 +1,200 @@
+<?php
+/**
+ * Admin Configuration Template
+ * Handles admin mode and content editing functionality
+ *
+ * IMPORTANT: This template includes all production learnings for:
+ * - Proper session management with session_status() checks
+ * - CSRF token generation and validation
+ * - Admin mode activation and content editing
+ */
+
+// Start session if not already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+require_once __DIR__ . '/config.php';
+
+// Check if admin mode is active
+function isAdminMode() {
+    // Check URL parameter for activation
+    if (isset($_GET['admin']) && $_GET['admin'] === EnvLoader::get('ADMIN_SECRET_KEY')) {
+        $_SESSION['admin_mode'] = true;
+        // Redirect to remove admin key from URL
+        header('Location: ' . strtok($_SERVER['REQUEST_URI'], '?'));
+        exit;
+    }
+
+    // Check for logout
+    if (isset($_GET['logout']) && $_GET['logout'] === 'true') {
+        unset($_SESSION['admin_mode']);
+        header('Location: /');
+        exit;
+    }
+
+    // Check for cache clear
+    if (isset($_GET['clearcache']) && $_GET['clearcache'] === EnvLoader::get('CACHE_CLEAR_KEY')) {
+        clearCache();
+        header('Location: ' . strtok($_SERVER['REQUEST_URI'], '?') . '?cache_cleared=true');
+        exit;
+    }
+
+    return isset($_SESSION['admin_mode']) && $_SESSION['admin_mode'] === true;
+}
+
+// Load content from JSON file
+function loadContent($page) {
+    $jsonFile = __DIR__ . '/../content/' . $page . '.json';
+
+    if (!file_exists($jsonFile)) {
+        // Return default content structure if file doesn't exist
+        return getDefaultContent($page);
+    }
+
+    $content = json_decode(file_get_contents($jsonFile), true);
+
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return getDefaultContent($page);
+    }
+
+    return $content;
+}
+
+// Save content to JSON file
+function saveContent($page, $content) {
+    if (!isAdminMode()) {
+        return false;
+    }
+
+    $jsonFile = __DIR__ . '/../content/' . $page . '.json';
+    $jsonContent = json_encode($content, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+
+    return file_put_contents($jsonFile, $jsonContent) !== false;
+}
+
+// Make content editable in admin mode
+function editable($value, $fieldPath, $type = 'text') {
+    if (!isAdminMode()) {
+        return $value;
+    }
+
+    $editableClass = 'editable-content';
+    $dataAttr = 'data-field="' . htmlspecialchars($fieldPath) . '" data-type="' . $type . '"';
+
+    if ($type === 'text') {
+        return '<span class="' . $editableClass . '" ' . $dataAttr . '>' . $value . '</span>';
+    } elseif ($type === 'textarea') {
+        return '<div class="' . $editableClass . '" ' . $dataAttr . '>' . $value . '</div>';
+    }
+
+    return $value;
+}
+
+// Get default content structure for a page
+function getDefaultContent($page) {
+    $defaults = [
+        'index' => [
+            'meta' => [
+                'title' => SITE_NAME . ' - Welcome',
+                'description' => 'Welcome to ' . SITE_NAME,
+                'keywords' => 'services, professional, quality'
+            ],
+            'hero' => [
+                'title' => 'Welcome to ' . SITE_NAME,
+                'subtitle' => 'Quality Service You Can Trust'
+            ]
+        ]
+    ];
+
+    return isset($defaults[$page]) ? $defaults[$page] : [
+        'meta' => [
+            'title' => SITE_NAME,
+            'description' => 'Welcome to ' . SITE_NAME,
+            'keywords' => 'services, professional, quality'
+        ]
+    ];
+}
+
+// Clear cache function
+function clearCache() {
+    // Clear any cached content
+    $cacheDir = __DIR__ . '/../cache/';
+    if (is_dir($cacheDir)) {
+        $files = glob($cacheDir . '*');
+        foreach ($files as $file) {
+            if (is_file($file)) {
+                unlink($file);
+            }
+        }
+    }
+    return true;
+}
+
+// CSRF token generation and validation
+function generateCSRFToken() {
+    if (!isset($_SESSION['csrf_token'])) {
+        $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    }
+    return $_SESSION['csrf_token'];
+}
+
+function validateCSRFToken($token) {
+    return isset($_SESSION['csrf_token']) && hash_equals($_SESSION['csrf_token'], $token);
+}
+
+/**
+ * Generate a placeholder image with descriptive text
+ * @param string $text - Description of what image should be here
+ * @param int $width - Width of placeholder
+ * @param int $height - Height of placeholder
+ * @return string - Data URI of SVG image
+ */
+function placeholderImage($text, $width = 600, $height = 400) {
+    $lines = wordwrap($text, 30, "\n", true);
+    $lineArray = explode("\n", $lines);
+    $lineCount = count($lineArray);
+    $startY = 50 - (($lineCount - 1) * 7);
+
+    $svg = '<svg xmlns="http://www.w3.org/2000/svg" width="' . $width . '" height="' . $height . '" viewBox="0 0 ' . $width . ' ' . $height . '">';
+    $svg .= '<rect width="' . $width . '" height="' . $height . '" fill="#e5e7eb"/>';
+    $svg .= '<rect x="1" y="1" width="' . ($width - 2) . '" height="' . ($height - 2) . '" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2" stroke-dasharray="5,5"/>';
+
+    // Add camera icon
+    $svg .= '<g transform="translate(' . ($width/2) . ',' . ($height/2) . ')">';
+    $svg .= '<path d="M-30,-20 L-20,-30 L20,-30 L30,-20 L30,20 L-30,20 Z" fill="none" stroke="#9ca3af" stroke-width="2"/>';
+    $svg .= '<circle cx="0" cy="0" r="15" fill="none" stroke="#9ca3af" stroke-width="2"/>';
+    $svg .= '</g>';
+
+    // Add descriptive text
+    foreach ($lineArray as $i => $line) {
+        $y = $startY + ($i * 14);
+        $svg .= '<text x="50%" y="' . $y . '%" font-family="Arial, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle" font-weight="bold">' . htmlspecialchars($line) . '</text>';
+    }
+
+    $svg .= '</svg>';
+
+    return 'data:image/svg+xml;base64,' . base64_encode($svg);
+}
+
+/**
+ * Make an image editable in admin mode
+ * @param string $currentSrc - Current image source
+ * @param string $fieldPath - Path to field in JSON
+ * @param string $placeholder - Description for placeholder
+ * @param string $alt - Alt text for image
+ * @return string - HTML for editable image
+ */
+function editableImage($currentSrc, $fieldPath, $placeholder, $alt = '') {
+    // If no real image, use placeholder
+    if (empty($currentSrc) || strpos($currentSrc, 'placeholder') !== false || strpos($currentSrc, 'via.placeholder') !== false) {
+        $currentSrc = placeholderImage($placeholder);
+    }
+
+    if (!isAdminMode()) {
+        return '<img src="' . $currentSrc . '" alt="' . htmlspecialchars($alt) . '" />';
+    }
+
+    // In admin mode, make it editable
+    return '<img src="' . $currentSrc . '" alt="' . htmlspecialchars($alt) . '" class="editable-image" data-field="' . htmlspecialchars($fieldPath) . '" data-placeholder="' . htmlspecialchars($placeholder) . '" style="cursor: pointer;" title="Click to change image" />';
+}

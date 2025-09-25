@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/dave/Projects/php builder/website-rebuilder/**)",
+      "Bash(php:*)",
+      "Read(//c/Users/dave/Documents/Projects/site-builder/**)",
+      "Read(//c/Users/dave/Projects/php builder/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

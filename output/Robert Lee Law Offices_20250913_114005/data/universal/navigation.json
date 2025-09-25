@@ -1,0 +1,45 @@
+{
+  "primary_nav": [
+    {
+      "label": "Home",
+      "url": "/",
+      "active_pages": [
+        "home",
+        "index"
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about-team",
+      "active_pages": [
+        "about"
+      ]
+    },
+    {
+      "label": "Practices",
+      "url": "/practices",
+      "active_pages": [
+        "practices"
+      ]
+    },
+    {
+      "label": "Contact",
+      "url": "/",
+      "active_pages": [
+        "contact"
+      ]
+    },
+    {
+      "label": "Articles",
+      "url": "/articles",
+      "active_pages": [
+        "articles"
+      ]
+    }
+  ],
+  "cta_button": {
+    "label": "Get Started",
+    "url": "/contact",
+    "class": "btn-primary"
+  }
+}

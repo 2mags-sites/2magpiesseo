@@ -1,0 +1,165 @@
+{
+  "site_structure": {
+    "homepage": {
+      "url": "/",
+      "title": "Homepage",
+      "sections": [
+        "Hero with Immediate Need / Plan Ahead CTAs",
+        "Reviews Section",
+        "About Section",
+        "Branches/Locations",
+        "Family Section",
+        "Services Overview",
+        "News & Resources",
+        "Contact Form"
+      ]
+    },
+    "main_pages": {
+      "about_us": {
+        "url": "/about-us",
+        "title": "About Us",
+        "parent": "root"
+      },
+      "contact": {
+        "url": "/contact",
+        "title": "Contact Us",
+        "parent": "root"
+      }
+    },
+    "obituaries": {
+      "muchloved_tributes": {
+        "url": "/muchloved-tributes",
+        "title": "Muchloved Tributes",
+        "parent": "obituaries"
+      },
+      "funeral_notices": {
+        "url": "/funeral-notices",
+        "title": "Funeral Notices",
+        "parent": "obituaries"
+      }
+    },
+    "services": {
+      "immediate_need": {
+        "url": "/immediate-need",
+        "title": "Immediate Need",
+        "parent": "services"
+      },
+      "when_death_occurs": {
+        "url": "/when-a-death-occurs",
+        "title": "When a Death Occurs",
+        "parent": "services"
+      },
+      "standardised_price_list": {
+        "url": "/standardised-price-list-CORRECTED",
+        "title": "Standardised Price List",
+        "parent": "services"
+      },
+      "services_overview": {
+        "url": "/services-overview",
+        "title": "Services Overview",
+        "parent": "services"
+      },
+      "coffins": {
+        "url": "/coffins",
+        "title": "Coffins & Caskets",
+        "parent": "services"
+      },
+      "personalisation": {
+        "url": "/personalisation",
+        "title": "Personalisation",
+        "parent": "services"
+      },
+      "transport": {
+        "url": "/transport",
+        "title": "Transport",
+        "parent": "services"
+      },
+      "pet_products": {
+        "url": "/pet-products",
+        "title": "Pet Products",
+        "parent": "services"
+      }
+    },
+    "planning": {
+      "planning_ahead": {
+        "url": "/planning-ahead",
+        "title": "Plan Ahead",
+        "parent": "root"
+      }
+    },
+    "resources": {
+      "faq": {
+        "url": "/frequently-asked-questions",
+        "title": "Frequently Asked Questions",
+        "parent": "resources"
+      },
+      "etiquette": {
+        "url": "/etiquette",
+        "title": "Etiquette",
+        "parent": "resources"
+      },
+      "social_security": {
+        "url": "/social-security-benefits",
+        "title": "Social Security Benefits",
+        "parent": "resources"
+      },
+      "helpful_links": {
+        "url": "/helpful-links",
+        "title": "Helpful Links",
+        "parent": "resources"
+      }
+    },
+    "locations": {
+      "our_location": {
+        "url": "/our-location",
+        "title": "Our Locations",
+        "parent": "root"
+      },
+      "our_facilities": {
+        "url": "/our-facilities",
+        "title": "Our Facilities",
+        "parent": "root"
+      }
+    }
+  },
+  "total_pages": 20,
+  "navigation_structure": {
+    "main_nav": [
+      "About Us",
+      "Obituaries (dropdown)",
+      "Services (dropdown)",
+      "Plan Ahead",
+      "Resources (dropdown)",
+      "Grief Support",
+      "Contact Us",
+      "Funeral Estimator (CTA button)"
+    ],
+    "footer_nav": {
+      "quick_links": [
+        "Immediate Need",
+        "Plan Ahead",
+        "Our Services",
+        "Grief Support"
+      ],
+      "resources": [
+        "Funeral Etiquette",
+        "What to Do When Someone Dies",
+        "Grief Support Guide",
+        "Memorial Ideas"
+      ]
+    }
+  },
+  "images_to_preserve": [
+    "logo.png",
+    "hero-background.jpg",
+    "storefront.jpg",
+    "waterloo.jpg",
+    "netherton.jpg",
+    "formby.png",
+    "family.jpg",
+    "arrange.jpg",
+    "estimator.jpg",
+    "finance.jpg",
+    "planning.jpg"
+  ]
+}

@@ -1,0 +1,52 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 🚀 Checkout code
+      uses: actions/checkout@v3
+
+    - name: 📤 Deploy to {{DOMAIN}}
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.WHM_HOST }}
+        username: ${{ secrets.WHM_USERNAME }}
+        key: ${{ secrets.WHM_SSH_KEY }}
+        source: "*"
+        target: "/home/{{CPANEL_USER}}/public_html"
+        rm: false
+
+    - name: 🔒 Set correct permissions
+      uses: appleboy/ssh-action@v0.1.5
+      with:
+        host: ${{ secrets.WHM_HOST }}
+        username: ${{ secrets.WHM_USERNAME }}
+        key: ${{ secrets.WHM_SSH_KEY }}
+        script: |
+          # Set correct ownership
+          chown -R {{CPANEL_USER}}:{{CPANEL_USER}} /home/{{CPANEL_USER}}/public_html
+
+          # Set directory permissions
+          find /home/{{CPANEL_USER}}/public_html -type d -exec chmod 755 {} \;
+
+          # Set file permissions
+          find /home/{{CPANEL_USER}}/public_html -type f -exec chmod 644 {} \;
+
+          # Make uploads directory writable
+          if [ -d "/home/{{CPANEL_USER}}/public_html/assets/images/uploads" ]; then
+            chmod 777 /home/{{CPANEL_USER}}/public_html/assets/images/uploads
+          fi
+
+          # Protect .env file
+          if [ -f "/home/{{CPANEL_USER}}/public_html/.env" ]; then
+            chmod 600 /home/{{CPANEL_USER}}/public_html/.env
+          fi
+
+          echo "✅ Deployment complete for {{DOMAIN}}"

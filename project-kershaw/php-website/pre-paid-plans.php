@@ -1,0 +1,239 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Pre-Paid Funeral Plans Sale Manchester | Arthur Kershaw";
+$page_description = "Pre-paid funeral plans in Sale, Manchester. Fix costs at today's prices, protect your family from financial burden. Flexible payment options available.";
+$page_keywords = "pre-paid funeral plans Sale, funeral payment plans, funeral plans Manchester";
+?>
+<?php require_once 'includes/header.php'; ?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Pre-Paid Plans</li>
+                </ol>
+            </nav>
+            <h1>Pre-Paid Funeral Plans</h1>
+            <p class="lead">Plan ahead and protect your family from future costs</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Service Overview -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Secure Your Funeral Arrangements in Advance</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">A pre-paid funeral plan from Arthur Kershaw Funeral Services allows you to arrange and pay for your funeral in advance, giving you and your family complete peace of mind.</p>
+                        <p>By choosing a funeral plan today, you protect your loved ones from difficult decisions and financial burden at an emotional time. You also fix the cost at today's prices, protecting against future price increases which typically outpace inflation.</p>
+                        <p>As an independent funeral directors established in 1892, we offer flexible plans tailored to your specific wishes. Whether you want a simple cremation or a traditional funeral with all the elements, we can create a plan that suits your needs and budget.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-shield-alt fa-3x"></i>
+                        <p>Protected & Secure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Benefits of Pre-Paid Funeral Plans</h2>
+                <div class="text-center mb-40">
+                    <h3>Why Plan Ahead?</h3>
+                    <p class="lead">There are many advantages to arranging your funeral in advance:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-lock"></i> Fix Costs at Today's Prices</h4>
+                            <p>Funeral costs typically rise faster than inflation. Lock in today's prices and protect against future increases.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-heart"></i> Peace of Mind for Your Family</h4>
+                            <p>Remove the burden of decisions and costs from your loved ones during their time of grief.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-list-check"></i> Your Wishes Guaranteed</h4>
+                            <p>Ensure your funeral reflects your personal wishes, from the type of service to specific music and readings.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-piggy-bank"></i> Flexible Payment Options</h4>
+                            <p>Pay in a single lump sum or spread the cost with monthly instalments to suit your budget.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-umbrella fa-3x"></i>
+                        <p>Complete Protection</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plan Options -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Funeral Plan Options</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>Plans to Suit Every Need</h3>
+                        <p>We offer several plan levels, each fully customisable:</p>
+                        <div class="service-box">
+                            <h4><i class="fas fa-dove"></i> Simple Plan</h4>
+                            <p>Direct cremation or basic funeral service. Includes collection, care, simple coffin, and cremation. Ideal for those wanting simplicity.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-star"></i> Standard Plan</h4>
+                            <p>Traditional funeral service with hearse and one limousine. Choice of coffin, service at crematorium or church. Our most popular option.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-crown"></i> Premium Plan</h4>
+                            <p>Comprehensive funeral with additional vehicles, superior coffin, extended service time. All elements included for a fitting farewell.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-clipboard-list fa-3x"></i>
+                        <p>Tailored Plans</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">How Pre-Paid Plans Work</h2>
+                <p class="lead text-center mb-40">Simple process, complete security</p>
+
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Initial Consultation</h4>
+                        <p>Meet with us to discuss your wishes and preferences. This can be at our Sale office or in your home. We'll explain all options without pressure.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Create Your Plan</h4>
+                        <p>We'll design a plan that matches your exact requirements and provide a clear quote. Everything is documented so your wishes are guaranteed.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Choose Payment Method</h4>
+                        <p>Pay in full for immediate peace of mind, or spread the cost over 12, 24, or 60 months. Your money is held securely in an independent trust.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Receive Documentation</h4>
+                        <p>You'll receive a certificate and full details of your plan. We keep copies and you can update your plan if circumstances change.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h4>When The Time Comes</h4>
+                        <p>Your family simply contacts us. We have all the details and carry out your wishes exactly as planned. No decisions needed, no costs to pay.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is my money safe in a pre-paid plan?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, absolutely. Your money is held in an independent trust fund, not by us. This means it's completely secure and protected. The trust is regulated and your money can only be released to carry out your funeral. If we were ever unable to provide your funeral, another funeral director would be appointed to carry out your wishes.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What if I move away from the area?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Your plan is fully transferable. If you move elsewhere in the UK, we can arrange for a funeral director in your new area to provide the funeral. If you move abroad, the plan value can be refunded. The plan belongs to you and moves with you.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I change my mind or cancel?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. You have 30 days after purchase to cancel for a full refund. After this, you can still cancel but a cancellation fee applies. You can also change elements of your plan at any time - just contact us to discuss amendments. We want you to be completely happy with your arrangements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are all costs covered?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our services and the services of third parties included in your plan are fully covered. This typically includes crematorium or cemetery fees at today's prices. Some items like flowers, memorials, or wake venues are usually excluded as these are often arranged by families at the time. We'll clearly explain what's included and what isn't.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What happens if I die before completing payments?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>If you're paying by instalments and pass away after 12 months of payments, your funeral is fully covered with no more to pay. If it's within the first 12 months, your family can either pay the outstanding balance or receive a refund of payments made less an administration fee.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I know what plan is right for me?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We'll help you choose. During our consultation, we'll discuss your preferences and budget to find the right plan. There's no pressure and no obligation. Many people find it helpful to involve a family member in discussions. We can provide written information to take away and consider before deciding.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Plan Your Funeral Today</h2>
+                    <p class="lead">Take care of tomorrow, today - with a pre-paid funeral plan</p>
+                    <p><strong>Call us on 0161 969 2288 for a no-obligation consultation</strong></p>
+                    <p>Or visit us at 168-170 Washway Road, Sale, M33 6RH</p>
+                    <a href="/contact.php" class="btn btn-white">Request Information Pack</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

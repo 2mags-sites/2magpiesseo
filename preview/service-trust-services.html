@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Services Hong Kong | Trust Lawyer Family Trust Asset Protection</title>
+    <meta name="description" content="Expert trust services in Hong Kong. Trust formation, family trusts, asset protection trusts, trust administration, and trust law advisory services.">
+    <meta name="keywords" content="trust lawyer Hong Kong, trust setup HK, family trust, asset protection trust">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #673ab7;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .service-hero {
+            background: linear-gradient(135deg, #673ab7 0%, #5e35b1 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px;
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .deal-stats {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        .expertise-box {
+            background: white;
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .expertise-box h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .transaction-highlight {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .transaction-value {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #673ab7 0%, #5e35b1 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--primary-color);
+        }
+
+        .trust-benefit {
+            background: linear-gradient(135deg, #f3e5f5 0%, #e8f5e8 100%);
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .benefit-icon {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        .trust-structure-diagram {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Trust Services</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Trust Services</h1>
+            <p class="lead">Sophisticated trust solutions for wealth preservation and family governance</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Advanced Trust Solutions</h2>
+                        <p class="lead-text">Expert trust services providing flexible wealth management, asset protection, and succession planning for discerning families.</p>
+
+                        <p>Robert Lee Law Offices provides comprehensive trust services for high-net-worth individuals and families seeking sophisticated wealth management solutions. Our trust specialists combine deep expertise in Hong Kong trust law with international best practices to structure, establish, and administer complex trust arrangements.</p>
+
+                        <p>Trusts offer unparalleled flexibility for wealth preservation, tax planning, asset protection, and family governance. Whether for simple family wealth transfer or complex multi-generational structures, we design trust solutions that adapt to changing family circumstances while protecting beneficiary interests.</p>
+
+                        <p>Our trust practice encompasses both domestic Hong Kong trusts and international structures, including offshore trusts in leading jurisdictions. We work closely with private banks, family offices, and institutional trustees to ensure seamless trust administration and optimal outcomes for settlors and beneficiaries.</p>
+
+                        <p>From initial trust planning through ongoing administration and eventual distribution, we provide comprehensive trust services that reflect each family's unique objectives, values, and circumstances. Our multilingual team ensures culturally sensitive advice that bridges different legal traditions and family expectations.</p>
+                    </section>
+
+                    <!-- Core Services -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Trust Services</h2>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-users me-2"></i>Family Trust Planning</h4>
+                            <p>Comprehensive family trust solutions for wealth preservation and succession:</p>
+                            <ul>
+                                <li>Discretionary family trusts</li>
+                                <li>Generation-skipping trust structures</li>
+                                <li>Dynasty trust planning</li>
+                                <li>Family governance integration</li>
+                                <li>Beneficiary protection mechanisms</li>
+                                <li>Trust deed drafting and customization</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-shield-alt me-2"></i>Asset Protection Trusts</h4>
+                            <p>Sophisticated asset protection strategies using trust structures:</p>
+                            <ul>
+                                <li>Creditor protection trusts</li>
+                                <li>Professional liability shields</li>
+                                <li>Matrimonial asset protection</li>
+                                <li>Self-settled spendthrift trusts</li>
+                                <li>Domestic asset protection trusts (DAPTs)</li>
+                                <li>Offshore asset protection planning</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-cog me-2"></i>Trust Administration</h4>
+                            <p>Professional trust administration and ongoing management services:</p>
+                            <ul>
+                                <li>Trustee advisory and support services</li>
+                                <li>Trust compliance and regulatory matters</li>
+                                <li>Beneficiary liaison and communication</li>
+                                <li>Distribution planning and execution</li>
+                                <li>Trust accounting and reporting</li>
+                                <li>Investment oversight and coordination</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-balance-scale me-2"></i>Trust Disputes & Litigation</h4>
+                            <p>Expert representation in trust-related disputes and litigation:</p>
+                            <ul>
+                                <li>Breach of trust claims</li>
+                                <li>Beneficiary rights enforcement</li>
+                                <li>Trustee removal and replacement</li>
+                                <li>Trust variation and rectification</li>
+                                <li>Will and trust contests</li>
+                                <li>Cross-border trust enforcement</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Trust Benefits -->
+                    <section class="content-section">
+                        <h2 class="section-title">Key Trust Benefits</h2>
+
+                        <div class="trust-benefit">
+                            <h5><i class="fas fa-shield benefit-icon"></i>Asset Protection</h5>
+                            <p>Protect assets from creditors, legal claims, and matrimonial disputes while maintaining beneficial enjoyment for designated beneficiaries.</p>
+                        </div>
+
+                        <div class="trust-benefit">
+                            <h5><i class="fas fa-piggy-bank benefit-icon"></i>Tax Efficiency</h5>
+                            <p>Optimize tax outcomes through strategic trust structuring, jurisdiction selection, and distribution timing across multiple tax regimes.</p>
+                        </div>
+
+                        <div class="trust-benefit">
+                            <h5><i class="fas fa-users benefit-icon"></i>Family Governance</h5>
+                            <p>Establish clear family governance frameworks, succession planning, and next-generation preparation through structured trust mechanisms.</p>
+                        </div>
+
+                        <div class="trust-benefit">
+                            <h5><i class="fas fa-clock benefit-icon"></i>Flexibility</h5>
+                            <p>Maintain flexibility to adapt to changing family circumstances, beneficiary needs, and regulatory environments over extended periods.</p>
+                        </div>
+
+                        <div class="trust-benefit">
+                            <h5><i class="fas fa-eye-slash benefit-icon"></i>Privacy</h5>
+                            <p>Maintain confidentiality of family wealth, business interests, and succession plans through private trust structures.</p>
+                        </div>
+                    </section>
+
+                    <!-- Trust Structure Overview -->
+                    <section class="content-section">
+                        <h2 class="section-title">Trust Structure Components</h2>
+                        <div class="trust-structure-diagram">
+                            <div class="row">
+                                <div class="col-md-4 text-center mb-3">
+                                    <i class="fas fa-user fa-3x" style="color: #673ab7;"></i>
+                                    <h5 class="mt-2">Settlor</h5>
+                                    <p class="small">Creates the trust and transfers assets</p>
+                                </div>
+                                <div class="col-md-4 text-center mb-3">
+                                    <i class="fas fa-building fa-3x" style="color: #673ab7;"></i>
+                                    <h5 class="mt-2">Trustee</h5>
+                                    <p class="small">Manages trust assets and makes distributions</p>
+                                </div>
+                                <div class="col-md-4 text-center mb-3">
+                                    <i class="fas fa-users fa-3x" style="color: #673ab7;"></i>
+                                    <h5 class="mt-2">Beneficiaries</h5>
+                                    <p class="small">Receive distributions and trust benefits</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 text-center">
+                                    <i class="fas fa-gavel fa-2x" style="color: #673ab7;"></i>
+                                    <h6 class="mt-2">Trust Deed</h6>
+                                    <p class="small">Legal document governing trust operations</p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <i class="fas fa-eye fa-2x" style="color: #673ab7;"></i>
+                                    <h6 class="mt-2">Protector</h6>
+                                    <p class="small">Optional role overseeing trustee decisions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Case Studies -->
+                    <section class="content-section">
+                        <h2 class="section-title">Recent Trust Successes</h2>
+
+                        <div class="transaction-highlight">
+                            <h5>Multi-Generational Dynasty Trust</h5>
+                            <p>Established perpetual trust structure for <span class="transaction-value">HK$3.5 billion</span> family fortune spanning four generations with flexible distribution mechanisms.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Cross-Border Asset Protection</h5>
+                            <p>Structured <span class="transaction-value">offshore trust network</span> protecting HK$1.8 billion in assets across multiple jurisdictions for professional services family.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Charitable Remainder Trust</h5>
+                            <p>Implemented innovative charitable trust structure with <span class="transaction-value">HK$800 million</span> endowment providing income and significant tax benefits.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Trust Restructuring Project</h5>
+                            <p>Successfully restructured <span class="transaction-value">12 legacy trusts</span> worth HK$2.2 billion, optimizing tax efficiency and modernizing governance structures.</p>
+                        </div>
+                    </section>
+
+                    <!-- Trust Statistics -->
+                    <section class="content-section">
+                        <div class="deal-stats">
+                            <h3 class="text-center mb-4">Our Trust Services Impact</h3>
+                            <div class="row">
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">300+</div>
+                                    <div class="stat-label">Trusts Established</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">HK$35B+</div>
+                                    <div class="stat-label">Assets Under Trust</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">85+</div>
+                                    <div class="stat-label">Family Groups</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">12</div>
+                                    <div class="stat-label">Jurisdictions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Our Approach -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Trust Services Approach</h2>
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-drafting-compass feature-icon"></i>
+                                <h4>Bespoke Design</h4>
+                                <p>Custom trust structures tailored to each family's specific objectives, circumstances, and preferences.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-globe feature-icon"></i>
+                                <h4>Multi-Jurisdictional</h4>
+                                <p>Expert knowledge of trust laws across multiple jurisdictions for optimal structuring and compliance.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-handshake feature-icon"></i>
+                                <h4>Collaborative Approach</h4>
+                                <p>Close cooperation with trustees, family offices, and professional advisors for seamless implementation.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-chart-line feature-icon"></i>
+                                <h4>Long-term Partnership</h4>
+                                <p>Ongoing relationship providing trust oversight, compliance support, and adaptation to changing needs.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Trust Jurisdictions -->
+                    <section class="content-section">
+                        <h2 class="section-title">Trust Jurisdictions</h2>
+                        <p>We establish and manage trusts across leading jurisdictions:</p>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Hong Kong (Domestic)</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>British Virgin Islands</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Cayman Islands</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Singapore</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Jersey & Guernsey</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Switzerland</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Cook Islands</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle" style="color: #673ab7;" me-2></i>Delaware (USA)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What is the minimum amount needed to establish a trust?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>While there's no legal minimum, practical considerations suggest at least HK$10-20 million to justify trust setup and ongoing costs. The amount depends on trust complexity, jurisdiction, and family objectives. We can advise on cost-effective alternatives for smaller estates.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How do I choose the right trust jurisdiction?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Jurisdiction selection depends on factors including tax considerations, asset protection features, regulatory environment, political stability, and family connections. We analyze these factors to recommend optimal jurisdictions for your specific circumstances.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What are the ongoing costs of maintaining a trust?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Ongoing costs include trustee fees (typically 0.5-2% of assets annually), legal and accounting fees, investment management costs, and regulatory compliance expenses. Total costs usually range from 1-3% annually depending on trust complexity and services required.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I change trust terms after establishment?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Trust modification depends on powers reserved by the settlor and provisions in the trust deed. Many modern trusts include powers of amendment, appointment, and removal to maintain flexibility. Courts may also approve variations in certain circumstances.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How are trust distributions taxed?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Tax treatment varies by jurisdiction and beneficiary residence. Hong Kong generally doesn't tax trust income, but beneficiaries may be taxable on distributions in their residence jurisdiction. Proper structuring can optimize overall tax efficiency.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What happens if the trustee becomes problematic?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Trust deeds typically include trustee removal and replacement provisions. Protectors or beneficiaries may have removal powers, and courts can remove trustees for breach of duty. Professional trustee succession planning is essential for long-term trust success.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Contact CTA -->
+                    <div class="card mb-4" style="border-color: #673ab7;">
+                        <div class="card-body text-center">
+                            <h4>Trust Planning Hotline</h4>
+                            <p>Confidential trust consultation available</p>
+                            <a href="tel:+85222345678" class="btn btn-lg w-100 mb-2" style="background-color: #673ab7; color: white;">
+                                <i class="fas fa-phone"></i> +852 2234 5678
+                            </a>
+                            <p class="small text-muted mb-0">Private family office meeting room</p>
+                        </div>
+                    </div>
+
+                    <!-- Trust Types -->
+                    <div class="card mb-4">
+                        <div class="card-header text-white" style="background-color: #673ab7;">
+                            <h5 class="mb-0">Trust Types</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">→ Family Trusts</li>
+                                <li class="mb-2">→ Asset Protection Trusts</li>
+                                <li class="mb-2">→ Charitable Trusts</li>
+                                <li class="mb-2">→ Dynasty Trusts</li>
+                                <li class="mb-2">→ Purpose Trusts</li>
+                                <li class="mb-2">→ Investment Trusts</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Key Features -->
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: #673ab7;">
+                            <h5 class="mb-0">Trust Advantages</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><strong>Protection:</strong> Asset security</li>
+                                <li class="mb-2"><strong>Tax:</strong> Efficiency planning</li>
+                                <li class="mb-2"><strong>Succession:</strong> Smooth transfer</li>
+                                <li class="mb-2"><strong>Privacy:</strong> Confidentiality</li>
+                                <li class="mb-2"><strong>Control:</strong> Flexible management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Secure Your Wealth with Professional Trust Solutions</h2>
+                <p class="lead mb-4">Our trust specialists will design the optimal trust structure to meet your family's unique objectives</p>
+                <a href="/contact" class="btn-white">Schedule Trust Planning Consultation</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

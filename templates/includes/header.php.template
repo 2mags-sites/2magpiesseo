@@ -1,0 +1,145 @@
+<?php
+/**
+ * Header Include File Template
+ * Contains all <head> tags, navigation, and opening body content
+ *
+ * IMPORTANT: This template includes all production learnings for:
+ * - Proper session management
+ * - CSRF token generation
+ * - Admin mode functionality
+ */
+
+// Start session if not already started - CRITICAL for admin mode
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Generate CSRF token if it doesn't exist
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
+// Include configuration and admin functions
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/admin-config.php';
+
+// Ensure variables are set with defaults
+$page_title = isset($page_title) ? $page_title : SITE_NAME;
+$page_description = isset($page_description) ? $page_description : 'Welcome to ' . SITE_NAME;
+$page_keywords = isset($page_keywords) ? $page_keywords : 'services, professional, quality';
+$current_page = basename($_SERVER['PHP_SELF'], '.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo htmlspecialchars($page_title); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars($page_keywords); ?>">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo SITE_URL . $_SERVER['REQUEST_URI']; ?>">
+    <meta property="og:site_name" content="<?php echo SITE_NAME; ?>">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
+
+    <!-- CSRF Token for Admin Mode -->
+    <meta name="csrf-token" content="<?php echo htmlspecialchars($_SESSION['csrf_token'] ?? ''); ?>">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo SITE_URL . $_SERVER['REQUEST_URI']; ?>">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "<?php echo SITE_NAME; ?>",
+        "description": "<?php echo htmlspecialchars($page_description); ?>",
+        "url": "<?php echo SITE_URL; ?>",
+        "telephone": "<?php echo SITE_PHONE; ?>",
+        "email": "<?php echo SITE_EMAIL; ?>",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "<?php echo SITE_ADDRESS; ?>",
+            "addressCountry": "GB"
+        }
+    }
+    </script>
+
+    <?php if (isAdminMode()): ?>
+    <!-- Admin Mode Styles -->
+    <style>
+        .admin-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #2563eb;
+            color: white;
+            padding: 10px;
+            z-index: 10000;
+            text-align: center;
+        }
+        .admin-bar a {
+            color: white;
+            margin: 0 10px;
+        }
+        body.admin-mode {
+            padding-top: 50px;
+        }
+        .editable-content {
+            outline: 1px dashed #2563eb;
+            cursor: pointer;
+            position: relative;
+        }
+        .editable-content:hover {
+            background: rgba(37, 99, 235, 0.05);
+        }
+    </style>
+    <?php endif; ?>
+</head>
+<body<?php echo isAdminMode() ? ' class="admin-mode"' : ''; ?>>
+
+<?php if (isAdminMode()): ?>
+    <!-- Admin Bar -->
+    <div class="admin-bar">
+        <strong>Admin Mode Active</strong> |
+        <a href="#" onclick="editPageSEO()" style="background: #10b981; color: white; text-decoration: none; padding: 5px 10px; border-radius: 4px;">🔍 Edit SEO</a> |
+        <a href="#" onclick="saveAllChanges()">Save Changes</a> |
+        <a href="?logout=true">Exit Admin Mode</a>
+    </div>
+<?php endif; ?>
+
+<!-- Header Navigation -->
+<header class="header">
+    <div class="nav-top">
+        <div class="container">
+            <div>📍 <?php echo SITE_ADDRESS; ?></div>
+            <div>📞 Call us: <?php echo SITE_PHONE; ?></div>
+        </div>
+    </div>
+    <nav class="nav-main">
+        <div class="container">
+            <a href="/" class="logo"><?php echo SITE_NAME; ?></a>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="/"<?php echo $current_page == 'index' ? ' class="active"' : ''; ?>>Home</a></li>
+                <!-- Add your navigation items here -->
+                <li><a href="/about.php"<?php echo $current_page == 'about' ? ' class="active"' : ''; ?>>About</a></li>
+                <li><a href="/services.php"<?php echo $current_page == 'services' ? ' class="active"' : ''; ?>>Services</a></li>
+                <li><a href="/contact.php"<?php echo $current_page == 'contact' ? ' class="active"' : ''; ?>>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>

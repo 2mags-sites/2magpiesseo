@@ -1,0 +1,118 @@
+[Sat Sep 13 10:57:27 2025] PHP 8.2.12 Development Server (http://localhost:8000) started
+[Sat Sep 13 11:33:00 2025] [::1]:58709 Accepted
+[Sat Sep 13 11:33:00 2025] [::1]:50386 Accepted
+[Sat Sep 13 11:33:00 2025] [::1]:58709 [200]: GET /
+[Sat Sep 13 11:33:00 2025] [::1]:58709 Closing
+[Sat Sep 13 11:33:00 2025] [::1]:50386 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:33:00 2025] [::1]:50386 Closing
+[Sat Sep 13 11:33:00 2025] [::1]:57337 Accepted
+[Sat Sep 13 11:33:00 2025] [::1]:57337 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:33:00 2025] [::1]:57337 Closing
+[Sat Sep 13 11:33:00 2025] [::1]:53026 Accepted
+[Sat Sep 13 11:33:00 2025] [::1]:53026 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:33:00 2025] [::1]:53026 Closing
+[Sat Sep 13 11:33:00 2025] [::1]:56826 Accepted
+[Sat Sep 13 11:33:00 2025] [::1]:56826 [200]: GET /favicon.ico
+[Sat Sep 13 11:33:00 2025] [::1]:56826 Closing
+[Sat Sep 13 11:33:03 2025] [::1]:62950 Accepted
+[Sat Sep 13 11:33:03 2025] [::1]:59943 Accepted
+[Sat Sep 13 11:33:03 2025] [::1]:62950 [200]: GET /
+[Sat Sep 13 11:33:03 2025] [::1]:62950 Closing
+[Sat Sep 13 11:33:03 2025] [::1]:59943 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:33:03 2025] [::1]:59943 Closing
+[Sat Sep 13 11:33:03 2025] [::1]:62023 Accepted
+[Sat Sep 13 11:33:03 2025] [::1]:59636 Accepted
+[Sat Sep 13 11:33:03 2025] [::1]:62023 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:33:03 2025] [::1]:59636 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:33:03 2025] [::1]:62023 Closing
+[Sat Sep 13 11:33:03 2025] [::1]:59636 Closing
+[Sat Sep 13 11:33:03 2025] [::1]:58046 Accepted
+[Sat Sep 13 11:33:03 2025] [::1]:58046 [200]: GET /favicon.ico
+[Sat Sep 13 11:33:03 2025] [::1]:58046 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:50279 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:61604 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:50279 [200]: GET /
+[Sat Sep 13 11:33:04 2025] [::1]:50279 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:61604 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:33:04 2025] [::1]:61604 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:64225 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:60356 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:64225 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:33:04 2025] [::1]:60356 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:33:04 2025] [::1]:64225 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:60356 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:49610 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:49610 [200]: GET /favicon.ico
+[Sat Sep 13 11:33:04 2025] [::1]:49610 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:51723 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:62074 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:51723 [200]: GET /
+[Sat Sep 13 11:33:04 2025] [::1]:51723 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:64396 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:62074 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:33:04 2025] [::1]:64396 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:33:04 2025] [::1]:62074 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:64396 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:51664 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:51664 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:33:04 2025] [::1]:51664 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:56407 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:56407 [200]: GET /favicon.ico
+[Sat Sep 13 11:33:04 2025] [::1]:56407 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:53271 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:62055 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:53271 [200]: GET /
+[Sat Sep 13 11:33:04 2025] [::1]:53271 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:62055 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:33:04 2025] [::1]:62055 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:61640 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:63907 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:61640 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:33:04 2025] [::1]:63907 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:33:04 2025] [::1]:61640 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:63907 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:49369 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:49369 [200]: GET /favicon.ico
+[Sat Sep 13 11:33:04 2025] [::1]:49369 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:60125 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:52194 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:60125 [200]: GET /
+[Sat Sep 13 11:33:04 2025] [::1]:60125 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:62465 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:64110 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:52194 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:33:04 2025] [::1]:62465 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:33:04 2025] [::1]:64110 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:33:04 2025] [::1]:52194 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:62465 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:64110 Closing
+[Sat Sep 13 11:33:04 2025] [::1]:60775 Accepted
+[Sat Sep 13 11:33:04 2025] [::1]:60775 [200]: GET /favicon.ico
+[Sat Sep 13 11:33:04 2025] [::1]:60775 Closing
+[Sat Sep 13 11:34:02 2025] [::1]:56327 Accepted
+[Sat Sep 13 11:34:02 2025] [::1]:56327 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:34:02 2025] [::1]:56327 Closing
+[Sat Sep 13 11:34:02 2025] [::1]:53686 Accepted
+[Sat Sep 13 11:34:02 2025] [::1]:53686 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:34:02 2025] [::1]:53686 Closing
+[Sat Sep 13 11:34:02 2025] [::1]:56010 Accepted
+[Sat Sep 13 11:34:02 2025] [::1]:56010 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Sat Sep 13 11:34:02 2025] [::1]:56010 Closing
+[Sat Sep 13 11:34:05 2025] [::1]:57440 Accepted
+[Sat Sep 13 11:34:05 2025] [::1]:52427 Accepted
+[Sat Sep 13 11:34:05 2025] [::1]:52427 [200]: GET /
+[Sat Sep 13 11:34:05 2025] [::1]:52427 Closing
+[Sat Sep 13 11:34:05 2025] [::1]:57440 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Sat Sep 13 11:34:05 2025] [::1]:57440 Closing
+[Sat Sep 13 11:34:05 2025] [::1]:54814 Accepted
+[Sat Sep 13 11:34:05 2025] [::1]:54814 [200]: GET /assets/css/normalize.css
+[Sat Sep 13 11:34:05 2025] [::1]:54814 Closing
+[Sat Sep 13 11:34:05 2025] [::1]:50930 Accepted
+[Sat Sep 13 11:34:05 2025] [::1]:53883 Accepted
+[Sat Sep 13 11:34:05 2025] [::1]:50930 [200]: GET /assets/css/main.css
+[Sat Sep 13 11:34:05 2025] [::1]:50930 Closing
+[Sat Sep 13 11:34:05 2025] [::1]:53883 [200]: GET /assets/js/main.js
+[Sat Sep 13 11:34:05 2025] [::1]:53883 Closing
+[Sat Sep 13 11:34:05 2025] [::1]:58508 Accepted
+[Sat Sep 13 11:34:05 2025] [::1]:58508 [200]: GET /favicon.ico
+[Sat Sep 13 11:34:05 2025] [::1]:58508 Closing

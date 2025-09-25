@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "About Smith & Associates Law Firm",
+    "description": "Learn about Smith & Associates Law Firm and our commitment to excellence.",
+    "keywords": [
+      "about",
+      "Smith & Associates Law Firm",
+      "company",
+      "team"
+    ],
+    "canonical_url": "/about"
+  },
+  "content": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Learn about our story and mission"
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "Smith & Associates is a leading law firm in Hong Kong with over 20 years of experience in family law, commercial litigation, and corporate law. Our team of dedicated attorneys provides personalized legal solutions."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To deliver outstanding results and exceed expectations."
+    },
+    "values": [
+      {
+        "title": "Excellence",
+        "description": "We strive for excellence in everything we do"
+      },
+      {
+        "title": "Integrity",
+        "description": "We operate with honesty and transparency"
+      },
+      {
+        "title": "Innovation",
+        "description": "We embrace new ideas and technologies"
+      }
+    ]
+  }
+}

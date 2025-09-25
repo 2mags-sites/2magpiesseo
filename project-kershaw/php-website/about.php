@@ -1,0 +1,238 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+// Page-specific variables
+$page_title = "About Us | Arthur Kershaw Funeral Directors Sale | Est. 1892";
+$page_description = "Family-owned funeral directors in Sale since 1892. Independent funeral services with over 130 years of caring for Manchester families. Meet our experienced team.";
+$page_keywords = "funeral directors Sale Manchester, family funeral directors, independent funeral directors";
+
+// Include header
+require_once 'includes/header.php';
+?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item active">About Us</li>
+                </ol>
+            </nav>
+            <h1>About Arthur Kershaw Funeral Services</h1>
+            <p class="lead">Family-owned funeral directors serving Manchester since 1892</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Our Story -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Story</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">For over 130 years, Arthur Kershaw Funeral Services has been a cornerstone of the Sale community, providing compassionate funeral services to families in their time of need.</p>
+                        <p>Established in 1892, we began as a small family business dedicated to serving our local community with dignity and respect. Through five generations, we've maintained our founding principles while adapting to meet the changing needs of modern families.</p>
+                        <p>Today, from our funeral home on Washway Road, we continue to provide the same personal, caring service that has earned the trust of thousands of families throughout Sale, Stretford, Altrincham, and Greater Manchester. Being independent and family-owned means we can focus entirely on what matters most - caring for you and your loved ones.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-history fa-3x"></i>
+                        <p>Serving Families<br>Since 1892</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Values -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Values & Commitment</h2>
+                <div class="text-center mb-40">
+                    <h3>What Sets Us Apart</h3>
+                    <p class="lead">Our core values guide everything we do:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-heart"></i> Compassion</h4>
+                            <p>We treat every family with genuine care and understanding, recognising that each loss is unique and deeply personal.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-handshake"></i> Integrity</h4>
+                            <p>Complete transparency in all our dealings, from pricing to service options. No hidden charges, no pressure, just honest advice.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-medal"></i> Excellence</h4>
+                            <p>Maintaining the highest standards in everything we do, from the care of your loved one to the conduct of the funeral service.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-users"></i> Community</h4>
+                            <p>As a local family business, we're part of the community we serve. We support local causes and understand local needs.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-award fa-3x"></i>
+                        <p>Values-Driven Service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Team -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Experienced Team</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>Dedicated Professionals Who Care</h3>
+                        <p>Our team combines decades of experience with genuine compassion. Each member of our staff is carefully chosen for their professionalism, empathy, and dedication to serving families.</p>
+                        <p>From our funeral directors who guide you through arrangements, to our care team who look after your loved one, to our support staff who handle the countless details - everyone at Arthur Kershaw is committed to providing exceptional service.</p>
+                        <p>We invest in continuous training to ensure our team stays current with best practices, regulations, and the diverse needs of our multicultural community. Many of our staff have been with us for years, providing continuity and familiarity to local families.</p>
+                        <p>When you choose Arthur Kershaw, you're not just getting a funeral director - you're getting a team of caring professionals who will support you every step of the way.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-user-tie fa-3x"></i>
+                        <p>Professional & Caring Team</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Facilities -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Facilities</h2>
+                <div class="text-center mb-40">
+                    <h3>Purpose-Built for Comfort and Dignity</h3>
+                    <p class="lead">Our Washway Road funeral home provides everything needed for a dignified farewell:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-praying-hands"></i> Private Chapels of Rest</h4>
+                            <p>Peaceful, beautifully appointed rooms where you can spend time with your loved one in privacy and comfort.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-comments"></i> Arrangement Rooms</h4>
+                            <p>Comfortable, private spaces for discussing funeral arrangements, with refreshments always available.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-car"></i> Modern Fleet</h4>
+                            <p>Immaculate hearses and limousines maintained to the highest standards for a dignified funeral procession.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-wheelchair"></i> Full Accessibility</h4>
+                            <p>Ground floor facilities with wheelchair access and customer parking, ensuring everyone can visit comfortably.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-building fa-3x"></i>
+                        <p>Modern Funeral Home</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Why Families Choose Arthur Kershaw</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>The Difference Experience Makes</h3>
+                        <ul>
+                            <li><strong>Independent & Family-Owned</strong> - Not part of a corporate chain, we provide personal service with flexibility</li>
+                            <li><strong>130+ Years of Experience</strong> - Established 1892, we've served thousands of local families</li>
+                            <li><strong>24/7 Availability</strong> - Always here when you need us, day or night</li>
+                            <li><strong>Complete Transparency</strong> - Clear pricing with no hidden charges</li>
+                            <li><strong>Local Knowledge</strong> - Deep understanding of local facilities, services, and communities</li>
+                            <li><strong>All Faiths & Beliefs</strong> - Respectful service for all religions and non-religious ceremonies</li>
+                            <li><strong>Trusted Reputation</strong> - Generations of families have trusted us with their loved ones</li>
+                        </ul>
+                        <p>When you choose Arthur Kershaw, you're choosing a funeral director who will treat your family as we would our own - with respect, compassion, and dedication.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-star fa-3x"></i>
+                        <p>Trusted by Families</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are you really independent?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we are genuinely independent and family-owned. We're not part of any corporate group or chain. This means all decisions are made locally, we can be completely flexible with our services, and any profit is reinvested in our business and community rather than going to shareholders. You deal directly with the owners, not regional managers.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What areas do you cover?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While we're based in Sale, we serve all of Greater Manchester and surrounding areas. This includes Sale, Stretford, Altrincham, Urmston, Chorlton, Didsbury, Timperley, Hale, Lymm, and beyond. Distance is no barrier to our service - we'll travel wherever needed to support families.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you handle all types of funerals?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we arrange all types of funerals - traditional burials, cremations, direct cremations, green funerals, and services for all faiths and none. We've worked with Christian, Muslim, Jewish, Hindu, Sikh, Buddhist families and many others. We also arrange humanist and civil ceremonies. Whatever your requirements, we can help.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What makes you different from larger funeral chains?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>As an independent family business, we offer personal service you won't get from corporate chains. You'll deal with the same people throughout, we can be more flexible with our services and pricing, we have deep local knowledge built over 130 years, and we genuinely care about our reputation in the community. We're your neighbours, not a corporation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can we visit you before we need your services?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. Many people find it helpful to visit when planning ahead or simply to familiarise themselves with our facilities. You can pop in during office hours or call to arrange a convenient time. We're happy to show you around, answer questions, and discuss pre-paid funeral plans with no obligation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Here When You Need Us</h2>
+                    <p class="lead">130+ years of caring for local families</p>
+                    <p><strong>Available 24/7 on 0161 969 2288</strong></p>
+                    <p>Visit us at 168-170 Washway Road, Sale, M33 6RH</p>
+                    <a href="/contact.php" class="btn btn-white">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php
+// Include footer
+require_once 'includes/footer.php';
+?>

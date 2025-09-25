@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "title": "Coffins & Caskets - Traditional & Eco-Friendly Options | Barringtons",
+        "description": "Wide range of coffins and caskets from traditional solid wood to eco-friendly options. Personalised designs available. Liverpool funeral directors.",
+        "keywords": "coffins Liverpool, caskets, eco coffins, wooden coffins, funeral coffins"
+    },
+    "intro": {
+        "title": "Our Coffin Range",
+        "subtitle": "From traditional solid wood to eco-friendly alternatives, we offer a wide selection to suit all preferences and budgets."
+    },
+    "options": [
+        {
+            "title": "Traditional Wood",
+            "description": "Classic solid wood coffins in oak, mahogany, and pine with various handle and lining options.",
+            "price": "From \u00a3495"
+        },
+        {
+            "title": "Eco-Friendly",
+            "description": "Biodegradable options including willow, bamboo, and cardboard for natural burials.",
+            "price": "From \u00a3395"
+        },
+        {
+            "title": "Personalised",
+            "description": "Custom designs, photo wraps, and themed coffins to celebrate individuality.",
+            "price": "From \u00a3795"
+        }
+    ],
+    "hero": {
+        "title": "Coffins & Caskets",
+        "image": "\/assets\/images\/uploads\/img_68cf90861d06d_1758433414.jpg"
+    }
+}

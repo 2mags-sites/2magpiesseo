@@ -1,0 +1,171 @@
+{
+  "pages": {
+    "homepage": {
+      "url": "/",
+      "primary_keyword": "precision engineering services Sandbach",
+      "secondary_keywords": [
+        "hard chrome plating Cheshire",
+        "cylinder honing services UK",
+        "industrial surface treatment"
+      ],
+      "long_tail_keywords": [
+        "hydraulic ram repair services near me",
+        "precision cylinder tube honing Sandbach",
+        "chrome plating engineering company Cheshire",
+        "industrial surface engineering specialists UK",
+        "express hydraulic cylinder repair service"
+      ],
+      "search_intent": "informational/commercial"
+    },
+    "about": {
+      "url": "/about",
+      "primary_keyword": "precision engineering company Cheshire",
+      "secondary_keywords": [
+        "Dynasurf UK Ltd",
+        "surface engineering since 1971",
+        "Sandbach engineering specialists"
+      ],
+      "long_tail_keywords": [
+        "experienced chrome plating company Cheshire",
+        "50 years precision engineering expertise",
+        "industrial surface treatment specialists Sandbach",
+        "trusted hydraulic repair company UK"
+      ],
+      "search_intent": "informational"
+    },
+    "contact": {
+      "url": "/contact",
+      "primary_keyword": "contact Dynasurf Sandbach",
+      "secondary_keywords": [
+        "engineering services Cheshire contact",
+        "hydraulic repair quote",
+        "chrome plating enquiry"
+      ],
+      "long_tail_keywords": [
+        "get quote cylinder honing Sandbach",
+        "contact precision engineering Cheshire",
+        "hydraulic ram repair consultation"
+      ],
+      "search_intent": "navigational/transactional"
+    },
+    "hydraulic-ram-repair": {
+      "url": "/hydraulic-ram-repair",
+      "primary_keyword": "hydraulic ram repair services",
+      "secondary_keywords": [
+        "hydraulic cylinder repair UK",
+        "ram refurbishment Cheshire",
+        "hydraulic system maintenance"
+      ],
+      "long_tail_keywords": [
+        "emergency hydraulic ram repair Sandbach",
+        "hydraulic cylinder seal replacement service",
+        "construction hydraulic ram repair specialists",
+        "agricultural hydraulic cylinder refurbishment",
+        "same day hydraulic ram repair Cheshire"
+      ],
+      "search_intent": "commercial/transactional"
+    },
+    "cylinder-tube-honing": {
+      "url": "/cylinder-tube-honing",
+      "primary_keyword": "cylinder tube honing services",
+      "secondary_keywords": [
+        "precision honing UK",
+        "300mm cylinder honing",
+        "tube bore restoration"
+      ],
+      "long_tail_keywords": [
+        "large diameter cylinder honing services",
+        "2.2 meter tube honing capabilities",
+        "precision cylinder bore restoration UK",
+        "hydraulic cylinder honing Cheshire",
+        "express cylinder tube honing service"
+      ],
+      "search_intent": "commercial/transactional"
+    },
+    "chrome-plating-grinding": {
+      "url": "/chrome-plating-grinding",
+      "primary_keyword": "hard chrome plating services",
+      "secondary_keywords": [
+        "precision grinding UK",
+        "engine parts chrome plating",
+        "gearbox component reconditioning"
+      ],
+      "long_tail_keywords": [
+        "steering component chrome plating service",
+        "gearbox parts precision grinding UK",
+        "engine component hard chrome plating",
+        "automotive parts reconditioning Cheshire",
+        "industrial chrome plating and grinding"
+      ],
+      "search_intent": "commercial/transactional"
+    },
+    "hydraulic-cylinder-manufacturing": {
+      "url": "/hydraulic-cylinder-manufacturing",
+      "primary_keyword": "hydraulic cylinder manufacturing UK",
+      "secondary_keywords": [
+        "custom hydraulic pistons",
+        "cylinder rod manufacturing",
+        "bespoke hydraulic components"
+      ],
+      "long_tail_keywords": [
+        "custom hydraulic cylinder manufacturing Cheshire",
+        "bespoke piston rod production UK",
+        "hydraulic component manufacturing service",
+        "custom gland caps and pistons",
+        "industrial cylinder manufacturing Sandbach"
+      ],
+      "search_intent": "commercial/transactional"
+    },
+    "precision-surface-restoration": {
+      "url": "/precision-surface-restoration",
+      "primary_keyword": "precision surface restoration services",
+      "secondary_keywords": [
+        "cylinder bore restoration",
+        "surface treatment UK",
+        "industrial surface refinishing"
+      ],
+      "long_tail_keywords": [
+        "hydraulic cylinder surface restoration",
+        "precision bore refinishing services UK",
+        "industrial surface treatment Cheshire",
+        "cylinder tube surface restoration",
+        "corroded cylinder restoration service"
+      ],
+      "search_intent": "commercial"
+    },
+    "automotive-component-reconditioning": {
+      "url": "/automotive-component-reconditioning",
+      "primary_keyword": "automotive component reconditioning",
+      "secondary_keywords": [
+        "gearbox parts reconditioning",
+        "engine component restoration",
+        "steering parts refurbishment"
+      ],
+      "long_tail_keywords": [
+        "automotive gearbox reconditioning services",
+        "engine parts chrome plating restoration",
+        "steering component refurbishment UK",
+        "vehicle parts precision reconditioning",
+        "automotive component restoration Cheshire"
+      ],
+      "search_intent": "commercial/transactional"
+    },
+    "emergency-express-services": {
+      "url": "/emergency-express-services",
+      "primary_keyword": "emergency hydraulic repair services",
+      "secondary_keywords": [
+        "same day cylinder repair",
+        "express honing service",
+        "urgent chrome plating"
+      ],
+      "long_tail_keywords": [
+        "24 hour hydraulic cylinder repair",
+        "same day cylinder honing service UK",
+        "emergency chrome plating Cheshire",
+        "express hydraulic ram repair Sandbach",
+        "urgent industrial repair services"
+      ],
+      "search_intent": "transactional/urgent"
+    }
+  }
+}

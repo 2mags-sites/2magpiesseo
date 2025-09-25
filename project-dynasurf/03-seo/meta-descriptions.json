@@ -1,0 +1,64 @@
+{
+  "pages": {
+    "homepage": {
+      "title": "Precision Engineering Services Sandbach | Dynasurf UK Ltd",
+      "description": "Leading precision engineering company in Sandbach offering hydraulic ram repair, cylinder honing up to 300mm, and hard chrome plating. Express service available. Call 01270 763032.",
+      "og_title": "Dynasurf - Precision Engineering & Surface Treatment Since 1971",
+      "og_description": "Specialist hydraulic repairs, cylinder honing and chrome plating services in Cheshire. Over 50 years expertise with same-day service available."
+    },
+    "about": {
+      "title": "About Dynasurf | 50+ Years Precision Engineering Excellence",
+      "description": "Established 1971, Dynasurf provides expert hydraulic repairs, cylinder honing & chrome plating from our Sandbach facility. Learn about our capabilities and commitment to quality.",
+      "og_title": "About Dynasurf - Your Trusted Engineering Partner Since 1971",
+      "og_description": "Discover Dynasurf's 50+ year history of precision engineering excellence in Cheshire. Modern facilities, expert team, and rapid turnaround times."
+    },
+    "contact": {
+      "title": "Contact Dynasurf | Get a Quote | Sandbach, Cheshire",
+      "description": "Contact Dynasurf for hydraulic repairs, cylinder honing & chrome plating quotes. Call 01270 763032 or email sales@dynasurf.co.uk. Same-day service available.",
+      "og_title": "Contact Dynasurf - Get Your Engineering Quote Today",
+      "og_description": "Reach our Sandbach facility for expert engineering services. Quick quotes, express service available. Mon-Thu 7:15am-4:30pm, Fri 7:15am-12noon."
+    },
+    "hydraulic-ram-repair": {
+      "title": "Hydraulic Ram Repair Services | Express Service | Dynasurf",
+      "description": "Expert hydraulic ram repair, refurbishment & seal replacement for construction, agriculture & industry. Same-day service available. Call 01270 763032 for rapid response.",
+      "og_title": "Professional Hydraulic Ram Repair Services in Cheshire",
+      "og_description": "Complete hydraulic cylinder repair, testing & refurbishment. Serving construction, agriculture & manufacturing sectors with express turnaround."
+    },
+    "cylinder-tube-honing": {
+      "title": "Cylinder Tube Honing Services | Up to 300mm | Dynasurf",
+      "description": "Precision cylinder tube honing services up to 300mm diameter & 2.2m length. Restore cylinder bores to optimal condition. Express service available in Sandbach.",
+      "og_title": "Precision Cylinder Tube Honing - Large Capacity Services",
+      "og_description": "Professional cylinder honing for tubes up to 300mm ID and 2.2 meters length. Quick turnaround to minimize your equipment downtime."
+    },
+    "chrome-plating-grinding": {
+      "title": "Hard Chrome Plating & Precision Grinding | Dynasurf UK",
+      "description": "Hard chrome plating & precision grinding for gearbox, engine & steering components. Industrial quality reconditioning services in Cheshire. Call 01270 763032.",
+      "og_title": "Hard Chrome Plating & Grinding Services - Automotive & Industrial",
+      "og_description": "Expert chrome plating and precision grinding for engine parts, gearboxes and steering components. Restore worn parts to original specifications."
+    },
+    "hydraulic-cylinder-manufacturing": {
+      "title": "Custom Hydraulic Cylinder Manufacturing | Bespoke Components",
+      "description": "Custom hydraulic cylinder, piston & rod manufacturing in Sandbach. Bespoke components with materials in stock for same-day service. Call 01270 763032.",
+      "og_title": "Hydraulic Cylinder Manufacturing - Custom Components UK",
+      "og_description": "Manufacture of custom hydraulic cylinders, pistons, rods and gland caps. Materials in stock for rapid production and delivery."
+    },
+    "precision-surface-restoration": {
+      "title": "Precision Surface Restoration | Cylinder Bore Services",
+      "description": "Professional surface restoration for hydraulic cylinders & industrial components. Remove corrosion, scratches & wear. Restore to optimal performance. Sandbach, Cheshire.",
+      "og_title": "Industrial Surface Restoration Services - Cylinder Specialists",
+      "og_description": "Expert restoration of cylinder bores and industrial surfaces. Eliminate corrosion, pitting and wear to restore equipment performance."
+    },
+    "automotive-component-reconditioning": {
+      "title": "Automotive Component Reconditioning | Gearbox & Engine Parts",
+      "description": "Professional reconditioning of automotive gearbox, engine & steering components. Hard chrome plating & precision grinding to restore parts. Call 01270 763032.",
+      "og_title": "Automotive Parts Reconditioning - Gearbox & Engine Specialists",
+      "og_description": "Expert reconditioning services for automotive components. Restore gearbox parts, engine components and steering systems to original specifications."
+    },
+    "emergency-express-services": {
+      "title": "Emergency Hydraulic Repair | Same Day Service | Dynasurf",
+      "description": "24-hour emergency hydraulic repair & express cylinder services in Cheshire. Same-day honing, chrome plating & repairs. Minimize downtime - Call 01270 763032 now.",
+      "og_title": "Emergency Express Engineering Services - Same Day Response",
+      "og_description": "Urgent hydraulic repairs with same-day turnaround. Emergency cylinder honing, chrome plating and component repairs to get you operational fast."
+    }
+  }
+}

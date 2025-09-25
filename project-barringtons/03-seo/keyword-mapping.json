@@ -1,0 +1,403 @@
+{
+  "pages": {
+    "index": {
+      "url": "/",
+      "title": "Barringtons - Independent Funeral Services Liverpool",
+      "primary_keyword": "funeral directors Liverpool",
+      "secondary_keywords": [
+        "independent funeral services Liverpool",
+        "family funeral directors Merseyside",
+        "Barringtons funerals"
+      ],
+      "long_tail_keywords": [
+        "24 hour funeral directors Liverpool",
+        "compassionate funeral services Waterloo Crosby",
+        "family run funeral directors near me",
+        "affordable funeral services Liverpool",
+        "trusted funeral directors Merseyside"
+      ],
+      "search_intent": "navigational/informational",
+      "location_modifiers": ["Liverpool", "Waterloo", "Crosby", "Formby", "Netherton"]
+    },
+    "about-us": {
+      "url": "/about-us",
+      "title": "About Barringtons - Family Funeral Directors Since 1902",
+      "primary_keyword": "family funeral directors Liverpool",
+      "secondary_keywords": [
+        "independent funeral directors Merseyside",
+        "NAFD funeral directors Liverpool",
+        "established funeral services"
+      ],
+      "long_tail_keywords": [
+        "family owned funeral directors Liverpool",
+        "funeral directors with memorial tree planting",
+        "NAFD approved funeral directors Waterloo",
+        "David Barrington funeral services",
+        "trusted funeral directors since 1902"
+      ],
+      "search_intent": "informational",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "immediate-need": {
+      "url": "/immediate-need",
+      "title": "Immediate Need Funeral Services - 24 Hour Support Liverpool",
+      "primary_keyword": "immediate need funeral Liverpool",
+      "secondary_keywords": [
+        "emergency funeral services Liverpool",
+        "24 hour funeral directors",
+        "urgent funeral arrangements Merseyside"
+      ],
+      "long_tail_keywords": [
+        "what to do when someone dies Liverpool",
+        "immediate funeral arrangements near me",
+        "24 hour funeral support Waterloo",
+        "emergency funeral directors Crosby",
+        "urgent funeral help Liverpool"
+      ],
+      "search_intent": "transactional/urgent",
+      "location_modifiers": ["Liverpool", "Waterloo", "Crosby", "Merseyside"]
+    },
+    "when-a-death-occurs": {
+      "url": "/when-a-death-occurs",
+      "title": "What To Do When Someone Dies - Funeral Guide Liverpool",
+      "primary_keyword": "what to do when someone dies Liverpool",
+      "secondary_keywords": [
+        "death registration Liverpool",
+        "funeral arrangement steps",
+        "bereavement support Merseyside"
+      ],
+      "long_tail_keywords": [
+        "first steps after death Liverpool",
+        "how to register a death Merseyside",
+        "funeral planning checklist UK",
+        "what happens after someone dies",
+        "death certificate Liverpool process"
+      ],
+      "search_intent": "informational/urgent",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "planning-ahead": {
+      "url": "/planning-ahead",
+      "title": "Funeral Plans Liverpool - Pre-paid Funeral Planning",
+      "primary_keyword": "funeral plans Liverpool",
+      "secondary_keywords": [
+        "pre-paid funeral plans Merseyside",
+        "advance funeral planning",
+        "funeral plan costs Liverpool"
+      ],
+      "long_tail_keywords": [
+        "how to plan your own funeral Liverpool",
+        "affordable funeral plans Waterloo",
+        "pre-arranged funeral services Crosby",
+        "funeral plan comparison Liverpool",
+        "peace of mind funeral planning"
+      ],
+      "search_intent": "commercial investigation",
+      "location_modifiers": ["Liverpool", "Waterloo", "Crosby", "Formby"]
+    },
+    "standardised-price-list-CORRECTED": {
+      "url": "/standardised-price-list",
+      "title": "Funeral Prices Liverpool - Transparent Pricing List",
+      "primary_keyword": "funeral costs Liverpool",
+      "secondary_keywords": [
+        "funeral prices Merseyside",
+        "cremation costs Liverpool",
+        "burial prices Liverpool"
+      ],
+      "long_tail_keywords": [
+        "how much does a funeral cost Liverpool",
+        "affordable funeral prices Waterloo",
+        "transparent funeral pricing Merseyside",
+        "basic funeral costs Liverpool",
+        "direct cremation prices Liverpool"
+      ],
+      "search_intent": "commercial/price comparison",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "services-overview": {
+      "url": "/services-overview",
+      "title": "Funeral Services Liverpool - Traditional, Green & Direct",
+      "primary_keyword": "funeral services Liverpool",
+      "secondary_keywords": [
+        "cremation services Liverpool",
+        "burial services Merseyside",
+        "green funerals Liverpool"
+      ],
+      "long_tail_keywords": [
+        "traditional funeral services Liverpool",
+        "eco friendly funerals Merseyside",
+        "direct cremation Liverpool",
+        "Catholic funeral services Liverpool",
+        "non-religious funerals Merseyside"
+      ],
+      "search_intent": "informational/commercial",
+      "location_modifiers": ["Liverpool", "Waterloo", "Crosby"]
+    },
+    "coffins": {
+      "url": "/coffins",
+      "title": "Coffins & Caskets Liverpool - Traditional to Eco-Friendly",
+      "primary_keyword": "coffins Liverpool",
+      "secondary_keywords": [
+        "caskets Liverpool",
+        "eco coffins Merseyside",
+        "traditional coffins Liverpool"
+      ],
+      "long_tail_keywords": [
+        "affordable coffins Liverpool",
+        "wicker coffins Merseyside",
+        "solid wood caskets Liverpool",
+        "personalised coffins Liverpool",
+        "biodegradable coffins Merseyside"
+      ],
+      "search_intent": "commercial/product",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "personalisation": {
+      "url": "/personalisation",
+      "title": "Funeral Personalisation Liverpool - Unique Tributes",
+      "primary_keyword": "personalised funerals Liverpool",
+      "secondary_keywords": [
+        "funeral personalisation options",
+        "unique funeral tributes Liverpool",
+        "memorial personalisation Merseyside"
+      ],
+      "long_tail_keywords": [
+        "personalised funeral service Liverpool",
+        "custom funeral tributes Merseyside",
+        "themed funerals Liverpool",
+        "personalised coffin designs Liverpool",
+        "unique memorial services Waterloo"
+      ],
+      "search_intent": "informational/commercial",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "transport": {
+      "url": "/transport",
+      "title": "Funeral Transport Liverpool - Hearse & Limousine Hire",
+      "primary_keyword": "funeral cars Liverpool",
+      "secondary_keywords": [
+        "hearse hire Liverpool",
+        "funeral limousines Merseyside",
+        "funeral transport Liverpool"
+      ],
+      "long_tail_keywords": [
+        "traditional hearse hire Liverpool",
+        "funeral car prices Merseyside",
+        "horse drawn hearse Liverpool",
+        "motorcycle hearse Liverpool",
+        "funeral limousine hire Waterloo"
+      ],
+      "search_intent": "commercial/service",
+      "location_modifiers": ["Liverpool", "Waterloo", "Crosby"]
+    },
+    "pet-products": {
+      "url": "/pet-products",
+      "title": "Pet Cremation & Memorial Products Liverpool",
+      "primary_keyword": "pet cremation Liverpool",
+      "secondary_keywords": [
+        "pet funeral services Liverpool",
+        "pet memorial products Merseyside",
+        "pet caskets Liverpool"
+      ],
+      "long_tail_keywords": [
+        "dog cremation services Liverpool",
+        "cat funeral Liverpool",
+        "pet memorial keepsakes Merseyside",
+        "pet ashes caskets Liverpool",
+        "pet bereavement support Liverpool"
+      ],
+      "search_intent": "commercial/service",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "frequently-asked-questions": {
+      "url": "/frequently-asked-questions",
+      "title": "Funeral FAQs - Common Questions About Funeral Services",
+      "primary_keyword": "funeral questions Liverpool",
+      "secondary_keywords": [
+        "funeral FAQs",
+        "funeral advice Liverpool",
+        "bereavement questions"
+      ],
+      "long_tail_keywords": [
+        "how long after death is funeral UK",
+        "who pays for funeral if no money",
+        "what documents needed for funeral",
+        "can I arrange funeral without death certificate",
+        "funeral etiquette questions Liverpool"
+      ],
+      "search_intent": "informational",
+      "location_modifiers": ["Liverpool", "UK"]
+    },
+    "etiquette": {
+      "url": "/etiquette",
+      "title": "Funeral Etiquette Guide - What to Wear, Say & Do",
+      "primary_keyword": "funeral etiquette UK",
+      "secondary_keywords": [
+        "funeral dress code",
+        "funeral behavior guide",
+        "what to say at funeral"
+      ],
+      "long_tail_keywords": [
+        "what to wear to funeral UK",
+        "funeral etiquette for family members",
+        "appropriate funeral flowers",
+        "funeral condolence messages",
+        "children at funerals etiquette"
+      ],
+      "search_intent": "informational",
+      "location_modifiers": ["UK", "Liverpool"]
+    },
+    "social-security-benefits": {
+      "url": "/social-security-benefits",
+      "title": "Bereavement Benefits & Support - Financial Help Guide",
+      "primary_keyword": "bereavement benefits UK",
+      "secondary_keywords": [
+        "funeral payment DWP",
+        "widows pension Liverpool",
+        "death benefits UK"
+      ],
+      "long_tail_keywords": [
+        "how to claim bereavement support payment",
+        "funeral expenses payment eligibility",
+        "bereavement allowance calculator",
+        "DWP funeral payment form",
+        "widowed parent's allowance Liverpool"
+      ],
+      "search_intent": "informational/transactional",
+      "location_modifiers": ["UK", "Liverpool"]
+    },
+    "helpful-links": {
+      "url": "/helpful-links",
+      "title": "Useful Bereavement Resources & Support Links",
+      "primary_keyword": "bereavement support Liverpool",
+      "secondary_keywords": [
+        "grief support resources",
+        "funeral resources Liverpool",
+        "bereavement help Merseyside"
+      ],
+      "long_tail_keywords": [
+        "grief counselling Liverpool",
+        "bereavement charities Merseyside",
+        "death registration Liverpool council",
+        "probate services Liverpool",
+        "memorial websites UK"
+      ],
+      "search_intent": "informational/resource",
+      "location_modifiers": ["Liverpool", "Merseyside"]
+    },
+    "muchloved-tributes": {
+      "url": "/muchloved-tributes",
+      "title": "Online Memorial Tributes - MuchLoved Memorial Pages",
+      "primary_keyword": "online memorial Liverpool",
+      "secondary_keywords": [
+        "MuchLoved tributes",
+        "online obituaries Liverpool",
+        "memorial websites"
+      ],
+      "long_tail_keywords": [
+        "create online memorial page",
+        "MuchLoved funeral tributes Liverpool",
+        "online condolence book Liverpool",
+        "memorial donation pages",
+        "virtual memorial service Liverpool"
+      ],
+      "search_intent": "informational/navigational",
+      "location_modifiers": ["Liverpool"]
+    },
+    "funeral-notices": {
+      "url": "/funeral-notices",
+      "title": "Funeral Notices Liverpool - Recent Deaths & Services",
+      "primary_keyword": "funeral notices Liverpool",
+      "secondary_keywords": [
+        "death notices Liverpool",
+        "Liverpool obituaries today",
+        "recent deaths Liverpool"
+      ],
+      "long_tail_keywords": [
+        "Liverpool Echo death notices",
+        "funeral announcements Merseyside",
+        "today's funeral notices Liverpool",
+        "Waterloo funeral notices",
+        "Crosby death announcements"
+      ],
+      "search_intent": "informational/local",
+      "location_modifiers": ["Liverpool", "Waterloo", "Crosby", "Formby"]
+    },
+    "our-location": {
+      "url": "/our-location",
+      "title": "Funeral Directors Waterloo, Formby & Netherton - Locations",
+      "primary_keyword": "funeral directors Waterloo",
+      "secondary_keywords": [
+        "funeral directors Formby",
+        "funeral directors Netherton",
+        "funeral directors near me"
+      ],
+      "long_tail_keywords": [
+        "funeral directors Crosby Road Waterloo",
+        "funeral services Elbow Lane Formby",
+        "funeral directors Liverpool Road Netherton",
+        "nearest funeral directors L22",
+        "24 hour funeral directors Waterloo"
+      ],
+      "search_intent": "local/navigational",
+      "location_modifiers": ["Waterloo", "Formby", "Netherton", "L22", "L37", "L30"]
+    },
+    "our-facilities": {
+      "url": "/our-facilities",
+      "title": "Funeral Home Facilities - Chapel of Rest & Service Rooms",
+      "primary_keyword": "funeral home facilities Liverpool",
+      "secondary_keywords": [
+        "chapel of rest Liverpool",
+        "funeral parlour Waterloo",
+        "viewing room Liverpool"
+      ],
+      "long_tail_keywords": [
+        "private chapel of rest Liverpool",
+        "funeral home viewing rooms",
+        "disabled access funeral home Liverpool",
+        "funeral service venue Waterloo",
+        "memorial service facilities Liverpool"
+      ],
+      "search_intent": "informational/local",
+      "location_modifiers": ["Liverpool", "Waterloo"]
+    }
+  },
+  "keyword_themes": {
+    "service_types": [
+      "traditional funerals",
+      "cremation services",
+      "burial services",
+      "green funerals",
+      "direct cremation",
+      "home funerals"
+    ],
+    "urgency_terms": [
+      "immediate need",
+      "24 hour",
+      "emergency",
+      "urgent"
+    ],
+    "trust_signals": [
+      "independent",
+      "family-run",
+      "established",
+      "NAFD approved",
+      "recommended"
+    ],
+    "location_focus": [
+      "Liverpool",
+      "Waterloo",
+      "Crosby",
+      "Formby",
+      "Netherton",
+      "Merseyside"
+    ],
+    "emotional_terms": [
+      "compassionate",
+      "caring",
+      "dignified",
+      "respectful",
+      "supportive"
+    ]
+  }
+}

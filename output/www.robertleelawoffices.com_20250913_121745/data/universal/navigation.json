@@ -1,0 +1,39 @@
+{
+  "primary_nav": [
+    {
+      "label": "Home",
+      "url": "/",
+      "active_pages": [
+        "home",
+        "index"
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about",
+      "active_pages": [
+        "about"
+      ]
+    },
+    {
+      "label": "Services",
+      "url": "/practice-areas-robert-lee-law-offices",
+      "active_pages": [
+        "services"
+      ],
+      "dropdown": null
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "active_pages": [
+        "contact"
+      ]
+    }
+  ],
+  "cta_button": {
+    "label": "Get Started",
+    "url": "/contact",
+    "class": "btn-primary"
+  }
+}

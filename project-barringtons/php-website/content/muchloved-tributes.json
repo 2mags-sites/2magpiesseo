@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "title": "Online Tributes & Memorial Pages | Barringtons Liverpool",
+        "description": "Create lasting online tributes and memorial pages. Share memories, photos, and donate to charity in memory of your loved one.",
+        "keywords": "online tributes, memorial pages, MuchLoved, remembrance, charity donations"
+    },
+    "hero": {
+        "title": "Online Tributes",
+        "image": "\/assets\/images\/uploads\/img_68cd73ce73846_1758294990.jpg"
+    },
+    "intro": {
+        "title": "MuchLoved Online Tributes",
+        "lead_text": "Create a beautiful, lasting tribute where family and friends can share memories, photos, and support chosen charities."
+    },
+    "benefits": [
+        {
+            "title": "Share Memories",
+            "description": "Family and friends can post stories, photos, and messages of remembrance from anywhere in the world."
+        },
+        {
+            "title": "Charity Donations",
+            "description": "Collect donations for your chosen charity in memory of your loved one, with Gift Aid automatically claimed."
+        },
+        {
+            "title": "Forever Free",
+            "description": "Tribute pages remain online indefinitely at no cost, providing a permanent place of remembrance."
+        }
+    ],
+    "cta_section": {
+        "title": "Create a Tribute",
+        "description": "We'll help you set up a beautiful online memorial page for your loved one.",
+        "button_text": "Get Started",
+        "button_link": "#contact"
+    }
+}

@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Family Law Hong Kong | Law Firm In Hong Kong",
+    "description": "Expert family law hong kong services. Professional service you can trust. Contact us today.",
+    "keywords": [
+      "family law hong kong",
+      "family law hong kong services",
+      "family law hong kong solutions",
+      "professional family law hong kong",
+      "family law hong kong experts",
+      "best family law hong kong",
+      "family law hong kong near me"
+    ],
+    "canonical_url": "/family-law-hong-kong"
+  },
+  "schema": {
+    "type": "Service",
+    "service_type": "Family Law Hong Kong",
+    "provider": "Law Firm In Hong Kong",
+    "area_served": [
+      "Local Area",
+      "Surrounding Region"
+    ]
+  },
+  "content": {
+    "hero": {
+      "title": "Family Law Hong Kong Services",
+      "subtitle": "Professional family law hong kong solutions tailored to your needs",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More"
+    },
+    "services": [
+      {
+        "title": "Comprehensive Family Law Hong Kong",
+        "description": "Our family law hong kong service provides complete solutions tailored to your specific needs.",
+        "features": [
+          "Personalized approach",
+          "Expert consultation",
+          "Proven methodology",
+          "Ongoing support"
+        ]
+      },
+      {
+        "title": "Family Law Hong Kong Consultation",
+        "description": "Get expert advice and guidance from our experienced professionals.",
+        "features": [
+          "Initial assessment",
+          "Strategy development",
+          "Implementation planning",
+          "Follow-up support"
+        ]
+      }
+    ],
+    "why_choose": {
+      "title": "Why Choose Law Firm In Hong Kong for Family Law Hong Kong",
+      "points": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team has extensive experience in family law hong kong services."
+        },
+        {
+          "title": "Proven Results",
+          "description": "We have a track record of delivering successful outcomes."
+        },
+        {
+          "title": "Personalized Service",
+          "description": "We tailor our approach to meet your specific needs."
+        },
+        {
+          "title": "Competitive Pricing",
+          "description": "Quality service at fair and transparent prices."
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Family Law Hong Kong Process",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Initial Consultation",
+          "description": "We begin with a thorough understanding of your needs.",
+          "duration": "30-60 minutes"
+        },
+        {
+          "step": 2,
+          "title": "Assessment & Planning",
+          "description": "We develop a customized plan based on your requirements.",
+          "duration": "1-2 days"
+        },
+        {
+          "step": 3,
+          "title": "Implementation",
+          "description": "We execute the plan with precision and care.",
+          "duration": "Varies"
+        },
+        {
+          "step": 4,
+          "title": "Follow-up & Support",
+          "description": "We ensure your satisfaction and provide ongoing support.",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    "benefits": [
+      {
+        "title": "Save Time",
+        "icon": "clock"
+      },
+      {
+        "title": "Reduce Costs",
+        "icon": "dollar"
+      },
+      {
+        "title": "Expert Guidance",
+        "icon": "star"
+      },
+      {
+        "title": "Peace of Mind",
+        "icon": "shield"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is included in your family law hong kong service?",
+      "answer": "Our family law hong kong service includes comprehensive consultation, planning, implementation, and ongoing support to ensure your needs are fully met."
+    },
+    {
+      "question": "How much does family law hong kong service cost?",
+      "answer": "The cost of our family law hong kong service varies based on your specific needs. We offer free consultations to provide accurate pricing."
+    },
+    {
+      "question": "How long does the family law hong kong process take?",
+      "answer": "The timeline for family law hong kong services depends on the complexity of your requirements. Most projects are completed within 2-4 weeks."
+    },
+    {
+      "question": "Do you offer emergency family law hong kong services?",
+      "answer": "We understand that urgent needs arise. Contact us to discuss expedited service options."
+    },
+    {
+      "question": "What makes your family law hong kong service different?",
+      "answer": "Our combination of experience, personalized approach, and commitment to excellence sets us apart."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We serve clients throughout the region. Contact us to confirm service availability in your area."
+    },
+    {
+      "question": "Do you offer consultations?",
+      "answer": "Yes, we offer initial consultations to understand your needs and provide recommendations."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept various payment methods including cash, check, and major credit cards."
+    }
+  ]
+}

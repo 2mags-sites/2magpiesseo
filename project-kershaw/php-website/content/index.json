@@ -1,0 +1,122 @@
+{
+    "meta": {
+        "title": "Arthur Kershaw Funeral Services | Funeral Directors Sale, Manchester",
+        "description": "Family-owned funeral directors in Sale, Manchester. Established 1892. Compassionate funeral services including burial, cremation and pre-paid plans. Available 24/7.",
+        "keywords": "funeral directors Sale, Arthur Kershaw funerals, funeral services Cheshire, funeral directors Manchester"
+    },
+    "hero": {
+        "title": "Compassionate TEST Funeral Services in Sale",
+        "subtitle": "Family-owned funeral directors serving Greater Manchester since 1892",
+        "cta_primary": {
+            "text": "Contact&nbsp;",
+            "link": "/contact.php"
+        },
+        "cta_secondary": {
+            "text": "Call 24/7: 0161 969 2288",
+            "link": "tel:01619692288"
+        }
+    },
+    "welcome": {
+        "title": "Welcome to Arthur Kershaw TEST Funeral Services",
+        "lead": "For over 130 years, Arthur Kershaw Funeral Services has been a cornerstone of the Sale community, providing dignified and compassionate funeral services to families in their time of need.<br><br>",
+        "paragraph1": "As an independent, family-owned funeral directors, we understand that every life is unique and every farewell should be personal. We're here to guide you through this difficult time with care, respect, and professionalism.",
+        "paragraph2": "Available 24 hours a day, 7 days a week, our experienced team is always ready to help, whether you need immediate assistance or wish to plan ahead.",
+        "image_text": "130+ Years of<br>Caring Service"
+    },
+    "services": {
+        "title": "Our Funeral Services",
+        "items": [
+            {
+                "icon": "fa-cross",
+                "title": "Traditional Burial",
+                "description": "Dignified burial services with full ceremony, procession, and personalized touches to honor your loved one.",
+                "link": "/service-traditional-burial.php"
+            },
+            {
+                "icon": "fa-fire",
+                "title": "Cremation Service",
+                "description": "Respectful cremation with memorial service options, from simple ceremonies to elaborate celebrations.",
+                "link": "/service-cremation.php"
+            },
+            {
+                "icon": "fa-dove",
+                "title": "Direct Cremation",
+                "description": "Simple, affordable cremation without a service. A practical choice starting from \u00a3995.",
+                "link": "/service-direct-cremation.php"
+            },
+            {
+                "icon": "fa-shield-alt",
+                "title": "Pre-Paid Plans",
+                "description": "Plan ahead and fix costs at today's prices, giving your family peace of mind and financial protection.",
+                "link": "/pre-paid-plans.php"
+            }
+        ]
+    },
+    "why_choose": {
+        "title": "Why Choose Arthur Kershaw?",
+        "points": [
+            {
+                "icon": "fa-users",
+                "title": "Family-Owned & Independent",
+                "description": "Not part of a corporate chain, we provide personal service with the flexibility to meet your specific needs."
+            },
+            {
+                "icon": "fa-history",
+                "title": "Established 1892",
+                "description": "Five generations of experience serving Sale and Greater Manchester families with dignity and respect."
+            },
+            {
+                "icon": "fa-pound-sign",
+                "title": "Transparent Pricing",
+                "description": "Clear, itemized quotes with no hidden charges. Options to suit all budgets from \u00a3995."
+            },
+            {
+                "icon": "fa-phone-alt",
+                "title": "Available 24/7",
+                "description": "Always here when you need us, day or night, with no additional charges for out-of-hours service."
+            }
+        ],
+        "image_text": "Trusted by<br>Local Families"
+    },
+    "areas": {
+        "title": "Areas We Serve",
+        "subtitle": "From our Sale funeral home, we provide services throughout Greater Manchester",
+        "locations": [
+            {
+                "name": "Sale",
+                "postcode": "M33",
+                "link": "/funeral-directors-sale.php"
+            },
+            {
+                "name": "Stretford",
+                "postcode": "M32",
+                "link": "/funeral-directors-stretford.php"
+            },
+            {
+                "name": "Altrincham",
+                "postcode": "WA14",
+                "link": "/funeral-directors-altrincham.php"
+            },
+            {
+                "name": "Timperley",
+                "postcode": "WA15",
+                "link": "/funeral-directors-timperley.php"
+            },
+            {
+                "name": "Ashton",
+                "postcode": "M33",
+                "link": "/funeral-directors-ashton-upon-mersey.php"
+            },
+            {
+                "name": "Hale",
+                "postcode": "WA15",
+                "link": "/funeral-directors-hale.php"
+            },
+            {
+                "name": "Lymm",
+                "postcode": "WA13",
+                "link": "/funeral-directors-lymm.php"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "primary_nav": [
+    {
+      "label": "Home",
+      "url": "/",
+      "active_pages": [
+        "home",
+        "index"
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about",
+      "active_pages": [
+        "about"
+      ]
+    },
+    {
+      "label": "Services",
+      "url": "/legal-services",
+      "active_pages": [
+        "legal-services"
+      ],
+      "dropdown": [
+        {
+          "label": "Attorney Services",
+          "url": "/attorney"
+        },
+        {
+          "label": "Legal Services",
+          "url": "/legal-services"
+        },
+        {
+          "label": "Law Firm",
+          "url": "/law-firm"
+        },
+        {
+          "label": "Practice Areas",
+          "url": "/practice-areas-robert-lee-law-offices"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "active_pages": [
+        "contact"
+      ]
+    }
+  ],
+  "cta_button": {
+    "label": "Get Started",
+    "url": "/contact",
+    "class": "btn-primary"
+  }
+}

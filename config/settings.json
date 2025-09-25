@@ -1,0 +1,78 @@
+{
+  "analysis": {
+    "max_pages_to_crawl": 20,
+    "timeout_seconds": 10,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "follow_redirects": true,
+    "verify_ssl": false
+  },
+  "content": {
+    "min_word_counts": {
+      "homepage": 500,
+      "service_page": 800,
+      "about_page": 400,
+      "contact_page": 200
+    },
+    "faq_questions": {
+      "minimum": 8,
+      "maximum": 15
+    },
+    "service_pages": {
+      "max_count": 20,
+      "min_description_length": 150
+    }
+  },
+  "seo": {
+    "meta_title": {
+      "min_length": 30,
+      "max_length": 60
+    },
+    "meta_description": {
+      "min_length": 120,
+      "max_length": 160
+    },
+    "keyword_density": {
+      "target": 0.015,
+      "max": 0.03
+    },
+    "schema_types": [
+      "LocalBusiness",
+      "Organization",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  "output": {
+    "php_version": "7.4",
+    "html_version": "5",
+    "css_framework": "custom",
+    "javascript": "vanilla",
+    "responsive": true,
+    "compression": true
+  },
+  "business_types": {
+    "supported": [
+      "law_firm",
+      "medical_practice",
+      "dental_practice",
+      "restaurant",
+      "consulting",
+      "real_estate",
+      "accounting_firm",
+      "fitness",
+      "salon_spa",
+      "auto_service",
+      "construction",
+      "education",
+      "technology",
+      "general_service"
+    ],
+    "default": "general_service"
+  },
+  "performance": {
+    "enable_caching": true,
+    "cache_duration": 3600,
+    "minify_output": false,
+    "optimize_images": false
+  }
+}

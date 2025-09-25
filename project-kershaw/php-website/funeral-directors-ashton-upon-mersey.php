@@ -1,0 +1,209 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Funeral Directors Ashton-Upon-Mersey | Arthur Kershaw M33";
+$page_description = "Funeral directors serving Ashton-Upon-Mersey and M33 areas. Family-owned funeral services from Sale. Available 24/7. Compassionate local support.";
+$page_keywords = "funeral directors Ashton-Upon-Mersey, Ashton funeral services, M33 funerals";
+
+require_once 'includes/header.php';
+?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/locations">Locations</a></li>
+                    <li class="breadcrumb-item active">Ashton-Upon-Mersey</li>
+                </ol>
+            </nav>
+            <h1>Funeral Directors Serving Ashton-Upon-Mersey</h1>
+            <p class="lead">Compassionate funeral services for Ashton-Upon-Mersey families</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Location Overview -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Funeral Services in Ashton-Upon-Mersey</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">Arthur Kershaw Funeral Services is your local funeral directors in Sale, proudly serving the Ashton-Upon-Mersey community with dignity and compassion.</p>
+                        <p>Our Washway Road location is ideally situated for Ashton-Upon-Mersey residents, just a short distance along the A56. As part of the same M33 postcode area, we're truly your neighbors, understanding the local community and its needs.</p>
+                        <p>Whether you live near Ashton village, around the golf course, or in the residential areas near Sale Water Park, we provide the same caring, professional service that families have trusted for over 130 years.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map-marker-alt fa-3x"></i>
+                        <p>Serving Ashton<br>M33</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas We Cover -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Ashton-Upon-Mersey Areas We Serve</h2>
+                <div class="text-center mb-40">
+                    <h3>Complete Coverage Across Ashton-Upon-Mersey</h3>
+                    <p class="lead">We provide funeral services throughout all Ashton districts:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Ashton Village</h4>
+                            <p>The historic village centre around Church Lane and surrounding conservation area.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Sale Water Park Area</h4>
+                            <p>The residential areas surrounding Sale Water Park and the Mersey Valley.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Ashton Lane District</h4>
+                            <p>Ashton Lane and the surrounding residential streets towards Dane Road.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Golf Course Area</h4>
+                            <p>The neighborhoods around Ashton-on-Mersey Golf Club and sports facilities.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map fa-3x"></i>
+                        <p>All Ashton Areas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Knowledge -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Local Ashton-Upon-Mersey Services</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>Ashton Venues & Facilities We Work With</h3>
+                        <ul>
+                            <li><strong>St. Martin's Church</strong> - Church Lane, Ashton-Upon-Mersey</li>
+                            <li><strong>St. Mary Magdalene Church</strong> - Nearby in Sale</li>
+                            <li><strong>Altrincham Crematorium</strong> - Our nearest crematorium</li>
+                            <li><strong>Ashton-on-Mersey Golf Club</strong> - For wakes and receptions</li>
+                            <li><strong>Sale Sports Club</strong> - Function rooms for gatherings</li>
+                            <li><strong>Local Hotels</strong> - Including Premier Inn and nearby venues</li>
+                        </ul>
+                        <p>We regularly collect from Wythenshawe Hospital, Trafford General, and local care homes throughout Ashton-Upon-Mersey, handling all arrangements with care and dignity.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-church fa-3x"></i>
+                        <p>Local Connections</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Why Ashton-Upon-Mersey Families Choose Us</h2>
+                <div class="text-center mb-40">
+                    <h3>Your Local Sale Funeral Directors</h3>
+                    <p class="lead">Right here in your community:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-marked-alt"></i> Same Postcode Area</h4>
+                            <p>We share the M33 postcode with Ashton-Upon-Mersey, making us truly local to you.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-users"></i> Community Focused</h4>
+                            <p>As an independent family business, we're invested in our local community and its families.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-hand-holding-heart"></i> Personal Service</h4>
+                            <p>You'll deal with the same caring team throughout, not different staff at each meeting.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-handshake fa-3x"></i>
+                        <p>Trusted in Ashton</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How close are you to Ashton-Upon-Mersey?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're extremely close - our Sale funeral home on Washway Road is less than a mile from Ashton-Upon-Mersey. We share the same M33 postcode area. It's about a 5-minute drive or a 15-minute walk. Many Ashton residents pass our funeral home regularly.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can you arrange services at St. Martin's Church?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we regularly arrange services at St. Martin's Church in Ashton-Upon-Mersey. We have excellent relationships with the clergy there and can coordinate all aspects of the service, from the church booking to the order of service printing.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you offer home visits in Ashton-Upon-Mersey?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We're happy to visit you at home in Ashton-Upon-Mersey to discuss arrangements in familiar surroundings. This can be during office hours or in the evening/weekend by appointment. Being so local, it's very convenient for us to come to you.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What's the nearest crematorium?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Altrincham Crematorium is the nearest, about 10 minutes away. We also use Manchester Crematorium and Stockport Crematorium regularly. We can advise on the differences in facilities, costs, and availability to help you choose.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are you available at weekends?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we're available 24/7 including weekends and bank holidays. For immediate needs, call us anytime on 0161 969 2288. Our office is also open Saturday mornings for appointments and walk-in enquiries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Your Local Ashton-Upon-Mersey Funeral Directors</h2>
+                    <p class="lead">Right here in Sale, serving our M33 community</p>
+                    <p><strong>Available 24/7 on 0161 969 2288</strong></p>
+                    <p>Visit us at 168-170 Washway Road, Sale, M33 6RH</p>
+                    <a href="/contact.php" class="btn btn-white">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

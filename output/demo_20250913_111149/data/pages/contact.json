@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Contact Smith & Associates Law Firm",
+    "description": "Get in touch with Smith & Associates Law Firm. Call +852 2234 5678 or email us.",
+    "keywords": [
+      "contact",
+      "Smith & Associates Law Firm",
+      "phone",
+      "email",
+      "location"
+    ],
+    "canonical_url": "/contact"
+  },
+  "content": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help"
+    },
+    "contact_info": {
+      "phone": "+852 2234 5678",
+      "email": "info@smithlaw.hk",
+      "address": "123 Central Plaza, Central District, Hong Kong",
+      "hours": "Monday-Friday 9AM-6PM, Saturday 10AM-2PM"
+    },
+    "contact_form": {
+      "enabled": true,
+      "fields": [
+        "name",
+        "email",
+        "phone",
+        "message"
+      ],
+      "submit_text": "Send Message"
+    },
+    "map": {
+      "enabled": false,
+      "latitude": null,
+      "longitude": null
+    }
+  }
+}

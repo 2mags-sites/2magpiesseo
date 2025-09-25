@@ -1,0 +1,34 @@
+{
+  "name": "Smith & Associates Law Firm",
+  "tagline": "Your Trusted Legal Partners in Hong Kong",
+  "founded": null,
+  "contact": {
+    "phone": "+852 2234 5678",
+    "email": "info@smithlaw.hk",
+    "address": {
+      "street": "123 Central Plaza",
+      "city": "Central District",
+      "region": "Hong Kong",
+      "postal_code": "",
+      "country": ""
+    }
+  },
+  "hours": {
+    "monday": "9:00 AM - 5:00 PM",
+    "tuesday": "9:00 AM - 5:00 PM",
+    "wednesday": "9:00 AM - 5:00 PM",
+    "thursday": "9:00 AM - 5:00 PM",
+    "friday": "9:00 AM - 5:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "languages": [
+    "English"
+  ],
+  "certifications": [],
+  "service_areas": [
+    "Local Area",
+    "Surrounding Region"
+  ],
+  "description": "Smith & Associates is a leading law firm in Hong Kong with over 20 years of experience in family law, commercial litigation, and corporate law. Our team of dedicated attorneys provides personalized legal solutions."
+}

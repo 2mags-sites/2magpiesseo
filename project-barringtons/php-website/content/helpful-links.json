@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "title": "Grief Support & Helpful Links | Barringtons Funeral Services",
+        "description": "Grief support resources and helpful links for bereavement. Find local support groups, counselling services, and practical guidance in Liverpool.",
+        "keywords": "grief support Liverpool, bereavement help, funeral resources, grief counselling, support groups"
+    },
+    "intro": {
+        "title": "Support & Resources",
+        "subtitle": "Grief is a journey that no one should walk alone. Here are trusted resources to help you through this difficult time."
+    },
+    "resources": [
+        {
+            "title": "Bereavement Support",
+            "links": [
+                {
+                    "name": "Cruse Bereavement Care",
+                    "url": "https:\/\/www.cruse.org.uk",
+                    "description": "Free support for bereaved people"
+                },
+                {
+                    "name": "At A Loss",
+                    "url": "https:\/\/www.ataloss.org",
+                    "description": "Signposting to bereavement support services"
+                },
+                {
+                    "name": "Grief Encounter",
+                    "url": "https:\/\/www.griefencounter.org.uk",
+                    "description": "Support for bereaved children and young people"
+                }
+            ]
+        },
+        {
+            "title": "Practical Help",
+            "links": [
+                {
+                    "name": "GOV.UK",
+                    "url": "https:\/\/www.gov.uk\/when-someone-dies",
+                    "description": "What to do when someone dies"
+                },
+                {
+                    "name": "Citizens Advice",
+                    "url": "https:\/\/www.citizensadvice.org.uk",
+                    "description": "Free, confidential advice"
+                },
+                {
+                    "name": "Money Advice Service",
+                    "url": "https:\/\/www.moneyadviceservice.org.uk",
+                    "description": "Financial guidance"
+                }
+            ]
+        },
+        {
+            "title": "Local Support",
+            "contacts": [
+                {
+                    "name": "Liverpool Bereavement Service",
+                    "phone": "0151 236 3932"
+                },
+                {
+                    "name": "Mersey Care NHS",
+                    "description": "Mental health support"
+                },
+                {
+                    "name": "Age UK Liverpool",
+                    "description": "Support for older people"
+                }
+            ]
+        }
+    ],
+    "hero": {
+        "title": "Helpful Links",
+        "image": "\/assets\/images\/uploads\/img_68cfc793efef2_1758447507.jpg"
+    }
+}

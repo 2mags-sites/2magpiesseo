@@ -1,0 +1,37 @@
+{
+    "meta": {
+        "title": "Pet Cremation & Memorial Products | Barringtons Liverpool",
+        "description": "Compassionate pet cremation services and memorial products. Individual cremation, ashes caskets, and memorial jewelry for beloved pets.",
+        "keywords": "pet cremation Liverpool, pet memorial, pet ashes, pet funeral"
+    },
+    "hero": {
+        "title": "Pet Services",
+        "image": "\/assets\/images\/uploads\/img_68cf99577ac66_1758435671.jpg"
+    },
+    "intro": {
+        "title": "Saying Goodbye to a Beloved Pet",
+        "lead_text": "Pets are family members too. We offer dignified cremation services and beautiful memorial products to honor their memory."
+    },
+    "services": [
+        {
+            "title": "Individual Cremation",
+            "description": "Your pet is cremated individually, and their ashes are returned to you in your chosen casket or urn.",
+            "price": "From \u00a3150"
+        },
+        {
+            "title": "Memorial Products",
+            "description": "Beautiful urns, caskets, and memorial jewelry designed specifically for pets.",
+            "price": "From \u00a330"
+        },
+        {
+            "title": "Memorial Gardens",
+            "description": "Access to pet memorial gardens where you can visit and remember your beloved companion.",
+            "price": "Prices on request"
+        }
+    ],
+    "info_card": {
+        "text": "We understand the deep bond between pets and their families. Our caring team will treat your pet with the same dignity and respect we show to all those in our care.",
+        "contact_text": "Call 0151 928 1625",
+        "contact_action": "to discuss arrangements."
+    }
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barringtons - Independent Funeral Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Barringtons Logo" class="logo-image">
+            </a>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <a href="#about">About Us</a>
+                <div class="nav-dropdown">
+                    <a href="#obituaries" class="dropdown-toggle">Obituaries <span class="arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#muchloved">Muchloved Tributes</a>
+                        <a href="#echo">Liverpool Echo Obituaries</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#services" class="dropdown-toggle">Services <span class="arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#immediate">Immediate Need</a>
+                        <a href="#death-occurs">When a Death Occurs</a>
+                        <a href="#price-list">Standardised Price List</a>
+                        <a href="#services-overview">Services Overview</a>
+                        <a href="#coffins">Coffins & Caskets</a>
+                        <a href="#personalisation">Personalisation</a>
+                        <a href="#transport">Transport</a>
+                        <a href="#pet-products">Pet Products</a>
+                    </div>
+                </div>
+                <a href="#plan">Plan Ahead</a>
+                <div class="nav-dropdown">
+                    <a href="#resources" class="dropdown-toggle">Resources <span class="arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#faq">Frequently Asked Questions</a>
+                        <a href="#etiquette">Etiquette</a>
+                        <a href="#social-security">Social Security Benefits</a>
+                        <a href="#helpful-links">Helpful Links</a>
+                    </div>
+                </div>
+                <a href="#grief">Grief Support</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#estimator" class="contact-btn mobile-estimator">Funeral Estimator</a>
+            </nav>
+            <a href="#estimator" class="contact-btn desktop-estimator">Funeral Estimator</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-card">
+                <h2>Immediate Need</h2>
+                <p>Our caring team is here to guide you through every step</p>
+                <button class="hero-btn">Begin Planning</button>
+            </div>
+            <div class="hero-card">
+                <h2>Plan For The Future</h2>
+                <p>Take comfort in knowing your wishes are documented</p>
+                <button class="hero-btn">Start Your Plan</button>
+            </div>
+        </div>
+    </section>
+    <section class="reviews-section">
+        <h2>Our Family Caring for Your Family</h2>
+        <div class="reviews-carousel">
+                <button class="carousel-btn carousel-btn-left" onclick="scrollReviews(-1)">‹</button>
+                <div class="reviews-container">
+                    <div class="reviews-track">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"David and Helen were absolutely wonderful during the most difficult time of our lives. Their compassion and attention to detail made everything so much easier. They treated our mum with such dignity and respect."</p>
+                            <p class="review-author">- Sarah Mitchell</p>
+                            <p class="review-source">Google Review</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"Cannot recommend Barringtons highly enough. As a family-run business, they understand the importance of personal touches. They went above and beyond to accommodate our special requests."</p>
+                            <p class="review-author">- James Thompson</p>
+                            <p class="review-source">Google Review</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"Professional, caring, and genuinely compassionate. The team at Barringtons made a heartbreaking time bearable with their kindness and support. Available 24/7 and always patient with our questions."</p>
+                            <p class="review-author">- Emma Roberts</p>
+                            <p class="review-source">Google Review</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"From our first phone call to the final arrangements, everything was handled with grace and professionalism. The Waterloo branch team are exceptional. Thank you for everything."</p>
+                            <p class="review-author">- Michael Davies</p>
+                            <p class="review-source">Google Review</p>
+                        </div>                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"Helen was our guardian angel. She guided us through every step with such patience and understanding. The personal service you get from Barringtons is unmatched in Liverpool."</p>
+                            <p class="review-author">- Patricia Wilson</p>
+                            <p class="review-source">Google Review</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"Five generations of our family have used Barringtons. That says everything. They're not just funeral directors, they're part of our community. Compassionate, respectful, and truly caring."</p>
+                            <p class="review-author">- Robert Hughes</p>
+                            <p class="review-source">Google Review</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-btn-right" onclick="scrollReviews(1)">›</button>
+            </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <h2>Barringtons Independent Funeral Services</h2>
+                    <p>For four generations, Barringtons has been providing compassionate funeral services to families across Liverpool. As an independent, family-run business, we understand that every life is unique and deserves to be celebrated in its own special way.</p>
+                    <p>We take pride in offering a personal touch that larger corporations simply cannot match. Our experienced team is available 24 hours a day, providing support, guidance, and comfort during life's most difficult moments.</p>
+                    <p>From simple, dignified services to elaborate celebrations of life, we work closely with families to create meaningful farewells that honor your loved one's memory.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/storefront.jpg" alt="Barringtons Storefront" style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="branches-section" id="locations">
+        <div class="container">
+            <h2>Local Branches</h2>
+            <div class="branches-grid">
+                <div class="branch-card fade-in">
+                    <div class="branch-image">
+                        <img src="images/waterloo.jpg" alt="Waterloo Branch" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="branch-info">
+                        <h3>Waterloo</h3>
+                        <p>23 Crosby Rd S, Waterloo, L22 1RG</p>
+                        <p>Open 24 hours</p>
+                    </div>
+                </div>
+                <div class="branch-card fade-in">
+                    <div class="branch-image">
+                        <img src="images/netherton.jpg" alt="Netherton Branch" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="branch-info">
+                        <h3>Netherton</h3>
+                        <p>47 Liverpool Road, Netherton, L30 3QA</p>
+                        <p>Monday-Friday 9am-5pm</p>
+                    </div>
+                </div>
+                <div class="branch-card fade-in">
+                    <div class="branch-image">
+                        <img src="images/formby.png" alt="Formby Branch" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="branch-info">
+                        <h3>Formby</h3>
+                        <p>64 Elbow Lane, Formby, L37 4AB</p>
+                        <p>By appointment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="family-section">
+        <div class="family-content">
+            <div class="family-text">
+                <h2>Liverpool's Independent & Family Run Funeral Service</h2>
+                <p>As a family-run funeral directors, David and Helen Barrington, together with their dedicated team, understand the importance of providing families with a service that is personal, warm, and completely individual.</p>
+                <p>We believe that every farewell should reflect the unique life it celebrates, and we're honored to help families create these meaningful moments.</p>
+            </div>
+            <div class="family-image">
+                <img src="images/family.jpg" alt="Barrington Family" style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2>Services We Offer</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/arrange.jpg" alt="Arrange a Funeral" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="service-content">
+                        <h3>Arrange a Funeral</h3>
+                        <p>Compassionate guidance through every step of planning a meaningful farewell</p>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/estimator.jpg" alt="Funeral Estimator" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="service-content">
+                        <h3>Funeral Estimator</h3>
+                        <p>Transparent pricing to help you plan within your budget</p>
+                    </div>
+                </div>                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/finance.jpg" alt="Homes for Funerals" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="service-content">
+                        <h3>Homes for Funerals</h3>
+                        <p>Creating intimate farewells in the comfort of familiar surroundings</p>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/planning.jpg" alt="Plan Ahead" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="service-content">
+                        <h3>Plan Ahead</h3>
+                        <p>Peace of mind knowing your wishes are documented and understood</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <div class="news-bg"></div>
+        <div class="container news-content">
+            <h2>News & Resources</h2>
+            <div class="news-card fade-in">
+                <h3>Supporting You Through Grief</h3>
+                <p>We understand that grief doesn't end after the funeral. Our aftercare services and grief support resources are here to help you navigate this difficult journey.</p>
+                <button class="hero-btn" style="margin-top: 1rem;">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="Your contact number">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="4" placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info fade-in">
+                    <h3>Get in Touch</h3>
+                    <div class="info-item">
+                        <strong>24 Hour Support</strong><br>
+                        0151 928 1625
+                    </div>                    <div class="info-item">
+                        <strong>Main Office</strong><br>
+                        23 Crosby Rd S, Waterloo<br>
+                        Liverpool L22 1RG
+                    </div>
+                    <div class="info-item">
+                        <strong>Email</strong><br>
+                        care@barringtonsfunerals.co.uk
+                    </div>
+                    <div class="info-item">
+                        <strong>Opening Hours</strong><br>
+                        24 hours a day, 7 days a week<br>
+                        Always here when you need us
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Barringtons</h4>
+                <p>Family funeral directors serving Liverpool with compassion and dignity for over 100 years.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#">Immediate Need</a><br>
+                <a href="#">Plan Ahead</a><br>
+                <a href="#">Our Services</a><br>
+                <a href="#">Grief Support</a>
+            </div>            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="#">Funeral Etiquette</a><br>
+                <a href="#">What to Do When Someone Dies</a><br>
+                <a href="#">Grief Support Guide</a><br>
+                <a href="#">Memorial Ideas</a>
+            </div>
+            <div class="footer-section">
+                <h4>Professional Support</h4>
+                <p>Member of NAFD<br>
+                Member of SAIF<br>
+                GriefSteps Partnership</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Barringtons Funerals. All Rights Reserved | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

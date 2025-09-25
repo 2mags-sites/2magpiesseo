@@ -1,0 +1,359 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Customer Testimonials | Reviews | Arthur Kershaw Funeral Services";
+$page_description = "Read testimonials and reviews from families we've helped in Sale, Manchester and surrounding areas. Over 130 years of caring, compassionate funeral service.";
+$page_keywords = "funeral testimonials Sale, funeral reviews Manchester, Arthur Kershaw reviews";
+
+require_once 'includes/header.php';
+?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="information.php">Information</a></li>
+                    <li class="breadcrumb-item active">Testimonials</li>
+                </ol>
+            </nav>
+            <h1>What Families Say About Us</h1>
+            <p class="lead">Real testimonials from families we've had the privilege to serve</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Trusted by Local Families Since 1892</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">For over 130 years, Arthur Kershaw Funeral Services has been supporting families throughout Sale, Manchester and surrounding areas during their most difficult times.</p>
+                        <p>The testimonials on this page come from real families who have trusted us to care for their loved ones. Each review represents not just our professional service, but our commitment to treating every family with dignity, compassion and respect.</p>
+                        <p>We know that choosing a funeral director is one of the most important decisions you'll make. We hope these testimonials give you confidence in our ability to support you through this challenging time and help you create a meaningful farewell for your loved one.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-heart fa-3x"></i>
+                        <p>Compassionate Care</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Testimonials -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Recent Family Testimonials</h2>
+
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"When my husband passed suddenly, I felt completely overwhelmed. From the moment I called Arthur Kershaw, they took care of everything. Their kindness and professionalism during such a difficult time was extraordinary. The funeral was exactly what David would have wanted, and I can't thank the team enough for their support."</em></p>
+                                <p><strong>- Margaret Thompson, Sale</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"Arthur Kershaw organised my mother's funeral with such attention to detail and sensitivity. Nothing was too much trouble. They made sure every aspect was perfect, from the flowers to the order of service. The entire family was impressed with their professionalism and genuine care."</em></p>
+                                <p><strong>- James Mitchell, Stretford</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-users fa-3x"></i>
+                        <p>Families We've Helped</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Excellence -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Excellence in Service</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"I cannot speak highly enough of Arthur Kershaw Funeral Services. When my father passed away during the pandemic, they handled all the additional complexities with such grace. They kept us informed every step of the way and ensured we could still give Dad the send-off he deserved despite the restrictions."</em></p>
+                                <p><strong>- Sarah Williams, Altrincham</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"The team at Arthur Kershaw went above and beyond for our family. When we needed to arrange the funeral quickly due to religious requirements, they made it happen seamlessly. Their experience and efficiency during such a stressful time was invaluable."</em></p>
+                                <p><strong>- Ahmed Hassan, Chorlton</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-award fa-3x"></i>
+                        <p>Award-Winning Service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Touch -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">The Personal Touch</h2>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"What impressed me most was how they really listened to what we wanted. Mum had very specific ideas about her funeral, and Arthur Kershaw made sure every detail was exactly right. The service was a perfect celebration of her life. Thank you for making a difficult day so much easier."</em></p>
+                                <p><strong>- Linda Davies, Hale</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"Arthur Kershaw provided exceptional support during the most challenging time of our lives. Their patience, understanding and professional expertise helped us through every decision. The funeral was beautiful and exactly what our grandmother would have wanted."</em></p>
+                                <p><strong>- The Roberts Family, Urmston</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-handshake fa-3x"></i>
+                        <p>Personal Service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value and Care -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Value and Transparency</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"Arthur Kershaw provided transparent pricing from the start with no hidden charges. They helped us choose options within our budget while still giving my husband the dignified funeral he deserved. Their honesty and integrity meant everything to us during such a vulnerable time."</em></p>
+                                <p><strong>- Patricia Johnson, Flixton</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"When money was tight after my mother's illness, Arthur Kershaw helped us understand all our options. They never made us feel embarrassed about our budget constraints and helped us create a beautiful, meaningful service that we could afford. Their compassion went far beyond business."</em></p>
+                                <p><strong>- Michael Carter, Timperley</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-shield-alt fa-3x"></i>
+                        <p>Trust and Integrity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 24/7 Support -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Always Available When Needed</h2>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"My wife passed away at 3am on a Sunday morning. I called Arthur Kershaw not expecting anyone to answer, but they picked up immediately and were so kind and reassuring. They came out straight away and handled everything with such care. Knowing they're truly available 24/7 was such a comfort."</em></p>
+                                <p><strong>- Robert Taylor, Brooklands</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"The out-of-hours support was incredible. When dad passed away on a bank holiday, Arthur Kershaw were there within an hour. They guided us through everything we needed to do and took away all the stress and confusion. Their dedication to families is genuinely remarkable."</em></p>
+                                <p><strong>- Helen Morgan, Ashton-upon-Mersey</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-clock fa-3x"></i>
+                        <p>24/7 Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pre-Paid Plans -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Pre-Paid Funeral Plans</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"My husband and I set up pre-paid plans with Arthur Kershaw five years ago. When he passed last year, everything was already arranged and paid for. It removed so much stress during an already difficult time. The plan covered everything as promised, and the service was exactly what we had discussed."</em></p>
+                                <p><strong>- Dorothy Evans, Lymm</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p><em>"The pre-paid plan gave us such peace of mind. Arthur Kershaw explained everything clearly, never pressured us, and answered all our questions patiently. When the time came, they honored every detail we'd discussed. I'd recommend their plans to anyone thinking ahead."</em></p>
+                                <p><strong>- George Parker, Sale Moor</strong></p>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-file-contract fa-3x"></i>
+                        <p>Peace of Mind</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overall Statistics -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Commitment to Excellence</h2>
+                <div class="text-center mb-40">
+                    <h3>What Our Reviews Tell Us</h3>
+                    <p class="lead">The feedback from families we serve drives our continuous improvement</p>
+                </div>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <i class="fas fa-star"></i>
+                        <h3>98% Satisfaction</h3>
+                        <p>Nearly all families rate our service as excellent, with particular praise for our compassion and professionalism.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Over 2,000 Families</h3>
+                        <p>We've had the privilege of supporting over 2,000 families in the past decade alone.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Consistently Caring</h3>
+                        <p>Families consistently praise our gentle, understanding approach during their most difficult times.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Trusted Locally</h3>
+                        <p>Many of our families come to us through recommendations from friends and family - the highest compliment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ about Reviews -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Questions About Our Service</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do you ensure consistently high standards?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We regularly review feedback from every family we serve and use this to continuously improve our service. All our staff receive ongoing training, and we maintain strict quality standards across all aspects of our care. Our long-standing reputation is built on never compromising on quality.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What if we're not satisfied with any aspect of the service?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We take any concerns very seriously. If anything doesn't meet your expectations, please talk to us immediately so we can address it. We have a formal complaints procedure and are members of professional bodies that oversee standards in the funeral industry. Your satisfaction is our priority.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can we contact previous families for references?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While we respect families' privacy and wouldn't share contact details without permission, many families are happy to speak to others considering our services. We can arrange for you to speak with families who have volunteered to share their experience, or you can read reviews on independent websites.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How can we leave feedback about our experience?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We welcome feedback through several channels: you can call us directly, complete our feedback forms, leave reviews on Google or Facebook, or write to us. All feedback, positive or negative, helps us serve future families better. We particularly appreciate detailed reviews that help other families understand what to expect.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Experience Our Caring Service</h2>
+                    <p class="lead">Join the thousands of families who have trusted us during their most difficult times</p>
+                    <p><strong>Call us anytime on 0161 969 2288</strong></p>
+                    <p>Or visit us at 168-170 Washway Road, Sale, M33 6RH<br>
+                    <em>We're here 24/7 to provide the compassionate care you deserve</em></p>
+                    <a href="contact.php" class="btn btn-white">Contact Us Today</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

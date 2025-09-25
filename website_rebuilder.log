@@ -1,0 +1,442 @@
+2025-09-13 10:40:19,496 - __main__ - INFO - Running in DEMO mode with example data...
+2025-09-13 10:42:01,833 - __main__ - INFO - Running in DEMO mode with example data...
+2025-09-13 10:42:01,837 - examples.demo_runner - INFO - ============================================================
+2025-09-13 10:42:01,837 - examples.demo_runner - INFO - RUNNING DEMO MODE - WEBSITE REBUILDER
+2025-09-13 10:42:01,837 - examples.demo_runner - INFO - ============================================================
+2025-09-13 10:42:01,838 - examples.demo_runner - INFO - Output directory: output\demo_20250913_104201
+2025-09-13 10:42:01,838 - examples.demo_runner - INFO - 
+Step 1: Detecting business type...
+2025-09-13 10:42:01,838 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 10:42:01,839 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 44)
+2025-09-13 10:42:01,839 - examples.demo_runner - INFO - Detected business type: law_firm
+2025-09-13 10:42:01,839 - examples.demo_runner - INFO - 
+Step 2: Generating SEO keywords...
+2025-09-13 10:42:01,839 - examples.demo_runner - INFO - Target keywords: ['hong kong lawyer', 'family law', 'divorce attorney', 'commercial litigation', 'corporate law']
+2025-09-13 10:42:01,839 - examples.demo_runner - INFO - 
+Step 3: Generating JSON data files...
+2025-09-13 10:42:01,839 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 10:42:01,841 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\universal\business.json
+2025-09-13 10:42:01,842 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\universal\navigation.json
+2025-09-13 10:42:01,843 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\universal\team.json
+2025-09-13 10:42:01,843 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\universal\contact.json
+2025-09-13 10:42:01,844 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\universal\social.json
+2025-09-13 10:42:01,844 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\index.json
+2025-09-13 10:42:01,845 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\about.json
+2025-09-13 10:42:01,845 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\contact.json
+2025-09-13 10:42:01,846 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\hong-kong-lawyer.json
+2025-09-13 10:42:01,847 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\family-law.json
+2025-09-13 10:42:01,848 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\divorce-attorney.json
+2025-09-13 10:42:01,848 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\commercial-litigation.json
+2025-09-13 10:42:01,849 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\corporate-law.json
+2025-09-13 10:42:01,850 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\immigration-law.json
+2025-09-13 10:42:01,850 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\real-estate-law.json
+2025-09-13 10:42:01,851 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\criminal-defense.json
+2025-09-13 10:42:01,852 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\lawyer.json
+2025-09-13 10:42:01,852 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\attorney.json
+2025-09-13 10:42:01,853 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\legal-services.json
+2025-09-13 10:42:01,854 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\law-firm.json
+2025-09-13 10:42:01,854 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\hong-kong-lawyer-central-district.json
+2025-09-13 10:42:01,855 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\family-law-central-district.json
+2025-09-13 10:42:01,856 - generator.json_generator - INFO - Generated: output\demo_20250913_104201\data\pages\divorce-attorney-central-district.json
+2025-09-13 10:42:01,856 - examples.demo_runner - INFO - Generated 5 universal files and 18 page files
+2025-09-13 10:42:01,856 - examples.demo_runner - INFO - 
+Step 4: Enhancing content for SEO...
+2025-09-13 10:42:01,856 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 10:42:01,856 - examples.demo_runner - INFO - 
+Step 5: Generating PHP website...
+2025-09-13 10:42:01,856 - generator.php_generator - INFO - Generating PHP website in: output\demo_20250913_104201
+2025-09-13 10:45:58,255 - __main__ - INFO - Running in DEMO mode with example data...
+2025-09-13 10:45:58,257 - examples.demo_runner - INFO - ============================================================
+2025-09-13 10:45:58,257 - examples.demo_runner - INFO - RUNNING DEMO MODE - WEBSITE REBUILDER
+2025-09-13 10:45:58,257 - examples.demo_runner - INFO - ============================================================
+2025-09-13 10:45:58,257 - examples.demo_runner - INFO - Output directory: output\demo_20250913_104558
+2025-09-13 10:45:58,257 - examples.demo_runner - INFO - 
+Step 1: Detecting business type...
+2025-09-13 10:45:58,257 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 10:45:58,258 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 44)
+2025-09-13 10:45:58,258 - examples.demo_runner - INFO - Detected business type: law_firm
+2025-09-13 10:45:58,258 - examples.demo_runner - INFO - 
+Step 2: Generating SEO keywords...
+2025-09-13 10:45:58,258 - examples.demo_runner - INFO - Target keywords: ['hong kong lawyer', 'family law', 'divorce attorney', 'commercial litigation', 'corporate law']
+2025-09-13 10:45:58,258 - examples.demo_runner - INFO - 
+Step 3: Generating JSON data files...
+2025-09-13 10:45:58,258 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 10:45:58,260 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\universal\business.json
+2025-09-13 10:45:58,260 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\universal\navigation.json
+2025-09-13 10:45:58,261 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\universal\team.json
+2025-09-13 10:45:58,262 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\universal\contact.json
+2025-09-13 10:45:58,263 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\universal\social.json
+2025-09-13 10:45:58,263 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\index.json
+2025-09-13 10:45:58,264 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\about.json
+2025-09-13 10:45:58,265 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\contact.json
+2025-09-13 10:45:58,265 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\hong-kong-lawyer.json
+2025-09-13 10:45:58,266 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\family-law.json
+2025-09-13 10:45:58,267 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\divorce-attorney.json
+2025-09-13 10:45:58,268 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\commercial-litigation.json
+2025-09-13 10:45:58,269 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\corporate-law.json
+2025-09-13 10:45:58,270 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\immigration-law.json
+2025-09-13 10:45:58,270 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\real-estate-law.json
+2025-09-13 10:45:58,271 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\criminal-defense.json
+2025-09-13 10:45:58,272 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\lawyer.json
+2025-09-13 10:45:58,273 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\attorney.json
+2025-09-13 10:45:58,274 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\legal-services.json
+2025-09-13 10:45:58,275 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\law-firm.json
+2025-09-13 10:45:58,275 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\hong-kong-lawyer-central-district.json
+2025-09-13 10:45:58,276 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\family-law-central-district.json
+2025-09-13 10:45:58,277 - generator.json_generator - INFO - Generated: output\demo_20250913_104558\data\pages\divorce-attorney-central-district.json
+2025-09-13 10:45:58,277 - examples.demo_runner - INFO - Generated 5 universal files and 18 page files
+2025-09-13 10:45:58,277 - examples.demo_runner - INFO - 
+Step 4: Enhancing content for SEO...
+2025-09-13 10:45:58,278 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 10:45:58,278 - examples.demo_runner - INFO - 
+Step 5: Generating PHP website...
+2025-09-13 10:45:58,278 - generator.php_generator - INFO - Generating PHP website in: output\demo_20250913_104558
+2025-09-13 10:45:58,289 - generator.php_generator - INFO - Generated 27 PHP files
+2025-09-13 10:45:58,290 - examples.demo_runner - INFO - 
+Step 6: Generating additional files...
+2025-09-13 10:45:58,291 - examples.demo_runner - INFO - Generated robots.txt, sitemap.xml, .htaccess, and favicon.ico
+2025-09-13 10:45:58,291 - examples.demo_runner - INFO - 
+Step 7: Creating summary report...
+2025-09-13 10:45:58,291 - examples.demo_runner - INFO - Demo report created: output\demo_20250913_104558\DEMO_REPORT.txt
+2025-09-13 10:45:58,291 - examples.demo_runner - INFO - 
+============================================================
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - DEMO COMPLETED SUCCESSFULLY!
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - Website generated at: output\demo_20250913_104558
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - ============================================================
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - 
+To view the website:
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - 1. Upload all files to a PHP-enabled web server
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - 2. Or run locally with: php -S localhost:8000
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO -    from directory: output\demo_20250913_104558
+2025-09-13 10:45:58,292 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:09:32,236 - __main__ - INFO - Running in DEMO mode with example data...
+2025-09-13 11:09:32,237 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:09:32,238 - examples.demo_runner - INFO - RUNNING DEMO MODE - WEBSITE REBUILDER
+2025-09-13 11:09:32,238 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:09:32,248 - examples.demo_runner - INFO - Output directory: output\demo_20250913_110932
+2025-09-13 11:09:32,248 - examples.demo_runner - INFO - 
+Step 1: Detecting business type...
+2025-09-13 11:09:32,248 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 11:09:32,248 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 44)
+2025-09-13 11:09:32,248 - examples.demo_runner - INFO - Detected business type: law_firm
+2025-09-13 11:09:32,248 - examples.demo_runner - INFO - 
+Step 2: Generating SEO keywords...
+2025-09-13 11:09:32,248 - examples.demo_runner - INFO - Target keywords: ['hong kong lawyer', 'family law', 'divorce attorney', 'commercial litigation', 'corporate law']
+2025-09-13 11:09:32,249 - examples.demo_runner - INFO - 
+Step 3: Generating JSON data files...
+2025-09-13 11:09:32,249 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 11:09:32,250 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\universal\business.json
+2025-09-13 11:09:32,251 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\universal\navigation.json
+2025-09-13 11:09:32,252 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\universal\team.json
+2025-09-13 11:09:32,252 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\universal\contact.json
+2025-09-13 11:09:32,253 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\universal\social.json
+2025-09-13 11:09:32,254 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\index.json
+2025-09-13 11:09:32,254 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\about.json
+2025-09-13 11:09:32,255 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\contact.json
+2025-09-13 11:09:32,256 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\hong-kong-lawyer.json
+2025-09-13 11:09:32,256 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\family-law.json
+2025-09-13 11:09:32,257 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\divorce-attorney.json
+2025-09-13 11:09:32,258 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\commercial-litigation.json
+2025-09-13 11:09:32,258 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\corporate-law.json
+2025-09-13 11:09:32,259 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\immigration-law.json
+2025-09-13 11:09:32,260 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\real-estate-law.json
+2025-09-13 11:09:32,260 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\criminal-defense.json
+2025-09-13 11:09:32,261 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\lawyer.json
+2025-09-13 11:09:32,262 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\attorney.json
+2025-09-13 11:09:32,263 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\legal-services.json
+2025-09-13 11:09:32,264 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\law-firm.json
+2025-09-13 11:09:32,265 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\hong-kong-lawyer-central-district.json
+2025-09-13 11:09:32,265 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\family-law-central-district.json
+2025-09-13 11:09:32,266 - generator.json_generator - INFO - Generated: output\demo_20250913_110932\data\pages\divorce-attorney-central-district.json
+2025-09-13 11:09:32,266 - examples.demo_runner - INFO - Generated 5 universal files and 18 page files
+2025-09-13 11:09:32,266 - examples.demo_runner - INFO - 
+Step 4: Enhancing content for SEO...
+2025-09-13 11:09:32,266 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 11:09:32,266 - examples.demo_runner - INFO - 
+Step 5: Generating PHP website...
+2025-09-13 11:09:32,266 - generator.php_generator - INFO - Generating PHP website in: output\demo_20250913_110932
+2025-09-13 11:09:32,278 - generator.php_generator - INFO - Generated 27 PHP files
+2025-09-13 11:09:32,278 - examples.demo_runner - INFO - 
+Step 6: Generating additional files...
+2025-09-13 11:09:32,280 - examples.demo_runner - INFO - Generated robots.txt, sitemap.xml, .htaccess, and favicon.ico
+2025-09-13 11:09:32,280 - examples.demo_runner - INFO - 
+Step 7: Creating summary report...
+2025-09-13 11:09:32,280 - examples.demo_runner - INFO - Demo report created: output\demo_20250913_110932\DEMO_REPORT.txt
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - 
+============================================================
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - DEMO COMPLETED SUCCESSFULLY!
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - Website generated at: output\demo_20250913_110932
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - 
+To view the website:
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - 1. Upload all files to a PHP-enabled web server
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - 2. Or run locally with: php -S localhost:8000
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO -    from directory: output\demo_20250913_110932
+2025-09-13 11:09:32,281 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:11:49,133 - __main__ - INFO - Running in DEMO mode with example data...
+2025-09-13 11:11:49,135 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:11:49,135 - examples.demo_runner - INFO - RUNNING DEMO MODE - WEBSITE REBUILDER
+2025-09-13 11:11:49,135 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:11:49,135 - examples.demo_runner - INFO - Output directory: output\demo_20250913_111149
+2025-09-13 11:11:49,135 - examples.demo_runner - INFO - 
+Step 1: Detecting business type...
+2025-09-13 11:11:49,135 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 11:11:49,136 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 44)
+2025-09-13 11:11:49,136 - examples.demo_runner - INFO - Detected business type: law_firm
+2025-09-13 11:11:49,136 - examples.demo_runner - INFO - 
+Step 2: Generating SEO keywords...
+2025-09-13 11:11:49,136 - examples.demo_runner - INFO - Target keywords: ['hong kong lawyer', 'family law', 'divorce attorney', 'commercial litigation', 'corporate law']
+2025-09-13 11:11:49,136 - examples.demo_runner - INFO - 
+Step 3: Generating JSON data files...
+2025-09-13 11:11:49,136 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 11:11:49,137 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\universal\business.json
+2025-09-13 11:11:49,138 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\universal\navigation.json
+2025-09-13 11:11:49,139 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\universal\team.json
+2025-09-13 11:11:49,139 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\universal\contact.json
+2025-09-13 11:11:49,140 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\universal\social.json
+2025-09-13 11:11:49,140 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\index.json
+2025-09-13 11:11:49,141 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\about.json
+2025-09-13 11:11:49,141 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\contact.json
+2025-09-13 11:11:49,142 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\hong-kong-lawyer.json
+2025-09-13 11:11:49,143 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\family-law.json
+2025-09-13 11:11:49,143 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\divorce-attorney.json
+2025-09-13 11:11:49,144 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\commercial-litigation.json
+2025-09-13 11:11:49,145 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\corporate-law.json
+2025-09-13 11:11:49,146 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\immigration-law.json
+2025-09-13 11:11:49,146 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\real-estate-law.json
+2025-09-13 11:11:49,147 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\criminal-defense.json
+2025-09-13 11:11:49,148 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\lawyer.json
+2025-09-13 11:11:49,148 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\attorney.json
+2025-09-13 11:11:49,149 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\legal-services.json
+2025-09-13 11:11:49,150 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\law-firm.json
+2025-09-13 11:11:49,150 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\hong-kong-lawyer-central-district.json
+2025-09-13 11:11:49,151 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\family-law-central-district.json
+2025-09-13 11:11:49,152 - generator.json_generator - INFO - Generated: output\demo_20250913_111149\data\pages\divorce-attorney-central-district.json
+2025-09-13 11:11:49,152 - examples.demo_runner - INFO - Generated 5 universal files and 18 page files
+2025-09-13 11:11:49,152 - examples.demo_runner - INFO - 
+Step 4: Enhancing content for SEO...
+2025-09-13 11:11:49,152 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 11:11:49,152 - examples.demo_runner - INFO - 
+Step 5: Generating PHP website...
+2025-09-13 11:11:49,152 - generator.php_generator - INFO - Generating PHP website in: output\demo_20250913_111149
+2025-09-13 11:11:49,164 - generator.php_generator - INFO - Generated 27 PHP files
+2025-09-13 11:11:49,164 - examples.demo_runner - INFO - 
+Step 6: Generating additional files...
+2025-09-13 11:11:49,165 - examples.demo_runner - INFO - Generated robots.txt, sitemap.xml, .htaccess, and favicon.ico
+2025-09-13 11:11:49,165 - examples.demo_runner - INFO - 
+Step 7: Creating summary report...
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - Demo report created: output\demo_20250913_111149\DEMO_REPORT.txt
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - 
+============================================================
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - DEMO COMPLETED SUCCESSFULLY!
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - Website generated at: output\demo_20250913_111149
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - 
+To view the website:
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - 1. Upload all files to a PHP-enabled web server
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - 2. Or run locally with: php -S localhost:8000
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO -    from directory: output\demo_20250913_111149
+2025-09-13 11:11:49,166 - examples.demo_runner - INFO - ============================================================
+2025-09-13 11:26:09,332 - __main__ - INFO - Starting website rebuild for: https://www.robertleelawoffices.com/
+2025-09-13 11:26:09,333 - __main__ - INFO - Step 1: Analyzing website...
+2025-09-13 11:26:09,333 - analyzer.website_analyzer - INFO - Analyzing website: https://www.robertleelawoffices.com/
+2025-09-13 11:26:11,374 - __main__ - INFO - Step 2: Detecting business type...
+2025-09-13 11:26:11,374 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 11:26:11,375 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 20)
+2025-09-13 11:26:11,375 - __main__ - INFO - Generating suggested keywords...
+2025-09-13 11:26:11,376 - __main__ - INFO - Step 3: Generating JSON data files...
+2025-09-13 11:26:11,376 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 11:26:11,378 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\universal\business.json
+2025-09-13 11:26:11,378 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\universal\navigation.json
+2025-09-13 11:26:11,389 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\universal\team.json
+2025-09-13 11:26:11,390 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\universal\contact.json
+2025-09-13 11:26:11,391 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\universal\social.json
+2025-09-13 11:26:11,391 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\index.json
+2025-09-13 11:26:11,392 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\about.json
+2025-09-13 11:26:11,393 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\contact.json
+2025-09-13 11:26:11,394 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\lawyer.json
+2025-09-13 11:26:11,395 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\attorney.json
+2025-09-13 11:26:11,396 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\legal-services.json
+2025-09-13 11:26:11,396 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_112609\data\pages\law-firm.json
+2025-09-13 11:26:11,396 - __main__ - INFO - Step 4: Enhancing content for SEO...
+2025-09-13 11:26:11,397 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 11:26:11,397 - __main__ - INFO - Step 5: Generating PHP website...
+2025-09-13 11:26:11,397 - generator.php_generator - INFO - Generating PHP website in: output\www.robertleelawoffices.com__20250913_112609
+2025-09-13 11:26:11,405 - generator.php_generator - INFO - Generated 16 PHP files
+2025-09-13 11:26:11,405 - __main__ - INFO - Step 6: Generating SEO files...
+2025-09-13 11:26:11,407 - __main__ - INFO - Step 7: Creating deployment package...
+2025-09-13 11:26:11,407 - __main__ - ERROR - Error during website rebuild: 'charmap' codec can't encode character '\u2705' in position 884: character maps to <undefined>
+2025-09-13 11:31:04,404 - __main__ - INFO - Starting website rebuild for: https://www.robertleelawoffices.com/
+2025-09-13 11:31:04,405 - __main__ - INFO - Step 1: Analyzing website...
+2025-09-13 11:31:04,405 - analyzer.website_analyzer - INFO - Analyzing website: https://www.robertleelawoffices.com/
+2025-09-13 11:31:05,062 - __main__ - INFO - Step 2: Detecting business type...
+2025-09-13 11:31:05,063 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 11:31:05,063 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 20)
+2025-09-13 11:31:05,063 - __main__ - INFO - Step 3: Generating JSON data files...
+2025-09-13 11:31:05,063 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 11:31:05,065 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\universal\business.json
+2025-09-13 11:31:05,066 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\universal\navigation.json
+2025-09-13 11:31:05,066 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\universal\team.json
+2025-09-13 11:31:05,067 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\universal\contact.json
+2025-09-13 11:31:05,067 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\universal\social.json
+2025-09-13 11:31:05,068 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\index.json
+2025-09-13 11:31:05,069 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\about.json
+2025-09-13 11:31:05,070 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\contact.json
+2025-09-13 11:31:05,071 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\divorce-lawyer-hong-kong.json
+2025-09-13 11:31:05,071 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\family-law-hong-kong.json
+2025-09-13 11:31:05,072 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\child-custody-lawyer.json
+2025-09-13 11:31:05,073 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\prenuptial-agreement-hong-kong.json
+2025-09-13 11:31:05,074 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com__20250913_113104\data\pages\matrimonial-lawyer.json
+2025-09-13 11:31:05,074 - __main__ - INFO - Step 4: Enhancing content for SEO...
+2025-09-13 11:31:05,074 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 11:31:05,074 - __main__ - INFO - Step 5: Generating PHP website...
+2025-09-13 11:31:05,074 - generator.php_generator - INFO - Generating PHP website in: output\www.robertleelawoffices.com__20250913_113104
+2025-09-13 11:31:05,082 - generator.php_generator - INFO - Generated 17 PHP files
+2025-09-13 11:31:05,082 - __main__ - INFO - Step 6: Generating SEO files...
+2025-09-13 11:31:05,084 - __main__ - INFO - Step 7: Creating deployment package...
+2025-09-13 11:40:05,738 - __main__ - INFO - Starting website rebuild for: https://www.robertleelawoffices.com/
+2025-09-13 11:40:05,738 - __main__ - INFO - Step 1: Analyzing website...
+2025-09-13 11:40:05,738 - analyzer.website_analyzer - INFO - Analyzing website: https://www.robertleelawoffices.com/
+2025-09-13 11:40:06,360 - __main__ - INFO - Step 2: Detecting business type...
+2025-09-13 11:40:06,360 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 11:40:06,361 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 20)
+2025-09-13 11:40:06,361 - __main__ - INFO - Step 3: Generating JSON data files...
+2025-09-13 11:40:06,361 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 11:40:06,363 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\universal\business.json
+2025-09-13 11:40:06,363 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\universal\navigation.json
+2025-09-13 11:40:06,373 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\universal\team.json
+2025-09-13 11:40:06,374 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\universal\contact.json
+2025-09-13 11:40:06,375 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\universal\social.json
+2025-09-13 11:40:06,375 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\index.json
+2025-09-13 11:40:06,376 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\about.json
+2025-09-13 11:40:06,376 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\contact.json
+2025-09-13 11:40:06,377 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\divorce-lawyer-hong-kong.json
+2025-09-13 11:40:06,378 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\family-law-hong-kong.json
+2025-09-13 11:40:06,379 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\child-custody-lawyer.json
+2025-09-13 11:40:06,379 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\prenuptial-agreement-hong-kong.json
+2025-09-13 11:40:06,380 - generator.json_generator - INFO - Generated: output\Robert Lee Law Offices_20250913_114005\data\pages\matrimonial-lawyer.json
+2025-09-13 11:40:06,380 - __main__ - INFO - Step 4: Enhancing content for SEO...
+2025-09-13 11:40:06,380 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 11:40:06,380 - __main__ - INFO - Step 5: Generating PHP website...
+2025-09-13 11:40:06,381 - generator.php_generator - INFO - Generating PHP website in: output\Robert Lee Law Offices_20250913_114005
+2025-09-13 11:40:06,389 - generator.php_generator - INFO - Generated 17 PHP files
+2025-09-13 11:40:06,389 - __main__ - INFO - Step 6: Generating SEO files...
+2025-09-13 11:40:06,391 - __main__ - INFO - Step 7: Creating deployment package...
+2025-09-13 11:40:06,392 - __main__ - INFO - [SUCCESS] Website successfully generated at: output\Robert Lee Law Offices_20250913_114005
+2025-09-13 12:00:34,317 - __main__ - INFO - Starting website rebuild for: https://www.robertleelawoffices.com
+2025-09-13 12:00:34,318 - __main__ - INFO - Step 1: Analyzing website...
+2025-09-13 12:00:34,318 - analyzer.website_analyzer - INFO - Analyzing website: https://www.robertleelawoffices.com
+2025-09-13 12:00:34,904 - analyzer.website_analyzer - INFO - Starting smart crawl to discover all content...
+2025-09-13 12:00:34,904 - analyzer.smart_crawler - INFO - Checking for sitemap.xml...
+2025-09-13 12:00:35,102 - analyzer.smart_crawler - INFO - Found 13 URLs in sitemap
+2025-09-13 12:00:35,102 - analyzer.smart_crawler - INFO - Checking for WordPress...
+2025-09-13 12:00:35,240 - analyzer.smart_crawler - INFO - Checking common page patterns...
+2025-09-13 12:00:35,877 - analyzer.smart_crawler - INFO - Extracting navigation links...
+2025-09-13 12:00:36,014 - analyzer.smart_crawler - INFO - Looking for service pages...
+2025-09-13 12:00:36,015 - analyzer.website_analyzer - INFO - Analyzing 1 service pages...
+2025-09-13 12:00:36,115 - analyzer.website_analyzer - INFO - Found 1 services
+2025-09-13 12:00:36,115 - analyzer.website_analyzer - INFO - Analyzing 6 about pages...
+2025-09-13 12:00:37,289 - analyzer.website_analyzer - INFO - Total pages discovered: 10
+2025-09-13 12:00:37,290 - __main__ - INFO - Step 2: Detecting business type...
+2025-09-13 12:00:37,290 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 12:00:37,291 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 22)
+2025-09-13 12:00:37,291 - __main__ - INFO - Generating suggested keywords...
+2025-09-13 12:00:37,291 - __main__ - INFO - Found 1 service pages
+2025-09-13 12:00:37,291 - __main__ - INFO - Total services to generate: 6
+2025-09-13 12:00:37,291 - __main__ - INFO - Step 4: Generating JSON data files with AI-enhanced content...
+2025-09-13 12:00:37,291 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 12:00:37,293 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120034\data\universal\business.json
+2025-09-13 12:00:37,294 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120034\data\universal\navigation.json
+2025-09-13 12:00:37,294 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120034\data\universal\team.json
+2025-09-13 12:00:37,295 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120034\data\universal\contact.json
+2025-09-13 12:00:37,295 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120034\data\universal\social.json
+2025-09-13 12:00:37,296 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120034\data\pages\index.json
+2025-09-13 12:00:37,296 - __main__ - ERROR - Error during website rebuild: AIContentGenerator.generate_about_content() got an unexpected keyword argument 'team_members'
+2025-09-13 12:00:58,779 - __main__ - INFO - Starting website rebuild for: https://www.robertleelawoffices.com
+2025-09-13 12:00:58,779 - __main__ - INFO - Step 1: Analyzing website...
+2025-09-13 12:00:58,780 - analyzer.website_analyzer - INFO - Analyzing website: https://www.robertleelawoffices.com
+2025-09-13 12:00:59,439 - analyzer.website_analyzer - INFO - Starting smart crawl to discover all content...
+2025-09-13 12:00:59,439 - analyzer.smart_crawler - INFO - Checking for sitemap.xml...
+2025-09-13 12:00:59,603 - analyzer.smart_crawler - INFO - Found 13 URLs in sitemap
+2025-09-13 12:00:59,603 - analyzer.smart_crawler - INFO - Checking for WordPress...
+2025-09-13 12:00:59,760 - analyzer.smart_crawler - INFO - Checking common page patterns...
+2025-09-13 12:01:00,390 - analyzer.smart_crawler - INFO - Extracting navigation links...
+2025-09-13 12:01:00,514 - analyzer.smart_crawler - INFO - Looking for service pages...
+2025-09-13 12:01:00,515 - analyzer.website_analyzer - INFO - Analyzing 1 service pages...
+2025-09-13 12:01:00,604 - analyzer.website_analyzer - INFO - Found 1 services
+2025-09-13 12:01:00,604 - analyzer.website_analyzer - INFO - Analyzing 6 about pages...
+2025-09-13 12:01:01,018 - analyzer.website_analyzer - INFO - Total pages discovered: 10
+2025-09-13 12:01:01,019 - __main__ - INFO - Step 2: Detecting business type...
+2025-09-13 12:01:01,019 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 12:01:01,020 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 22)
+2025-09-13 12:01:01,020 - __main__ - INFO - Generating suggested keywords...
+2025-09-13 12:01:01,020 - __main__ - INFO - Found 1 service pages
+2025-09-13 12:01:01,020 - __main__ - INFO - Total services to generate: 6
+2025-09-13 12:01:01,020 - __main__ - INFO - Step 4: Generating JSON data files with AI-enhanced content...
+2025-09-13 12:01:01,020 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 12:01:01,022 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\universal\business.json
+2025-09-13 12:01:01,022 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\universal\navigation.json
+2025-09-13 12:01:01,023 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\universal\team.json
+2025-09-13 12:01:01,024 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\universal\contact.json
+2025-09-13 12:01:01,024 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\universal\social.json
+2025-09-13 12:01:01,025 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\index.json
+2025-09-13 12:01:01,026 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\about.json
+2025-09-13 12:01:01,026 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\contact.json
+2025-09-13 12:01:01,027 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\practice-areas-robert-lee-law-offices.json
+2025-09-13 12:01:01,028 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\lawyer.json
+2025-09-13 12:01:01,029 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\attorney.json
+2025-09-13 12:01:01,030 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\legal-services.json
+2025-09-13 12:01:01,031 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\practice-areas-robert-lee-law-offices.json
+2025-09-13 12:01:01,032 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_120058\data\pages\law-firm.json
+2025-09-13 12:01:01,032 - __main__ - INFO - Step 5: Enhancing content for SEO...
+2025-09-13 12:01:01,032 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 12:01:01,032 - __main__ - INFO - Step 5: Generating PHP website...
+2025-09-13 12:01:01,032 - generator.php_generator - INFO - Generating PHP website in: output\www.robertleelawoffices.com_20250913_120058
+2025-09-13 12:01:01,042 - generator.php_generator - INFO - Generated 17 PHP files
+2025-09-13 12:01:01,042 - __main__ - INFO - Step 6: Generating SEO files...
+2025-09-13 12:01:01,044 - __main__ - INFO - Step 7: Creating deployment package...
+2025-09-13 12:01:01,045 - __main__ - INFO - [SUCCESS] Website successfully generated at: output\www.robertleelawoffices.com_20250913_120058
+2025-09-13 12:17:45,155 - __main__ - INFO - Starting website rebuild for: https://www.robertleelawoffices.com
+2025-09-13 12:17:45,155 - __main__ - INFO - Step 1: Analyzing website...
+2025-09-13 12:17:45,155 - analyzer.website_analyzer - INFO - Analyzing website: https://www.robertleelawoffices.com
+2025-09-13 12:17:45,779 - analyzer.website_analyzer - INFO - Starting smart crawl to discover all content...
+2025-09-13 12:17:45,779 - analyzer.smart_crawler - INFO - Checking for sitemap.xml...
+2025-09-13 12:17:45,964 - analyzer.smart_crawler - INFO - Found 13 URLs in sitemap
+2025-09-13 12:17:45,964 - analyzer.smart_crawler - INFO - Checking for WordPress...
+2025-09-13 12:17:46,101 - analyzer.smart_crawler - INFO - Checking common page patterns...
+2025-09-13 12:17:46,730 - analyzer.smart_crawler - INFO - Extracting navigation links...
+2025-09-13 12:17:46,859 - analyzer.smart_crawler - INFO - Looking for service pages...
+2025-09-13 12:17:46,860 - analyzer.website_analyzer - INFO - Analyzing 1 service pages...
+2025-09-13 12:17:46,952 - analyzer.website_analyzer - INFO - Found 1 services
+2025-09-13 12:17:46,952 - analyzer.website_analyzer - INFO - Analyzing 6 about pages...
+2025-09-13 12:17:47,367 - analyzer.website_analyzer - INFO - Total pages discovered: 10
+2025-09-13 12:17:47,367 - __main__ - INFO - Step 2: Detecting business type...
+2025-09-13 12:17:47,367 - analyzer.business_detector - INFO - Detecting business type from website content...
+2025-09-13 12:17:47,368 - analyzer.business_detector - INFO - Detected business type: law_firm (confidence: 20)
+2025-09-13 12:17:47,368 - __main__ - INFO - Generating suggested keywords...
+2025-09-13 12:17:47,368 - __main__ - INFO - Found 1 service pages
+2025-09-13 12:17:47,368 - __main__ - INFO - Total services to generate: 6
+2025-09-13 12:17:47,368 - __main__ - INFO - Step 4: Generating JSON data files with AI-enhanced content...
+2025-09-13 12:17:47,368 - generator.json_generator - INFO - Generating JSON data files...
+2025-09-13 12:17:47,370 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\universal\business.json
+2025-09-13 12:17:47,370 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\universal\navigation.json
+2025-09-13 12:17:47,380 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\universal\team.json
+2025-09-13 12:17:47,381 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\universal\contact.json
+2025-09-13 12:17:47,382 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\universal\social.json
+2025-09-13 12:17:47,382 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\index.json
+2025-09-13 12:17:47,383 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\about.json
+2025-09-13 12:17:47,383 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\contact.json
+2025-09-13 12:17:47,384 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\attorney.json
+2025-09-13 12:17:47,385 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\practice-areas-robert-lee-law-offices.json
+2025-09-13 12:17:47,386 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\legal-services.json
+2025-09-13 12:17:47,387 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\lawyer.json
+2025-09-13 12:17:47,388 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\law-firm.json
+2025-09-13 12:17:47,389 - generator.json_generator - INFO - Generated: output\www.robertleelawoffices.com_20250913_121745\data\pages\practice-areas-robert-lee-law-offices.json
+2025-09-13 12:17:47,389 - __main__ - INFO - Step 5: Enhancing content for SEO...
+2025-09-13 12:17:47,390 - enhancer.content_enhancer - INFO - Enhancing content for law_firm business
+2025-09-13 12:17:47,390 - __main__ - INFO - Step 5: Generating PHP website...
+2025-09-13 12:17:47,390 - generator.php_generator - INFO - Generating PHP website in: output\www.robertleelawoffices.com_20250913_121745
+2025-09-13 12:17:47,398 - generator.php_generator - INFO - Generated 17 PHP files
+2025-09-13 12:17:47,398 - __main__ - INFO - Step 6: Generating SEO files...
+2025-09-13 12:17:47,399 - __main__ - INFO - Step 7: Creating deployment package...
+2025-09-13 12:17:47,400 - __main__ - INFO - [SUCCESS] Website successfully generated at: output\www.robertleelawoffices.com_20250913_121745

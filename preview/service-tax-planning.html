@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Planning Hong Kong - International Tax Lawyer | Robert Lee Law Offices</title>
+    <meta name="description" content="Professional tax planning and advisory services in Hong Kong. Expert tax lawyers for tax optimization, international tax structuring, and cross-border tax compliance.">
+    <meta name="keywords" content="tax lawyer Hong Kong, tax planning HK, tax advisory, international tax structuring, cross-border tax, Hong Kong tax consultant">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Tax Planning Hong Kong - International Tax Lawyer | Robert Lee Law Offices">
+    <meta property="og:description" content="Professional tax planning and advisory services in Hong Kong. Expert tax lawyers for international tax structuring.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robertleelaw.com/service-tax-planning.html">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tax Planning Hong Kong | Robert Lee Law Offices">
+    <meta name="twitter:description" content="Professional tax planning and international tax advisory services in Hong Kong.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #607d8b;
+            --primary-dark: #455a64;
+            --primary-light: #78909c;
+            --secondary-color: #495057;
+            --accent-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary-color) !important;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: #333 !important;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-section .lead {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            border-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(96, 125, 139, 0.3);
+        }
+
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(96, 125, 139, 0.3);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-color);
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .card-header {
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+            border: none;
+            padding: 1.5rem;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 5px 15px rgba(96, 125, 139, 0.3);
+        }
+
+        .stats-section {
+            background-color: var(--accent-color);
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            color: white;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .footer h5 {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .footer .btn-link {
+            color: #bbb;
+            text-decoration: none;
+            padding: 0.25rem 0;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        .footer .btn-link:hover {
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+
+            .hero-section .lead {
+                font-size: 1.1rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <i class="fas fa-balance-scale me-2"></i>Robert Lee Law
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="service-corporate.html">Corporate Law</a></li>
+                        <li><a class="dropdown-item" href="service-employment.html">Employment Law</a></li>
+                        <li><a class="dropdown-item" href="service-offshore-company.html">Offshore Companies</a></li>
+                        <li><a class="dropdown-item" href="service-debt-recovery.html">Debt Recovery</a></li>
+                        <li><a class="dropdown-item" href="service-mediation.html">Mediation</a></li>
+                        <li><a class="dropdown-item active" href="service-tax-planning.html">Tax Planning</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1>Tax Planning Services</h1>
+                <p class="lead">Expert tax planning and advisory services in Hong Kong. Strategic international tax structuring and optimization solutions for individuals and businesses across multiple jurisdictions.</p>
+                <div class="mt-4">
+                    <a href="#consultation" class="btn btn-light btn-lg me-3">Tax Consultation</a>
+                    <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="feature-icon" style="width: 120px; height: 120px; font-size: 3rem;">
+                    <i class="fas fa-calculator"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">30%</span>
+                    <span class="stat-label">Average Tax Savings</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Tax Structures Created</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">15</span>
+                    <span class="stat-label">Jurisdictions Covered</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Tax Planning Services</h2>
+            <p class="lead">Comprehensive tax optimization and structuring solutions</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4><i class="fas fa-globe me-2"></i>International Tax Planning</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Cross-border structuring</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Treaty optimization</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Transfer pricing</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Double taxation relief</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Multi-jurisdiction compliance</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="#consultation" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4><i class="fas fa-building me-2"></i>Corporate Tax</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Corporate structuring</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Group reorganizations</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Tax-efficient acquisitions</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Holding company structures</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Exit planning</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="#consultation" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4><i class="fas fa-user me-2"></i>Personal Tax</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Individual tax planning</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Expatriate tax issues</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Estate planning</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Investment structuring</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Residency planning</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="#consultation" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tax Strategies -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Tax Optimization Strategies</h2>
+            <p class="lead">Proven approaches to minimize tax liability</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h4>Jurisdiction Shopping</h4>
+                    <p>Strategic selection of tax-efficient jurisdictions for business operations and investments.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h4>Structure Optimization</h4>
+                    <p>Design and implementation of tax-efficient corporate and investment structures.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Timing Strategies</h4>
+                    <p>Strategic timing of transactions and income recognition to optimize tax outcomes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h4>Income Conversion</h4>
+                    <p>Converting ordinary income to capital gains and other tax-advantaged forms of income.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Asset Protection</h4>
+                    <p>Combining tax efficiency with asset protection strategies for comprehensive wealth preservation.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h4>Treaty Benefits</h4>
+                    <p>Maximizing benefits from double taxation treaties and international tax agreements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Jurisdiction Focus -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Key Jurisdictions</h2>
+            <p class="lead">Strategic tax planning across major financial centers</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-building me-2 text-primary"></i>Hong Kong Tax Benefits</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Territorial tax system</li>
+                            <li><i class="fas fa-check text-success me-2"></i>No capital gains tax</li>
+                            <li><i class="fas fa-check text-success me-2"></i>No dividend tax</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Extensive treaty network</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Foreign-sourced income exemption</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-globe-asia me-2 text-primary"></i>Regional Optimization</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Singapore structures</li>
+                            <li><i class="fas fa-check text-success me-2"></i>China tax planning</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Greater Bay Area opportunities</li>
+                            <li><i class="fas fa-check text-success me-2"></i>ASEAN integration</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Regional holding companies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Compliance Services -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Tax Compliance Services</h2>
+            <p class="lead">Ensuring full compliance with tax obligations</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-file-alt me-2 text-primary"></i>Tax Reporting</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Annual tax returns</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Transfer pricing documentation</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Country-by-country reporting</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>FATCA/CRS compliance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-search me-2 text-primary"></i>Tax Advisory</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Tax risk assessment</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Advance ruling applications</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Tax audit support</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Dispute resolution</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Industries Served -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="lead">Specialized tax planning across diverse sectors</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-chart-line me-2 text-primary"></i>Financial Services</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Investment funds</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Private equity</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Asset management</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Banking operations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-laptop-code me-2 text-primary"></i>Technology</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Software companies</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>IP holding structures</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>R&D incentives</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Digital services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-industry me-2 text-primary"></i>Manufacturing</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Supply chain optimization</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Transfer pricing</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Regional headquarters</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Distribution networks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-home me-2 text-primary"></i>Real Estate</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Property investment</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Development projects</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>REITs structuring</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Cross-border transactions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section id="consultation" class="cta-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h2>Ready to Optimize Your Tax Position?</h2>
+                <p class="lead mb-0">Partner with our expert tax lawyers to develop comprehensive tax planning strategies that minimize your global tax burden while ensuring full compliance.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a href="contact.html" class="btn btn-light btn-lg">
+                    <i class="fas fa-calculator me-2"></i>Tax Consultation
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h5><i class="fas fa-balance-scale me-2"></i>Robert Lee Law Offices</h5>
+                <p>Professional tax planning and international tax advisory services in Hong Kong with expertise in cross-border tax optimization.</p>
+                <div class="d-flex">
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>Services</h5>
+                <a href="service-corporate.html" class="btn-link">Corporate Law</a>
+                <a href="service-employment.html" class="btn-link">Employment Law</a>
+                <a href="service-offshore-company.html" class="btn-link">Offshore Companies</a>
+                <a href="service-debt-recovery.html" class="btn-link">Debt Recovery</a>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>More Services</h5>
+                <a href="service-mediation.html" class="btn-link">Mediation</a>
+                <a href="service-trademark.html" class="btn-link">Trademark</a>
+                <a href="service-patent.html" class="btn-link">Patent Services</a>
+                <a href="service-tax-planning.html" class="btn-link">Tax Planning</a>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>Company</h5>
+                <a href="about.html" class="btn-link">About Us</a>
+                <a href="contact.html" class="btn-link">Contact</a>
+                <a href="#" class="btn-link">Privacy Policy</a>
+                <a href="#" class="btn-link">Terms of Service</a>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>Contact Info</h5>
+                <p><i class="fas fa-map-marker-alt me-2"></i>Admiralty, Hong Kong</p>
+                <p><i class="fas fa-phone me-2"></i>+852 1234 5678</p>
+                <p><i class="fas fa-envelope me-2"></i>info@robertleelaw.com</p>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="mb-0">&copy; 2024 Robert Lee Law Offices. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p class="mb-0">Professional Legal Services in Hong Kong</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

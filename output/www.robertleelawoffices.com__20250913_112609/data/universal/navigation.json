@@ -1,0 +1,45 @@
+{
+  "primary_nav": [
+    {
+      "label": "Home",
+      "url": "/",
+      "active_pages": [
+        "home",
+        "index"
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/https://www.robertleelawoffices.com/about-team",
+      "active_pages": [
+        "about"
+      ]
+    },
+    {
+      "label": "Practices",
+      "url": "/https://www.robertleelawoffices.com/practices",
+      "active_pages": [
+        "practices"
+      ]
+    },
+    {
+      "label": "Contact",
+      "url": "/https://www.robertleelawoffices.com",
+      "active_pages": [
+        "contact"
+      ]
+    },
+    {
+      "label": "Articles",
+      "url": "/https://www.robertleelawoffices.com/articles",
+      "active_pages": [
+        "articles"
+      ]
+    }
+  ],
+  "cta_button": {
+    "label": "Get Started",
+    "url": "/contact",
+    "class": "btn-primary"
+  }
+}

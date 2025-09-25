@@ -1,0 +1,61 @@
+{
+    "meta": {
+        "title": "Funeral Personalisation Ideas | Make It Unique | Barringtons Liverpool",
+        "description": "Creative ways to personalise a funeral service. From music and readings to themed celebrations, create a unique farewell that truly reflects your loved one.",
+        "keywords": "funeral personalisation, unique funeral ideas, celebration of life ideas, funeral music, funeral readings"
+    },
+    "intro": {
+        "title": "Making It Personal",
+        "subtitle": "Every life is unique. We'll help you create a farewell that truly reflects the person you're celebrating."
+    },
+    "options": [
+        {
+            "title": "Music & Sound",
+            "items": [
+                "Favorite songs or genres",
+                "Live musicians or singers",
+                "Recorded messages from loved ones",
+                "Theme tunes from beloved shows",
+                "Nature sounds or meditation music"
+            ]
+        },
+        {
+            "title": "Visual Tributes",
+            "items": [
+                "Photo displays and memory boards",
+                "Video montages of life moments",
+                "Themed decorations",
+                "Personal items displayed",
+                "Custom-designed coffins"
+            ]
+        },
+        {
+            "title": "Unique Touches",
+            "items": [
+                "Released doves or butterflies",
+                "Fireworks display",
+                "Motorcycle or vintage car hearse",
+                "Horse-drawn carriage",
+                "Themed dress codes"
+            ]
+        },
+        {
+            "title": "Personal Involvement",
+            "items": [
+                "Family members as pallbearers",
+                "Children's drawings or letters",
+                "Guests sharing memories",
+                "Creating the order of service",
+                "Planting a memorial tree together"
+            ]
+        }
+    ],
+    "cta": {
+        "title": "Let's Create Something Special",
+        "subtitle": "Share your ideas with us, no matter how unique. We'll help bring your vision to life."
+    },
+    "hero": {
+        "title": "Personalisation",
+        "image": "\/assets\/images\/uploads\/img_68cf9103cfafd_1758433539.jpg"
+    }
+}

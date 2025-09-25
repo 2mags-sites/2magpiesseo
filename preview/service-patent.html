@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Services Hong Kong - Patent Registration & Filing | Robert Lee Law Offices</title>
+    <meta name="description" content="Professional patent services in Hong Kong. Expert patent lawyers for patent registration, patent filing, invention protection, and patent prosecution.">
+    <meta name="keywords" content="patent lawyer Hong Kong, patent registration HK, patent filing, invention protection, patent attorney Hong Kong, patent prosecution">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Patent Services Hong Kong - Patent Registration & Filing | Robert Lee Law Offices">
+    <meta property="og:description" content="Professional patent services in Hong Kong. Expert patent lawyers for patent registration and invention protection.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robertleelaw.com/service-patent.html">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Patent Services Hong Kong | Robert Lee Law Offices">
+    <meta name="twitter:description" content="Professional patent services and invention protection in Hong Kong.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #03a9f4;
+            --primary-dark: #0288d1;
+            --primary-light: #29b6f6;
+            --secondary-color: #495057;
+            --accent-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary-color) !important;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: #333 !important;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-section .lead {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            border-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(3, 169, 244, 0.3);
+        }
+
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(3, 169, 244, 0.3);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-color);
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .card-header {
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+            border: none;
+            padding: 1.5rem;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 5px 15px rgba(3, 169, 244, 0.3);
+        }
+
+        .stats-section {
+            background-color: var(--accent-color);
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+
+        .process-step {
+            position: relative;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .process-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            color: white;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .footer h5 {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .footer .btn-link {
+            color: #bbb;
+            text-decoration: none;
+            padding: 0.25rem 0;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        .footer .btn-link:hover {
+            color: var(--primary-color);
+        }
+
+        .patent-types {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+
+            .hero-section .lead {
+                font-size: 1.1rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <i class="fas fa-balance-scale me-2"></i>Robert Lee Law
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="service-corporate.html">Corporate Law</a></li>
+                        <li><a class="dropdown-item" href="service-employment.html">Employment Law</a></li>
+                        <li><a class="dropdown-item" href="service-offshore-company.html">Offshore Companies</a></li>
+                        <li><a class="dropdown-item" href="service-debt-recovery.html">Debt Recovery</a></li>
+                        <li><a class="dropdown-item" href="service-mediation.html">Mediation</a></li>
+                        <li><a class="dropdown-item active" href="service-patent.html">Patent Services</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1>Patent Services</h1>
+                <p class="lead">Comprehensive patent registration, filing, and prosecution services in Hong Kong. Protect your innovations with expert patent lawyers who understand the intricacies of intellectual property law.</p>
+                <div class="mt-4">
+                    <a href="#consultation" class="btn btn-light btn-lg me-3">Protect Your Invention</a>
+                    <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="feature-icon" style="width: 120px; height: 120px; font-size: 3rem;">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">400+</span>
+                    <span class="stat-label">Patents Filed</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">90%</span>
+                    <span class="stat-label">Grant Success Rate</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">18-24</span>
+                    <span class="stat-label">Months Processing</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Patent Services</h2>
+            <p class="lead">Complete patent protection solutions for inventors and businesses</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4><i class="fas fa-search me-2"></i>Patent Search & Analysis</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Prior art searches</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Patentability analysis</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Freedom to operate</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Landscape analysis</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Validity assessments</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="#consultation" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4><i class="fas fa-file-alt me-2"></i>Patent Application</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Application drafting</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Technical drawings</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Claims optimization</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Filing strategy</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Priority claims</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="#consultation" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4><i class="fas fa-cogs me-2"></i>Patent Prosecution</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Office action responses</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Examination support</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Amendment strategies</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Appeal proceedings</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Grant procedures</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="#consultation" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Patent Types -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Types of Patents</h2>
+            <p class="lead">Different patent categories for various inventions</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="patent-types">
+                    <h4><i class="fas fa-microchip me-2 text-primary"></i>Utility Patents</h4>
+                    <p>Protection for new and useful processes, machines, compositions of matter, or improvements thereof.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i>20-year protection term</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Most common patent type</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Covers functional aspects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="patent-types">
+                    <h4><i class="fas fa-palette me-2 text-primary"></i>Design Patents</h4>
+                    <p>Protection for new, original, and ornamental designs of manufactured articles.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i>15-year protection term</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Visual appearance focus</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Ornamental features</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Process Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Patent Application Process</h2>
+            <p class="lead">Step-by-step journey to patent protection</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-number">1</div>
+                    <h4>Invention Assessment</h4>
+                    <p>Evaluate invention novelty, patentability, and commercial potential through comprehensive analysis.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-number">2</div>
+                    <h4>Prior Art Search</h4>
+                    <p>Conduct thorough prior art search to assess patentability and identify potential obstacles.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-number">3</div>
+                    <h4>Application Drafting</h4>
+                    <p>Prepare comprehensive patent application with detailed technical descriptions and claims.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-number">4</div>
+                    <h4>Filing & Prosecution</h4>
+                    <p>File application and manage prosecution process including responses to examination reports.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-number">5</div>
+                    <h4>Examination Response</h4>
+                    <p>Address examiner objections and amendments to secure patent allowance and grant.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step text-center">
+                    <div class="process-number">6</div>
+                    <h4>Grant & Maintenance</h4>
+                    <p>Obtain patent grant and establish maintenance schedule for continued protection.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Benefits of Patent Protection</h2>
+            <p class="lead">Why patent protection is essential for innovation</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h4>Exclusive Rights</h4>
+                    <p>Obtain exclusive rights to make, use, and sell your invention for up to 20 years.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Competitive Advantage</h4>
+                    <p>Gain significant market advantage and prevent competitors from copying your innovation.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h4>Revenue Generation</h4>
+                    <p>Generate revenue through licensing, sale, or enforcement of patent rights.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Legal Protection</h4>
+                    <p>Strong legal foundation to enforce rights against infringers and unauthorized use.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Investment Attraction</h4>
+                    <p>Attract investors and partners by demonstrating protected intellectual property assets.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h4>Global Expansion</h4>
+                    <p>Foundation for international patent protection and global market expansion.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Industries Served -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="lead">Patent protection across diverse technology sectors</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-laptop-code me-2 text-primary"></i>Technology & Software</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Software innovations</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>AI and machine learning</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Telecommunications</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Computer hardware</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-flask me-2 text-primary"></i>Biotechnology & Medical</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Medical devices</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Pharmaceutical innovations</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Diagnostic methods</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Biotechnology processes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-cog me-2 text-primary"></i>Engineering & Manufacturing</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Mechanical innovations</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Manufacturing processes</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Industrial equipment</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Automation systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><i class="fas fa-leaf me-2 text-primary"></i>Green Technology</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Renewable energy</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Environmental solutions</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Energy efficiency</li>
+                            <li><i class="fas fa-arrow-right me-2 text-muted"></i>Clean technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section id="consultation" class="cta-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h2>Ready to Protect Your Invention?</h2>
+                <p class="lead mb-0">Don't let your innovative ideas go unprotected. Contact our patent experts today to discuss your invention and start the patent application process.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a href="contact.html" class="btn btn-light btn-lg">
+                    <i class="fas fa-lightbulb me-2"></i>Protect Your Invention
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h5><i class="fas fa-balance-scale me-2"></i>Robert Lee Law Offices</h5>
+                <p>Professional patent services and invention protection in Hong Kong with expertise in patent law and intellectual property prosecution.</p>
+                <div class="d-flex">
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>Services</h5>
+                <a href="service-corporate.html" class="btn-link">Corporate Law</a>
+                <a href="service-employment.html" class="btn-link">Employment Law</a>
+                <a href="service-offshore-company.html" class="btn-link">Offshore Companies</a>
+                <a href="service-debt-recovery.html" class="btn-link">Debt Recovery</a>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>More Services</h5>
+                <a href="service-mediation.html" class="btn-link">Mediation</a>
+                <a href="service-trademark.html" class="btn-link">Trademark</a>
+                <a href="service-patent.html" class="btn-link">Patent Services</a>
+                <a href="service-copyright.html" class="btn-link">Copyright</a>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>Company</h5>
+                <a href="about.html" class="btn-link">About Us</a>
+                <a href="contact.html" class="btn-link">Contact</a>
+                <a href="#" class="btn-link">Privacy Policy</a>
+                <a href="#" class="btn-link">Terms of Service</a>
+            </div>
+            <div class="col-lg-2 mb-4">
+                <h5>Contact Info</h5>
+                <p><i class="fas fa-map-marker-alt me-2"></i>Admiralty, Hong Kong</p>
+                <p><i class="fas fa-phone me-2"></i>+852 1234 5678</p>
+                <p><i class="fas fa-envelope me-2"></i>info@robertleelaw.com</p>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="mb-0">&copy; 2024 Robert Lee Law Offices. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p class="mb-0">Professional Legal Services in Hong Kong</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "phone": "+852 2234 5678",
+  "email": "info@smithlaw.hk",
+  "address": {
+    "street": "123 Central Plaza",
+    "city": "Central District",
+    "region": "Hong Kong",
+    "postal_code": "",
+    "country": ""
+  },
+  "hours": {
+    "monday": "9:00 AM - 5:00 PM",
+    "tuesday": "9:00 AM - 5:00 PM",
+    "wednesday": "9:00 AM - 5:00 PM",
+    "thursday": "9:00 AM - 5:00 PM",
+    "friday": "9:00 AM - 5:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "response_time": "24 hours",
+  "emergency_available": false
+}

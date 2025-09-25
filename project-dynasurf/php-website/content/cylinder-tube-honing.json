@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Cylinder Tube Honing Services | Up to 300mm | Dynasurf",
+    "description": "Precision cylinder tube honing services up to 300mm diameter & 2.2m length. Restore cylinder bores to optimal condition. Express service available in Sandbach.",
+    "keywords": "cylinder tube honing services, precision honing UK, 300mm cylinder honing, tube bore restoration"
+  },
+  "hero": {
+    "title": "Cylinder Tube Honing Services",
+    "subtitle": "Precision honing for tubes up to 300mm diameter and 2.2 meters length",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Cylinder Tube Honing", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Expert Cylinder Tube Honing & Surface Restoration",
+    "subtitle": "Restoring cylinder bores to optimal condition with industry-leading precision",
+    "content": [
+      "Cylinder tube honing is a precision machining process that creates a perfectly smooth, cross-hatched surface finish inside hydraulic and pneumatic cylinders. This specialised abrasive machining process removes imperfections, restores proper geometry, and creates the ideal surface texture for optimal seal performance and longevity.",
+      "At Dynasurf, we utilise advanced honing equipment capable of handling cylinders up to 300mm internal diameter and 2.2 meters in length - capabilities that set us apart from most competitors. Our honing process addresses common cylinder problems including scratches, scoring, corrosion, ovality, taper, and general wear.",
+      "The cross-hatch pattern created by honing is crucial for proper lubrication retention, ensuring smooth operation and extending seal life. Our precision honing achieves surface finishes between Ra 0.2 to 0.4 microns, meeting or exceeding manufacturer specifications."
+    ],
+    "image": "assets/images/Cylinder Tube Honing.jpg"
+  },
+  "capabilities": {
+    "title": "Technical Specifications & Capabilities",
+    "content": "Our cylinder honing facility features state-of-the-art equipment designed for maximum precision and capacity:",
+    "specs": [
+      {
+        "label": "Diameter Range",
+        "description": "25mm to 300mm internal diameter"
+      },
+      {
+        "label": "Length Capacity",
+        "description": "Up to 2.2 meters (2200mm)"
+      },
+      {
+        "label": "Surface Finish",
+        "description": "Ra 0.2 to 0.4 microns standard"
+      },
+      {
+        "label": "Geometry Correction",
+        "description": "Removes up to 0.5mm material"
+      },
+      {
+        "label": "Cross-Hatch Angle",
+        "description": "45-60 degrees optimised for application"
+      },
+      {
+        "label": "Tolerance",
+        "description": "Cylindricity within 0.02mm"
+      }
+    ],
+    "additional_content": "We use diamond and CBN (Cubic Boron Nitride) honing stones selected specifically for each material type, ensuring optimal cutting performance and surface finish. Our CNC-controlled honing machines maintain consistent pressure and speed throughout the process.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Precision+measuring+equipment+checking+cylinder+bore"
+  },
+  "process": {
+    "title": "Our Honing Process",
+    "subtitle": "Systematic approach for perfect cylinder restoration",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Initial Inspection",
+        "description": "Precise measurement of bore diameter, ovality, taper, and surface condition assessment"
+      },
+      {
+        "number": "2",
+        "title": "Pre-Honing Preparation",
+        "description": "Cleaning, degreasing, and selection of appropriate honing stones for material type"
+      },
+      {
+        "number": "3",
+        "title": "Precision Honing",
+        "description": "Multi-stage honing process with continuous measurement to achieve target specifications"
+      },
+      {
+        "number": "4",
+        "title": "Final Inspection",
+        "description": "Surface finish verification, dimensional checks, and quality certification"
+      }
+    ]
+  },
+  "problems_solved": {
+    "title": "Common Cylinder Problems We Solve",
+    "content": "Cylinder tubes can develop various issues that compromise performance and efficiency. Our honing service addresses:",
+    "problems": [
+      {
+        "icon": "🔧",
+        "title": "Scratches & Scoring",
+        "description": "Deep scratches from contamination or seal failure causing leaks"
+      },
+      {
+        "icon": "⚠️",
+        "title": "Corrosion & Pitting",
+        "description": "Surface degradation from moisture or chemical exposure"
+      },
+      {
+        "icon": "📐",
+        "title": "Ovality & Taper",
+        "description": "Geometric distortion causing uneven wear and poor sealing"
+      },
+      {
+        "icon": "⚡",
+        "title": "Glazing & Polish",
+        "description": "Over-smooth surfaces that prevent proper lubrication retention"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Before+and+after+cylinder+honing+comparison"
+  },
+  "applications": {
+    "title": "Industries & Applications",
+    "content": "Our cylinder honing services support critical equipment across diverse sectors:",
+    "sectors": [
+      {
+        "icon": "🏗️",
+        "title": "Construction Equipment",
+        "description": "Excavator boom cylinders, loader lift rams, crane extensions, concrete pump cylinders"
+      },
+      {
+        "icon": "🏭",
+        "title": "Industrial Manufacturing",
+        "description": "Hydraulic presses, injection moulding machines, automation cylinders, clamping systems"
+      },
+      {
+        "icon": "⚓",
+        "title": "Marine & Offshore",
+        "description": "Steering cylinders, hatch covers, winch cylinders, stabiliser rams"
+      },
+      {
+        "icon": "🚜",
+        "title": "Agricultural Machinery",
+        "description": "Tractor lift cylinders, harvester rams, implement cylinders"
+      },
+      {
+        "icon": "🚛",
+        "title": "Transport & Logistics",
+        "description": "Tipper rams, tail lift cylinders, trailer landing legs"
+      }
+    ],
+    "additional_content": "Each application requires specific surface finish characteristics, which we optimise through our selection of honing stones and process parameters.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+industrial+cylinders+after+honing"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Cylinder Honing?",
+    "subtitle": "Unmatched capacity and precision in the UK",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "Largest Capacity in Region",
+        "description": "300mm diameter and 2.2m length capability exceeds most competitors"
+      },
+      {
+        "icon": "✓",
+        "title": "Express Turnaround",
+        "description": "Same-day and next-day service available for urgent requirements"
+      },
+      {
+        "icon": "✓",
+        "title": "Precision Guaranteed",
+        "description": "Surface finish to Ra 0.2 microns with full measurement reports"
+      },
+      {
+        "icon": "✓",
+        "title": "Complete Service",
+        "description": "Honing, chrome plating, and seal replacement all under one roof"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What size cylinders can you hone?",
+      "answer": "We can hone cylinders from 25mm up to 300mm internal diameter and up to 2.2 meters in length. This capacity allows us to handle everything from small pneumatic cylinders to large industrial hydraulic tubes. For cylinders outside these dimensions, please contact us to discuss alternative solutions."
+    },
+    {
+      "question": "How much material does honing remove?",
+      "answer": "Typically, honing removes between 0.02mm to 0.5mm of material from the bore diameter, depending on the severity of damage. Light honing for surface finish improvement removes minimal material, while heavy honing to eliminate deep scratches or restore geometry may remove more. We always measure and advise on seal size adjustments if necessary."
+    },
+    {
+      "question": "What is the typical turnaround time for honing?",
+      "answer": "Standard honing service typically takes 2-3 working days. However, we offer express same-day or next-day service for urgent requirements. The exact timeline depends on cylinder size, quantity, and current workload. We'll provide an accurate timeline upon inspection and can prioritise emergency work."
+    },
+    {
+      "question": "Can honing fix a badly scored cylinder?",
+      "answer": "Yes, honing can repair most scored cylinders, provided the scoring isn't too deep. Scores up to 0.5mm deep can typically be removed through honing. For deeper damage, we may recommend sleeving the cylinder or manufacturing a new tube. We'll assess your cylinder and recommend the most cost-effective solution."
+    },
+    {
+      "question": "What surface finish can you achieve?",
+      "answer": "We typically achieve surface finishes between Ra 0.2 to 0.4 microns, which is ideal for most hydraulic and pneumatic applications. We can adjust the finish to meet specific requirements - rougher for better oil retention in slow-moving applications, or finer for high-speed pneumatic cylinders. The cross-hatch angle is also optimised for your specific application."
+    },
+    {
+      "question": "Do you provide measurement reports?",
+      "answer": "Yes, we provide comprehensive measurement reports including before and after dimensions, surface finish readings, and cylindricity measurements. These reports serve as quality certification and help you maintain maintenance records. Digital photographs of the honed surface can also be provided upon request."
+    }
+  ],
+  "cta": {
+    "title": "Need Cylinder Tube Honing?",
+    "subtitle": "Restore your cylinders to optimal condition with precision honing",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Honing Quote",
+    "button_link": "/contact.php"
+  }
+}

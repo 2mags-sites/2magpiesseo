@@ -1,0 +1,61 @@
+{
+  "business_name": "Premier Garage Services",
+  "business_type": "Independent Service and Repair Centre",
+  "tagline": "The one-stop garage for MOT Testing, Servicing, Tyres, Air Conditioning, Diagnostics and General Repairs",
+  "location": {
+    "address": "Unit 8, National Trading Estate, Bramhall Moor Lane, Hazel Grove, Stockport SK7 5AA",
+    "service_areas": ["Stockport", "Great Moor", "Davenport", "Wilmslow", "Bramhall", "Hazel Grove"]
+  },
+  "contact": {
+    "phone": "0161 483 8899",
+    "email": "premiergarage@hotmail.co.uk",
+    "website": "https://www.premier-garageservices.co.uk/"
+  },
+  "services": [
+    {
+      "category": "MOT Testing",
+      "description": "Class 4, 5 & 7 MOT Testing",
+      "starting_price": "£49.95",
+      "sub_services": ["Class 4 MOT", "Class 5 MOT", "Class 7 MOT", "MOT Repairs", "Free Retest"]
+    },
+    {
+      "category": "Car Servicing",
+      "description": "Main Dealer Vehicle Servicing for all makes and models",
+      "starting_price": "£80.00 + VAT",
+      "sub_services": ["Oil Service", "Interim Service", "Full Service", "Manufacturer Warranty Servicing"]
+    },
+    {
+      "category": "Tyres",
+      "description": "Premium to budget tyre brands with fitting",
+      "sub_services": ["Tyre Fitting", "Premium Tyres", "Budget Tyres", "Tyre Replacement", "Puncture Repairs"]
+    },
+    {
+      "category": "Wheel Alignment",
+      "description": "Professional wheel alignment services",
+      "sub_services": ["4-Wheel Alignment", "Tracking Adjustment", "Suspension Checks"]
+    },
+    {
+      "category": "Air Conditioning",
+      "description": "Air conditioning service and repair",
+      "sub_services": ["AC Regas", "AC Service", "AC Repairs", "AC Diagnostics"]
+    },
+    {
+      "category": "Diagnostics",
+      "description": "Fault finding and diagnostic services",
+      "sub_services": ["Engine Diagnostics", "Fault Code Reading", "Warning Light Investigation", "Electronic System Testing"]
+    },
+    {
+      "category": "General Repairs",
+      "description": "Comprehensive vehicle repairs",
+      "sub_services": ["Brake Repairs", "Clutch Replacement", "Exhaust Repairs", "Suspension Repairs", "Battery Replacement"]
+    }
+  ],
+  "certifications": ["RAC Approved Garage", "Block Exemption Compliant"],
+  "unique_features": [
+    "12 months warranty on parts and labor",
+    "Free collection and delivery",
+    "Courtesy car available",
+    "Online booking system",
+    "Digital service records"
+  ]
+}

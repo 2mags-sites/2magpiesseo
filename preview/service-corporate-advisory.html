@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Advisory Services Hong Kong | M&A Legal Counsel</title>
+    <meta name="description" content="Expert corporate advisory services in Hong Kong. Mergers & acquisitions, corporate restructuring, joint ventures, and strategic business counsel.">
+    <meta name="keywords" content="corporate advisory Hong Kong, M&A lawyer HK, mergers acquisitions Hong Kong, corporate restructuring">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #28a745;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .service-hero {
+            background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px;
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .deal-stats {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        .expertise-box {
+            background: white;
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .expertise-box h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .transaction-highlight {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .transaction-value {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Corporate Advisory</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Corporate Advisory Services</h1>
+            <p class="lead">Strategic counsel for mergers, acquisitions, and corporate transformations</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Strategic Corporate Counsel</h2>
+                        <p class="lead-text">Guiding businesses through complex transactions and strategic decisions with expertise and precision.</p>
+
+                        <p>Robert Lee Law Offices provides comprehensive corporate advisory services to businesses navigating the complexities of mergers, acquisitions, restructuring, and strategic transactions. Our team combines deep legal expertise with commercial insight to deliver practical, business-focused solutions that drive value and minimize risk.</p>
+
+                        <p>With extensive experience in both domestic and cross-border transactions, we understand the unique challenges facing businesses in Hong Kong and the Greater China region. Our advisory services span the full spectrum of corporate activities, from day-to-day governance matters to transformative M&A transactions worth billions of dollars.</p>
+
+                        <p>We work closely with boards, management teams, and shareholders to structure, negotiate, and execute transactions that achieve strategic objectives while navigating regulatory requirements and market dynamics. Our approach is collaborative, strategic, and always focused on delivering optimal outcomes for our clients.</p>
+                    </section>
+
+                    <!-- Core Services -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Corporate Advisory Services</h2>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-handshake me-2"></i>Mergers & Acquisitions</h4>
+                            <p>End-to-end M&A advisory covering all aspects of buy-side and sell-side transactions:</p>
+                            <ul>
+                                <li>Transaction structuring and tax optimization</li>
+                                <li>Due diligence coordination and management</li>
+                                <li>Purchase agreement negotiation and drafting</li>
+                                <li>Regulatory approvals and antitrust clearances</li>
+                                <li>Post-merger integration planning</li>
+                                <li>Warranty and indemnity insurance</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-project-diagram me-2"></i>Corporate Restructuring</h4>
+                            <p>Strategic restructuring solutions for operational and financial optimization:</p>
+                            <ul>
+                                <li>Group reorganizations and consolidations</li>
+                                <li>Spin-offs and carve-outs</li>
+                                <li>Debt restructuring and refinancing</li>
+                                <li>Distressed M&A and turnarounds</li>
+                                <li>Schemes of arrangement</li>
+                                <li>Cross-border redomiciliation</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-hands-helping me-2"></i>Joint Ventures & Alliances</h4>
+                            <p>Structuring strategic partnerships for growth and market expansion:</p>
+                            <ul>
+                                <li>JV structuring and documentation</li>
+                                <li>Shareholder agreements and governance</li>
+                                <li>Strategic alliance agreements</li>
+                                <li>Technology licensing and transfers</li>
+                                <li>Distribution and agency arrangements</li>
+                                <li>Exit strategies and dispute resolution</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-chart-line me-2"></i>Private Equity & Venture Capital</h4>
+                            <p>Supporting investors and companies throughout the investment lifecycle:</p>
+                            <ul>
+                                <li>Fund formation and structuring</li>
+                                <li>Investment agreements and term sheets</li>
+                                <li>Management buyouts (MBOs) and buyins</li>
+                                <li>Portfolio company acquisitions</li>
+                                <li>Exit transactions and IPO preparation</li>
+                                <li>Carried interest and incentive structures</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Transaction Experience -->
+                    <section class="content-section">
+                        <h2 class="section-title">Recent Transaction Highlights</h2>
+
+                        <div class="transaction-highlight">
+                            <h5>Cross-Border Technology Acquisition</h5>
+                            <p>Advised Hong Kong listed company on the <span class="transaction-value">US$450 million</span> acquisition of a Silicon Valley software company, including CFIUS clearance and integration planning.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Healthcare Sector Consolidation</h5>
+                            <p>Represented private equity fund in the <span class="transaction-value">HK$2.3 billion</span> roll-up of five healthcare providers across Hong Kong and mainland China.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Financial Services Merger</h5>
+                            <p>Led legal advisory for the <span class="transaction-value">HK$5.8 billion</span> merger of two regional banks, including regulatory approvals from HKMA and SFC.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Retail Chain Restructuring</h5>
+                            <p>Structured complex debt-for-equity swap and operational restructuring for retail chain with <span class="transaction-value">200+ stores</span> across Asia Pacific.</p>
+                        </div>
+                    </section>
+
+                    <!-- Deal Statistics -->
+                    <section class="content-section">
+                        <div class="deal-stats">
+                            <h3 class="text-center mb-4">Our M&A Track Record</h3>
+                            <div class="row">
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">200+</div>
+                                    <div class="stat-label">M&A Transactions</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">HK$50B+</div>
+                                    <div class="stat-label">Deal Value</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">15+</div>
+                                    <div class="stat-label">Industries</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">30+</div>
+                                    <div class="stat-label">Jurisdictions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Our Approach -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Advisory Approach</h2>
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-bullseye feature-icon"></i>
+                                <h4>Strategic Focus</h4>
+                                <p>Aligning legal strategies with business objectives to create value and achieve strategic goals.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-users feature-icon"></i>
+                                <h4>Team Collaboration</h4>
+                                <p>Cross-functional teams combining corporate, tax, regulatory, and industry expertise.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-globe-asia feature-icon"></i>
+                                <h4>Regional Expertise</h4>
+                                <p>Deep understanding of Hong Kong, mainland China, and Asia-Pacific markets and regulations.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-tachometer-alt feature-icon"></i>
+                                <h4>Execution Excellence</h4>
+                                <p>Proven track record of completing complex transactions on time and within budget.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Industry Expertise -->
+                    <section class="content-section">
+                        <h2 class="section-title">Industry Specialization</h2>
+                        <p>Our corporate advisory team has deep expertise across key industries:</p>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Technology & Telecommunications</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Financial Services & Banking</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Healthcare & Life Sciences</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Real Estate & Construction</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Retail & Consumer Goods</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Energy & Infrastructure</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Manufacturing & Industrials</li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Media & Entertainment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    When should we engage corporate advisory services?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Early engagement is crucial for successful transactions. Ideally, involve advisors during strategic planning, before approaching targets or buyers. This allows proper structuring, due diligence preparation, and negotiation strategy development.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What's the typical M&A transaction timeline?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Simple transactions may complete in 2-3 months, while complex cross-border deals typically take 6-12 months. Timeline depends on due diligence complexity, regulatory approvals, financing arrangements, and negotiation dynamics.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How do you handle cross-border transactions?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>We coordinate with our network of international law firms to provide seamless multi-jurisdictional advice. Our team manages the overall transaction while local counsel handles jurisdiction-specific requirements.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What due diligence is typically required?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Standard due diligence covers legal, financial, tax, commercial, and operational aspects. We coordinate specialist advisors and manage data rooms, focusing on material risks and value drivers specific to your transaction.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Contact CTA -->
+                    <div class="card mb-4 border-success">
+                        <div class="card-body text-center">
+                            <h4>Deal Advisory Hotline</h4>
+                            <p>Speak with our M&A experts about your transaction</p>
+                            <a href="tel:+85222345678" class="btn btn-success btn-lg w-100 mb-2">
+                                <i class="fas fa-phone"></i> +852 2234 5678
+                            </a>
+                            <p class="small text-muted mb-0">Confidential consultation available</p>
+                        </div>
+                    </div>
+
+                    <!-- Key Sectors -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">Key Sectors</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">→ Technology & TMT</li>
+                                <li class="mb-2">→ Financial Services</li>
+                                <li class="mb-2">→ Healthcare</li>
+                                <li class="mb-2">→ Real Estate</li>
+                                <li class="mb-2">→ Consumer & Retail</li>
+                                <li class="mb-2">→ Energy & Infrastructure</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Deal Types -->
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">Transaction Types</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><strong>M&A:</strong> Buy & Sell-side</li>
+                                <li class="mb-2"><strong>PE:</strong> LBOs, MBOs</li>
+                                <li class="mb-2"><strong>JV:</strong> Partnerships</li>
+                                <li class="mb-2"><strong>Restructuring:</strong> Turnarounds</li>
+                                <li class="mb-2"><strong>IPO:</strong> Preparation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Ready to Execute Your Transaction?</h2>
+                <p class="lead mb-4">Our corporate advisory team is ready to guide you through your next strategic move</p>
+                <a href="/contact" class="btn-white">Schedule Strategic Consultation</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

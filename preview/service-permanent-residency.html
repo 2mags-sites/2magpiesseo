@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Permanent Residency | PR Application HK | Right of Abode</title>
+    <meta name="description" content="Expert Hong Kong permanent residency services. PR applications, 7-year residency requirement, right of abode assistance from experienced permanent resident lawyers.">
+    <meta name="keywords" content="Hong Kong permanent residency, PR application HK, right of abode, permanent resident lawyer">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #388e3c;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .service-hero {
+            background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px;
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .deal-stats {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        .expertise-box {
+            background: white;
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .expertise-box h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .transaction-highlight {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .transaction-value {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--primary-color);
+        }
+
+        .process-step {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .step-number {
+            background: var(--primary-color);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .residency-timeline {
+            background: linear-gradient(to right, #e8f5e8, #c8e6c8);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .timeline-year {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .requirement-check {
+            background: #e8f5e8;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Permanent Residency</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Permanent Residency Services</h1>
+            <p class="lead">Expert guidance for Hong Kong PR applications and right of abode</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Your Path to Hong Kong Permanent Residency</h2>
+                        <p class="lead-text">Comprehensive permanent residency services helping long-term residents secure their future in Hong Kong through right of abode applications.</p>
+
+                        <p>Robert Lee Law Offices specializes in Hong Kong permanent residency applications, guiding clients through the complex process of obtaining right of abode after fulfilling the seven-year continuous ordinary residence requirement. Our immigration team has extensive experience with permanent identity card applications and the nuances of residency qualification.</p>
+
+                        <p>Achieving permanent residency status in Hong Kong represents a significant milestone, providing security, stability, and enhanced rights for you and your family. Our team understands the importance of this application and provides meticulous preparation to ensure successful outcomes for qualifying applicants.</p>
+
+                        <p>We handle all aspects of permanent residency applications, from initial eligibility assessments to final approval and identity card collection. Our bilingual team provides comprehensive support, ensuring clients understand their rights and obligations as permanent residents while navigating the administrative process efficiently.</p>
+
+                        <div class="residency-timeline">
+                            <div class="timeline-year">7 Years</div>
+                            <p class="text-center"><strong>Continuous Ordinary Residence Required</strong></p>
+                            <p class="text-center">Your journey to permanent residency begins with understanding and documenting your continuous residence in Hong Kong</p>
+                        </div>
+                    </section>
+
+                    <!-- Core Services -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Permanent Residency Services</h2>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-id-card me-2"></i>Right of Abode Applications</h4>
+                            <p>Complete right of abode application services for qualifying residents:</p>
+                            <ul>
+                                <li>Eligibility assessment and qualification review</li>
+                                <li>Continuous residence documentation and verification</li>
+                                <li>Right of abode application preparation and submission</li>
+                                <li>Supporting documentation compilation and review</li>
+                                <li>Application follow-up and Immigration Department liaison</li>
+                                <li>Appeal procedures for complex cases</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-passport me-2"></i>Permanent Identity Card</h4>
+                            <p>Permanent identity card application and related services:</p>
+                            <ul>
+                                <li>Permanent identity card application assistance</li>
+                                <li>Document verification and preparation</li>
+                                <li>Appointment scheduling and processing support</li>
+                                <li>Card collection and activation procedures</li>
+                                <li>Replacement and renewal services</li>
+                                <li>Emergency travel document applications</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-calendar-check me-2"></i>Residency Verification</h4>
+                            <p>Comprehensive residency verification and documentation:</p>
+                            <ul>
+                                <li>Seven-year residence period calculation and verification</li>
+                                <li>Travel record compilation and analysis</li>
+                                <li>Employment and education history documentation</li>
+                                <li>Tax filing and financial record verification</li>
+                                <li>Address history and accommodation proof</li>
+                                <li>Continuous residence gap analysis and solutions</li>
+                            </ul>
+                        </div>
+
+                        <div class="expertise-box">
+                            <h4><i class="fas fa-users me-2"></i>Family Applications</h4>
+                            <p>Comprehensive family permanent residency coordination:</p>
+                            <ul>
+                                <li>Spouse and dependent children applications</li>
+                                <li>Coordinated family permanent residency processing</li>
+                                <li>Dependent qualification assessment</li>
+                                <li>Birth certificate and marriage verification</li>
+                                <li>Family reunification planning</li>
+                                <li>Multi-generational residency strategies</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Requirements Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Permanent Residency Requirements</h2>
+                        <p class="mb-4">Key requirements for Hong Kong permanent residency and right of abode:</p>
+
+                        <div class="requirement-check">
+                            <h5><i class="fas fa-calendar-alt me-2 text-success"></i>7-Year Continuous Residence</h5>
+                            <p>You must have ordinarily resided in Hong Kong for a continuous period of not less than 7 years and have taken Hong Kong as your place of permanent residence.</p>
+                        </div>
+
+                        <div class="requirement-check">
+                            <h5><i class="fas fa-home me-2 text-success"></i>Ordinary Residence Status</h5>
+                            <p>Continuous ordinary residence means living in Hong Kong legally and habitually, with Hong Kong as your principal place of residence.</p>
+                        </div>
+
+                        <div class="requirement-check">
+                            <h5><i class="fas fa-plane me-2 text-success"></i>Absence Limitations</h5>
+                            <p>Short absences for business, study, or vacation are acceptable, but extended periods away may break continuity of residence.</p>
+                        </div>
+
+                        <div class="requirement-check">
+                            <h5><i class="fas fa-file-alt me-2 text-success"></i>Documentation Requirements</h5>
+                            <p>Comprehensive documentation proving residence, employment, education, and other activities throughout the 7-year period.</p>
+                        </div>
+                    </section>
+
+                    <!-- Application Process -->
+                    <section class="content-section">
+                        <h2 class="section-title">Permanent Residency Application Process</h2>
+                        <p class="mb-4">Our systematic approach ensures thorough preparation and successful applications:</p>
+
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div>
+                                <h5>Eligibility Assessment & Timeline Review</h5>
+                                <p>Comprehensive review of residence history, timeline calculation, and qualification assessment for permanent residency.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div>
+                                <h5>Document Collection & Verification</h5>
+                                <p>Systematic collection and verification of all supporting documents covering the 7-year residence period.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div>
+                                <h5>Application Preparation & Submission</h5>
+                                <p>Meticulous preparation of right of abode applications with comprehensive supporting documentation and legal submissions.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div>
+                                <h5>Processing & Follow-up</h5>
+                                <p>Active monitoring of application progress, handling Immigration Department queries, and providing additional documentation as required.</p>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">5</div>
+                            <div>
+                                <h5>Approval & Identity Card Processing</h5>
+                                <p>Assistance with permanent identity card application, collection procedures, and post-approval guidance on permanent resident rights.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Success Stories -->
+                    <section class="content-section">
+                        <h2 class="section-title">Recent Permanent Residency Success Stories</h2>
+
+                        <div class="transaction-highlight">
+                            <h5>Tech Executive Family Package</h5>
+                            <p>Successfully obtained permanent residency for <span class="transaction-value">family of 4</span> including complex travel history and international assignments during 7-year period.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Banking Professional with Study Breaks</h5>
+                            <p>Secured permanent residency for <span class="transaction-value">investment banker</span> despite overseas MBA program, proving continuous intent to reside in Hong Kong.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Healthcare Worker During COVID</h5>
+                            <p>Obtained permanent residency for <span class="transaction-value">medical professional</span> with complex pandemic-related travel restrictions and work assignments.</p>
+                        </div>
+
+                        <div class="transaction-highlight">
+                            <h5>Multi-Generational Application</h5>
+                            <p>Coordinated permanent residency for <span class="transaction-value">three-generation family</span> including elderly parents and young children simultaneously.</p>
+                        </div>
+                    </section>
+
+                    <!-- PR Statistics -->
+                    <section class="content-section">
+                        <div class="deal-stats">
+                            <h3 class="text-center mb-4">Our Permanent Residency Track Record</h3>
+                            <div class="row">
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">800+</div>
+                                    <div class="stat-label">PR Applications</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">96%</div>
+                                    <div class="stat-label">Success Rate</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">6-8</div>
+                                    <div class="stat-label">Weeks Average</div>
+                                </div>
+                                <div class="col-md-3 stat-item">
+                                    <div class="stat-number">45+</div>
+                                    <div class="stat-label">Nationalities</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What qualifies as continuous ordinary residence for 7 years?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Continuous ordinary residence means living in Hong Kong legally and habitually, with Hong Kong as your principal home. Short absences for business, vacation, or study are acceptable, but extended periods away may break continuity.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How long does permanent residency application take?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Right of abode applications typically take 6-8 weeks for straightforward cases. Complex applications with extensive travel history or documentation issues may take 3-4 months.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I apply for my family members at the same time?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Yes, spouses and unmarried dependent children who have resided with you can apply simultaneously. Each family member must meet the 7-year residence requirement independently.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What are the benefits of Hong Kong permanent residency?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Permanent residents enjoy right of abode, no employment restrictions, access to public services, voting rights in certain elections, and the ability to sponsor family members for dependent visas.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What happens if I have gaps in my residence history?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>We carefully analyze residence patterns and can advise on whether gaps affect your application. Some absences are acceptable, while others may require additional documentation or legal arguments.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I lose my permanent resident status?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Permanent resident status can be lost through extended absence (generally 2-3 years) without valid reason, or by establishing permanent residence elsewhere. We provide guidance on maintaining status.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Contact CTA -->
+                    <div class="card mb-4" style="border-color: #388e3c;">
+                        <div class="card-body text-center">
+                            <h4>PR Specialist Hotline</h4>
+                            <p>Permanent residency experts available</p>
+                            <a href="tel:+85222345678" class="btn btn-lg w-100 mb-2" style="background-color: #388e3c; color: white;">
+                                <i class="fas fa-phone"></i> +852 2234 5678
+                            </a>
+                            <p class="small text-muted mb-0">Free initial consultation</p>
+                        </div>
+                    </div>
+
+                    <!-- Residency Requirements -->
+                    <div class="card mb-4">
+                        <div class="card-header text-white" style="background-color: #388e3c;">
+                            <h5 class="mb-0">Key Requirements</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">→ 7 years continuous residence</li>
+                                <li class="mb-2">→ Hong Kong as permanent home</li>
+                                <li class="mb-2">→ Comprehensive documentation</li>
+                                <li class="mb-2">→ Travel history records</li>
+                                <li class="mb-2">→ Employment verification</li>
+                                <li class="mb-2">→ Tax filing compliance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Benefits -->
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: #388e3c;">
+                            <h5 class="mb-0">PR Benefits</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><strong>Right of Abode:</strong> Unconditional stay</li>
+                                <li class="mb-2"><strong>Work Freedom:</strong> No employment restrictions</li>
+                                <li class="mb-2"><strong>Public Services:</strong> Healthcare & education</li>
+                                <li class="mb-2"><strong>Voting Rights:</strong> Certain elections</li>
+                                <li class="mb-2"><strong>Family Sponsor:</strong> Dependent visas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Ready for Permanent Residency?</h2>
+                <p class="lead mb-4">Our permanent residency specialists will assess your eligibility and guide you through the entire process</p>
+                <a href="/contact" class="btn-white">Schedule PR Consultation</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

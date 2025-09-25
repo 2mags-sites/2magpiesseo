@@ -1,0 +1,169 @@
+{
+  "site_architecture_type": "modern_single_page_plus_seo",
+  "total_pages": 10,
+  "navigation_structure": {
+    "primary_nav": [
+      {
+        "label": "Home",
+        "url": "/",
+        "type": "single"
+      },
+      {
+        "label": "About",
+        "url": "/about",
+        "type": "single"
+      },
+      {
+        "label": "Services",
+        "url": "#",
+        "type": "dropdown",
+        "items": [
+          {
+            "label": "Hydraulic Ram Repair",
+            "url": "/hydraulic-ram-repair"
+          },
+          {
+            "label": "Cylinder Tube Honing",
+            "url": "/cylinder-tube-honing"
+          },
+          {
+            "label": "Chrome Plating & Grinding",
+            "url": "/chrome-plating-grinding"
+          },
+          {
+            "divider": true
+          },
+          {
+            "label": "All Services",
+            "url": "/services"
+          }
+        ]
+      },
+      {
+        "label": "Contact",
+        "url": "/contact",
+        "type": "single"
+      }
+    ],
+    "footer_nav": {
+      "column_1": {
+        "title": "Core Services",
+        "links": [
+          "Hydraulic Ram Repair",
+          "Cylinder Tube Honing",
+          "Chrome Plating & Grinding"
+        ]
+      },
+      "column_2": {
+        "title": "Specialized Services",
+        "links": [
+          "Hydraulic Cylinder Manufacturing",
+          "Precision Surface Restoration",
+          "Automotive Component Reconditioning",
+          "Emergency Express Services"
+        ]
+      },
+      "column_3": {
+        "title": "Company",
+        "links": [
+          "About Us",
+          "Our Facilities",
+          "Quality Standards",
+          "Contact Us"
+        ]
+      },
+      "column_4": {
+        "title": "Contact Info",
+        "content": [
+          "01270 763032",
+          "sales@dynasurf.co.uk",
+          "Mon-Thu: 7:15am-4:30pm",
+          "Fri: 7:15am-12noon"
+        ]
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "homepage",
+      "title": "Homepage",
+      "url": "/",
+      "type": "single-page",
+      "sections": [
+        "hero",
+        "services-overview",
+        "about-brief",
+        "why-choose-us",
+        "process",
+        "industries-served",
+        "contact-cta"
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About Us",
+      "url": "/about",
+      "type": "standard",
+      "parent": null
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "url": "/contact",
+      "type": "contact",
+      "parent": null
+    },
+    {
+      "id": "hydraulic-ram-repair",
+      "title": "Hydraulic Ram Repair Services",
+      "url": "/hydraulic-ram-repair",
+      "type": "service",
+      "parent": "services",
+      "core_service": true
+    },
+    {
+      "id": "cylinder-tube-honing",
+      "title": "Cylinder Tube Honing",
+      "url": "/cylinder-tube-honing",
+      "type": "service",
+      "parent": "services",
+      "core_service": true
+    },
+    {
+      "id": "chrome-plating-grinding",
+      "title": "Hard Chrome Plating & Grinding",
+      "url": "/chrome-plating-grinding",
+      "type": "service",
+      "parent": "services",
+      "core_service": true
+    },
+    {
+      "id": "hydraulic-cylinder-manufacturing",
+      "title": "Hydraulic Cylinder Manufacturing",
+      "url": "/hydraulic-cylinder-manufacturing",
+      "type": "sub-service",
+      "parent": "hydraulic-ram-repair"
+    },
+    {
+      "id": "precision-surface-restoration",
+      "title": "Precision Surface Restoration",
+      "url": "/precision-surface-restoration",
+      "type": "sub-service",
+      "parent": "cylinder-tube-honing"
+    },
+    {
+      "id": "automotive-component-reconditioning",
+      "title": "Automotive Component Reconditioning",
+      "url": "/automotive-component-reconditioning",
+      "type": "sub-service",
+      "parent": "chrome-plating-grinding"
+    },
+    {
+      "id": "emergency-express-services",
+      "title": "Emergency Express Services",
+      "url": "/emergency-express-services",
+      "type": "feature",
+      "parent": "services"
+    }
+  ]
+}

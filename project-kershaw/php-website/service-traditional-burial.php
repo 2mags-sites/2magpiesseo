@@ -1,0 +1,241 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Traditional Burial Service | Arthur Kershaw Funeral Directors Sale";
+$page_description = "Traditional burial services in Sale, Manchester. Personalised funeral arrangements with dignity and respect. Family-owned funeral directors since 1892.";
+$page_keywords = "burial service Sale, traditional funeral Manchester, funeral burial costs";
+?>
+<?php require_once 'includes/header.php'; ?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Traditional Burial</li>
+                </ol>
+            </nav>
+            <h1>Traditional Burial Service</h1>
+            <p class="lead">A dignified farewell with a traditional burial ceremony</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Service Overview -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Traditional Burial Services in Sale & Manchester</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">A traditional burial service provides families with the opportunity to say goodbye in a time-honoured way, with a ceremony followed by interment at a cemetery of your choice.</p>
+                        <p>At Arthur Kershaw Funeral Services, we understand that a traditional burial holds deep significance for many families. Our experienced team has been arranging dignified burial services throughout Sale, Stretford, Altrincham and surrounding areas since 1892.</p>
+                        <p>We handle every aspect with the utmost care and respect, from the initial arrangements through to the graveside service. Our role is to ensure everything runs smoothly, allowing you to focus on remembering and celebrating your loved one's life.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-cross fa-3x"></i>
+                        <p>Traditional Service with Dignity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Approach -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Our Approach to Traditional Burials</h2>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <h3>Personal and Meaningful Services</h3>
+                        <p>Every family is unique, and we believe every funeral should reflect the individual being remembered. Whether you prefer a religious or non-religious service, we'll help you create a ceremony that feels right.</p>
+                        <p>From choosing readings and music to selecting flowers and arranging the order of service, we guide you through each decision with patience and understanding. Our chapel of rest provides a peaceful setting where you can spend time with your loved one before the funeral.</p>
+                        <p>We work with all faiths and denominations, maintaining strong relationships with local churches, clergy, and celebrants throughout Greater Manchester.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-hands-holding-heart fa-3x"></i>
+                        <p>Compassionate Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Included -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">What's Included in Our Traditional Burial Service</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-user-tie"></i> Professional Services</h4>
+                            <p>Our funeral director's guidance and support throughout, handling of all necessary documentation, liaison with clergy or celebrant, and coordination of all arrangements.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-home"></i> Care of Your Loved One</h4>
+                            <p>Collection from place of death (within normal working hours), professional care and preparation, use of our chapel of rest for visiting, and dressing in own clothes if desired.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-car"></i> Funeral Procession</h4>
+                            <p>Provision of hearse, funeral vehicles for family, professional pallbearers, and transportation to cemetery.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-list-check fa-3x"></i>
+                        <p>Comprehensive Service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Arranging Process -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Arranging a Traditional Burial</h2>
+                <p class="lead text-center mb-40">Our step-by-step process ensures nothing is overlooked</p>
+
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Initial Contact</h4>
+                        <p>Call us on 0161 969 2288 at any time. We're available 24 hours a day, 365 days a year. We'll provide immediate support and arrange to bring your loved one into our care.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Arrangement Meeting</h4>
+                        <p>Meet with our funeral director at our Sale office or in your own home. We'll discuss your wishes, explain all options, provide transparent pricing, and help with paperwork including death registration.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Service Planning</h4>
+                        <p>Choose the cemetery and plot (new or existing family grave), select the coffin or casket, decide on service details including readings and music, and arrange flowers and memorial stationery.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>The Funeral Day</h4>
+                        <p>Our professional team ensures everything runs smoothly. The hearse and funeral cars arrive at the agreed time, we conduct the procession to the service venue, oversee the ceremony and burial, and provide continued support to your family.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h4>Aftercare</h4>
+                        <p>Our support continues after the funeral. We can help with memorial masonry, assist with paperwork and administration, provide bereavement support resources, and arrange for ongoing grave maintenance if required.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Costs Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Understanding Burial Costs</h2>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <h3>Transparent Pricing</h3>
+                        <p>We believe in complete transparency when it comes to funeral costs. Before any arrangements are confirmed, we provide a detailed written estimate showing all charges.</p>
+                        <p>The cost of a traditional burial includes our professional fees, the coffin, hearse and vehicles, and third-party charges such as cemetery fees, minister or celebrant fees, and any flowers or memorials you choose.</p>
+                        <p>Cemetery fees vary depending on location and whether you're using an existing family plot or purchasing a new grave. We can explain all options and help you make informed decisions that respect both your wishes and your budget.</p>
+                        <p>Payment options are available, and we can advise on any assistance you may be entitled to through government support or charitable funds.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-hand-holding-pound fa-3x"></i>
+                        <p>Clear, Honest Pricing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How soon after death should the burial take place?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>In the UK, there's no legal timeframe for when a burial must occur. Typically, funerals take place within 1-2 weeks of death, but this can vary based on family wishes, registration requirements, and cemetery availability. Religious considerations may require sooner burial - we can accommodate urgent requirements and work with your timeline.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can we visit before the funeral?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, our chapel of rest at our Washway Road premises is available for visiting. We can arrange viewing times that suit you, allowing family and friends to pay their respects in peaceful, dignified surroundings. Some families find this helpful for accepting their loss and saying a private goodbye.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What cemeteries can we use?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We can arrange burials at any cemetery in Greater Manchester and beyond. Popular local cemeteries include Sale Cemetery, Stretford Cemetery, Southern Cemetery, and Altrincham Cemetery. We can also arrange burials at churchyards, natural burial grounds, or cemeteries further afield if you have a specific location in mind.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can we have a service before the burial?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, most traditional burials include a service beforehand. This can be held at a church, crematorium chapel, or our own facilities. The service typically lasts 30-45 minutes, followed by the procession to the cemetery for the burial. Alternatively, you can have the entire service at the graveside if preferred.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What if we don't have a family grave?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We can help you purchase a new grave plot. Most cemeteries offer various options including lawn graves, traditional kerb graves, and woodland burial plots. We'll explain the choices available at your preferred cemetery, including costs and any restrictions on memorials. The grave deed will be issued in your name for future family use.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you offer eco-friendly burial options?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we can arrange environmentally conscious burials. This includes biodegradable coffins made from materials like bamboo, willow, or cardboard, natural burial grounds where graves are marked with trees rather than headstones, and reduced use of chemicals in preparation. We're happy to discuss how to make the funeral as eco-friendly as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>We're Here to Help</h2>
+                    <p class="lead">Our compassionate team is available 24/7 to guide you through arranging a traditional burial</p>
+                    <p><strong>Call us anytime on 0161 969 2288</strong></p>
+                    <p>Or visit us at 168-170 Washway Road, Sale, M33 6RH</p>
+                    <a href="/contact.php" class="btn btn-white">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

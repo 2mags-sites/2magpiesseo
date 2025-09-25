@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.premier-garageservices.co.uk)",
+      "Bash(mkdir:*)",
+      "Bash(grep:*)",
+      "Bash(dir \"C:\\Users\\dave\\Projects\\php builder\\website-rebuilder\\project-premier-garage-services\\html-preview\\*.html\" /b)",
+      "Bash(findstr:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

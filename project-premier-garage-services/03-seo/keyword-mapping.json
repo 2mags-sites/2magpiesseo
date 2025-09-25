@@ -1,0 +1,263 @@
+{
+  "pages": [
+    {
+      "page": "Homepage",
+      "url": "/",
+      "primary": "garage services Stockport",
+      "secondary": ["MOT test Stockport", "car servicing Stockport", "car repairs Hazel Grove"],
+      "long_tail": ["best garage in Stockport", "RAC approved garage near me", "independent garage Stockport SK7", "car service and MOT Stockport"]
+    },
+    {
+      "page": "About Us",
+      "url": "/about/",
+      "primary": "RAC approved garage Stockport",
+      "secondary": ["independent garage Hazel Grove", "trusted mechanics Stockport"],
+      "long_tail": ["family run garage Stockport", "experienced car mechanics near SK7", "reliable garage services Greater Manchester"]
+    },
+    {
+      "page": "Contact",
+      "url": "/contact/",
+      "primary": "garage contact Stockport",
+      "secondary": ["book MOT Stockport", "garage near me SK7"],
+      "long_tail": ["book car service online Stockport", "garage opening hours Hazel Grove", "emergency car repairs Stockport"]
+    },
+    {
+      "page": "MOT Testing",
+      "url": "/mot-testing/",
+      "primary": "MOT test Stockport",
+      "secondary": ["MOT testing Hazel Grove", "MOT garage SK7", "MOT test centre Stockport"],
+      "long_tail": ["cheap MOT test Stockport", "MOT test near me today", "MOT testing station Hazel Grove", "book MOT test online Stockport"]
+    },
+    {
+      "page": "Class 4 MOT",
+      "url": "/mot-testing/class-4-mot/",
+      "primary": "Class 4 MOT Stockport",
+      "secondary": ["car MOT test Stockport", "Class 4 MOT Hazel Grove"],
+      "long_tail": ["Class 4 MOT test near me", "car MOT test price Stockport", "passenger car MOT Stockport SK7"]
+    },
+    {
+      "page": "Class 5 MOT",
+      "url": "/mot-testing/class-5-mot/",
+      "primary": "Class 5 MOT Stockport",
+      "secondary": ["private passenger vehicle MOT", "minibus MOT Stockport"],
+      "long_tail": ["Class 5 MOT test Greater Manchester", "13+ seat vehicle MOT Stockport", "minibus MOT testing Hazel Grove"]
+    },
+    {
+      "page": "Class 7 MOT",
+      "url": "/mot-testing/class-7-mot/",
+      "primary": "Class 7 MOT Stockport",
+      "secondary": ["van MOT Stockport", "commercial vehicle MOT SK7"],
+      "long_tail": ["Class 7 MOT test near me", "light commercial vehicle MOT Stockport", "van MOT testing Hazel Grove"]
+    },
+    {
+      "page": "MOT Repairs",
+      "url": "/mot-repairs/",
+      "primary": "MOT repairs Stockport",
+      "secondary": ["MOT failure repairs", "MOT retest Stockport"],
+      "long_tail": ["fix MOT failures Stockport", "same day MOT repairs Hazel Grove", "MOT failure fixes while you wait"]
+    },
+    {
+      "page": "MOT Failure Reasons",
+      "url": "/mot-failure-reasons/",
+      "primary": "common MOT failures",
+      "secondary": ["MOT fail reasons", "why cars fail MOT"],
+      "long_tail": ["most common MOT failure reasons UK", "how to avoid MOT failure", "MOT failure checklist Stockport"]
+    },
+    {
+      "page": "Car Servicing",
+      "url": "/car-servicing/",
+      "primary": "car servicing Stockport",
+      "secondary": ["vehicle servicing Hazel Grove", "car service SK7", "main dealer servicing Stockport"],
+      "long_tail": ["affordable car servicing Stockport", "full car service near me", "main dealer quality servicing Stockport"]
+    },
+    {
+      "page": "Interim Service",
+      "url": "/car-servicing/interim-service/",
+      "primary": "interim service Stockport",
+      "secondary": ["6 month car service", "basic car service Stockport"],
+      "long_tail": ["interim car service price Stockport", "what's included interim service", "book interim service Hazel Grove"]
+    },
+    {
+      "page": "Full Service",
+      "url": "/car-servicing/full-service/",
+      "primary": "full service Stockport",
+      "secondary": ["annual car service Stockport", "major service Hazel Grove"],
+      "long_tail": ["full car service cost Stockport", "comprehensive vehicle service SK7", "12 month service Stockport"]
+    },
+    {
+      "page": "Oil Change Service",
+      "url": "/car-servicing/oil-change/",
+      "primary": "oil change Stockport",
+      "secondary": ["engine oil service", "oil and filter change SK7"],
+      "long_tail": ["quick oil change Stockport", "synthetic oil change Hazel Grove", "oil service while you wait"]
+    },
+    {
+      "page": "Manufacturer Warranty Service",
+      "url": "/manufacturer-warranty-service/",
+      "primary": "warranty servicing Stockport",
+      "secondary": ["manufacturer warranty service", "block exemption servicing"],
+      "long_tail": ["maintain car warranty Stockport", "dealer equivalent servicing SK7", "warranty approved service Hazel Grove"]
+    },
+    {
+      "page": "Tyres",
+      "url": "/tyres/",
+      "primary": "tyres Stockport",
+      "secondary": ["car tyres Hazel Grove", "tyre fitting SK7", "cheap tyres Stockport"],
+      "long_tail": ["buy tyres online Stockport", "premium and budget tyres", "tyre replacement near me"]
+    },
+    {
+      "page": "Premium Tyres",
+      "url": "/tyres/premium-tyres/",
+      "primary": "premium tyres Stockport",
+      "secondary": ["Michelin tyres Stockport", "Pirelli tyres SK7"],
+      "long_tail": ["best premium car tyres Stockport", "Dunlop Goodyear tyres Hazel Grove", "high performance tyres Stockport"]
+    },
+    {
+      "page": "Budget Tyres",
+      "url": "/tyres/budget-tyres/",
+      "primary": "budget tyres Stockport",
+      "secondary": ["cheap tyres Hazel Grove", "affordable tyres SK7"],
+      "long_tail": ["best budget tyre brands Stockport", "economical car tyres", "value tyres Stockport"]
+    },
+    {
+      "page": "Tyre Fitting",
+      "url": "/tyre-fitting/",
+      "primary": "tyre fitting Stockport",
+      "secondary": ["mobile tyre fitting", "tyre replacement SK7"],
+      "long_tail": ["same day tyre fitting Stockport", "professional tyre installation", "tyre fitting while you wait"]
+    },
+    {
+      "page": "Puncture Repair",
+      "url": "/puncture-repair/",
+      "primary": "puncture repair Stockport",
+      "secondary": ["tyre puncture fix", "flat tyre repair SK7"],
+      "long_tail": ["emergency puncture repair Stockport", "quick puncture fix Hazel Grove", "tyre repair while you wait"]
+    },
+    {
+      "page": "Wheel Alignment",
+      "url": "/wheel-alignment/",
+      "primary": "wheel alignment Stockport",
+      "secondary": ["tracking Stockport", "wheel balancing SK7"],
+      "long_tail": ["4 wheel alignment Stockport", "laser wheel alignment Hazel Grove", "fix car pulling to one side"]
+    },
+    {
+      "page": "4-Wheel Alignment",
+      "url": "/4-wheel-alignment/",
+      "primary": "4 wheel alignment Stockport",
+      "secondary": ["four wheel tracking", "full geometry check SK7"],
+      "long_tail": ["professional 4 wheel alignment Stockport", "laser alignment all wheels", "complete wheel alignment service"]
+    },
+    {
+      "page": "Suspension Repairs",
+      "url": "/suspension-repairs/",
+      "primary": "suspension repairs Stockport",
+      "secondary": ["shock absorber replacement", "suspension fix SK7"],
+      "long_tail": ["car suspension repair cost Stockport", "fix bouncy suspension Hazel Grove", "spring and shock replacement"]
+    },
+    {
+      "page": "Air Conditioning Services",
+      "url": "/air-conditioning/",
+      "primary": "air conditioning service Stockport",
+      "secondary": ["AC service Hazel Grove", "car aircon repair SK7"],
+      "long_tail": ["car air conditioning regas Stockport", "AC not cold fix", "aircon service and repair Stockport"]
+    },
+    {
+      "page": "AC Regas",
+      "url": "/ac-regas/",
+      "primary": "AC regas Stockport",
+      "secondary": ["air con recharge", "R134a regas SK7"],
+      "long_tail": ["car aircon regas price Stockport", "AC gas refill Hazel Grove", "air conditioning recharge service"]
+    },
+    {
+      "page": "Car Diagnostics",
+      "url": "/car-diagnostics/",
+      "primary": "car diagnostics Stockport",
+      "secondary": ["fault finding Stockport", "diagnostic check SK7"],
+      "long_tail": ["engine diagnostic test Stockport", "car fault code reading", "warning light diagnostics Hazel Grove"]
+    },
+    {
+      "page": "Engine Diagnostics",
+      "url": "/engine-diagnostics/",
+      "primary": "engine diagnostics Stockport",
+      "secondary": ["engine fault finding", "ECU diagnostics SK7"],
+      "long_tail": ["check engine light diagnosis Stockport", "engine management fault finding", "professional engine diagnostics"]
+    },
+    {
+      "page": "Brake Repairs",
+      "url": "/brake-repairs/",
+      "primary": "brake repairs Stockport",
+      "secondary": ["brake pads replacement", "brake disc change SK7"],
+      "long_tail": ["brake repair cost Stockport", "squeaky brakes fix Hazel Grove", "brake pads and discs Stockport"]
+    },
+    {
+      "page": "Clutch Replacement",
+      "url": "/clutch-replacement/",
+      "primary": "clutch replacement Stockport",
+      "secondary": ["clutch repair SK7", "new clutch fitting"],
+      "long_tail": ["clutch replacement cost Stockport", "slipping clutch repair Hazel Grove", "clutch and flywheel replacement"]
+    },
+    {
+      "page": "Ford MOT",
+      "url": "/mot-ford/",
+      "primary": "Ford MOT Stockport",
+      "secondary": ["Ford MOT test near me", "Fiesta MOT Stockport", "Focus MOT test"],
+      "long_tail": ["Ford MOT test Stockport SK7", "cheap Ford MOT Hazel Grove", "Ford garage MOT testing Stockport"]
+    },
+    {
+      "page": "Vauxhall MOT",
+      "url": "/mot-vauxhall/",
+      "primary": "Vauxhall MOT Stockport",
+      "secondary": ["Corsa MOT test", "Astra MOT Stockport", "Vauxhall MOT near me"],
+      "long_tail": ["Vauxhall MOT test price Stockport", "Insignia MOT Hazel Grove", "Vauxhall specialist MOT SK7"]
+    },
+    {
+      "page": "Volkswagen MOT",
+      "url": "/mot-volkswagen/",
+      "primary": "Volkswagen MOT Stockport",
+      "secondary": ["VW MOT test", "Golf MOT Stockport", "Polo MOT near me"],
+      "long_tail": ["VW MOT specialist Stockport", "Volkswagen MOT test SK7", "Passat MOT Hazel Grove"]
+    },
+    {
+      "page": "BMW MOT",
+      "url": "/mot-bmw/",
+      "primary": "BMW MOT Stockport",
+      "secondary": ["BMW MOT test near me", "3 Series MOT", "BMW specialist MOT"],
+      "long_tail": ["BMW MOT test Stockport SK7", "BMW approved MOT Hazel Grove", "BMW X5 MOT test Stockport"]
+    },
+    {
+      "page": "Mercedes MOT",
+      "url": "/mot-mercedes/",
+      "primary": "Mercedes MOT Stockport",
+      "secondary": ["Mercedes Benz MOT", "C Class MOT test", "Mercedes MOT near me"],
+      "long_tail": ["Mercedes MOT specialist Stockport", "E Class MOT Hazel Grove", "Mercedes Benz MOT test SK7"]
+    },
+    {
+      "page": "Audi MOT",
+      "url": "/mot-audi/",
+      "primary": "Audi MOT Stockport",
+      "secondary": ["Audi MOT test", "A3 MOT Stockport", "Audi specialist MOT"],
+      "long_tail": ["Audi MOT test near me SK7", "A4 MOT test Stockport", "Audi Q5 MOT Hazel Grove"]
+    },
+    {
+      "page": "Toyota MOT",
+      "url": "/mot-toyota/",
+      "primary": "Toyota MOT Stockport",
+      "secondary": ["Toyota MOT test", "Yaris MOT", "Corolla MOT Stockport"],
+      "long_tail": ["Toyota MOT specialist Stockport", "RAV4 MOT test SK7", "Toyota Aygo MOT Hazel Grove"]
+    },
+    {
+      "page": "Honda MOT",
+      "url": "/mot-honda/",
+      "primary": "Honda MOT Stockport",
+      "secondary": ["Honda MOT test", "Civic MOT", "Jazz MOT Stockport"],
+      "long_tail": ["Honda MOT near me SK7", "CR-V MOT test Stockport", "Honda specialist MOT Hazel Grove"]
+    },
+    {
+      "page": "Nissan MOT",
+      "url": "/mot-nissan/",
+      "primary": "Nissan MOT Stockport",
+      "secondary": ["Nissan MOT test", "Qashqai MOT", "Micra MOT Stockport"],
+      "long_tail": ["Nissan MOT specialist SK7", "Juke MOT test Stockport", "Nissan X-Trail MOT Hazel Grove"]
+    }
+  ]
+}

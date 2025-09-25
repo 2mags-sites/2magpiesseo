@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "Frequently Asked Questions | Barringtons Funeral Services",
+        "description": "Common questions about funeral arrangements, costs, and services. Find answers to help you make informed decisions during a difficult time.",
+        "keywords": "funeral FAQ, funeral questions, funeral costs, funeral arrangements"
+    },
+    "intro": {
+        "title": "Common Questions",
+        "subtitle": "Here are answers to questions families often ask. If you need more information, please don't hesitate to contact us."
+    },
+    "questions": [
+        {
+            "question": "How much does a funeral cost?",
+            "answer": "Our services start from \u00a31,795 for a simple funeral. We provide transparent pricing and can work within your budget."
+        },
+        {
+            "question": "What happens if someone dies at home?",
+            "answer": "Call us first on 0151 928 1625. We'll guide you through everything, including contacting the doctor and making arrangements."
+        },
+        {
+            "question": "How long after death is a funeral?",
+            "answer": "Usually within 1-2 weeks, but this can vary. We'll work with your timeline and any religious or cultural requirements."
+        },
+        {
+            "question": "Can we have the funeral at home?",
+            "answer": "Yes, we can arrange home funerals. Your loved one can rest at home before the service with appropriate care."
+        },
+        {
+            "question": "What's the difference between burial and cremation?",
+            "answer": "Burial provides a permanent resting place to visit. Cremation offers flexibility with ashes and is generally less expensive."
+        },
+        {
+            "question": "Do you offer payment plans?",
+            "answer": "Yes, we offer various payment options including installment plans to help spread the cost."
+        }
+    ],
+    "hero": {
+        "title": "Frequently Asked Questions",
+        "image": "\/assets\/images\/uploads\/img_68cfc6ecc07e3_1758447340.jpg"
+    }
+}

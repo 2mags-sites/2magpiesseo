@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barringtons Independent Funeral Services | Funeral Directors Liverpool</title>
+    <meta name="description" content="Family-owned funeral directors serving Liverpool, Waterloo, Formby & Netherton. Eco-friendly options, prepaid funeral plans. Available 24/7. Call 0151 928 1625.">
+    <meta name="keywords" content="funeral directors Liverpool, funeral services Merseyside, independent funeral directors">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #27ae60;
+            --text-dark: #2c3e50;
+            --text-light: #7f8c8d;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.3rem;
+        }
+
+        .nav-link {
+            color: var(--text-dark);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-color);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 100px 0 80px;
+            position: relative;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero-section .lead {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            background: var(--accent-color);
+            border: none;
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background: #229954;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline-light {
+            border: 2px solid white;
+            padding: 10px 28px;
+            font-weight: 600;
+        }
+
+        /* Quick Contact Bar */
+        .quick-contact {
+            background: var(--bg-light);
+            padding: 20px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-item i {
+            color: var(--accent-color);
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        /* Services Section */
+        .services-section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section-subtitle {
+            color: var(--text-light);
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 10px;
+            padding: 40px 30px;
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 80px 0;
+            background: var(--bg-light);
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 35px;
+            position: relative;
+        }
+
+        .feature-list li:before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        /* Eco Section */
+        .eco-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .eco-feature {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .eco-icon {
+            font-size: 3rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+
+        .eco-stat {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        /* Locations Section */
+        .locations-section {
+            padding: 80px 0;
+            background: var(--bg-light);
+        }
+
+        .location-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            height: 100%;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .location-name {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .location-info {
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+
+        .location-info i {
+            color: var(--accent-color);
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 60px 0 30px;
+        }
+
+        .footer h4 {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">Barringtons Funeral Services</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/services/traditional-funeral">Traditional Funeral</a></li>
+                            <li><a class="dropdown-item" href="/services/direct-cremation">Direct Cremation</a></li>
+                            <li><a class="dropdown-item" href="/services/burial-services">Burial Services</a></li>
+                            <li><a class="dropdown-item" href="/services/cremation-services">Cremation Services</a></li>
+                            <li><a class="dropdown-item" href="/services/eco-friendly-funerals">Eco-Friendly Funerals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/prepaid-funeral-plans">Prepaid Plans</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Locations</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/locations/waterloo-funeral-directors">Waterloo</a></li>
+                            <li><a class="dropdown-item" href="/locations/formby-funeral-directors">Formby</a></li>
+                            <li><a class="dropdown-item" href="/locations/netherton-funeral-directors">Netherton</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/tributes-and-donations">Tributes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1>Caring, Professional Funeral Services in Liverpool</h1>
+                    <p class="lead">Family-owned independent funeral directors serving Waterloo, Formby, Netherton and surrounding areas with compassion and dignity since establishment.</p>
+                    <div class="mt-4">
+                        <a href="/contact" class="btn btn-primary btn-lg me-3">Contact Us</a>
+                        <a href="/services/traditional-funeral" class="btn btn-outline-light btn-lg">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Bar -->
+    <section class="quick-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span><strong>24/7 Support:</strong> 0151 928 1625</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><strong>3 Locations</strong> across Liverpool</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item">
+                        <i class="fas fa-leaf"></i>
+                        <span><strong>Eco-Friendly</strong> Options Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Funeral Services</h2>
+            <p class="section-subtitle">Supporting families with personalised funeral arrangements</p>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="fas fa-dove service-icon"></i>
+                        <h3>Traditional Funeral</h3>
+                        <p>Fully personalised funeral service tailored to honor your loved one's life and wishes.</p>
+                        <a href="/services/traditional-funeral" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="fas fa-hands-holding service-icon"></i>
+                        <h3>Direct Cremation</h3>
+                        <p>Simple, dignified cremation service without ceremony. Our most affordable option.</p>
+                        <a href="/services/direct-cremation" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="fas fa-seedling service-icon"></i>
+                        <h3>Eco-Friendly Options</h3>
+                        <p>Zero-emission electric hearse and limousine. We plant a tree for every funeral.</p>
+                        <a href="/services/eco-friendly-funerals" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content text-center">
+                <h2 class="section-title">Family-Owned Independent Funeral Directors</h2>
+                <p class="lead">Barringtons Independent Funeral Services has been supporting families across Liverpool and Merseyside with compassionate, professional funeral services. As an independent, family-owned business, we provide personalised attention and care during difficult times.</p>
+
+                <ul class="feature-list text-start">
+                    <li>Recommended by the Good Funeral Guide</li>
+                    <li>Members of the National Association of Funeral Directors</li>
+                    <li>Association of Green Funeral Directors members</li>
+                    <li>Over 3,000 trees planted through our environmental program</li>
+                    <li>Zero-emission electric vehicles available</li>
+                    <li>24/7 support when you need us most</li>
+                </ul>
+
+                <a href="/about/our-story" class="btn btn-primary">Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eco Initiative -->
+    <section class="eco-section">
+        <div class="container">
+            <h2 class="section-title">Our Environmental Commitment</h2>
+            <p class="section-subtitle">Leading the way in sustainable funeral services</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="eco-feature">
+                        <i class="fas fa-car eco-icon"></i>
+                        <div class="eco-stat">Zero Emissions</div>
+                        <p>Electric hearse and limousine fleet</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="eco-feature">
+                        <i class="fas fa-tree eco-icon"></i>
+                        <div class="eco-stat">3,000+</div>
+                        <p>Trees planted for families we've served</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="eco-feature">
+                        <i class="fas fa-award eco-icon"></i>
+                        <div class="eco-stat">Green Certified</div>
+                        <p>Association of Green Funeral Directors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="locations-section">
+        <div class="container">
+            <h2 class="section-title">Our Locations</h2>
+            <p class="section-subtitle">Three convenient locations across Liverpool</p>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="location-card">
+                        <h3 class="location-name">Waterloo</h3>
+                        <div class="location-info">
+                            <i class="fas fa-phone"></i> 0151 928 1625
+                        </div>
+                        <div class="location-info">
+                            <i class="fas fa-map-marker-alt"></i> 28 Crosby Road North, L22 4QF
+                        </div>
+                        <a href="/locations/waterloo-funeral-directors" class="btn btn-outline-primary mt-3">View Details</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="location-card">
+                        <h3 class="location-name">Formby</h3>
+                        <div class="location-info">
+                            <i class="fas fa-phone"></i> 01704 461511
+                        </div>
+                        <div class="location-info">
+                            <i class="fas fa-map-marker-alt"></i> 49 Liverpool Road, L37 6BT
+                        </div>
+                        <a href="/locations/formby-funeral-directors" class="btn btn-outline-primary mt-3">View Details</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="location-card">
+                        <h3 class="location-name">Netherton</h3>
+                        <div class="location-info">
+                            <i class="fas fa-phone"></i> 0151 329 3525
+                        </div>
+                        <div class="location-info">
+                            <i class="fas fa-map-marker-alt"></i> 38 Marian Square, L30 5QA
+                        </div>
+                        <a href="/locations/netherton-funeral-directors" class="btn btn-outline-primary mt-3">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>We're Here When You Need Us</h2>
+            <p>Available 24 hours a day, 7 days a week to provide support and guidance</p>
+            <a href="/contact" class="btn btn-light btn-lg">Contact Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="/services/traditional-funeral">Traditional Funeral</a></li>
+                        <li><a href="/services/direct-cremation">Direct Cremation</a></li>
+                        <li><a href="/services/burial-services">Burial Services</a></li>
+                        <li><a href="/services/cremation-services">Cremation Services</a></li>
+                        <li><a href="/services/eco-friendly-funerals">Eco-Friendly Funerals</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/prepaid-funeral-plans">Prepaid Funeral Plans</a></li>
+                        <li><a href="/tributes-and-donations">Tributes & Donations</a></li>
+                        <li><a href="/funeral-notices">Funeral Notices</a></li>
+                        <li><a href="/guidance/what-to-do-when-someone-dies">Guidance</a></li>
+                        <li><a href="/about/our-story">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Our Locations</h4>
+                    <ul class="footer-links">
+                        <li><a href="/locations/waterloo-funeral-directors">Waterloo Office</a></li>
+                        <li><a href="/locations/formby-funeral-directors">Formby Office</a></li>
+                        <li><a href="/locations/netherton-funeral-directors">Netherton Office</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <p class="text-white-50">24/7 Support Available</p>
+                    <p><i class="fas fa-phone me-2"></i> 0151 928 1625</p>
+                    <p class="text-white-50">
+                        Family-owned funeral directors<br>
+                        Serving Liverpool & Merseyside
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Barringtons Independent Funeral Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

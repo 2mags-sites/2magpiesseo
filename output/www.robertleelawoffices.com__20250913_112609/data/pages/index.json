@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Law Firm In Hong Kong | Robert Lee Law Offices",
+    "description": "Robert Lee Law Offices with 40+ years of exp in Hong Kong, Singapore & Japan.  Legal advice, corporate law, company secretarial service (board resolution, company set up), will & probate, certification, notarisation of documents.  Customer-centric, multi-lingual & affordable. Contact us now.  ",
+    "keywords": [],
+    "canonical_url": "/"
+  },
+  "content": {
+    "hero": {
+      "title": "Law Firm In Hong Kong",
+      "subtitle": "Professional Services You Can Trust",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More"
+    },
+    "features": [
+      {
+        "title": "Professional Service",
+        "description": "Expert solutions tailored to your needs"
+      },
+      {
+        "title": "Experienced Team",
+        "description": "Years of industry experience"
+      },
+      {
+        "title": "Customer Focused",
+        "description": "Your satisfaction is our priority"
+      },
+      {
+        "title": "Quality Guaranteed",
+        "description": "We stand behind our work"
+      }
+    ],
+    "services_overview": [],
+    "why_choose": {
+      "title": "Why Choose Law Firm In Hong Kong",
+      "points": [
+        "Proven track record of success",
+        "Dedicated professional team",
+        "Competitive pricing",
+        "Excellent customer service"
+      ]
+    },
+    "testimonials": []
+  }
+}

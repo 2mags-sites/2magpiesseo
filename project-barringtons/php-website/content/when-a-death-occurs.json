@@ -1,0 +1,180 @@
+{
+    "meta": {
+        "title": "When a Death Occurs - Complete Guide | Barringtons Funeral Services",
+        "description": "Comprehensive guide on what to do when someone dies. Medical certification, registration, funeral planning, and grief support. Liverpool funeral directors here to help.",
+        "keywords": "what to do when someone dies, death registration Liverpool, Medical Examiner process, Coroner involvement, funeral planning guide"
+    },
+    "hero": {
+        "title": "When a Death Occurs",
+        "image": "\/assets\/images\/uploads\/img_68cd7551bd262_1758295377.jpg"
+    },
+    "intro": {
+        "title": "When Someone Dies: Your First Steps",
+        "subtitle": "Losing someone you love brings profound changes to your life. While the immediate shock may have passed, there are still many practical matters to address. This guide provides detailed information to help you navigate the process with clarity and confidence."
+    },
+    "sections": {
+        "medical_certification": {
+            "title": "Medical Certification and the Medical Examiner",
+            "description": "Since September 2024, the death certification process follows these steps:",
+            "steps": [
+                "Initial Certification: The doctor who cared for your loved one completes a Medical Certificate of Cause of Death",
+                "Medical Examiner Review: A second doctor reviews the death using medical records",
+                "Family Consultation: The Medical Examiner will contact you to discuss their findings and address any questions about your loved one's care",
+                "Final Approval: Once satisfied, the Medical Examiner sends the information to the Registrar"
+            ],
+            "note": "This process ensures thoroughness while respecting your need to proceed with funeral arrangements."
+        },
+        "registration": {
+            "title": "Registering the Death",
+            "description": "Registration must occur within five days unless the Coroner is involved. This important legal step allows you to:",
+            "benefits": [
+                "Obtain death certificates",
+                "Begin settling your loved one's affairs",
+                "Proceed with funeral arrangements"
+            ],
+            "who_can_register": {
+                "title": "Who can register a death:",
+                "list": [
+                    "A relative of the deceased",
+                    "Someone present at the death",
+                    "The occupier of the premises where death occurred",
+                    "The person arranging the funeral"
+                ]
+            },
+            "documents": {
+                "title": "Documents you'll receive:",
+                "list": [
+                    "Death certificates (\u00a312 each) \u2013 order several as you'll need them for banks, insurance, and other institutions",
+                    "Certificate for burial or cremation (sent electronically to funeral directors)",
+                    "Information about the Tell Us Once service",
+                    "Forms for Social Security purposes"
+                ]
+            }
+        },
+        "tell_us_once": {
+            "title": "The Tell Us Once Service",
+            "description": "This free government service simplifies notifying multiple departments about the death. One notification covers:",
+            "services": [
+                "Benefit payments and tax",
+                "Passport and driving licence cancellation",
+                "Council services",
+                "Public sector pensions"
+            ],
+            "note": "The Registrar will provide you with a unique reference number to access this service online or by phone."
+        },
+        "coroner": {
+            "title": "When the Coroner is Involved",
+            "description": "The Coroner becomes involved when:",
+            "circumstances": [
+                "The cause of death is unclear",
+                "Death was sudden or unexpected",
+                "The person wasn't seen by a doctor during their final illness",
+                "Death occurred during medical treatment",
+                "There are concerns about the circumstances"
+            ],
+            "what_to_expect": {
+                "title": "What to expect:",
+                "list": [
+                    "The Coroner's involvement is routine in these circumstances",
+                    "They may order a post-mortem to determine cause of death",
+                    "You'll be kept informed throughout the process",
+                    "Funeral arrangements can usually proceed once initial investigations are complete",
+                    "In rare cases requiring an inquest, we'll guide you through the extended timeline"
+                ]
+            }
+        },
+        "planning": {
+            "title": "Planning the Funeral",
+            "burial_vs_cremation": {
+                "title": "Choosing Between Burial and Cremation",
+                "description": "This deeply personal decision may have been expressed by your loved one or needs consideration now. Consider:",
+                "cremation": {
+                    "title": "Cremation offers:",
+                    "benefits": [
+                        "Flexibility in memorialisation",
+                        "Options for scattering in meaningful places",
+                        "Ability to keep ashes close",
+                        "Generally lower costs"
+                    ]
+                },
+                "burial": {
+                    "title": "Burial provides:",
+                    "benefits": [
+                        "A permanent place to visit",
+                        "Traditional closure for many families",
+                        "Opportunity for personalised memorials",
+                        "Connection to family plots"
+                    ]
+                },
+                "note": "We'll discuss both options sensitively, including costs and local arrangements."
+            },
+            "meaningful_service": {
+                "title": "Creating a Meaningful Service",
+                "description": "Every life deserves a fitting tribute. Consider:",
+                "elements": [
+                    "Music that held special meaning",
+                    "Readings or poems that reflect their spirit",
+                    "Personal touches like photographs or memorabilia",
+                    "Who might wish to speak or contribute",
+                    "Whether you prefer religious or non-religious elements"
+                ],
+                "note": "Our experienced team will help bring your ideas to life, no matter how unique."
+            }
+        },
+        "practical": {
+            "title": "Practical Considerations",
+            "documents": {
+                "title": "Important Documents to Locate",
+                "description": "When you feel ready, gathering these documents will help:",
+                "list": [
+                    "Will and any funeral wishes",
+                    "Insurance policies",
+                    "Bank and building society details",
+                    "Pension documents",
+                    "Property deeds or rental agreements",
+                    "Utility bills",
+                    "Digital account information"
+                ]
+            },
+            "notifications": {
+                "title": "People to Notify",
+                "description": "Beyond official notifications:",
+                "list": [
+                    "Employer or business partners",
+                    "Banks and credit card companies",
+                    "Insurance providers",
+                    "Utility companies",
+                    "Subscription services",
+                    "Social groups and clubs",
+                    "Healthcare providers"
+                ]
+            }
+        },
+        "support": {
+            "title": "Support Through Grief",
+            "description": "Remember that grief has no timeline. Some days will be harder than others, and that's perfectly normal. Consider:",
+            "considerations": [
+                "Accepting help from friends and family",
+                "Joining a bereavement support group",
+                "Speaking with a grief counsellor",
+                "Taking time for self-care"
+            ],
+            "commitment": {
+                "title": "Our Commitment to You",
+                "description": "At Barringtons, we understand that every family's needs are different. Whether you need comprehensive support or prefer to handle certain aspects yourself, we're here to provide exactly the level of assistance you require.",
+                "promise_title": "Our promise:",
+                "promises": [
+                    "No pressure or rush in decision-making",
+                    "Clear, transparent communication about all options",
+                    "Respect for your wishes and budget",
+                    "Ongoing support even after the funeral"
+                ],
+                "cta": "We're here whenever you need us. Call 0151 928 1625 at any time to speak with one of our funeral directors."
+            }
+        }
+    },
+    "contact_section": {
+        "title": "We're here whenever you need us",
+        "description": "Call 0151 928 1625 at any time to speak with one of our funeral directors."
+    }
+}

@@ -1,0 +1,43 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+error_log
+/logs/
+
+# Cache
+/cache/
+*.cache
+
+# Uploads (user content)
+/assets/images/uploads/*
+!/assets/images/uploads/.gitkeep
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# WordPress (if blog is added)
+/news/
+
+# Development files
+node_modules/
+vendor/
+
+# Sensitive data
+/content/*.json.backup
+/includes/config.local.php

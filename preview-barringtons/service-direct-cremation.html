@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct Cremation Services Liverpool | Simple, Affordable | Barrington's Funerals</title>
+    <meta name="description" content="Direct cremation services in Liverpool from £995. Simple, dignified farewell without a traditional ceremony. Family-owned funeral directors serving Merseyside.">
+    <meta name="keywords" content="direct cremation Liverpool, simple cremation, unattended cremation, affordable cremation Liverpool, no ceremony cremation">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #2c5530;
+            --secondary-color: #6b8e6f;
+            --accent-color: #8fbc8f;
+            --text-dark: #333;
+            --text-light: #666;
+            --border-light: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .service-hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 60px 0;
+            margin-bottom: 40px;
+        }
+
+        .service-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .service-content {
+            padding: 40px 0;
+        }
+
+        .content-section {
+            margin-bottom: 50px;
+        }
+
+        .content-section h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .content-section h3 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .content-section ul {
+            margin: 20px 0;
+            padding-left: 25px;
+        }
+
+        .content-section ul li {
+            color: var(--text-light);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Side-by-side content with images */
+        .content-with-image {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .content-with-image.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .content-text {
+            flex: 1;
+        }
+
+        .content-image {
+            flex: 1;
+            min-height: 300px !important;
+            height: 300px !important;
+        }
+
+        .content-text.wider {
+            flex: 1.2; /* 60% */
+        }
+
+        .content-image.narrower {
+            flex: 0.8; /* 40% */
+            min-height: 250px !important;
+            height: 250px !important;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            min-height: inherit !important;
+            background: linear-gradient(135deg, #f0f0f0, #d0d0d0);
+            border-radius: 8px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 1.2rem;
+            flex: none !important;
+        }
+
+        .pricing-box {
+            background: #f8f9fa;
+            border: 2px solid var(--accent-color);
+            border-radius: 8px;
+            padding: 30px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .pricing-box h3 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 3rem;
+            color: var(--secondary-color);
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .price-note {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .included-services {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .included-services h4 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .included-services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .included-services li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .included-services li:last-child {
+            border-bottom: none;
+        }
+
+        .included-services li::before {
+            content: "✓";
+            color: var(--secondary-color);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .info-box {
+            background: #f0f7f0;
+            border-left: 4px solid var(--secondary-color);
+            padding: 20px;
+            margin: 30px 0;
+        }
+
+        .info-box h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .service-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .content-with-image {
+                flex-direction: column !important;
+                gap: 20px;
+            }
+
+            .content-image,
+            .content-image.narrower {
+                width: 100%;
+                min-height: 200px !important;
+                height: 200px !important;
+                flex: none !important;
+            }
+
+            .image-placeholder {
+                min-height: 200px !important;
+                height: 200px !important;
+            }
+
+            .price {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- CONTENT ONLY - PHP will include header -->
+
+    <div class="service-hero">
+        <div class="container">
+            <h1>Direct Cremation Services</h1>
+            <p class="lead">A simple, dignified farewell without a traditional ceremony</p>
+        </div>
+    </div>
+
+    <div class="service-content">
+        <div class="container">
+            <!-- Introduction with Image -->
+            <div class="content-with-image">
+                <div class="content-text wider">
+                    <div class="content-section">
+                        <h2>Understanding Direct Cremation</h2>
+                        <p>Direct cremation, also known as unattended cremation, is an increasingly popular choice for families in Liverpool and across Merseyside. This simple, dignified option provides a respectful farewell without the formality of a traditional funeral service.</p>
+                        <p>At Barrington's Funerals, we understand that not everyone wants or needs a traditional ceremony. Direct cremation allows families to say goodbye in their own way, perhaps holding a private memorial service at a later date when they feel ready.</p>
+                    </div>
+                </div>
+                <div class="content-image narrower">
+                    <div class="image-placeholder">
+                        <i class="fas fa-dove fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Section -->
+            <div class="pricing-box">
+                <h3>Direct Cremation Service</h3>
+                <div class="price">From £995</div>
+                <p class="price-note">*Price inclusive of all essential services and crematorium fees</p>
+            </div>
+
+            <!-- What's Included with Image -->
+            <div class="content-with-image reverse">
+                <div class="content-text">
+                    <div class="included-services">
+                        <h4>What's Included in Our Direct Cremation Service</h4>
+                        <ul>
+                            <li>Collection of your loved one from anywhere in Liverpool or Merseyside</li>
+                            <li>Care of your loved one in our private chapel of rest</li>
+                            <li>Simple coffin suitable for cremation</li>
+                            <li>All necessary paperwork and documentation</li>
+                            <li>Transportation to the crematorium</li>
+                            <li>Crematorium fees</li>
+                            <li>Return of ashes in a simple container or scatter tube</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-hands-holding fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why Choose Section -->
+            <div class="content-section">
+                <h2>Why Choose Direct Cremation?</h2>
+
+                <div class="content-with-image">
+                    <div class="content-text wider">
+                        <h3>Simplicity and Dignity</h3>
+                        <p>Direct cremation offers a simple yet dignified way to say goodbye. Without the pressure of organizing a formal service, families can focus on grieving and supporting each other during this difficult time.</p>
+                        <p>Many families choose to hold a memorial service or celebration of life at a later date, in a location that was meaningful to their loved one.</p>
+                    </div>
+                    <div class="content-image narrower">
+                        <div class="image-placeholder">
+                            <i class="fas fa-heart fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-with-image reverse">
+                    <div class="content-text wider">
+                        <h3>Environmental Considerations</h3>
+                        <p>For those concerned about their environmental impact, direct cremation can be a more eco-friendly choice. Without embalming or elaborate ceremonies, it reduces the carbon footprint of the funeral process.</p>
+                        <p>We can also arrange for ashes to be scattered in our memorial garden or at a location of your choosing, subject to permissions.</p>
+                    </div>
+                    <div class="content-image narrower">
+                        <div class="image-placeholder">
+                            <i class="fas fa-leaf fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Process Section -->
+            <div class="content-section">
+                <h2>The Direct Cremation Process</h2>
+
+                <div class="info-box">
+                    <h4>Step 1: Initial Contact</h4>
+                    <p>Contact our team 24/7 to arrange the collection of your loved one. We'll guide you through the necessary paperwork and answer any questions you may have.</p>
+                </div>
+
+                <div class="info-box">
+                    <h4>Step 2: Care and Preparation</h4>
+                    <p>Your loved one will be brought into our care and kept in our private chapel of rest. You're welcome to visit if you wish, though this is entirely optional.</p>
+                </div>
+
+                <div class="info-box">
+                    <h4>Step 3: Cremation</h4>
+                    <p>The cremation takes place at a time arranged by us, without attendees. Your loved one is treated with the utmost dignity and respect throughout.</p>
+                </div>
+
+                <div class="info-box">
+                    <h4>Step 4: Return of Ashes</h4>
+                    <p>Ashes are typically ready for collection within 7-10 days. We can arrange for collection from our offices or delivery to your home.</p>
+                </div>
+            </div>
+
+            <!-- Memorial Options with Image -->
+            <div class="content-with-image">
+                <div class="content-text">
+                    <div class="content-section">
+                        <h2>Memorial Options</h2>
+                        <p>Just because you choose direct cremation doesn't mean you can't celebrate your loved one's life. Many families find comfort in arranging their own memorial service.</p>
+                        <h3>Popular Memorial Ideas</h3>
+                        <ul>
+                            <li>A gathering at home with family and friends</li>
+                            <li>A memorial service at a favorite location</li>
+                            <li>Scattering ashes at a meaningful place</li>
+                            <li>Planting a memorial tree or garden</li>
+                            <li>Creating a memory book or online tribute</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-tree fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support Section -->
+            <div class="content-section">
+                <h2>Support Throughout the Process</h2>
+                <div class="content-with-image reverse">
+                    <div class="content-text wider">
+                        <p>While direct cremation is a simpler option, we understand that losing a loved one is never easy. Our experienced team is here to support you every step of the way.</p>
+                        <p>We can help with:</p>
+                        <ul>
+                            <li>Registering the death</li>
+                            <li>Obtaining death certificates</li>
+                            <li>Advice on what to do with ashes</li>
+                            <li>Bereavement support resources</li>
+                            <li>Planning a memorial service if desired</li>
+                        </ul>
+                    </div>
+                    <div class="content-image narrower">
+                        <div class="image-placeholder">
+                            <i class="fas fa-users fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="content-section text-center">
+                <h2>Arrange a Direct Cremation</h2>
+                <p>Our caring team is available 24 hours a day, 7 days a week to help you arrange a direct cremation service.</p>
+                <p>Call us on <strong>0151 123 4567</strong> or visit one of our offices in West Derby or Allerton.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENT ONLY - PHP will include footer -->
+</body>
+</html>

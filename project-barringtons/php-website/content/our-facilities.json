@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Our Facilities - Chapel of Rest & Arrangement Rooms | Barringtons",
+    "description": "Private chapels of rest, comfortable arrangement rooms, and peaceful surroundings at our Liverpool funeral homes. 24 hour access available.",
+    "keywords": "funeral home facilities, chapel of rest Liverpool, funeral parlour, viewing rooms"
+  },
+  "intro": {
+    "title": "Peaceful & Dignified Surroundings",
+    "subtitle": "Our funeral homes provide comfortable, private spaces for families to gather, remember, and say goodbye."
+  },
+  "facilities": [
+    {
+      "title": "Chapels of Rest",
+      "description": "Private, peaceful rooms where you can spend time with your loved one. Available 24 hours by appointment.",
+      "features": [
+        "Climate controlled",
+        "Beautifully decorated",
+        "Wheelchair accessible",
+        "Seating for family"
+      ]
+    },
+    {
+      "title": "Arrangement Rooms",
+      "description": "Comfortable, private spaces for planning funeral arrangements with our caring staff.",
+      "features": [
+        "Refreshments provided",
+        "Display of coffins and urns",
+        "Private parking",
+        "Disabled access"
+      ]
+    },
+    {
+      "title": "Service Chapel",
+      "description": "Our own service chapel for intimate funeral services, seating up to 50 people.",
+      "features": [
+        "Audio visual equipment",
+        "Live streaming available",
+        "Organ and piano",
+        "Flexible layout"
+      ]
+    }
+  ],
+  "access": {
+    "title": "24 Hour Access",
+    "description": "We understand the importance of being able to visit your loved one when it suits you. Our chapels of rest are available 24 hours a day by appointment.",
+    "cta": "Call us anytime on 0151 928 1625 to arrange a visit."
+  },
+  "hero": {
+    "title": "Our Facilities",
+    "image": "assets/images/hero-background.jpg"
+  }
+}

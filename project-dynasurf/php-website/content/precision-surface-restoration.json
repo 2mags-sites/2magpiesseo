@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "title": "Precision Surface Restoration | Cylinder Bore Services",
+    "description": "Professional surface restoration for hydraulic cylinders & industrial components. Remove corrosion, scratches & wear. Restore to optimal performance. Sandbach, Cheshire.",
+    "keywords": "precision surface restoration, cylinder bore restoration, corrosion removal services, industrial surface treatment UK"
+  },
+  "hero": {
+    "title": "Precision Surface Restoration",
+    "subtitle": "Professional restoration of cylinder bores and industrial surfaces",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Precision Surface Restoration", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Expert Surface Restoration Services",
+    "subtitle": "Eliminating corrosion, pitting and wear to restore equipment performance",
+    "content": [
+      "Precision surface restoration involves the systematic removal of surface defects and the application of advanced treatment processes to restore industrial components to optimal working condition. At Dynasurf, we specialise in restoring cylinder bores, shaft surfaces, and critical machine components that have suffered from corrosion, wear, scratches, or environmental damage.",
+      "Our restoration processes address the root causes of surface degradation while rebuilding the component to meet or exceed original specifications. Using a combination of precision machining, honing, chrome plating, and advanced surface treatments, we can restore components that others might consider beyond repair.",
+      "Surface restoration is particularly effective for high-value components where replacement costs are prohibitive or where original parts are no longer available. Our processes not only restore functionality but often enhance performance and extend service life beyond the original component."
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Surface+restoration+process+showing+before+and+after"
+  },
+  "capabilities": {
+    "title": "Surface Restoration Techniques",
+    "content": "Our comprehensive surface restoration capabilities address all types of surface degradation:",
+    "specs": [
+      {
+        "label": "Corrosion Removal",
+        "description": "Chemical and mechanical removal of rust, oxidation, and corrosion products"
+      },
+      {
+        "label": "Scratch & Score Repair",
+        "description": "Precision honing and grinding to eliminate surface scratches and scoring"
+      },
+      {
+        "label": "Pitting Restoration",
+        "description": "Chrome plating and precision finishing to rebuild pitted surfaces"
+      },
+      {
+        "label": "Geometry Correction",
+        "description": "Machining to restore proper dimensional tolerances and geometric accuracy"
+      },
+      {
+        "label": "Surface Hardening",
+        "description": "Nitriding, chrome plating, and other treatments to enhance wear resistance"
+      },
+      {
+        "label": "Protective Coatings",
+        "description": "Application of protective finishes to prevent future degradation"
+      }
+    ],
+    "additional_content": "We combine traditional craftsmanship with modern technology, using precision measurement equipment to ensure restored surfaces meet exact specifications and quality standards.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Precision+measurement+of+restored+cylinder+surface"
+  },
+  "process": {
+    "title": "Surface Restoration Process",
+    "subtitle": "Systematic approach to complete surface rehabilitation",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Surface Assessment",
+        "description": "Detailed analysis of damage extent, material condition, and restoration feasibility"
+      },
+      {
+        "number": "2",
+        "title": "Damage Removal",
+        "description": "Precision removal of corrosion, scratches, and degraded material using appropriate techniques"
+      },
+      {
+        "number": "3",
+        "title": "Surface Rebuilding",
+        "description": "Chrome plating, welding, or machining to restore original dimensions and geometry"
+      },
+      {
+        "number": "4",
+        "title": "Precision Finishing",
+        "description": "Final honing, grinding, and surface treatment to achieve specified finish and tolerances"
+      }
+    ]
+  },
+  "problems_solved": {
+    "title": "Common Surface Problems We Restore",
+    "content": "Our restoration services address the full spectrum of surface degradation issues:",
+    "problems": [
+      {
+        "icon": "🔧",
+        "title": "Corrosion & Rust",
+        "description": "Atmospheric corrosion, galvanic corrosion, and chemical attack on steel and iron surfaces"
+      },
+      {
+        "icon": "⚠️",
+        "title": "Pitting & Erosion",
+        "description": "Localised material loss from cavitation, chemical action, or mechanical wear"
+      },
+      {
+        "icon": "📐",
+        "title": "Scratches & Scoring",
+        "description": "Linear damage from contamination, improper assembly, or seal failure"
+      },
+      {
+        "icon": "⚡",
+        "title": "Wear & Abrasion",
+        "description": "Material loss from normal operation, inadequate lubrication, or abrasive environments"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Examples+of+surface+damage+types+before+restoration"
+  },
+  "applications": {
+    "title": "Components We Restore",
+    "content": "Our precision restoration services support critical components across multiple industries:",
+    "sectors": [
+      {
+        "icon": "🏗️",
+        "title": "Hydraulic Cylinders",
+        "description": "Cylinder bores, piston rods, and internal surfaces for construction and industrial equipment"
+      },
+      {
+        "icon": "🔧",
+        "title": "Machine Components",
+        "description": "Shafts, bearings surfaces, guide ways, and precision tooling for manufacturing equipment"
+      },
+      {
+        "icon": "🚛",
+        "title": "Engine Components",
+        "description": "Cylinder liners, crankshaft journals, valve guides, and combustion chamber surfaces"
+      },
+      {
+        "icon": "⚓",
+        "title": "Marine Equipment",
+        "description": "Propeller shafts, rudder stocks, winch drums, and deck machinery exposed to salt water"
+      }
+    ],
+    "additional_content": "Each restoration project is assessed individually to determine the most effective combination of techniques for optimal results and cost-effectiveness.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+restored+industrial+components"
+  },
+  "benefits": {
+    "title": "Benefits of Surface Restoration",
+    "content": "Professional surface restoration offers significant advantages over component replacement:",
+    "advantages": [
+      {
+        "icon": "💰",
+        "title": "Cost Effective",
+        "description": "Restoration typically costs 30-50% less than replacement, especially for large or complex components"
+      },
+      {
+        "icon": "⏱️",
+        "title": "Rapid Turnaround",
+        "description": "Restoration often completed faster than sourcing new components, minimising downtime"
+      },
+      {
+        "icon": "🔧",
+        "title": "Enhanced Performance",
+        "description": "Restored surfaces often exceed original specifications with improved wear resistance"
+      },
+      {
+        "icon": "♻️",
+        "title": "Environmental Benefits",
+        "description": "Reduces waste and resource consumption compared to manufacturing new components"
+      },
+      {
+        "icon": "📊",
+        "title": "Preserves Fit",
+        "description": "Maintains original mounting and interface dimensions for seamless replacement"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Comparison+showing+benefits+of+restoration+vs+replacement"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Surface Restoration?",
+    "subtitle": "Expertise and precision you can trust",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "50+ Years Experience",
+        "description": "Decades of expertise in surface restoration across all industrial sectors"
+      },
+      {
+        "icon": "✓",
+        "title": "Advanced Techniques",
+        "description": "State-of-the-art equipment and processes for superior restoration results"
+      },
+      {
+        "icon": "✓",
+        "title": "Quality Guaranteed",
+        "description": "Comprehensive testing and inspection with full warranty on restored components"
+      },
+      {
+        "icon": "✓",
+        "title": "Complete Service",
+        "description": "All restoration processes performed in-house for quality control and rapid turnaround"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What types of surface damage can you restore?",
+      "answer": "We can restore most types of surface damage including corrosion, pitting, scratches, scoring, wear, and dimensional loss. The feasibility depends on the depth of damage and remaining material thickness. We'll assess your component and recommend the most effective restoration approach."
+    },
+    {
+      "question": "How do you determine if a component can be restored?",
+      "answer": "We perform detailed inspection including dimensional measurement, material analysis, and damage assessment. Components with adequate remaining material thickness and structural integrity are usually good candidates for restoration. We'll provide honest assessment and cost comparison with replacement options."
+    },
+    {
+      "question": "What's the typical turnaround time for surface restoration?",
+      "answer": "Turnaround times vary depending on the component size, damage extent, and restoration processes required. Simple corrosion removal and refinishing can often be completed in 2-3 days, while complex restoration involving chrome plating may take 5-7 days. We provide accurate timelines with quotes."
+    },
+    {
+      "question": "Can restored surfaces be better than original?",
+      "answer": "Yes, restoration often improves on original specifications. For example, chrome plating provides superior hardness and wear resistance compared to original steel surfaces. We can also apply protective coatings and treatments that weren't available when the original component was manufactured."
+    },
+    {
+      "question": "Is surface restoration cost-effective compared to replacement?",
+      "answer": "In most cases, restoration costs 30-50% less than replacement, especially for large, complex, or obsolete components. Additional savings come from reduced downtime and avoiding the need to modify systems for new components. We provide detailed cost comparisons to help you make informed decisions."
+    },
+    {
+      "question": "What warranty do you provide on restored surfaces?",
+      "answer": "We provide a 12-month warranty on all surface restoration work, covering the restored surface performance under normal operating conditions. This includes surface treatments, dimensional accuracy, and the integrity of our restoration processes. The warranty demonstrates our confidence in the quality of our work."
+    }
+  ],
+  "cta": {
+    "title": "Need Surface Restoration?",
+    "subtitle": "Restore your components to optimal performance with expert surface treatment",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Restoration Quote",
+    "button_link": "/contact.php"
+  }
+}

@@ -1,0 +1,245 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Funeral Directors Altrincham | Arthur Kershaw Funeral Services WA14";
+$page_description = "Funeral directors serving Altrincham, Hale, Bowdon and Timperley. Family-owned funeral services from our Sale office. Available 24/7. Serving WA14, WA15 areas.";
+$page_keywords = "funeral directors Altrincham, Altrincham funeral services, WA14 funerals";
+
+require_once 'includes/header.php';
+?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/locations">Locations</a></li>
+                    <li class="breadcrumb-item active">Altrincham</li>
+                </ol>
+            </nav>
+            <h1>Funeral Directors Serving Altrincham</h1>
+            <p class="lead">Compassionate funeral services for Altrincham, Hale, Bowdon and surrounding areas</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Location Overview -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Funeral Services in Altrincham & Surrounding Areas</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">Arthur Kershaw Funeral Services has been providing compassionate funeral services to families in Altrincham and the surrounding WA14 and WA15 areas for over a century.</p>
+                        <p>From our established funeral home on Washway Road in nearby Sale, we're perfectly positioned to serve the Altrincham community. Just a short journey along the A56, we can reach any location in Altrincham within minutes, ensuring prompt and professional service when you need us most.</p>
+                        <p>Our deep understanding of the Altrincham area, combined with our long-standing relationships with local churches, Altrincham Crematorium, and community services, ensures we can provide the perfect farewell for your loved one.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map-marker-alt fa-3x"></i>
+                        <p>Serving Altrincham<br>WA14 & WA15</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas We Cover -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Altrincham Areas We Serve</h2>
+                <div class="text-center mb-40">
+                    <h3>Comprehensive Coverage Across Altrincham</h3>
+                    <p class="lead">We provide funeral services throughout Altrincham and its surrounding districts:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Central Altrincham</h4>
+                            <p>The town centre and immediate surroundings, including the Market Quarter, Stamford Quarter, and Goose Green areas.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Hale & Hale Barns</h4>
+                            <p>The prestigious WA15 areas including Hale village, Hale Barns, and the surrounding residential districts.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Bowdon & Timperley</h4>
+                            <p>Historic Bowdon with its conservation area, and Timperley including Park Road and Thorley Lane areas.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Broadheath & Oldfield Brow</h4>
+                            <p>The Broadheath business district and residential areas, plus the Oldfield Brow community.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map fa-3x"></i>
+                        <p>Complete Altrincham Coverage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Facilities -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Altrincham Funeral Venues & Services</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>Local Arrangements We Coordinate</h3>
+                        <p>Our extensive knowledge of Altrincham enables us to arrange services at all local venues:</p>
+                        <ul>
+                            <li><strong>Altrincham Crematorium</strong> - White House Lane, Dunham Massey - our most local crematorium</li>
+                            <li><strong>St. George's Church</strong> - Church Street, Altrincham town centre</li>
+                            <li><strong>St. Margaret's Church</strong> - Dunham Road, historic parish church</li>
+                            <li><strong>Hale Cemetery</strong> - Park Road, for burials and memorial services</li>
+                            <li><strong>Dunham Lawn Cemetery</strong> - For those preferring a rural setting</li>
+                            <li><strong>Local Hotels & Venues</strong> - For wakes and receptions including The Cresta Court and Mercure Bowdon Hotel</li>
+                        </ul>
+                        <p>We maintain close relationships with all local clergy, celebrants, and venue coordinators to ensure seamless arrangements.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-church fa-3x"></i>
+                        <p>Local Venues & Services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us for Altrincham -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Why Altrincham Families Choose Arthur Kershaw</h2>
+                <div class="text-center mb-40">
+                    <h3>Local Knowledge, Personal Service</h3>
+                    <p class="lead">When arranging a funeral in Altrincham, you benefit from our unique combination of local expertise and family values:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-clock"></i> Rapid Response</h4>
+                            <p>Just minutes from Altrincham via the A56, we can respond quickly to calls from Altrincham General Hospital, local care homes, or family homes.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-home"></i> Altrincham Crematorium Specialists</h4>
+                            <p>Regular services at Altrincham Crematorium mean we know the facilities, staff, and procedures intimately, ensuring smooth arrangements.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-users"></i> Community Connections</h4>
+                            <p>Established relationships with Altrincham's churches, community groups, florists, and memorial services built over 130 years.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-handshake fa-3x"></i>
+                        <p>Trusted in Altrincham</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transport & Accessibility -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Easy Access from Altrincham</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>Visiting Our Sale Office from Altrincham</h3>
+                        <p>Our Washway Road funeral home is easily accessible from all parts of Altrincham:</p>
+                        <ul>
+                            <li><strong>By Car:</strong> Just 10 minutes via the A56 Washway Road/Manchester Road</li>
+                            <li><strong>By Metrolink:</strong> Direct tram service from Altrincham Interchange to Sale station (15 minutes)</li>
+                            <li><strong>By Bus:</strong> Regular services along the A56 corridor</li>
+                            <li><strong>Parking:</strong> Free on-site parking at our funeral home</li>
+                        </ul>
+                        <p>For families who prefer, we're happy to visit you at home in Altrincham to discuss arrangements in familiar surroundings. We can meet at a time that suits you, including evenings and weekends.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-route fa-3x"></i>
+                        <p>10 Minutes from Altrincham</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you have an office in Altrincham itself?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While our main funeral home is on Washway Road in Sale, we've been serving Altrincham families for over 130 years from this location. We're just 10 minutes away and offer home visits throughout Altrincham if you'd prefer to make arrangements at home. Many Altrincham families appreciate visiting our established premises with its chapels of rest and arrangement facilities.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can you arrange services at Altrincham Crematorium?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we regularly arrange services at Altrincham Crematorium on White House Lane. We're very familiar with their facilities, procedures, and staff. We can arrange services in either the Main Chapel or the smaller Rowan Chapel, and can advise on the best choice for your needs. We handle all bookings and coordination with the crematorium.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Which Altrincham churches do you work with?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We have relationships with all Altrincham churches including St. George's, St. Margaret's, St. Vincent's Catholic Church, Altrincham Methodist Church, and others. We also work with Hale's churches including St. Peter's. Whether you're a regular congregation member or would simply like a church service, we can make the arrangements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you collect from Altrincham General Hospital?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we regularly collect from Altrincham General Hospital as well as local nursing homes, hospices, and private residences. We're familiar with the procedures at Altrincham General and can liaise with their bereavement office on your behalf. Collection can be arranged promptly at any time, 24 hours a day.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can you recommend venues for wakes in Altrincham?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Certainly. Popular Altrincham venues include The Cresta Court Hotel, Mercure Altrincham Bowdon Hotel, and various local pubs and restaurants. For smaller gatherings, many families choose the church hall where the service was held. We can make recommendations based on your expected numbers and requirements, and can often help with bookings.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What are typical funeral costs in Altrincham?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Funeral costs are similar across Greater Manchester, though Altrincham Crematorium fees are set by Trafford Council. We provide transparent, itemised quotes with no hidden charges. Our direct cremation starts from £995, while traditional funerals vary based on your choices. We offer various payment options and can advise on any assistance available.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Serving Altrincham Families Since 1892</h2>
+                    <p class="lead">Compassionate funeral services for Altrincham, Hale, Bowdon and Timperley</p>
+                    <p><strong>Available 24/7 on 0161 969 2288</strong></p>
+                    <p>Visit us at 168-170 Washway Road, Sale, M33 6RH<br>
+                    <em>Just 10 minutes from Altrincham town centre</em></p>
+                    <a href="/contact.php" class="btn btn-white">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

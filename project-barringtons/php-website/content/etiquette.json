@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "title": "Funeral Etiquette Guide | What to Wear & How to Act | Barringtons",
+        "description": "Complete guide to funeral etiquette. What to wear, what to say, how to behave at a funeral. Helpful advice for attending or planning a funeral service.",
+        "keywords": "funeral etiquette, what to wear to funeral, funeral behavior, funeral customs, funeral traditions"
+    },
+    "intro": {
+        "title": "A Guide to Funeral Etiquette",
+        "subtitle": "Understanding funeral customs and etiquette can help you feel more confident during a difficult time."
+    },
+    "sections": [
+        {
+            "title": "What to Wear",
+            "description": "While black is traditional, it's no longer mandatory. The key is to dress respectfully:",
+            "items": [
+                "Conservative, modest clothing in muted colors",
+                "Avoid bright colors unless specifically requested",
+                "Smart casual is usually appropriate",
+                "Consider the family's wishes - some request colorful clothing"
+            ]
+        },
+        {
+            "title": "What to Say",
+            "description": "Keep condolences simple and sincere:",
+            "items": [
+                "\"I'm sorry for your loss\"",
+                "\"Thinking of you at this difficult time\"",
+                "\"[Name] will be greatly missed\"",
+                "Share a fond memory if appropriate"
+            ],
+            "avoid": "Avoid: Asking how they died, saying \"I know how you feel\", or offering unsolicited advice."
+        },
+        {
+            "title": "During the Service",
+            "items": [
+                "Arrive on time or slightly early",
+                "Turn off mobile phones",
+                "Follow the lead of others for standing\/sitting",
+                "It's okay to show emotion",
+                "Sign the book of condolence if present",
+                "Children are usually welcome but consider their age"
+            ]
+        },
+        {
+            "title": "Flowers & Donations",
+            "description": "Check the funeral notice for guidance:",
+            "items": [
+                "\"Family flowers only\" means don't send flowers",
+                "Donations often requested for a chosen charity",
+                "If sending flowers, include a simple message",
+                "Sympathy cards can be sent to the family home"
+            ]
+        }
+    ],
+    "hero": {
+        "title": "Funeral Etiquette",
+        "image": "\/assets\/images\/uploads\/img_68cfc6d45b7af_1758447316.jpg"
+    }
+}

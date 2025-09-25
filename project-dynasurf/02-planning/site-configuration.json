@@ -1,0 +1,30 @@
+{
+  "contact_form": {
+    "enabled": true,
+    "type": "simple",
+    "fields": [
+      "name",
+      "email",
+      "phone",
+      "message"
+    ],
+    "email_config": {
+      "to": "brandydigi@gmail.com",
+      "bcc": "daine@2magpiesseo.co.uk",
+      "from_name": "Dynasurf Website",
+      "from_email": "webform@dynasurf.co.uk"
+    },
+    "security": {
+      "honeypot": true,
+      "rate_limiting": true,
+      "recaptcha": false
+    }
+  },
+  "blog": {
+    "enabled": true,
+    "folder_name": "news",
+    "homepage_display": 4,
+    "nav_label": "News",
+    "rest_api_endpoint": "/news/wp-json/wp/v2/posts"
+  }
+}

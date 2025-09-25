@@ -1,0 +1,45 @@
+{
+  "project_name": "DynaSurf",
+  "status": "discovery_complete",
+  "last_updated": "2025-09-23",
+  "current_phase": "information_architecture",
+  "business_info": {
+    "name": "Dynasurf (UK) Ltd",
+    "tagline": "Dynamic Surfaces - Precision Engineering Since 1971",
+    "founded": "1971",
+    "address": {
+      "street": "Millbuck Way, Springvale Industrial Estate",
+      "city": "Sandbach",
+      "county": "Cheshire",
+      "postcode": "CW11 3GQ"
+    },
+    "contact": {
+      "phone": "01270 763032",
+      "email": "sales@dynasurf.co.uk"
+    },
+    "operating_hours": {
+      "monday_thursday": "7:15am to 4:30pm",
+      "friday": "7:15am to 12noon"
+    }
+  },
+  "services_focus": {
+    "note": "Client has decided to focus on three core services only",
+    "services": [
+      {
+        "id": "hydraulics-industry",
+        "name": "Hydraulics Industry Services",
+        "description": "Comprehensive hydraulic ram repair, refurbishment, and component manufacturing"
+      },
+      {
+        "id": "cylinder-tube-honing",
+        "name": "Cylinder Tube Honing",
+        "description": "Precision honing services for tubes up to 300mm diameter and 2.2 meters length"
+      },
+      {
+        "id": "steering-gearbox-engine-parts",
+        "name": "Steering, Gearbox & Engine Parts",
+        "description": "Hard chrome plating and precision grinding for automotive and industrial components"
+      }
+    ]
+  }
+}

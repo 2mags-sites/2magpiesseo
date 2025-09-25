@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Emergency Hydraulic Repair | Same Day Service | Dynasurf",
+    "description": "24-hour emergency hydraulic repair & express cylinder services in Cheshire. Same-day honing, chrome plating & repairs. Minimize downtime - Call 01270 763032 now.",
+    "keywords": "emergency hydraulic repair, same day cylinder service, urgent honing services, express chrome plating UK"
+  },
+  "hero": {
+    "title": "Emergency Express Services",
+    "subtitle": "Same-day hydraulic repairs and express surface engineering when you need it most",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Emergency Express Services", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "24-Hour Emergency Response Service",
+    "subtitle": "Minimising your downtime with rapid response hydraulic repairs",
+    "content": [
+      "When equipment failure threatens your operations, every hour counts. Dynasurf's emergency express service provides rapid response hydraulic repairs, cylinder honing, and chrome plating to get your critical equipment back in operation as quickly as possible. Our emergency service operates around the clock, with materials kept in stock and dedicated rapid response capabilities.",
+      "Our express services cover all three core areas: hydraulic ram repairs, precision cylinder honing, and hard chrome plating. We understand that equipment downtime can cost thousands per hour in lost production, which is why we've structured our operations specifically to deliver the fastest possible turnaround without compromising on quality.",
+      "With over 50 years of experience in emergency repairs, we've built relationships with major construction companies, agricultural contractors, and industrial manufacturers who rely on our rapid response capabilities to keep their operations running when standard service timelines simply aren't fast enough."
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Emergency+repair+service+working+around+the+clock"
+  },
+  "capabilities": {
+    "title": "Express Service Capabilities",
+    "content": "Our emergency express services provide rapid turnaround across all our core capabilities:",
+    "specs": [
+      {
+        "label": "Hydraulic Ram Repairs",
+        "description": "Same-day seal replacement, rod repair, and cylinder rebuilds for urgent failures"
+      },
+      {
+        "label": "Express Cylinder Honing",
+        "description": "Rapid honing service for cylinders up to 300mm diameter within 24 hours"
+      },
+      {
+        "label": "Emergency Chrome Plating",
+        "description": "Fast-track chrome plating with express grinding for critical shaft repairs"
+      },
+      {
+        "label": "Stock Availability",
+        "description": "Extensive inventory of seals, materials, and components for immediate use"
+      },
+      {
+        "label": "24/7 Response",
+        "description": "Emergency contact available outside normal hours for critical failures"
+      },
+      {
+        "label": "Collection & Delivery",
+        "description": "Rapid collection and delivery service throughout the UK for urgent repairs"
+      }
+    ],
+    "additional_content": "Our emergency service maintains dedicated workshop capacity and priority scheduling to ensure urgent repairs receive immediate attention without impacting other scheduled work.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Emergency+express+workshop+with+priority+equipment"
+  },
+  "process": {
+    "title": "Emergency Response Process",
+    "subtitle": "Rapid assessment and immediate action to minimise downtime",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Emergency Contact",
+        "description": "24/7 emergency hotline for immediate response and initial assessment of your requirements"
+      },
+      {
+        "number": "2",
+        "title": "Rapid Collection",
+        "description": "Emergency collection service or fast-track delivery to our Sandbach facility"
+      },
+      {
+        "number": "3",
+        "title": "Priority Processing",
+        "description": "Immediate workshop priority with dedicated resources and express scheduling"
+      },
+      {
+        "number": "4",
+        "title": "Express Delivery",
+        "description": "Rush delivery back to your site to minimise total downtime and restore operations"
+      }
+    ]
+  },
+  "services_covered": {
+    "title": "Emergency Services Available",
+    "content": "Our emergency express service covers all critical hydraulic and surface engineering needs:",
+    "types": [
+      {
+        "icon": "🚨",
+        "title": "Hydraulic Emergencies",
+        "description": "Cylinder seal failures, rod damage, internal leaks, and complete cylinder breakdowns"
+      },
+      {
+        "icon": "⚡",
+        "title": "Express Honing",
+        "description": "Rapid cylinder bore restoration for scratched, scored, or corroded internal surfaces"
+      },
+      {
+        "icon": "🔧",
+        "title": "Emergency Chrome Plating",
+        "description": "Fast-track chrome plating and grinding for worn or damaged shafts and rods"
+      },
+      {
+        "icon": "🏭",
+        "title": "Production Line Failures",
+        "description": "Critical machinery components that cannot wait for standard repair timelines"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+emergency+hydraulic+repair+scenarios"
+  },
+  "response_times": {
+    "title": "Express Service Response Times",
+    "content": "Our emergency service guarantees rapid response times to minimise your equipment downtime:",
+    "timeframes": [
+      {
+        "icon": "⏰",
+        "title": "Same Day Service",
+        "description": "Simple repairs with parts in stock completed same day for urgent breakdowns"
+      },
+      {
+        "icon": "📞",
+        "title": "2-Hour Response",
+        "description": "Emergency contact response within 2 hours, including weekends and holidays"
+      },
+      {
+        "icon": "🚛",
+        "title": "4-Hour Collection",
+        "description": "Emergency collection service within 4 hours for critical component failures"
+      },
+      {
+        "icon": "⚡",
+        "title": "24-Hour Turnaround",
+        "description": "Complex repairs prioritised for completion within 24 hours where possible"
+      }
+    ],
+    "additional_content": "Response times depend on location, component availability, and repair complexity. We provide realistic timelines and regular updates throughout the emergency repair process.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Express+service+timeline+showing+rapid+response"
+  },
+  "industries_served": {
+    "title": "Emergency Service Industries",
+    "content": "Our emergency express services support critical operations across multiple sectors:",
+    "sectors": [
+      {
+        "icon": "🏗️",
+        "title": "Construction & Earthmoving",
+        "description": "Excavators, cranes, loaders during critical project phases where delays cost thousands daily"
+      },
+      {
+        "icon": "🚜",
+        "title": "Agriculture",
+        "description": "Harvesting equipment, tractors, and farm machinery during time-critical seasonal operations"
+      },
+      {
+        "icon": "🏭",
+        "title": "Manufacturing",
+        "description": "Production line equipment, presses, and automation systems where downtime stops production"
+      },
+      {
+        "icon": "🚛",
+        "title": "Transport & Logistics",
+        "description": "Commercial vehicles, refuse collection, and logistics equipment with tight operational schedules"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+industries+requiring+emergency+hydraulic+services"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Emergency Services?",
+    "subtitle": "Rapid response with uncompromising quality",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "24/7 Availability",
+        "description": "Emergency hotline and rapid response capabilities available around the clock"
+      },
+      {
+        "icon": "✓",
+        "title": "Materials in Stock",
+        "description": "Extensive inventory of seals, materials, and components for immediate use"
+      },
+      {
+        "icon": "✓",
+        "title": "Dedicated Capacity",
+        "description": "Reserved workshop capacity and priority scheduling for emergency work"
+      },
+      {
+        "icon": "✓",
+        "title": "Quality Guaranteed",
+        "description": "Emergency repairs maintain our high quality standards with full warranty"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How quickly can you respond to emergency hydraulic failures?",
+      "answer": "We guarantee 2-hour response to emergency calls, including initial assessment and action plan. Collection service can be arranged within 4 hours for most UK locations. Simple repairs with parts in stock can often be completed same-day, while complex work receives absolute priority for completion within 24-48 hours."
+    },
+    {
+      "question": "What constitutes an emergency service requirement?",
+      "answer": "Emergency service applies to critical equipment failures where standard repair timelines would cause significant production losses, safety issues, or operational disruption. This includes harvest-time agricultural equipment, production line machinery, construction equipment on critical projects, and any situation where downtime costs exceed express service premiums."
+    },
+    {
+      "question": "Is emergency service available outside normal hours?",
+      "answer": "Yes, our emergency hotline operates 24/7 including weekends and bank holidays. While our workshop operates normal hours Monday-Friday, we can arrange emergency work sessions for truly critical situations. Collection and delivery services can be arranged outside normal hours for urgent requirements."
+    },
+    {
+      "question": "What are the costs for emergency express service?",
+      "answer": "Emergency service attracts premium pricing due to priority scheduling, dedicated resources, and outside-hours availability. Typical premiums are 50-100% above standard service costs, but this is often justified by avoiding costly downtime. We provide upfront pricing for emergency work with cost-benefit analysis against downtime costs."
+    },
+    {
+      "question": "Can you handle large or complex emergency repairs?",
+      "answer": "Yes, our emergency service covers all types and sizes of hydraulic repairs within our capacity (cylinders up to 300mm diameter, 2.2m length). Complex repairs may take longer but receive absolute priority. For very large components, we can arrange special handling and accelerated processing to minimise downtime."
+    },
+    {
+      "question": "Do emergency repairs carry the same warranty as standard work?",
+      "answer": "Absolutely. All emergency repairs carry our full 12-month warranty covering workmanship and materials. The urgency of the work never compromises our quality standards or warranty coverage. Emergency work often receives additional inspection due to the critical nature of the application."
+    }
+  ],
+  "cta": {
+    "title": "Need Emergency Hydraulic Service?",
+    "subtitle": "24/7 rapid response to minimise your downtime - Every minute counts",
+    "phone": "01270 763032",
+    "email": "emergency@dynasurf.co.uk",
+    "button_text": "Call Emergency Service",
+    "button_link": "/contact.php",
+    "emergency_note": "For after-hours emergencies, call our main number - emergency contact details will be provided"
+  }
+}

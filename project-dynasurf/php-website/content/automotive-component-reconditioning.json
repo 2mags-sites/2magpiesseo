@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "title": "Automotive Component Reconditioning | Gearbox & Engine Parts",
+    "description": "Professional reconditioning of automotive gearbox, engine & steering components. Hard chrome plating & precision grinding to restore parts. Call 01270 763032.",
+    "keywords": "automotive component reconditioning, gearbox parts restoration, engine component repair, steering system reconditioning"
+  },
+  "hero": {
+    "title": "Automotive Component Reconditioning",
+    "subtitle": "Expert restoration of gearbox, engine and steering components",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Automotive Component Reconditioning", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Professional Automotive Reconditioning Services",
+    "subtitle": "Restore gearbox parts, engine components and steering systems to original specifications",
+    "content": [
+      "Automotive component reconditioning involves the complete restoration of worn or damaged automotive parts to their original specifications or better. At Dynasurf, we specialise in reconditioning critical drivetrain components including gearbox parts, engine components, and steering systems that have suffered wear, corrosion, or damage over their service life.",
+      "Our reconditioning processes combine traditional engineering skills with modern technology, using hard chrome plating, precision grinding, and advanced surface treatments to restore components that would otherwise require expensive replacement. This is particularly valuable for classic vehicles, specialist automotive applications, or high-performance engines where original parts are no longer available.",
+      "With over 50 years of automotive engineering experience, we understand the precise tolerances and surface finish requirements needed for optimal performance and longevity. Our reconditioning services often result in components that exceed original manufacturer specifications for durability and performance."
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Automotive+gearbox+components+being+reconditioned"
+  },
+  "capabilities": {
+    "title": "Reconditioning Capabilities",
+    "content": "Our automotive reconditioning facility offers comprehensive restoration services:",
+    "specs": [
+      {
+        "label": "Hard Chrome Plating",
+        "description": "0.025mm to 0.5mm thickness for maximum wear resistance on shafts and bearing surfaces"
+      },
+      {
+        "label": "Precision Grinding",
+        "description": "Cylindrical and surface grinding to achieve ±0.005mm tolerances and Ra 0.1 micron finish"
+      },
+      {
+        "label": "Dimensional Restoration",
+        "description": "Restore worn components to exact original dimensions or accommodate oversize bearings"
+      },
+      {
+        "label": "Surface Treatments",
+        "description": "Nitriding, anodising, and protective coatings for enhanced performance"
+      },
+      {
+        "label": "Material Compatibility",
+        "description": "All automotive steels, cast iron, aluminium alloys, and bronze components"
+      },
+      {
+        "label": "Quality Assurance",
+        "description": "Full dimensional inspection and surface finish verification with certification"
+      }
+    ],
+    "additional_content": "We maintain extensive knowledge of automotive specifications and tolerances, ensuring reconditioned components meet or exceed OEM standards for fit, finish, and performance.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Precision+grinding+automotive+shaft+component"
+  },
+  "process": {
+    "title": "Reconditioning Process",
+    "subtitle": "Systematic restoration for optimal results",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Component Assessment",
+        "description": "Detailed inspection, measurement, and assessment of wear patterns and damage extent"
+      },
+      {
+        "number": "2",
+        "title": "Restoration Planning",
+        "description": "Selection of appropriate processes including machining, plating, and surface treatments"
+      },
+      {
+        "number": "3",
+        "title": "Precision Reconditioning",
+        "description": "Chrome plating, grinding, honing, and surface treatment to restore specifications"
+      },
+      {
+        "number": "4",
+        "title": "Quality Verification",
+        "description": "Final inspection, measurement, and testing to ensure compliance with specifications"
+      }
+    ]
+  },
+  "components": {
+    "title": "Components We Recondition",
+    "content": "Our automotive reconditioning services cover all major drivetrain and steering components:",
+    "types": [
+      {
+        "icon": "⚙️",
+        "title": "Gearbox Components",
+        "description": "Input/output shafts, selector forks, synchroniser hubs, differential components, gear teeth"
+      },
+      {
+        "icon": "🔧",
+        "title": "Engine Components",
+        "description": "Crankshafts, camshafts, rocker shafts, valve guides, cylinder liners, connecting rods"
+      },
+      {
+        "icon": "🚗",
+        "title": "Steering Systems",
+        "description": "Steering racks, pinions, power steering rams, kingpins, track rod ends, ball joints"
+      },
+      {
+        "icon": "⚡",
+        "title": "Specialist Components",
+        "description": "Racing parts, classic car components, performance modifications, limited production parts"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+reconditioned+automotive+components"
+  },
+  "applications": {
+    "title": "Automotive Applications",
+    "content": "Our reconditioning services support diverse automotive sectors and applications:",
+    "sectors": [
+      {
+        "icon": "🏎️",
+        "title": "Performance & Racing",
+        "description": "High-performance engines, racing gearboxes, competition components requiring maximum durability"
+      },
+      {
+        "icon": "🚗",
+        "title": "Classic & Vintage",
+        "description": "Restoration of obsolete components for classic cars where original parts are unavailable"
+      },
+      {
+        "icon": "🚛",
+        "title": "Commercial Vehicles",
+        "description": "Heavy-duty truck components, bus parts, and commercial vehicle drivetrain restoration"
+      },
+      {
+        "icon": "🔧",
+        "title": "Specialist Vehicles",
+        "description": "Emergency services, military vehicles, and bespoke automotive applications"
+      }
+    ],
+    "additional_content": "Each reconditioning project is tailored to the specific application requirements, whether for daily driving reliability or high-performance competition use.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Automotive+applications+showing+various+vehicle+types"
+  },
+  "benefits": {
+    "title": "Benefits of Automotive Reconditioning",
+    "content": "Professional reconditioning offers significant advantages for automotive applications:",
+    "advantages": [
+      {
+        "icon": "💰",
+        "title": "Cost Savings",
+        "description": "Typically 40-60% less expensive than new OEM parts, especially for obsolete or specialist components"
+      },
+      {
+        "icon": "⏱️",
+        "title": "Availability",
+        "description": "Restore components when original parts are discontinued or have long lead times"
+      },
+      {
+        "icon": "🔧",
+        "title": "Enhanced Performance",
+        "description": "Chrome plating and precision finishing often exceed original specifications"
+      },
+      {
+        "icon": "♻️",
+        "title": "Environmental Benefits",
+        "description": "Reduces waste and supports sustainable automotive maintenance practices"
+      },
+      {
+        "icon": "📊",
+        "title": "Original Authenticity",
+        "description": "Maintains original component numbers and appearance for classic car authenticity"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Before+and+after+automotive+component+reconditioning"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Automotive Reconditioning?",
+    "subtitle": "Expertise and precision for automotive excellence",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "Automotive Expertise",
+        "description": "Decades of experience with automotive tolerances, materials, and specifications"
+      },
+      {
+        "icon": "✓",
+        "title": "Quality Assured",
+        "description": "Precision measurement and testing ensure components meet exact specifications"
+      },
+      {
+        "icon": "✓",
+        "title": "Complete Service",
+        "description": "All reconditioning processes performed in-house for quality control"
+      },
+      {
+        "icon": "✓",
+        "title": "Rapid Turnaround",
+        "description": "Express service available to minimise vehicle downtime"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can you recondition components for classic cars?",
+      "answer": "Yes, we specialise in reconditioning automotive components for classic and vintage vehicles where original parts are no longer available. We can restore worn components to original specifications while maintaining authenticity, including original part numbers and appearance where required."
+    },
+    {
+      "question": "How do reconditioned parts compare to new OEM parts?",
+      "answer": "Reconditioned parts often exceed new OEM specifications due to our chrome plating and precision finishing processes. The hard chrome surface provides superior wear resistance compared to original materials, potentially lasting longer than the original component while maintaining exact dimensional compatibility."
+    },
+    {
+      "question": "What's the typical cost saving versus new parts?",
+      "answer": "Reconditioning typically costs 40-60% less than new OEM parts, with even greater savings for obsolete or specialist components. The exact saving depends on the component complexity and availability of new parts. We provide detailed cost comparisons to help you make informed decisions."
+    },
+    {
+      "question": "Can you handle high-performance racing components?",
+      "answer": "Absolutely. We regularly recondition high-performance and racing components including competition gearbox parts, racing engine components, and performance modifications. Our processes can enhance durability for racing applications while maintaining precise tolerances required for maximum performance."
+    },
+    {
+      "question": "How long does automotive reconditioning take?",
+      "answer": "Turnaround times vary depending on the component and processes required. Simple chrome plating and grinding typically takes 5-7 working days, while complex restorations may take 10-14 days. We offer express service for urgent requirements and provide accurate timelines with quotes."
+    },
+    {
+      "question": "Do you provide warranty on reconditioned automotive parts?",
+      "answer": "Yes, all reconditioned automotive components come with a 12-month warranty covering workmanship, chrome plating, and dimensional accuracy. This warranty covers the quality of our reconditioning work and demonstrates our confidence in the durability and performance of restored components."
+    }
+  ],
+  "cta": {
+    "title": "Need Automotive Component Reconditioning?",
+    "subtitle": "Restore your automotive components to better-than-new condition",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Reconditioning Quote",
+    "button_link": "/contact.php"
+  }
+}

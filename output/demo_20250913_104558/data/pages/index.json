@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Smith & Associates Law Firm | Hong Kong Legal Services",
+    "description": "Leading Hong Kong law firm specializing in family law, commercial litigation, and corporate law. Free consultation available.",
+    "keywords": [
+      "hong kong lawyer",
+      "family law",
+      "divorce attorney",
+      "commercial litigation"
+    ],
+    "canonical_url": "/"
+  },
+  "content": {
+    "hero": {
+      "title": "Smith & Associates Law Firm",
+      "subtitle": "Your Trusted Legal Partners in Hong Kong",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More"
+    },
+    "features": [
+      {
+        "title": "Professional Service",
+        "description": "Expert solutions tailored to your needs"
+      },
+      {
+        "title": "Experienced Team",
+        "description": "Years of industry experience"
+      },
+      {
+        "title": "Customer Focused",
+        "description": "Your satisfaction is our priority"
+      },
+      {
+        "title": "Quality Guaranteed",
+        "description": "We stand behind our work"
+      }
+    ],
+    "services_overview": [
+      {
+        "title": "Family Law",
+        "description": "Comprehensive family law services including divorce, child custody, and matrimonial property division.",
+        "link": "/family-law"
+      },
+      {
+        "title": "Commercial Litigation",
+        "description": "Expert representation in commercial disputes, contract breaches, and business litigation.",
+        "link": "/commercial-litigation"
+      },
+      {
+        "title": "Corporate Law",
+        "description": "Full-service corporate legal support including company formation, mergers, and acquisitions.",
+        "link": "/corporate-law"
+      },
+      {
+        "title": "Immigration Law",
+        "description": "Immigration and visa services for individuals and businesses.",
+        "link": "/immigration-law"
+      },
+      {
+        "title": "Real Estate Law",
+        "description": "Property transactions, conveyancing, and real estate litigation.",
+        "link": "/real-estate-law"
+      },
+      {
+        "title": "Criminal Defense",
+        "description": "Experienced criminal defense representation for all types of charges.",
+        "link": "/criminal-defense"
+      }
+    ],
+    "why_choose": {
+      "title": "Why Choose Smith & Associates Law Firm",
+      "points": [
+        "Proven track record of success",
+        "Dedicated professional team",
+        "Competitive pricing",
+        "Excellent customer service"
+      ]
+    },
+    "testimonials": []
+  }
+}

@@ -1,0 +1,385 @@
+/* Service Pages - Additional Styles */
+/* These extend the main dyna.css for service page specific layouts */
+
+/* Service Hero - Dramatic like homepage */
+.service-hero {
+    padding: 8rem 0 6rem;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(180deg, rgba(26, 29, 33, 0.3) 0%, var(--carbon-black) 100%);
+    overflow: hidden;
+    --parallax-offset: 0px;
+}
+
+/* Laser scan animation for inner page heroes */
+.service-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--laser-green), transparent);
+    animation: scan 3s linear infinite;
+    box-shadow: 0 0 10px rgba(169, 231, 2, 0.6);
+}
+
+/* Technical grid background with gears */
+.service-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        url('../images/gears_bg.jpg'),
+        repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(201, 209, 217, 0.01) 39px, rgba(201, 209, 217, 0.01) 40px),
+        repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(201, 209, 217, 0.01) 39px, rgba(201, 209, 217, 0.01) 40px);
+    background-size: cover, 40px 40px, 40px 40px;
+    background-position: center, 0 0, 0 0;
+    background-repeat: no-repeat, repeat, repeat;
+    opacity: 0.15;
+    pointer-events: none;
+    transform: translateY(var(--parallax-offset));
+}
+
+/* Use the same h1 styling as homepage - no need for separate class */
+
+.service-hero .container {
+    position: relative;
+    z-index: 3;
+}
+
+.service-hero .lead {
+    font-size: 1.5rem;
+    color: var(--steel);
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+}
+
+/* Breadcrumb Navigation - Below title and subtitle */
+.breadcrumb {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumb ol {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgba(26, 29, 33, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid rgba(201, 209, 217, 0.1);
+}
+
+.breadcrumb li {
+    color: var(--steel);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: '/';
+    margin: 0 0.5rem;
+    color: var(--titanium);
+}
+
+.breadcrumb a {
+    color: var(--steel);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.breadcrumb a:hover {
+    color: var(--laser-green);
+}
+
+/* Service Features Grid */
+.service-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.service-feature {
+    background: rgba(26, 29, 33, 0.4);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(201, 209, 217, 0.1);
+}
+
+.service-feature h4 {
+    margin-bottom: 0.5rem;
+    color: var(--laser-green);
+}
+
+/* Service Process */
+.service-process {
+    margin: 3rem 0;
+}
+
+.service-process ol {
+    list-style: none;
+    counter-reset: step-counter;
+}
+
+.service-process li {
+    counter-increment: step-counter;
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-process li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(135deg, var(--laser-green), var(--plasma-blue));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--carbon-black);
+    font-weight: bold;
+}
+
+/* Service Capabilities */
+.service-capabilities {
+    background: rgba(26, 29, 33, 0.3);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(201, 209, 217, 0.1);
+    margin: 2rem 0;
+}
+
+.service-capabilities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-capabilities li {
+    padding: 0.5rem 0;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.service-capabilities li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--laser-green);
+    font-weight: bold;
+}
+
+/* Service CTA Box */
+.service-cta-box {
+    background: linear-gradient(135deg, rgba(169, 231, 2, 0.1), rgba(0, 212, 255, 0.1));
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    margin: 3rem 0;
+    border: 1px solid rgba(169, 231, 2, 0.2);
+}
+
+.service-cta-box h3 {
+    margin-bottom: 1rem;
+    color: var(--chrome);
+}
+
+.service-cta-box p {
+    margin-bottom: 1.5rem;
+}
+
+/* Story/Content Box - Premium glass effect like homepage cards */
+.story-box {
+    background: linear-gradient(135deg, rgba(26, 29, 33, 0.9), rgba(26, 29, 33, 0.7));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(201, 209, 217, 0.1);
+    border-radius: var(--radius-md);
+    padding: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+.story-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--plasma-blue) 20%, var(--laser-green) 50%, var(--plasma-blue) 80%, transparent);
+    opacity: 0.5;
+}
+
+.story-box h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--chrome) 0%, var(--aluminum) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.story-box p {
+    line-height: 1.8;
+    color: var(--aluminum);
+}
+
+/* Content sections with better hierarchy */
+.content-section {
+    margin: 4rem 0;
+}
+
+.content-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--chrome) 0%, var(--aluminum) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Enhanced content-with-image for inner pages */
+.inner-content-with-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.inner-content-with-image.reverse {
+    direction: rtl;
+}
+
+.inner-content-with-image.reverse .content-text {
+    direction: ltr;
+}
+
+.inner-content-with-image .content-text {
+    background: rgba(26, 29, 33, 0.4);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(201, 209, 217, 0.05);
+}
+
+/* Enhanced capabilities list */
+.capabilities-box {
+    background: linear-gradient(135deg, rgba(169, 231, 2, 0.05), rgba(0, 212, 255, 0.05));
+    border: 1px solid rgba(169, 231, 2, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.capabilities-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.capabilities-box li {
+    padding: 1.5rem 0 1.5rem 2.5rem;
+    border-bottom: 1px solid rgba(201, 209, 217, 0.1);
+    color: var(--aluminum);
+    position: relative;
+    line-height: 1.6;
+}
+
+.capabilities-box li:last-child {
+    border-bottom: none;
+}
+
+.capabilities-box li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    color: var(--laser-green);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.capabilities-box strong {
+    color: var(--laser-green);
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* FAQ Section Styles */
+.faq-item {
+    background: rgba(26, 29, 33, 0.4);
+    margin-bottom: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(201, 209, 217, 0.1);
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.faq-icon {
+    color: var(--laser-green);
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.faq-question.active .faq-icon {
+    transform: rotate(180deg);
+}
+
+.faq-question:hover {
+    background: rgba(26, 29, 33, 0.6);
+}
+
+.faq-question h3 {
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.faq-toggle {
+    font-size: 1.5rem;
+    color: var(--laser-green);
+    transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg);
+}

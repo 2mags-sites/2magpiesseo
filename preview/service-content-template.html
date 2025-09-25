@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page Content Preview</title>
+
+    <!-- Reuse the same styles from homepage for consistency -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Import the SAME styles from homepage */
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --dark-color: #1a1a2e;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            padding-top: 80px; /* Account for fixed navbar */
+        }
+
+        /* Note: In PHP, these would come from a shared CSS file */
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+
+        .lead-text {
+            font-size: 1.25rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        /* Service page specific styles */
+        .service-hero {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 100px 0 60px;
+            margin-top: -80px; /* Offset the body padding */
+        }
+
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb-item, .breadcrumb-item a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: white;
+        }
+
+        .content-section {
+            padding: 40px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .process-timeline {
+            position: relative;
+            padding: 30px 0;
+        }
+
+        .timeline-step {
+            display: flex;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .timeline-step:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 25px;
+            top: 50px;
+            width: 2px;
+            height: calc(100% + 20px);
+            background: #e0e0e0;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+            z-index: 1;
+        }
+
+        .step-content {
+            margin-left: 30px;
+            flex-grow: 1;
+        }
+
+        .step-content h4 {
+            color: var(--dark-color);
+            margin-bottom: 10px;
+        }
+
+        /* FAQ Styles matching homepage design */
+        .faq-container {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--light-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            display: none;
+            background: white;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .btn-white {
+            background: white;
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                    <li class="breadcrumb-item active">Company Formation</li>
+                </ol>
+            </nav>
+            <h1 class="display-4 fw-bold mb-4">Hong Kong Company Formation Services</h1>
+            <p class="lead">Establish your business in Asia's premier financial hub with expert legal guidance</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column -->
+                <div class="col-lg-8">
+                    <!-- Overview Section -->
+                    <section class="content-section">
+                        <h2 class="section-title">Complete Company Formation Solutions</h2>
+                        <p class="lead-text">Swift, compliant, and tailored company registration services for entrepreneurs and businesses.</p>
+
+                        <p>Robert Lee Law Offices provides comprehensive Hong Kong company formation services, guiding you through every step of establishing your presence in one of Asia's most dynamic business environments. Our expert team ensures swift, compliant, and efficient company registration tailored to your specific business needs.</p>
+
+                        <p>Hong Kong's strategic location, robust legal system, and business-friendly environment make it an ideal jurisdiction for company incorporation. With our deep understanding of local regulations and international business practices, we help you navigate the formation process seamlessly while maximizing the benefits of Hong Kong's favorable business climate.</p>
+                    </section>
+
+                    <!-- Features Grid -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Services Include</h2>
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-file-contract feature-icon"></i>
+                                <h4>Company Registration</h4>
+                                <p>Complete registration with Companies Registry, including name approval and all incorporation documents.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-user-tie feature-icon"></i>
+                                <h4>Nominee Services</h4>
+                                <p>Professional nominee director and shareholder services maintaining privacy while ensuring compliance.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-landmark feature-icon"></i>
+                                <h4>Bank Account Setup</h4>
+                                <p>Assistance with corporate bank account opening at major Hong Kong banks.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-map-marker-alt feature-icon"></i>
+                                <h4>Registered Office</h4>
+                                <p>Provision of registered office address in prime Hong Kong locations.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Process Timeline -->
+                    <section class="content-section">
+                        <h2 class="section-title">Our Formation Process</h2>
+                        <div class="process-timeline">
+                            <div class="timeline-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Initial Consultation</h4>
+                                    <p>Discuss your business objectives and receive tailored advice on optimal company structure.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Name Approval & Documentation</h4>
+                                    <p>Conduct name searches and prepare all required incorporation documents.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Company Registration</h4>
+                                    <p>Submit documents and obtain Certificate of Incorporation and Business Registration.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Post-Incorporation Support</h4>
+                                    <p>Assist with bank accounts, tax registration, and ongoing compliance requirements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Benefits -->
+                    <section class="content-section">
+                        <h2 class="section-title">Why Choose Hong Kong?</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Strategic gateway to China & Asia</li>
+                                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Low tax regime (16.5% corporate tax)</li>
+                                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> No VAT, GST, or withholding tax</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Common law legal system</li>
+                                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Free movement of capital</li>
+                                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> World-class infrastructure</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQs -->
+                    <section class="content-section">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How long does company formation take?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Standard incorporation takes 1-2 weeks. Express services available for 1-3 business days.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What are the minimum requirements?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>One shareholder, one director (can be same person), Hong Kong company secretary, registered office address, and HKD 1 minimum capital.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can foreigners own 100% of a Hong Kong company?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>Yes, Hong Kong allows 100% foreign ownership with no restrictions on foreign shareholders or directors.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Quick Contact -->
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h4>Ready to Get Started?</h4>
+                            <p>Our experts are here to help you establish your Hong Kong company.</p>
+                            <a href="/contact" class="btn btn-primary btn-lg w-100 mb-3">Contact Us Today</a>
+                            <p class="mb-0"><i class="fas fa-phone"></i> +852 2234 5678</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Facts -->
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Quick Facts</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><strong>Setup Time:</strong> 1-2 weeks</li>
+                                <li class="mb-2"><strong>Min. Capital:</strong> HKD 1</li>
+                                <li class="mb-2"><strong>Corporate Tax:</strong> 16.5%</li>
+                                <li class="mb-2"><strong>Annual Filing:</strong> Required</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-box">
+                <h2>Start Your Hong Kong Company Today</h2>
+                <p class="lead mb-4">Join thousands of successful businesses that have chosen Hong Kong as their base</p>
+                <a href="/contact" class="btn-white">Get Free Consultation</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Note: In PHP implementation, header and footer would be included here -->
+    <!-- <?php include 'components/header.php'; ?> -->
+    <!-- <?php include 'components/footer.php'; ?> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+
+                const icon = question.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

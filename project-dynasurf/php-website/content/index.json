@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Precision Engineering Services Sandbach | Dynasurf UK Ltd",
+    "description": "Leading precision engineering company in Sandbach offering hydraulic ram repair, cylinder honing up to 300mm, and hydraulic hose manufacturing. Express service available. Call 01270 763032.",
+    "keywords": "precision engineering services Sandbach, hydraulic hose manufacturing Cheshire, cylinder honing services UK, hydraulic ram repair"
+  },
+  "hero": {
+    "title": "Precision Engineering Excellence Since 1971",
+    "subtitle": "Hydraulic Repairs • Cylinder Honing • Hose Manufacturing",
+    "image": "/assets/images/hero-bg.jpg"
+  },
+  "services": {
+    "heading": "Our Core Services",
+    "subheading": "Over 50 years of expertise in precision surface engineering",
+    "items": [
+      {
+        "icon": "assets/images/Hydraulic_Ram_Repairs.jpg",
+        "title": "Hydraulic Ram Repair",
+        "description": "Complete hydraulic cylinder repair and refurbishment services for construction, agriculture, and industrial sectors. From seal replacement to complete rebuilds, we minimize your downtime with express service options.",
+        "link": "/hydraulic-ram-repair.php"
+      },
+      {
+        "icon": "assets/images/Cylinder Tube Honing.jpg",
+        "title": "Cylinder Tube Honing",
+        "description": "Precision honing services for cylinders up to 300mm diameter and 2.2 meters length. We restore worn cylinder bores to optimal condition, eliminating scratches, corrosion, and surface imperfections.",
+        "link": "/cylinder-tube-honing.php"
+      },
+      {
+        "icon": "assets/images/hydraulic_hose_manufacturing.jpg",
+        "title": "Hydraulic Hose Manufacturing",
+        "description": "Custom hydraulic hose assemblies and high-pressure fluid transfer solutions for industrial, construction, and agricultural applications. Fast turnaround with quality assured testing.",
+        "link": "/hydraulic-hose-manufacturing.php"
+      }
+    ]
+  },
+  "about": {
+    "title": "50+ Years of Engineering Excellence",
+    "content": [
+      "Established in 1971, Dynasurf has built a reputation as one of the UK's leading precision engineering companies. Our name, derived from \"Dynamic Surfaces,\" reflects our commitment to delivering exceptional surface engineering solutions.",
+      "From our purpose-built facility in Sandbach, Cheshire, we serve industries across the UK with rapid turnaround times and uncompromising quality. Our investment in state-of-the-art equipment allows us to handle projects that others cannot, including cylinder honing up to 300mm diameter and 2.2 meters in length.",
+      "Whether you need emergency repairs or scheduled maintenance, our experienced team is ready to deliver solutions that keep your equipment running at peak performance."
+    ],
+    "image": "/assets/images/facility.jpg",
+    "button_text": "Learn About Us",
+    "button_link": "/about.php"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf?",
+    "subtitle": "Industry-leading capabilities with a customer-first approach",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "Express Service Available",
+        "description": "Same-day turnaround for urgent repairs with materials kept in stock"
+      },
+      {
+        "icon": "✓",
+        "title": "Large Capacity Equipment",
+        "description": "Honing up to 300mm diameter and 2.2 meters length"
+      },
+      {
+        "icon": "✓",
+        "title": "50+ Years Experience",
+        "description": "Established 1971 with unmatched expertise in surface engineering"
+      },
+      {
+        "icon": "✓",
+        "title": "Multi-Industry Expertise",
+        "description": "Serving construction, agriculture, manufacturing, and transport sectors"
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "Precision engineering delivered with speed and accuracy",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Assessment",
+        "description": "Thorough inspection to identify all issues and determine the best repair approach"
+      },
+      {
+        "number": "2",
+        "title": "Quote & Timeline",
+        "description": "Clear pricing and realistic timelines, with express options for urgent work"
+      },
+      {
+        "number": "3",
+        "title": "Precision Work",
+        "description": "Expert engineering using state-of-the-art equipment and proven techniques"
+      },
+      {
+        "number": "4",
+        "title": "Quality Control",
+        "description": "Rigorous testing and inspection to ensure perfect results every time"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "Trusted by leading companies across multiple sectors",
+    "items": [
+      {
+        "icon": "🏗️",
+        "name": "Construction"
+      },
+      {
+        "icon": "🚜",
+        "name": "Agriculture"
+      },
+      {
+        "icon": "🏭",
+        "name": "Manufacturing"
+      },
+      {
+        "icon": "🚛",
+        "name": "Transport"
+      },
+      {
+        "icon": "🚗",
+        "name": "Automotive"
+      },
+      {
+        "icon": "⚡",
+        "name": "Industrial"
+      }
+    ]
+  },
+  "emergency": {
+    "title": "Emergency Express Services",
+    "content": [
+      "When equipment failure threatens your operations, Dynasurf's emergency express service ensures minimal downtime. With materials kept in stock and a dedicated rapid response team, we can often complete urgent repairs the same day.",
+      "Our express services cover all three core areas: hydraulic ram repairs, cylinder honing, and hydraulic hose manufacturing. We understand that every hour of downtime costs money, which is why we've structured our operations to deliver the fastest possible turnaround without compromising quality."
+    ],
+    "features": [
+      "✓ Same-day service for urgent repairs",
+      "✓ Materials kept in stock for immediate use",
+      "✓ Dedicated express service team",
+      "✓ Available for all core services"
+    ],
+    "image": "/assets/images/emergency-service.jpg",
+    "button_text": "Contact Us",
+    "button_link": "/contact.php"
+  },
+  "cta": {
+    "title": "Need Precision Engineering Services?",
+    "subtitle": "Get a quote today for hydraulic repairs, cylinder honing, or hydraulic hose manufacturing",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Quote Now",
+    "button_link": "/contact.php"
+  }
+}

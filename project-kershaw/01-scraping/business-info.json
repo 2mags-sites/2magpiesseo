@@ -1,0 +1,116 @@
+{
+  "business_name": "Arthur Kershaw Funeral Services",
+  "legal_name": "Arthur Kershaw Funeral Services Ltd",
+  "established": "1892",
+  "type": "Funeral Directors",
+  "ownership": "Independent, Family-Owned",
+  
+  "contact": {
+    "phone_primary": "0161 969 2288",
+    "phone_24_7": true,
+    "email": "info@arthurkershawfunerals.com",
+    "website": "https://www.arthurkershawfunerals.com"
+  },
+  
+  "address": {
+    "street": "168-170 Washway Road",
+    "city": "Sale",
+    "county": "Greater Manchester",
+    "postcode": "M33 6RH",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 53.4241,
+      "longitude": -2.3214
+    }
+  },
+  
+  "opening_hours": {
+    "office": {
+      "monday-friday": "09:00-17:00",
+      "saturday": "09:00-12:00",
+      "sunday": "Closed"
+    },
+    "emergency": "24/7"
+  },
+  
+  "services": [
+    {
+      "name": "Traditional Burial",
+      "price_from": 3995,
+      "description": "Full traditional funeral service with burial"
+    },
+    {
+      "name": "Cremation Service",
+      "price_from": 3495,
+      "description": "Traditional funeral service with cremation"
+    },
+    {
+      "name": "Simple Cremation",
+      "price_from": 2495,
+      "description": "Attended cremation with short service"
+    },
+    {
+      "name": "Direct Cremation",
+      "price_from": 995,
+      "description": "Unattended cremation without service"
+    },
+    {
+      "name": "Pre-Paid Funeral Plans",
+      "price_from": null,
+      "description": "Funeral plans to fix costs at today's prices"
+    }
+  ],
+  
+  "service_areas": [
+    {"name": "Sale", "postcode": "M33", "primary": true},
+    {"name": "Stretford", "postcode": "M32"},
+    {"name": "Altrincham", "postcode": "WA14"},
+    {"name": "Timperley", "postcode": "WA15"},
+    {"name": "Ashton-Upon-Mersey", "postcode": "M33"},
+    {"name": "Hale", "postcode": "WA15"},
+    {"name": "Lymm", "postcode": "WA13"},
+    {"name": "Urmston", "postcode": "M41"},
+    {"name": "Chorlton", "postcode": "M21"},
+    {"name": "Didsbury", "postcode": "M20"}
+  ],
+  
+  "facilities": [
+    "Private Chapels of Rest",
+    "Arrangement Rooms",
+    "Customer Parking",
+    "Wheelchair Access",
+    "Modern Fleet of Vehicles"
+  ],
+  
+  "associations": [],
+  
+  "unique_selling_points": [
+    "Family-owned since 1892",
+    "130+ years serving the community",
+    "Independent - not part of a chain",
+    "24/7 availability",
+    "No call-out charges",
+    "Transparent pricing",
+    "Serve all faiths and none"
+  ],
+  
+  "local_knowledge": {
+    "crematoriums": [
+      "Altrincham Crematorium",
+      "Manchester Crematorium",
+      "Stockport Crematorium"
+    ],
+    "cemeteries": [
+      "Sale Cemetery",
+      "Stretford Cemetery",
+      "Southern Cemetery",
+      "Altrincham Cemetery"
+    ],
+    "hospitals": [
+      "Wythenshawe Hospital",
+      "Trafford General Hospital",
+      "Manchester Royal Infirmary",
+      "Salford Royal Hospital"
+    ]
+  }
+}

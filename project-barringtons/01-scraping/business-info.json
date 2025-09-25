@@ -1,0 +1,101 @@
+{
+  "business_name": "Barringtons Independent Funeral Services",
+  "company_number": "07587745",
+  "type": "Funeral Services",
+  "established": "Over 100 years (4 generations)",
+  "directors": {
+    "primary": {
+      "name": "David Barrington",
+      "title": "Director",
+      "credentials": [
+        "NAFD President 2019-2021",
+        "NAFD Approved Tutor",
+        "Over 30 years in funeral care"
+      ]
+    },
+    "secondary": {
+      "name": "Claire Barrington",
+      "title": "Director"
+    },
+    "mentioned_staff": ["Helen Barrington"]
+  },
+  "locations": {
+    "main_office": {
+      "name": "Waterloo",
+      "address": "23 Crosby Rd S, Waterloo, L22 1RG",
+      "hours": "Open 24 hours",
+      "phone": "0151 928 1625"
+    },
+    "branches": [
+      {
+        "name": "Netherton",
+        "address": "47 Liverpool Road, Netherton, L30 3QA",
+        "hours": "Monday-Friday 9am-5pm"
+      },
+      {
+        "name": "Formby",
+        "address": "64 Elbow Lane, Formby, L37 4AB",
+        "hours": "By appointment"
+      }
+    ]
+  },
+  "contact": {
+    "phone": "0151 928 1625",
+    "email": "care@barringtonsfunerals.co.uk",
+    "website": "barringtonsfunerals.co.uk",
+    "availability": "24 hours a day, 7 days a week"
+  },
+  "services": {
+    "immediate_services": [
+      "Immediate Need",
+      "When a Death Occurs",
+      "24 Hour Support"
+    ],
+    "funeral_services": [
+      "Traditional Funerals",
+      "Cremation Services",
+      "Burial Services",
+      "Home Funerals",
+      "Green Funerals"
+    ],
+    "products": [
+      "Coffins & Caskets",
+      "Personalisation Options",
+      "Transport Services",
+      "Pet Products"
+    ],
+    "planning_services": [
+      "Pre-paid Funeral Plans",
+      "Funeral Estimator",
+      "Planning Ahead"
+    ],
+    "support_services": [
+      "Grief Support",
+      "Aftercare Services",
+      "Memorial Trees (3000+ planted)"
+    ]
+  },
+  "accreditations": [
+    "National Association of Funeral Directors (NAFD)",
+    "Society of Allied and Independent Funeral Directors (SAIF)",
+    "Association of Green Funeral Directors",
+    "Good Funeral Guide Recommended",
+    "GriefSteps Partnership"
+  ],
+  "unique_features": [
+    "Family-run business",
+    "Independent funeral directors",
+    "Memorial tree planting program (3000+ trees)",
+    "Serving Liverpool since 1902 (Waterloo location)",
+    "Personal, warm, individual service",
+    "24/7 availability"
+  ],
+  "target_areas": [
+    "Liverpool",
+    "Waterloo",
+    "Crosby",
+    "Formby",
+    "Netherton",
+    "Merseyside"
+  ]
+}

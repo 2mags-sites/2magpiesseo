@@ -1,0 +1,89 @@
+{
+  "primary_nav": [
+    {
+      "label": "Home",
+      "url": "/",
+      "active_pages": [
+        "home",
+        "index"
+      ]
+    },
+    {
+      "label": "Services",
+      "url": "/services",
+      "active_pages": [
+        "services"
+      ],
+      "dropdown": [
+        {
+          "label": "Family Law",
+          "url": "/family-law",
+          "active_pages": [
+            "family-law"
+          ]
+        },
+        {
+          "label": "Commercial Litigation",
+          "url": "/commercial-litigation",
+          "active_pages": [
+            "commercial-litigation"
+          ]
+        },
+        {
+          "label": "Corporate Law",
+          "url": "/corporate-law",
+          "active_pages": [
+            "corporate-law"
+          ]
+        },
+        {
+          "label": "Immigration Law",
+          "url": "/immigration-law",
+          "active_pages": [
+            "immigration-law"
+          ]
+        },
+        {
+          "label": "Real Estate Law",
+          "url": "/real-estate-law",
+          "active_pages": [
+            "real-estate-law"
+          ]
+        },
+        {
+          "label": "Criminal Defense",
+          "url": "/criminal-defense",
+          "active_pages": [
+            "criminal-defense"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about",
+      "active_pages": [
+        "about"
+      ]
+    },
+    {
+      "label": "Our Team",
+      "url": "/team",
+      "active_pages": [
+        "our-team"
+      ]
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "active_pages": [
+        "contact"
+      ]
+    }
+  ],
+  "cta_button": {
+    "label": "Get Started",
+    "url": "/contact",
+    "class": "btn-primary"
+  }
+}

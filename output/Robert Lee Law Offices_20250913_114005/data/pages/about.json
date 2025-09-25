@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "About Law Firm In Hong Kong",
+    "description": "Learn about Law Firm In Hong Kong and our commitment to excellence.",
+    "keywords": [
+      "about",
+      "Law Firm In Hong Kong",
+      "company",
+      "team"
+    ],
+    "canonical_url": "/about"
+  },
+  "content": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Learn about our story and mission"
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "We are dedicated to providing exceptional service."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To deliver outstanding results and exceed expectations."
+    },
+    "values": [
+      {
+        "title": "Excellence",
+        "description": "We strive for excellence in everything we do"
+      },
+      {
+        "title": "Integrity",
+        "description": "We operate with honesty and transparency"
+      },
+      {
+        "title": "Innovation",
+        "description": "We embrace new ideas and technologies"
+      }
+    ]
+  }
+}

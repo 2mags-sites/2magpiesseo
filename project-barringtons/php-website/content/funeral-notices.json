@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "title": "Funeral Notices & Announcements | Barringtons Liverpool",
+        "description": "Current funeral notices and service details for Barringtons Funeral Services. Find service times, locations, and family wishes.",
+        "keywords": "funeral notices Liverpool, death announcements, funeral times, obituaries Liverpool"
+    },
+    "hero": {
+        "title": "Funeral Notices",
+        "image": "\/assets\/images\/uploads\/img_68cd71e23461d_1758294498.jpg"
+    },
+    "intro": {
+        "title": "Current Funeral Notices",
+        "lead_text": "Details of upcoming services entrusted to our care. Please check back regularly for updates."
+    },
+    "info_card": {
+        "text": "Funeral notices are updated regularly. For the most current information or to leave a tribute, please contact us directly on 0151 928 1625."
+    },
+    "cta_section": {
+        "title": "Leave a Tribute",
+        "description": "Share memories and condolences with the family through our online tribute service.",
+        "button_text": "View Tributes",
+        "button_link": "muchloved-tributes.php"
+    },
+    "notices": []
+}

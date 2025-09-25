@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "title": "Our Locations - Waterloo, Formby & Netherton | Barringtons",
+        "description": "Find Barringtons Funeral Services locations in Waterloo, Formby, and Netherton. Directions, parking, and opening hours for all branches.",
+        "keywords": "funeral directors Waterloo, funeral directors Formby, funeral directors Netherton, Barringtons locations"
+    },
+    "intro": {
+        "title": "Serving Liverpool & Surrounding Areas",
+        "subtitle": "With three convenient locations, we're always close by when you need us."
+    },
+    "branches": [
+        {
+            "name": "Waterloo - Main Office",
+            "address": "23 Crosby Rd N, Waterloo, L22 4QF",
+            "phone": "0151 928 1625",
+            "hours": "Open 24 hours",
+            "parking": "Free parking available",
+            "image": "assets\/images\/waterloo.jpg"
+        },
+        {
+            "name": "Formby",
+            "address": "64 Elbow Lane, Formby, L37 4AB",
+            "phone": "0151 928 1625",
+            "hours": "By appointment",
+            "parking": "On-street parking",
+            "image": "\/assets\/images\/uploads\/img_68d108abda12f_1758529707.jpg"
+        },
+        {
+            "name": "Netherton",
+            "address": "47 Liverpool Road, Netherton, L30 3QA",
+            "phone": "0151 928 1625",
+            "hours": "Mon-Fri 9am-5pm",
+            "parking": "Free parking available",
+            "image": "assets\/images\/netherton.jpg"
+        }
+    ],
+    "cta": {
+        "title": "Visit Us",
+        "subtitle": "All locations are wheelchair accessible. Home visits can be arranged if you're unable to visit us.",
+        "phone": "0151 928 1625"
+    },
+    "hero": {
+        "title": "Our Locations",
+        "image": "\/assets\/images\/uploads\/img_68cfc7b26d670_1758447538.jpg"
+    }
+}

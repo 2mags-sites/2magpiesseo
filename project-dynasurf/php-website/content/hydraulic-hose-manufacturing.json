@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "Hydraulic Hose Manufacturing | Custom Assemblies | Dynasurf UK",
+    "description": "Custom hydraulic hose manufacturing and assembly services. High-pressure hoses for industrial, construction and agricultural applications. Fast turnaround. Call 01270 763032.",
+    "keywords": "hydraulic hose manufacturing, custom hose assemblies, high pressure hoses UK, industrial hydraulic hoses"
+  },
+  "hero": {
+    "title": "Hydraulic Hose Manufacturing",
+    "subtitle": "Custom hydraulic hose assemblies and high-pressure fluid transfer solutions",
+    "breadcrumbs": [
+      {"name": "Home", "url": "/"},
+      {"name": "Services", "url": "#services"},
+      {"name": "Hydraulic Hose Manufacturing", "url": ""}
+    ]
+  },
+  "overview": {
+    "title": "Professional Hydraulic Hose Manufacturing Services",
+    "subtitle": "Custom solutions for industrial, construction and agricultural applications",
+    "content": [
+      "We manufacture custom hydraulic hose assemblies for industrial, construction, and agricultural applications. Our in-house capabilities include cutting, crimping, and testing of hydraulic hoses to meet exact specifications and industry standards.",
+      "From standard industrial hoses to specialized high-pressure applications, we provide complete hydraulic hose solutions with quick turnaround times and competitive pricing. All assemblies are pressure tested to ensure reliability and safety.",
+      "Our expertise covers working pressures from low-pressure return lines to ultra-high-pressure applications exceeding 10,000 PSI, with temperature ratings suitable for the most demanding industrial environments."
+    ],
+    "image": "assets/images/hydraulic_hose_manufacturing.jpg"
+  },
+  "capabilities": {
+    "title": "Manufacturing Capabilities",
+    "content": "Our state-of-the-art equipment handles the complete hose assembly process:",
+    "specs": [
+      {
+        "label": "Hose Sizes",
+        "description": "1/4\" to 2\" diameter, standard and custom lengths"
+      },
+      {
+        "label": "Pressure Ratings",
+        "description": "Low pressure to 10,000+ PSI applications"
+      },
+      {
+        "label": "Temperature Range",
+        "description": "-40°C to +150°C depending on hose specification"
+      },
+      {
+        "label": "Fittings",
+        "description": "BSP, NPT, JIC, SAE, Metric, and custom fittings"
+      },
+      {
+        "label": "Testing",
+        "description": "Proof pressure testing to 1.5x working pressure"
+      }
+    ],
+    "additional_content": "We stock a comprehensive range of hydraulic hose types including steel wire reinforced, textile reinforced, and thermoplastic hoses. Our crimping machines ensure proper assembly with consistent, reliable connections every time.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Hydraulic+hose+crimping+and+testing+equipment"
+  },
+  "process": {
+    "title": "Hose Manufacturing Process",
+    "subtitle": "Quality assured from specification to delivery",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Specification Review",
+        "description": "Analysis of pressure, temperature, and application requirements"
+      },
+      {
+        "number": "2",
+        "title": "Hose Selection",
+        "description": "Choose appropriate hose type and fittings for the application"
+      },
+      {
+        "number": "3",
+        "title": "Precision Cutting",
+        "description": "Accurate cutting to specified lengths with clean, square ends"
+      },
+      {
+        "number": "4",
+        "title": "Assembly & Testing",
+        "description": "Crimping fittings and pressure testing to industry standards"
+      }
+    ]
+  },
+  "components": {
+    "title": "Hose Types & Applications",
+    "content": "We manufacture hydraulic hose assemblies for diverse industrial applications:",
+    "types": [
+      {
+        "icon": "🏗️",
+        "title": "Construction Equipment",
+        "description": "Excavators, loaders, cranes, concrete pumps, lifting equipment"
+      },
+      {
+        "icon": "🚜",
+        "title": "Agricultural Machinery",
+        "description": "Tractors, combines, balers, sprayers, irrigation systems"
+      },
+      {
+        "icon": "🏭",
+        "title": "Industrial Systems",
+        "description": "Hydraulic presses, injection molding, machine tools, automation"
+      },
+      {
+        "icon": "🚛",
+        "title": "Mobile Equipment",
+        "description": "Refuse vehicles, delivery trucks, material handlers, forestry equipment"
+      }
+    ],
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Various+hydraulic+hose+assemblies+and+fittings"
+  },
+  "benefits": {
+    "title": "Benefits of Custom Hydraulic Hose Manufacturing",
+    "content": "Choosing custom manufacturing provides significant operational advantages:",
+    "advantages": [
+      {
+        "icon": "🎯",
+        "title": "Exact Specifications",
+        "description": "Hoses manufactured to your exact length, pressure, and fitting requirements"
+      },
+      {
+        "icon": "⏰",
+        "title": "Fast Turnaround",
+        "description": "Most standard assemblies completed same day or next day"
+      },
+      {
+        "icon": "🔧",
+        "title": "Quality Assured",
+        "description": "All assemblies pressure tested and quality certified before dispatch"
+      },
+      {
+        "icon": "💰",
+        "title": "Cost Effective",
+        "description": "Competitive pricing with no minimum order quantities"
+      },
+      {
+        "icon": "📦",
+        "title": "Complete Solution",
+        "description": "Hoses, fittings, adaptors, and installation accessories available"
+      }
+    ],
+    "additional_content": "Our manufacturing process ensures consistent quality and reliability, reducing equipment downtime and maintenance costs for our customers.",
+    "image": "https://placehold.co/600x400/e5e7eb/6b7280?text=Quality+tested+hydraulic+hose+assemblies"
+  },
+  "why_choose": {
+    "title": "Why Choose Dynasurf for Hydraulic Hose Manufacturing?",
+    "subtitle": "Experience and quality you can depend on",
+    "features": [
+      {
+        "icon": "✓",
+        "title": "50+ Years Experience",
+        "description": "Established expertise in hydraulic systems and hose manufacturing since 1971"
+      },
+      {
+        "icon": "✓",
+        "title": "Complete In-House Manufacturing",
+        "description": "Full manufacturing, testing, and quality control in our Sandbach facility"
+      },
+      {
+        "icon": "✓",
+        "title": "Industry Standards",
+        "description": "All hoses manufactured to SAE, EN, and DIN standards as applicable"
+      },
+      {
+        "icon": "✓",
+        "title": "Emergency Service",
+        "description": "Same-day manufacturing available for urgent breakdowns"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "faqs": [
+    {
+      "question": "What sizes of hydraulic hose can you manufacture?",
+      "answer": "We can manufacture hydraulic hose assemblies from 1/4\" up to 2\" diameter in virtually any length required. Our equipment handles both metric and imperial sizing, with working pressures from low-pressure return lines up to ultra-high-pressure applications exceeding 10,000 PSI."
+    },
+    {
+      "question": "How quickly can you manufacture custom hose assemblies?",
+      "answer": "Most standard hydraulic hose assemblies can be manufactured on the same day or next working day. For urgent breakdowns, we offer a same-day emergency service. More complex assemblies or specialized hoses may require 2-3 days depending on material availability."
+    },
+    {
+      "question": "Do you test every hose assembly?",
+      "answer": "Yes, every hydraulic hose assembly we manufacture is pressure tested to 1.5 times its working pressure rating before dispatch. This ensures the integrity of both the hose and crimped connections. We provide test certificates when required for quality assurance purposes."
+    },
+    {
+      "question": "What types of fittings and connections do you offer?",
+      "answer": "We stock a comprehensive range of hydraulic fittings including BSP, NPT, JIC, SAE O-ring, Metric, and many specialty fittings. We can also source custom or obsolete fittings when required. Our crimping equipment handles both permanent and field-repairable connections."
+    },
+    {
+      "question": "Can you match existing hose specifications?",
+      "answer": "Absolutely. Bring us your existing hose assembly or provide specifications, and we'll manufacture exact replacements. We can also upgrade to higher specification hoses if your application demands have changed or if you want improved durability and longer service life."
+    },
+    {
+      "question": "Do you offer installation services?",
+      "answer": "While we primarily focus on manufacturing hose assemblies, we can provide guidance on installation and recommend trusted installation partners for complex hydraulic system work. We also supply all necessary adaptors, clamps, and accessories for proper installation."
+    }
+  ],
+  "cta": {
+    "title": "Need Custom Hydraulic Hose Assemblies?",
+    "subtitle": "Fast, reliable manufacturing with quality you can trust",
+    "phone": "01270 763032",
+    "email": "sales@dynasurf.co.uk",
+    "button_text": "Get Manufacturing Quote",
+    "button_link": "/contact.php"
+  }
+}

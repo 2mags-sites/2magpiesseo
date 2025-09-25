@@ -1,0 +1,30 @@
+# Robots.txt for Arthur Kershaw Funeral Services
+# https://www.arthurkershawfunerals.com
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.arthurkershawfunerals.com/sitemap.xml
+
+# Crawl delay (optional - be respectful)
+Crawl-delay: 1
+
+# Block admin areas if they exist
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config/
+
+# Block temporary or test files
+Disallow: /*.tmp$
+Disallow: /*.test$
+Disallow: /*.bak$
+
+# Allow search engines to index images
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Allow search engines to crawl CSS and JS
+Allow: /assets/css/
+Allow: /assets/js/

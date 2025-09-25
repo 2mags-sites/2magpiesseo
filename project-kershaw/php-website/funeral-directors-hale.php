@@ -1,0 +1,209 @@
+<?php
+// Include configuration
+require_once 'includes/config.php';
+
+$page_title = "Funeral Directors Hale | Arthur Kershaw Funeral Services WA15";
+$page_description = "Funeral directors serving Hale, Hale Barns and WA15 areas. Family-owned funeral services from nearby Sale. Available 24/7. Dignified local support.";
+$page_keywords = "funeral directors Hale, Hale funeral services, WA15 funerals, Hale Barns funerals";
+
+require_once 'includes/header.php';
+?>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/locations">Locations</a></li>
+                    <li class="breadcrumb-item active">Hale</li>
+                </ol>
+            </nav>
+            <h1>Funeral Directors Serving Hale</h1>
+            <p class="lead">Dignified funeral services for Hale and Hale Barns families</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Location Overview -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Funeral Services in Hale</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <p class="lead">Arthur Kershaw Funeral Services has been providing dignified funeral services to families in Hale and Hale Barns for generations from our established Sale funeral home.</p>
+                        <p>Located on Washway Road in Sale, we're just a short drive from Hale village, offering the perfect combination of local accessibility and professional facilities. Our long history serving the area means we understand the particular needs and expectations of Hale families.</p>
+                        <p>Whether you live in Hale village, Hale Barns, or the surrounding areas, we provide the same exceptional standard of service that has earned our reputation across South Manchester.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map-marker-alt fa-3x"></i>
+                        <p>Serving Hale<br>WA15</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas We Cover -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Hale Areas We Serve</h2>
+                <div class="text-center mb-40">
+                    <h3>Complete Coverage Across Hale</h3>
+                    <p class="lead">We provide funeral services throughout all Hale districts:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Hale Village</h4>
+                            <p>The village centre around Ashley Road, including the station area and local shops.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Hale Barns</h4>
+                            <p>The prestigious Hale Barns area including Brooks Drive and surrounding estates.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Arthog Road Area</h4>
+                            <p>The residential areas around Arthog Road and towards Bowdon.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-map-pin"></i> Park Road District</h4>
+                            <p>The Park Road area connecting Hale with Timperley and Altrincham.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-map fa-3x"></i>
+                        <p>All Hale Areas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Knowledge -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Local Hale Services</h2>
+                <div class="content-with-image">
+                    <div class="content-text">
+                        <h3>Hale Venues & Facilities We Work With</h3>
+                        <ul>
+                            <li><strong>St. Peter's Church</strong> - Cecil Road, Hale</li>
+                            <li><strong>All Saints Church</strong> - Hale Barns</li>
+                            <li><strong>Hale United Reformed Church</strong> - Hale Road</li>
+                            <li><strong>Altrincham Crematorium</strong> - Our nearest crematorium</li>
+                            <li><strong>Hale Golf Club</strong> - For receptions and wakes</li>
+                            <li><strong>Local Hotels</strong> - Including boutique hotels and restaurants</li>
+                        </ul>
+                        <p>We regularly collect from Wythenshawe Hospital, private hospitals, and the many care homes in the Hale area, handling all arrangements with discretion and professionalism.</p>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-church fa-3x"></i>
+                        <p>Local Connections</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Why Hale Families Choose Us</h2>
+                <div class="text-center mb-40">
+                    <h3>Professional Excellence, Personal Care</h3>
+                    <p class="lead">Trusted by Hale families for:</p>
+                </div>
+                <div class="content-with-image reverse">
+                    <div class="content-text">
+                        <div class="service-box">
+                            <h4><i class="fas fa-award"></i> Exceptional Standards</h4>
+                            <p>We understand Hale families expect the highest standards, and we deliver without exception.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-user-tie"></i> Professional Discretion</h4>
+                            <p>Complete confidentiality and discretion, respecting privacy at all times.</p>
+                        </div>
+                        <div class="service-box">
+                            <h4><i class="fas fa-gem"></i> Attention to Detail</h4>
+                            <p>Every aspect of the service is meticulously planned and executed to perfection.</p>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <i class="fas fa-handshake fa-3x"></i>
+                        <p>Excellence in Service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How far are you from Hale?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our Sale funeral home is approximately 10-15 minutes from Hale village by car, easily accessible via the A56. We're at 168-170 Washway Road, Sale. Many Hale families appreciate our established premises with excellent facilities and ample parking.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you offer bespoke funeral services?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we specialise in creating bespoke funeral services tailored to individual requirements. Whether you want a traditional service, a celebration of life, or something unique, we can accommodate special requests and ensure every detail reflects your wishes.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can you arrange international repatriation?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have extensive experience with international repatriation, both bringing loved ones home to the UK and arranging transport abroad. We handle all documentation, liaison with embassies, and coordination with international funeral directors.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you offer eco-friendly funeral options?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We offer a range of environmentally conscious options including woodland burials, biodegradable coffins, and carbon-neutral services. We can advise on natural burial grounds and help create a funeral that reflects environmental values.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What premium services do you offer?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer premium options including horse-drawn hearses, vintage vehicles, superior coffins and caskets, extended chapel of rest visiting, live streaming services, and coordination of complex multi-venue services. We can accommodate any special requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Serving Hale Families With Distinction</h2>
+                    <p class="lead">Professional funeral services from your local Sale funeral directors</p>
+                    <p><strong>Available 24/7 on 0161 969 2288</strong></p>
+                    <p>Visit us at 168-170 Washway Road, Sale, M33 6RH</p>
+                    <a href="/contact.php" class="btn btn-white">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php require_once 'includes/footer.php'; ?>

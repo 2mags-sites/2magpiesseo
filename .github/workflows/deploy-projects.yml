@@ -1,0 +1,108 @@
+name: Deploy Client Projects
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'projects/**/output/**'
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Specific project to deploy (leave empty for all changed)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - '2magpiesseo'
+          - 'tour-experiences'
+          - 'brandydigital'
+          - 'jrs'
+          - 'tourxperience'
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      projects: ${{ steps.detect.outputs.projects }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 2
+    
+    - name: Detect changed projects
+      id: detect
+      run: |
+        if [ "${{ github.event.inputs.project }}" != "" ]; then
+          echo "projects=[\"${{ github.event.inputs.project }}\"]" >> $GITHUB_OUTPUT
+        else
+          # Get changed files and extract project names
+          CHANGED=$(git diff --name-only HEAD^ HEAD 2>/dev/null | grep '^projects/.*output/' | cut -d'/' -f2 | sort -u | jq -R -s -c 'split("\n")[:-1]')
+          if [ "$CHANGED" == "[]" ] || [ -z "$CHANGED" ]; then
+            echo "projects=[]" >> $GITHUB_OUTPUT
+          else
+            echo "projects=$CHANGED" >> $GITHUB_OUTPUT
+          fi
+        fi
+        echo "Detected projects: $(cat $GITHUB_OUTPUT)"
+
+  deploy:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.projects != '[]' && needs.detect-changes.outputs.projects != ''
+    runs-on: ubuntu-latest
+    environment: cpanel-deploy
+    strategy:
+      matrix:
+        project: ${{ fromJson(needs.detect-changes.outputs.projects) }}
+    
+    steps:
+    - name: 🚀 Sparse checkout - only ${{ matrix.project }}
+      uses: actions/checkout@v3
+      with:
+        sparse-checkout: |
+          projects/${{ matrix.project }}/output
+        sparse-checkout-cone-mode: false
+    
+    - name: Set deployment path for ${{ matrix.project }}
+      id: set-path
+      run: |
+        case "${{ matrix.project }}" in
+          "2magpiesseo")
+            echo "target=/home/twomagseo/public_html" >> $GITHUB_OUTPUT
+            echo "domain=2magpiesseo.co.uk" >> $GITHUB_OUTPUT
+            ;;
+          "tour-experiences"|"tourxperience")
+            echo "target=/home/tourxgolfco/tourxp.tourxgolf.co.uk" >> $GITHUB_OUTPUT
+            echo "domain=tourxp.tourxgolf.co.uk" >> $GITHUB_OUTPUT
+            ;;
+          "brandydigital")
+            echo "target=/home/brandydigital/public_html" >> $GITHUB_OUTPUT
+            echo "domain=brandydigital.co.uk" >> $GITHUB_OUTPUT
+            ;;
+          "jrs")
+            echo "target=/home/jrs/public_html" >> $GITHUB_OUTPUT
+            echo "domain=jrs.co.uk" >> $GITHUB_OUTPUT
+            ;;
+          *)
+            echo "⚠️ Unknown project: ${{ matrix.project }}"
+            echo "target=unknown" >> $GITHUB_OUTPUT
+            echo "domain=unknown" >> $GITHUB_OUTPUT
+            ;;
+        esac
+    
+    - name: 📤 Deploy ${{ matrix.project }} to ${{ steps.set-path.outputs.domain }}
+      if: steps.set-path.outputs.target != 'unknown'
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.WHM_HOST }}
+        username: ${{ secrets.WHM_USERNAME }}
+        key: ${{ secrets.WHM_SSH_KEY }}
+        source: "projects/${{ matrix.project }}/output/*"
+        target: "${{ steps.set-path.outputs.target }}"
+        rm: false
+        strip_components: 3  # Removes 'projects/PROJECT/output' directory levels
+        
+    - name: ✅ Deployment Complete
+      if: steps.set-path.outputs.target != 'unknown'
+      run: |
+        echo "Successfully deployed ${{ matrix.project }} to ${{ steps.set-path.outputs.domain }}"
+        echo "🌐 Site URL: https://${{ steps.set-path.outputs.domain }}"

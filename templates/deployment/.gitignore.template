@@ -1,0 +1,43 @@
+# CRITICAL: This file MUST be created BEFORE git init
+# Otherwise secrets might be committed to git history
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.*.local
+
+# Backups
+*.backup
+*.bak
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Logs
+*.log
+error_log
+access_log
+
+# Cache
+cache/
+tmp/
+temp/
+
+# WordPress (if installed later)
+blog/
+wordpress/
+
+# DO NOT IGNORE:
+# - assets/images/uploads/ (client uploaded content)
+# - content/*.json (client edited content)
+# These should be tracked in git
