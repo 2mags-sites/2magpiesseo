@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; padding: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="180" height="180"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Black background with rounded corners for iOS
+        ctx.fillStyle = '#0a0a0a';
+        ctx.fillRect(0, 0, 180, 180);
+
+        // Orange XP text
+        ctx.fillStyle = '#ff8c00';
+        ctx.font = 'bold 100px Inter, Arial, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('XP', 90, 95);
+
+        // Convert to PNG and download
+        canvas.toBlob(function(blob) {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'apple-touch-icon.png';
+            document.body.appendChild(a);
+            a.click();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+name: Deploy Tour XP to tourxp.tourxgolf.co.uk
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🚀 Checkout code
+      uses: actions/checkout@v3
+    
+    # SSH Deployment with SCP
+    - name: 🔑 Setup SSH Agent
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.WHM_SSH_KEY }}
+
+    - name: 📤 Deploy to cPanel via SCP
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.WHM_HOST }}
+        username: ${{ secrets.WHM_USERNAME }}
+        key: ${{ secrets.WHM_SSH_KEY }}
+        source: "output/*"
+        target: "/home/tourxgolfco/tourxp.tourxgolf.co.uk"
+        rm: false
+        strip_components: 1  # Removes 'output' directory level
+        
+    - name: ✅ Deployment Complete
+      run: echo "Successfully deployed to tourxp.tourxgolf.co.uk"

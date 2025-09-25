@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tourxp.tourxgolf.co.uk/sitemap.xml

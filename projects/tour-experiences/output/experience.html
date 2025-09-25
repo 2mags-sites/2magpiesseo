@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tourxp.tourxgolf.co.uk/">
+    <meta property="og:title" content="TOURXP - TrackMan Bay Rental Wigan">
+    <meta property="og:description" content="Premium TrackMan bay rental in Wigan. 2-bay facility with cutting-edge golf simulator technology.">
+    <meta property="og:image" content="https://tourxp.tourxgolf.co.uk/images/web-ready/hero-trackman-simulator.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tourxp.tourxgolf.co.uk/">
+    <meta property="twitter:title" content="TOURXP - TrackMan Bay Rental Wigan">
+    <meta property="twitter:description" content="Premium TrackMan bay rental in Wigan. 2-bay facility with cutting-edge golf simulator technology.">
+    <meta property="twitter:image" content="https://tourxp.tourxgolf.co.uk/images/web-ready/hero-trackman-simulator.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ff8c00">
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">    <title>🏌️ The Experience - TOURXP Wigan | TrackMan Bay Rental Sessions</title>
+    <meta name="description" content="Experience premium TrackMan bay rental at Tour XP Wigan. 2-bay facility, virtual golf courses, progress tracking. Book your TrackMan session today.">
+    <meta name="keywords" content="trackman experience wigan, golf simulator session, trackman bay booking, golf training wigan">
+    <link rel="stylesheet" href="../../_templates/design-system/design-system.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-orange: #ff8c00;
+            --primary-black: #0a0a0a;
+            --text-white: #ffffff;
+            --text-gray: #cccccc;
+            --accent-gray: #1a1a1a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--primary-black);
+            color: var(--text-white);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--text-white);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo .x {
+            color: var(--primary-orange);
+        }
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .back-button {
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .book-now-btn {
+            background-color: var(--primary-orange) !important;
+            color: var(--primary-black) !important;
+            padding: 10px 20px !important;
+            border-radius: 25px !important;
+            font-weight: 600 !important;
+            text-transform: uppercase !important;
+            font-size: 12px !important;
+            letter-spacing: 0.5px !important;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3) !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .book-now-btn:hover {
+            background-color: #e67c00 !important;
+            color: var(--primary-black) !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4) !important;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-white);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary-orange);
+        }
+
+        
+
+        /* Mobile menu */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-white);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            
+            .logo-section {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: flex-start;
+            }
+            
+            .back-button {
+                font-size: 0.625rem;
+                padding: 0.25rem 0.5rem;
+            }
+            
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--primary-black);
+                flex-direction: column;
+                padding: 20px;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+        }
+
+        /* Page Header */
+        .page-header {
+            padding: 120px 0 80px;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('images/web-ready/experience-header-panoramic.jpg')  center/cover;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        .page-header p {
+            font-size: 1.3rem;
+            color: var(--text-gray);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Content Sections */
+        .content-section {
+            padding: 80px 0;
+        }
+
+        .content-section:nth-child(even) {
+            background-color: var(--accent-gray);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+
+        .section-title p {
+            font-size: 1.2rem;
+            color: var(--text-gray);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Experience Flow */
+        .experience-flow {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .experience-flow {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .flow-step {
+            text-align: center;
+            padding: 40px 30px;
+            background-color: var(--primary-black);
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .flow-step::before {
+            content: attr(data-step);
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--primary-orange);
+            color: var(--primary-black);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+        }
+
+        .flow-step h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 20px 0 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .flow-step p {
+            color: var(--text-gray);
+            line-height: 1.6;
+        }
+
+        /* Session Types */
+        .session-types {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 992px) {
+            .session-types {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .session-card {
+            background-color: var(--primary-black);
+            padding: 40px 30px;
+            border-radius: 10px;
+            border-top: 4px solid var(--primary-orange);
+            transition: transform 0.3s ease;
+        }
+
+        .session-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .session-card h3 {
+            color: var(--primary-orange);
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .session-card ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .session-card li {
+            color: var(--text-gray);
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .session-card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-orange);
+            font-weight: bold;
+        }
+
+        .session-card p {
+            color: var(--text-gray);
+            line-height: 1.7;
+        }
+
+        /* Facility Features */
+        .facility-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 992px) {
+            .facility-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .facility-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .facility-feature {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: var(--primary-black);
+            border-radius: 10px;
+        }
+
+        .facility-icon {
+            width: 70px;
+            height: 70px;
+            background-color: var(--primary-orange);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 30px;
+            color: var(--primary-black);
+        }
+
+        .facility-feature h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .facility-feature p {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Quote Section */
+        .quote-section {
+            background-color: var(--primary-orange);
+            color: var(--primary-black);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .quote-section blockquote {
+            font-size: 2rem;
+            font-weight: 600;
+            font-style: italic;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .quote-section cite {
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background-color: var(--primary-black);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: var(--text-white);
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: var(--text-gray);
+        }
+
+        .cta-button {
+            background-color: var(--primary-orange);
+            color: var(--primary-black);
+            padding: 15px 35px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #e67c00;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--accent-gray);
+            padding: 60px 0 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h3 {
+            color: var(--primary-orange);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: var(--text-gray);
+            text-decoration: none;
+            line-height: 1.8;
+        }
+
+        .footer-section a:hover {
+            color: var(--text-white);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-gray);
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .page-header p {
+                font-size: 1.1rem;
+            }
+            
+            .content-section {
+                padding: 60px 0;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .quote-section blockquote {
+                font-size: 1.5rem;
+            }
+            
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            *,
+            *::before,
+            *::after {
+                background: #fff !important;
+                color: #000 !important;
+                box-shadow: none !important;
+                text-shadow: none !important;
+            }
+            
+            .header,
+            .cta-button,
+            .mobile-menu-toggle {
+                display: none !important;
+            }
+            
+            a,
+            a:visited {
+                text-decoration: underline;
+            }
+            
+            img {
+                page-break-inside: avoid;
+            }
+            
+            h2, h3 {
+                page-break-after: avoid;
+            }
+        }
+        
+        /* Screen Reader Only Class */
+        .sr-only {
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+        }
+        
+        /* Browser Upgrade Message */
+        .browserupgrade {
+            margin: 0.2em 0;
+            background: #ccc;
+            color: #000;
+            padding: 0.2em 0;
+            text-align: center;
+        }
+    </style>
+
+    <!-- No-JS Class Handling -->
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';
+    </script>
+</head>
+<body>
+    <!--[if IE]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <div class="logo-section">
+                <a href="/" class="logo">TOUR<span class="x">XP</span></a>
+                <a href="https://tourxgolf.co.uk" class="back-button">BACK TO TOUR X GOLF</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">HOME</a></li>
+                <li><a href="technology.html">TECHNOLOGY</a></li>
+                <li><a href="experience.html" class="active">E<span style="color: var(--primary-orange);">XP</span>ERIENCE</a></li>
+                <li><a href="https://yourgolfbooking.com/venues/tour-xp/booking/bays" target="_blank" rel="noopener noreferrer" class="book-now-btn">BOOK NOW</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </header>
+
+    <main role="main">
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>The E<span style="color: var(--primary-orange);">XP</span>erience</h1>
+            <p>Discover what awaits you during your TrackMan bay rental session at Tour XP Wigan</p>
+        </div>
+    </section>
+
+    <!-- What to Expect -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Your <span style="color: var(--primary-orange);">Session Journey</span></h2>
+                <p>From arrival to improvement insights, here's what makes a Tour XP session exceptional</p>
+            </div>
+            
+            <div class="experience-flow">
+                <div class="flow-step" data-step="1">
+                    <h3>Arrival & Setup</h3>
+                    <p>Enter our premium 2-bay facility in Wigan. Each TrackMan bay is equipped with cutting-edge technology and comfortable seating. Connect to your TrackMan Golf app to start tracking your session data.</p>
+                </div>
+                
+                <div class="flow-step" data-step="2">
+                    <h3>Warm-Up & Calibration</h3>
+                    <p>Begin with practice swings as TrackMan io and TM4's dual radar system calibrates to your swing. Our technology tracks every detail from the first shot, providing immediate feedback on your technique.</p>
+                </div>
+                
+                <div class="flow-step" data-step="3">
+                    <h3>Focused Practice</h3>
+                    <p>Work on specific aspects of your game with real-time data feedback. See ball speed, launch angle, spin rate, and 30+ other metrics instantly. Use this data to make immediate improvements.</p>
+                </div>
+                
+                <div class="flow-step" data-step="4">
+                    <h3>Progress Analysis</h3>
+                    <p>Review your session data through the TrackMan app. Track improvements, identify patterns, and set goals for future sessions. All data is saved to your personal profile for long-term progress tracking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Session Types -->
+    <section class="content-section" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+                        url('images/web-ready/experience-back-view-simulator.jpg')  center/cover;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Session <span style="color: var(--primary-orange);">Options</span></h2>
+                <p>Choose the training style that matches your goals and commitment to improvement</p>
+            </div>
+            
+            <div class="session-types">
+                <div class="session-card">
+                    <h3>Practice Sessions</h3>
+                    <ul>
+                        <li>Unlimited shots and data tracking</li>
+                        <li>Real-time feedback on every swing</li>
+                        <li>Multiple practice modes available</li>
+                        <li>Perfect for technique refinement</li>
+                        <li>Access to virtual driving ranges</li>
+                    </ul>
+                    <p>Ideal for golfers focused on specific skill development and technical improvement using precise TrackMan data.</p>
+                </div>
+                
+                <div class="session-card">
+                    <h3>Virtual Golf Rounds</h3>
+                    <ul>
+                        <li>Play over 300 world-class courses</li>
+                        <li>Ultra-realistic graphics and conditions</li>
+                        <li>Complete 18-hole experiences</li>
+                        <li>Challenge friends or play solo</li>
+                        <li>Course-specific strategies and conditions</li>
+                    </ul>
+                    <p>Experience famous golf courses from around the world with stunning realism and accurate course conditions.</p>
+                </div>
+                
+                <div class="session-card">
+                    <h3>Skills Challenges</h3>
+                    <ul>
+                        <li>Targeted improvement exercises</li>
+                        <li>Distance and accuracy challenges</li>
+                        <li>Progress tracking and scoring</li>
+                        <li>Competitive leaderboards</li>
+                        <li>Fun and engaging practice games</li>
+                    </ul>
+                    <p>Gamified training that makes practice enjoyable while systematically improving specific aspects of your golf game.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facility Features -->
+    <section class="content-section" style="background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
+                        url('images/web-ready/experience-female-golfer.jpg')  center/cover;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span style="color: var(--primary-orange);">2-Bay Facility</span></h2>
+                <p>Premium amenities and technology create the perfect environment for golf improvement</p>
+            </div>
+            
+            <div class="facility-grid">
+                <div class="facility-feature">
+                    <div class="facility-icon">🎯</div>
+                    <h4>TrackMan io and TM4 Technology</h4>
+                    <p>Each bay equipped with the latest TrackMan io and TM4 system for unmatched accuracy and comprehensive data analysis.</p>
+                </div>
+                
+                <div class="facility-feature">
+                    <div class="facility-icon">📱</div>
+                    <h4>App Integration</h4>
+                    <p>Seamless connection to TrackMan Golf app for instant data access and long-term progress tracking.</p>
+                </div>
+                
+                <div class="facility-feature">
+                    <div class="facility-icon">🏌️</div>
+                    <h4>Professional Setup</h4>
+                    <p>Optimal bay spacing and professional-grade hitting mats ensure comfortable practice for golfers of all abilities.</p>
+                </div>
+                
+                <div class="facility-feature">
+                    <div class="facility-icon">🎮</div>
+                    <h4>Entertainment Options</h4>
+                    <p>Virtual golf courses, practice games, and skills challenges keep sessions engaging and productive.</p>
+                </div>
+                
+                <div class="facility-feature">
+                    <div class="facility-icon">⏰</div>
+                    <h4>Hourly Rental</h4>
+                    <p>Flexible booking system allows you to rent TrackMan bays by the hour, perfect for focused practice sessions.</p>
+                </div>
+                
+                <div class="facility-feature">
+                    <div class="facility-icon">🏆</div>
+                    <h4>Progress Tracking</h4>
+                    <p>Comprehensive data storage and analysis tools help you track improvement and achieve your golf goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote>"State of the art elite practice facility. Built to practice and play like the pros."</blockquote>
+            <cite>— Premier TrackMan Bay Rental in Wigan</cite>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="content-section" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+                        url('https://img.b2bpic.net/premium-photo/smart-swing-analyzer_971989-26056.jpg') center/cover;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose TOUR<span style="color: var(--primary-orange);">XP</span></h2>
+                <p>The advantages of TrackMan bay rental for golfers committed to improvement</p>
+            </div>
+            
+            <div class="session-types">
+                <div class="session-card">
+                    <h3>Data-Driven Improvement</h3>
+                    <ul>
+                        <li>20+ precise measurements per shot</li>
+                        <li>Immediate feedback for quick adjustments</li>
+                        <li>Identify strengths and weaknesses</li>
+                        <li>Track progress over time</li>
+                        <li>Professional-grade accuracy</li>
+                    </ul>
+                    <p>Make every practice session count with objective data that reveals exactly what's working and what needs improvement.</p>
+                </div>
+                
+                <div class="session-card">
+                    <h3>Year-Round Training</h3>
+                    <ul>
+                        <li>Weather-independent practice</li>
+                        <li>Consistent conditions for comparison</li>
+                        <li>Perfect for winter training</li>
+                        <li>Maintain peak performance</li>
+                        <li>Regular practice schedule possible</li>
+                    </ul>
+                    <p>Never let weather affect your training schedule. Maintain and improve your game throughout the year in our climate-controlled facility.</p>
+                </div>
+                
+                <div class="session-card">
+                    <h3>Individual & Group Sessions</h3>
+                    <ul>
+                        <li>Solo practice for focused improvement</li>
+                        <li>Group sessions with friends</li>
+                        <li>Corporate team building events</li>
+                        <li>Competitive challenges and games</li>
+                        <li>Social learning environment</li>
+                    </ul>
+                    <p>Whether training alone or with others, our facility accommodates different learning styles and social preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to E<span style="color: var(--primary-orange);">XP</span>erience the Difference?</h2>
+            <p>Book your TrackMan bay rental at Tour XP Wigan and start your journey to better golf</p>
+            <a href="https://yourgolfbooking.com/venues/tour-xp/booking/bays" target="_blank" rel="noopener noreferrer" class="cta-button">Book Your Session</a>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TOURXP</h3>
+                    <p>Premium TrackMan bay rental facility in Wigan. Two state-of-the-art bays for golfers committed to improvement.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="/">Home</a></p>
+                    <p><a href="technology.html">TrackMan Technology</a></p>
+                    <p><a href="https://yourgolfbooking.com/venues/tour-xp/booking/bays" target="_blank" rel="noopener noreferrer">Book Your Bay</a></p>
+                    <p><a href="https://tourxgolf.co.uk">Tour X Golf</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Unit C, Wigan Enterprise Park<br>Seaman Way, Ince-in-Makerfield<br>Wigan WN2 2AG</p>
+                    <p>Phone: 01942 950933</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Keywords</h3>
+                    <p>TrackMan experience Wigan</p>
+                    <p>Golf simulator sessions</p>
+                    <p>TrackMan bay booking</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tour XP. Partnership with Tour X Golf. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const nav = document.querySelector('.nav');
+            const navLinks = document.querySelector('.nav-links');
+            if (!nav.contains(e.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

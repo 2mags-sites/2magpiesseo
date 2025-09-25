@@ -1,0 +1,74 @@
+# Complete .htaccess for Production Sites
+# This combines clean URLs, WordPress integration, and optimization
+
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect /index to root
+RewriteRule ^index/?$ / [R=301,L]
+
+# Remove .html extension from browser
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Remove trailing slashes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Serve .html files for clean URLs
+RewriteCond %{REQUEST_URI} !^/news/
+RewriteCond %{REQUEST_URI} !^/contact$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+# Route /contact to WordPress contact form
+# This makes tourxp.tourxgolf.co.uk/contact show the WordPress contact page
+# THE_REQUEST prevents loops by only matching original browser requests
+RewriteCond %{THE_REQUEST} \s/contact[\s?/] [NC]
+RewriteRule ^contact/?$ /news/contact [L]
+
+# Protect WordPress admin
+RewriteRule ^news/wp-admin/includes/ - [F,L]
+RewriteRule !^news/wp-includes/ - [S=3]
+RewriteRule ^news/wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^news/wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^news/wp-includes/theme-compat/ - [F,L]
+
+# Browser Caching for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    
+    # HTML (shorter cache for updates)
+    ExpiresByType text/html "access plus 1 day"
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json
+</IfModule>
+
+# Security Headers
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+# Custom 404 page
+ErrorDocument 404 /404.html
