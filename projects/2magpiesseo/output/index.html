@@ -1,0 +1,2147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Deployment test 2025-09-25 from new PHP builder location -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Magpies SEO | Digital Marketing Agency North West UK</title>
+    <meta name="description" content="Expert digital marketing agency in North West UK. SEO, web design, lead generation & digital strategies to grow your business. Get results with 2 Magpies SEO.">
+    <link rel="canonical" href="https://2magpiesseo.co.uk/">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "2 Magpies SEO",
+      "description": "Professional digital marketing agency providing SEO, web design, and lead generation services across North West UK",
+      "url": "https://2magpiesseo.co.uk",
+      "logo": "https://2magpiesseo.co.uk/content/images/2Magpies_Logo.png",
+      "sameAs": [],
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "North West",
+        "addressCountry": "UK"
+      },
+      "areaServed": [
+        "Manchester",
+        "Liverpool",
+        "Preston",
+        "Stockport",
+        "Warrington",
+        "Wigan",
+        "Altrincham",
+        "Knutsford",
+        "Wilmslow",
+        "Macclesfield"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Marketing Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO Services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Design & Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lead Generation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Marketing"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .logo:hover {
+            opacity: 0.8;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #60a5fa;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            min-width: 250px;
+            padding: 1rem 0;
+        }
+
+        .nav-item:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: #475569;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .dropdown a:hover {
+            background: #f1f5f9;
+            color: #2563eb;
+            padding-left: 2rem;
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 0.5rem;
+            margin-right: 1rem;
+        }
+
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            margin: 3px 0;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu-toggle.active span:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .mobile-menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-toggle.active span:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: fixed;
+                top: 70px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 70px);
+                background: rgba(30, 41, 59, 0.98);
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                transition: left 0.3s ease;
+                padding-top: 2rem;
+                z-index: 999;
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .nav-item {
+                width: 90%;
+                text-align: center;
+                margin: 0.5rem 0;
+            }
+
+            .nav-link {
+                display: block;
+                padding: 1rem;
+                width: 100%;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .dropdown {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                background: rgba(255, 255, 255, 0.1);
+                margin-top: 0;
+                border-radius: 0;
+                padding: 0;
+                display: none;
+                width: 100%;
+                min-width: auto;
+            }
+
+            .nav-item:hover .dropdown,
+            .nav-item.active .dropdown {
+                display: block;
+            }
+
+            .dropdown a {
+                padding: 0.75rem 1.5rem;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                color: rgba(255, 255, 255, 0.8);
+            }
+
+            .dropdown a:hover {
+                background: rgba(255, 255, 255, 0.1);
+                color: #60a5fa;
+                padding-left: 1.5rem;
+            }
+        }
+
+        /* Add padding to body to account for fixed navbar */
+        body {
+            padding-top: 70px;
+        }
+
+        /* Hero Section with Parallax */
+        .hero {
+            background-image: url('content/images/hero-background.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 150px 0;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 41, 59, 0.85);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .google-partner {
+            position: relative;
+            margin-bottom: 3rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .google-partner img {
+            height: 60px;
+            opacity: 0.9;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .rotating-text {
+            display: inline-block;
+            min-width: 300px;
+            text-align: left;
+            background: linear-gradient(45deg, #60a5fa, #3b82f6, #8b5cf6, #ec4899, #ef4444, #f59e0b, #10b981, #60a5fa);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient-shift 8s ease infinite;
+        }
+
+        @media (max-width: 480px) {
+            .rotating-text {
+                min-width: 150px;
+                text-align: center;
+            }
+        }
+
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+        }
+
+        .highlight-text {
+            color: #60a5fa;
+            font-weight: 600;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.6);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+
+        .cta-button.secondary:hover {
+            background: white;
+            color: #1e293b;
+        }
+
+        /* Stats Section - Fixed Classes */
+        .stats {
+            background: white;
+            padding: 5rem 0;
+            position: relative;
+        }
+
+        .stats::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            border-radius: 2px;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .stats-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .stats-container {
+                padding: 0 0.5rem;
+            }
+
+            .stat-card {
+                padding: 1.5rem 0.5rem;
+            }
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .stat-number {
+            font-size: 4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        .stat-text {
+            font-size: 1.1rem;
+            color: #475569;
+            font-weight: 500;
+            max-width: 300px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Original Stats Section (keep for other pages) */
+        .stats-section {
+            background: white;
+            padding: 5rem 0;
+            position: relative;
+        }
+
+        .stats-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            border-radius: 2px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            line-height: 1;
+        }
+
+        .stat-number::after {
+            content: attr(data-suffix);
+            font-size: 2.5rem;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #475569;
+            font-weight: 500;
+        }
+
+        /* Services Section */
+        .services-section {
+            background: #f8fafc;
+            padding: 5rem 0;
+        }
+
+        .services-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.2rem;
+            color: #475569;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+                padding: 0 1rem;
+            }
+        }
+
+        .service-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: #2563eb;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .service-card p {
+            color: #475569;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-link {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .service-link:hover {
+            color: #1d4ed8;
+        }
+
+        /* About Section */
+        .about {
+            background: white;
+            padding: 5rem 0;
+            position: relative;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 300px;
+            width: 2px;
+            background: #60a5fa;
+            transform: translate(-50%, -50%);
+        }
+
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-text {
+            padding-right: 2rem;
+        }
+
+        .about-title {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #000;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        .about-points {
+            padding-left: 2rem;
+        }
+
+        .about-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+
+        .about-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: #475569;
+            line-height: 1.6;
+        }
+
+        .about-list li:before {
+            content: '○';
+            position: absolute;
+            left: 0;
+            color: #60a5fa;
+            font-weight: bold;
+        }
+
+        .about-cta {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            border: 2px solid #60a5fa;
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .about-cta:hover {
+            background: #60a5fa;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .about::before {
+                display: none;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-text {
+                padding-right: 0;
+                text-align: center;
+            }
+
+            .about-title {
+                font-size: 2rem;
+            }
+
+            .about-points {
+                padding-left: 0;
+            }
+
+            .about-cta {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        /* Locations Section */
+        .locations {
+            background: #1e293b;
+            padding: 5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .locations::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(96, 165, 250, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .locations-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .locations .section-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .locations .section-subtitle {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .locations-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .location-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .location-card::before {
+            content: '📍';
+            font-size: 2rem;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .location-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #60a5fa;
+            box-shadow: 0 10px 30px rgba(96, 165, 250, 0.2);
+        }
+
+        .location-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        .location-type {
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 1024px) {
+            .locations-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .locations-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+
+            .locations .section-title {
+                font-size: 2rem;
+            }
+
+            .location-card {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .locations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Industries Section */
+        .industry-stats {
+            background: #1e293b;
+            padding: 5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .industry-stats::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .industry-stats::after {
+            content: '';
+            position: absolute;
+            bottom: -40%;
+            right: -5%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(236, 72, 153, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .industry-stats > div {
+            position: relative;
+            z-index: 1;
+        }
+
+        .industries-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .industry-stats h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .industry-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .industry-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #8b5cf6;
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);
+        }
+
+        .industry-icon {
+            font-size: 2.5rem;
+            color: #a78bfa;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .industry-card:hover .industry-icon {
+            color: #c4b5fd;
+            transform: scale(1.1);
+        }
+
+        .industry-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        @media (max-width: 1024px) {
+            .industries-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .industries-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+
+            .industry-stats h2 {
+                font-size: 2rem;
+            }
+
+            .industry-card {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .industries-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: #f8fafc;
+            padding: 5rem 0;
+        }
+
+        .testimonials-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .testimonials .section-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .testimonials .section-subtitle {
+            font-size: 1.2rem;
+            color: #64748b;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            color: #475569;
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-text::before {
+            content: '"';
+            font-size: 3rem;
+            color: #60a5fa;
+            line-height: 0;
+            display: inline-block;
+            vertical-align: -0.4em;
+            margin-right: 0.1em;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.25rem;
+        }
+
+        .testimonial-role {
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 768px) {
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .testimonials .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        .final-cta-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .final-cta-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .final-cta-subtitle {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .final-cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #60a5fa;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-primary:hover {
+            background: #3b82f6;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(96, 165, 250, 0.3);
+        }
+
+        .cta-secondary {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: transparent;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid white;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: white;
+            color: #1e293b;
+        }
+
+        .final-cta-note {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .final-cta-title {
+                font-size: 2rem;
+            }
+
+            .final-cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cta-primary,
+            .cta-secondary {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        /* Portfolio Section */
+        .portfolio-section {
+            background: white;
+            padding: 5rem 0;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            height: 200px;
+            background: #f3f4f6;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 41, 59, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-overlay h4 {
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            background: #f8fafc;
+            padding: 5rem 0;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            color: #475569;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-info h4 {
+            color: #1e293b;
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .author-info p {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        /* Areas Section with Background */
+        .areas-section {
+            background-image: url('content/images/business-team-background.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 5rem 0;
+        }
+
+        .areas-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 41, 59, 0.9);
+            z-index: 1;
+        }
+
+        .areas-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .areas-content h2 {
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .areas-content p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 3rem;
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .area-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .area-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .portfolio-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .areas-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .rotating-text {
+                min-width: 200px;
+            }
+
+            .stats-grid,
+            .services-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .areas-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="content/images/2Magpies_Logo.png" alt="2magpiesseo">
+            </a>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="seo-manchester.html">SEO</a>
+                        <a href="website-design-manchester.html">Website Design</a>
+                        <a href="digital-marketing-manchester.html">Digital Marketing</a>
+                        <a href="lead-generation-manchester.html">Lead Generation</a>
+                        <a href="website-marketing-manchester.html">Website Marketing</a>
+                        <a href="digital-agency-manchester.html">Digital Agency</a>
+                        <a href="wordpress-manchester.html">WordPress</a>
+                        <a href="web-development-manchester.html">Web Development</a>
+                        <a href="ecommerce-manchester.html">Ecommerce</a>
+                        <a href="linkedin-marketing-manchester.html">LinkedIn Marketing</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Locations <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="seo-manchester.html">Manchester</a>
+                        <a href="seo-altrincham.html">Altrincham</a>
+                        <a href="seo-stockport.html">Stockport</a>
+                        <a href="seo-liverpool.html">Liverpool</a>
+                        <a href="seo-warrington.html">Warrington</a>
+                        <a href="seo-wigan.html">Wigan</a>
+                        <a href="seo-preston.html">Preston</a>
+                        <a href="seo-macclesfield.html">Macclesfield</a>
+                        <a href="seo-wilmslow.html">Wilmslow</a>
+                        <a href="seo-knutsford.html">Knutsford</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="i/news" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="i/contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="google-partner">
+                <img src="content/images/google_partner_logo.png" alt="Google Partner">
+            </div>
+            
+            <h1>WE generate <span class="rotating-text" id="rotatingText">MORE REVENUE</span></h1>
+            
+            <p class="hero-subtitle">
+                If you're in the <span class="highlight-text">NORTH OF ENGLAND</span> and you're a 
+                <span class="highlight-text">SMALL TO MEDIUM SIZE BUSINESS</span>, we can help you harness the power of 
+                <span class="highlight-text">DIGITAL MARKETING, ARTIFICIAL INTELLIGENCE & SEO</span> to build your business.
+            </p>
+            
+            <a href="#free-seo-audit" class="cta-button">Get Your Free SEO Audit</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number" data-target="97">0%</div>
+                <div class="stat-text">of customers needing a local business first search online</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="90">0%</div>
+                <div class="stat-text">of UK searches happen on Google</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="75">0%</div>
+                <div class="stat-text">of users only click through on top 10 results</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>Our Digital Marketing Services</h2>
+                <p>Everything we do is geared to acquiring and retaining customers for our clients</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="service-title">Search Engine Optimisation</h3>
+                    <p class="service-description">Dominate Google search results with our proven SEO strategies. We help North West businesses rank higher and attract more qualified traffic.</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">Digital Marketing</h3>
+                    <p class="service-description">From PPC to social media marketing, we create integrated campaigns that drive results and maximize your ROI across all digital channels.</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Web & Mobile Development</h3>
+                    <p class="service-description">Build fast, secure, and conversion-optimized websites and apps that work perfectly across all devices and platforms.</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="service-title">Digital Consultancy</h3>
+                    <p class="service-description">Get expert guidance on your digital strategy. Our experienced consultants help you make the right decisions for sustainable growth.</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">Founded in 2010, we are a small & agile digital agency based in the North West.</h2>
+                </div>
+                <div class="about-points">
+                    <ul class="about-list">
+                        <li>We passionately believe in the power of digital</li>
+                        <li>We don't make outlandish promises</li>
+                        <li>We meet customers regularly to review progress, discuss any changes in their needs, and to explore new opportunities to promote their business online.</li>
+                        <li>We understand the needs and challenges of running a small business</li>
+                        <li>We truly care about making a success of every client's online presence</li>
+                        <li>We stay at the cutting edge of internet developments, so clients can benefit from the latest opportunities.</li>
+                    </ul>
+                    <a href="contact.html" class="about-cta">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations">
+        <div class="locations-container">
+            <h2 class="section-title">Serving North West England</h2>
+            <p class="section-subtitle">We're proud to help businesses across the North West achieve digital success</p>
+            
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-name">Manchester</div>
+                    <div class="location-type">Greater Manchester</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Liverpool</div>
+                    <div class="location-type">Merseyside</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Altrincham</div>
+                    <div class="location-type">Greater Manchester</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Macclesfield</div>
+                    <div class="location-type">Cheshire</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Preston</div>
+                    <div class="location-type">Lancashire</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Chester</div>
+                    <div class="location-type">Cheshire</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Warrington</div>
+                    <div class="location-type">Cheshire</div>
+                </div>
+                <div class="location-card">
+                    <div class="location-name">Blackpool</div>
+                    <div class="location-type">Lancashire</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free SEO Audit Section -->
+    <section id="free-seo-audit" style="background: #f8fafc; padding: 4rem 2rem; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="color: #1e293b; font-size: 2rem; margin-bottom: 1rem; font-weight: 700;">Free SEO Audit</h2>
+            <p style="color: #64748b; margin-bottom: 2rem;">Get a comprehensive analysis of your website's SEO performance</p>
+            
+            <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); max-width: 600px; margin: 0 auto;">
+                <script data-widget-id="5193f8d18e78feffed67652f87bf16849d9b68b3" src="https://www.local-marketing-reports.com/m/assets-v2/lead-gen/js/external/widget-builder.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve Section -->
+    <section class="industry-stats">
+        <div class="industries-container">
+            <h2>Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-user-md"></i></div>
+                    <div class="industry-name">Healthcare</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-store"></i></div>
+                    <div class="industry-name">Retail</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-home"></i></div>
+                    <div class="industry-name">Property</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-utensils"></i></div>
+                    <div class="industry-name">Hospitality</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-tools"></i></div>
+                    <div class="industry-name">Professional Services</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="industry-name">Education</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-car"></i></div>
+                    <div class="industry-name">Automotive</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-spa"></i></div>
+                    <div class="industry-name">Beauty & Wellness</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-wrench"></i></div>
+                    <div class="industry-name">Home Services</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-balance-scale"></i></div>
+                    <div class="industry-name">Legal Services</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-coffee"></i></div>
+                    <div class="industry-name">Food & Beverage</div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon"><i class="fas fa-hard-hat"></i></div>
+                    <div class="industry-name">Construction & Trade</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Real results from real businesses across the North West</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Working with 2 Magpies has been like a breath of fresh air. We see them regularly, they take the time to understand our business, and most importantly, they deliver what they promise."</p>
+                    <div class="testimonial-author">Sandi Hodkinson</div>
+                    <div class="testimonial-role">Photographer</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"We were struggling to get anywhere near the first page of google for our main search terms until 2 Magpies came along. Paul is brilliant to work with, can't recommend enough."</p>
+                    <div class="testimonial-author">Robert Sands</div>
+                    <div class="testimonial-role">Optician</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"2 Magpies are our secret weapon. I still don't fully understand how they work their magic, but they get us to the top of Google for the search terms that matter, and that's been bringing in loads of leads."</p>
+                    <div class="testimonial-author">Dr. Martin J. Kinsella</div>
+                    <div class="testimonial-role">Aesthetic and anti ageing doctor</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="final-cta-container">
+            <div class="final-cta-content">
+                <h2 class="final-cta-title">Ready to Transform Your Digital Presence?</h2>
+                <p class="final-cta-subtitle">Join hundreds of North West businesses that trust 2magpiesseo to drive their online growth. Get your free SEO audit and discover how we can help you dominate Google search results.</p>
+                <div class="final-cta-buttons">
+                    <a href="#free-seo-audit" class="cta-primary">Get Your Free SEO Audit</a>
+                    <a href="contact.html" class="cta-secondary">Book a Consultation</a>
+                </div>
+                <p class="final-cta-note">🚀 No obligations • Quick turnaround • Expert analysis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <img src="content/images/2Magpies_Logo.png" alt="2magpiesseo">
+                        <h3>2magpiesseo</h3>
+                    </div>
+                    <p class="footer-description">
+                        Award-winning digital marketing agency specializing in SEO, PPC, and web development across North West England. Helping businesses grow their online presence since 2015.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/2magpiesseo" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/2magpiesseo" class="social-link x-logo" target="_blank" rel="noopener">
+                            <span style="font-weight: 800; font-size: 1.2rem;">𝕏</span>
+                        </a>
+                        <a href="skype:2magpiesseo?chat" class="social-link">
+                            <i class="fab fa-skype"></i>
+                        </a>
+                        <a href="https://wa.me/447799727395" class="social-link" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="seo-manchester.html">SEO</a></li>
+                        <li><a href="website-design-manchester.html">Website Design</a></li>
+                        <li><a href="digital-marketing-manchester.html">Digital Marketing</a></li>
+                        <li><a href="lead-generation-manchester.html">Lead Generation</a></li>
+                        <li><a href="web-development-manchester.html">Web Development</a></li>
+                        <li><a href="ecommerce-manchester.html">Ecommerce</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="i/news">Blog</a></li>
+                        <li><a href="i/contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>North West England</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>01704 895228</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@2magpiesseo.co.uk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+44 7799 727395</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Fri: 9:00 - 17:30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 2magpiesseo. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="i/privacy-policy">Privacy Policy</a>
+                        <a href="i/terms-and-conditions">Terms & Conditions</a>
+                        <a href="i/cookie-policy">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Footer Styles */
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 60px 0 0;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .footer-logo h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .footer-description {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: #60a5fa;
+            transform: translateY(-3px);
+        }
+
+        .footer-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #60a5fa;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .contact-item i {
+            width: 16px;
+            color: #60a5fa;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem 0;
+        }
+
+        .footer-bottom-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .footer-legal a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-legal a:hover {
+            color: #60a5fa;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+
+            .footer-bottom-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .footer-legal {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <!-- Rotating Text and Count Up Script -->
+    <script>
+        // Rotating Text
+        const rotatingText = document.getElementById('rotatingText');
+        const phrases = [
+            'MORE REVENUE',
+            'MORE LEADS',
+            'MORE SALES',
+            'MORE TRAFFIC',
+            'MORE CUSTOMERS',
+            'BETTER RANKINGS',
+            'ONLINE GROWTH'
+        ];
+        
+        let currentIndex = 0;
+        
+        function rotateText() {
+            // Fade out
+            rotatingText.style.opacity = '0';
+            
+            setTimeout(() => {
+                // Change text
+                currentIndex = (currentIndex + 1) % phrases.length;
+                rotatingText.textContent = phrases[currentIndex];
+                
+                // Fade in
+                rotatingText.style.opacity = '1';
+            }, 300);
+        }
+        
+        // Add transition style
+        rotatingText.style.transition = 'opacity 0.3s ease';
+        
+        // Rotate every 3 seconds
+        setInterval(rotateText, 3000);
+
+        // Count Up Animation
+        function animateCountUp(element) {
+            const target = parseInt(element.getAttribute('data-target'));
+            const duration = 2000; // 2 seconds
+            const increment = target / (duration / 16); // 60fps
+            let current = 0;
+            
+            const updateNumber = () => {
+                current += increment;
+                if (current < target) {
+                    element.textContent = Math.floor(current) + '%';
+                    requestAnimationFrame(updateNumber);
+                } else {
+                    element.textContent = target + '%';
+                }
+            };
+            
+            updateNumber();
+        }
+
+        // Intersection Observer for count animation
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px'
+        };
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+                    entry.target.classList.add('animated');
+                    animateCountUp(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all stat numbers
+        document.addEventListener('DOMContentLoaded', () => {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(stat => {
+                statsObserver.observe(stat);
+            });
+
+            // Mobile menu toggle
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (mobileMenuToggle && navMenu) {
+                mobileMenuToggle.addEventListener('click', () => {
+                    mobileMenuToggle.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!mobileMenuToggle.contains(e.target) && !navMenu.contains(e.target)) {
+                        mobileMenuToggle.classList.remove('active');
+                        navMenu.classList.remove('active');
+                    }
+                });
+
+                // Handle dropdown menus on mobile
+                const navItems = document.querySelectorAll('.nav-item');
+                navItems.forEach(item => {
+                    const link = item.querySelector('.nav-link');
+                    const dropdown = item.querySelector('.dropdown');
+                    
+                    if (dropdown && link) {
+                        link.addEventListener('click', (e) => {
+                            // Check if we're on mobile
+                            if (window.innerWidth <= 768) {
+                                e.preventDefault();
+                                // Toggle active class on parent nav-item
+                                item.classList.toggle('active');
+                                
+                                // Close other dropdowns
+                                navItems.forEach(otherItem => {
+                                    if (otherItem !== item) {
+                                        otherItem.classList.remove('active');
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+
+                // Only close menu when clicking dropdown links (not parent items)
+                const dropdownLinks = document.querySelectorAll('.dropdown a');
+                dropdownLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenuToggle.classList.remove('active');
+                        navMenu.classList.remove('active');
+                        // Also remove active class from all nav items
+                        navItems.forEach(item => {
+                            item.classList.remove('active');
+                        });
+                    });
+                });
+            }
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            const areas = document.querySelector('.areas-section');
+            
+            if (hero) {
+                hero.style.backgroundPositionY = -(scrolled * 0.5) + 'px';
+            }
+            
+            if (areas) {
+                areas.style.backgroundPositionY = -(scrolled * 0.3) + 'px';
+            }
+        });
+    </script>
+</body>
+</html>
