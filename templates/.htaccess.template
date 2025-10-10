@@ -27,6 +27,12 @@
 
 # Protect includes directory
 RewriteEngine On
+
+# CRITICAL: Allow JavaScript files from includes directory (needed for admin mode)
+RewriteCond %{REQUEST_URI} ^/includes/.*\.js$ [NC]
+RewriteRule ^ - [L]
+
+# Block access to includes, content, cache, vendor directories (except JS files above)
 RewriteRule ^(includes|content|cache|vendor)/ - [F,L]
 
 # ============================================
