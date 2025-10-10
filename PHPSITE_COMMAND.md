@@ -18,6 +18,7 @@ Transform any existing website into a modern, SEO-optimized PHP website with AI-
 ### CRITICAL: Documentation Requirements
 
 **📚 ESSENTIAL TEMPLATE DOCUMENTATION TO REFERENCE:**
+- `DEPLOYMENT_STRATEGY.md` - **CRITICAL: Read before any deployment - contains ALL deployment procedures**
 - `templates/SETUP_NEW_PROJECT.md` - Complete project setup checklist with all files to copy
 - `templates/core/SESSION_CSRF_GUIDE.md` - Critical session/CSRF implementation guide
 - `templates/core/config.php` - Proper session handling and CSRF token generation
@@ -1302,40 +1303,126 @@ To preview locally:
 
 #### Production Deployment
 
-**🚀 CRITICAL: See `DEPLOYMENT_STRATEGY.md` for complete deployment guide**
+## 🚨 CRITICAL DEPLOYMENT REQUIREMENTS
 
-Quick deployment process:
-1. Create separate PUBLIC GitHub repository for client
-2. Add deployment workflow (`.github/workflows/deploy.yml`)
-3. Exclude .env from git (add .gitignore FIRST)
-4. Push to GitHub for automatic deployment
+**⚠️ STOP: MANDATORY READING BEFORE ANY DEPLOYMENT**
+
+1. **📖 READ DEPLOYMENT_STRATEGY.md FIRST**
+   - Location: `website-rebuilder/DEPLOYMENT_STRATEGY.md`
+   - Contains ALL deployment procedures, templates, and lessons learned
+   - **DO NOT** create custom deployment workflows
+   - **ALWAYS** use the standardized templates
+
+2. **🔄 FOLLOW EXACT PROCESS FROM DEPLOYMENT_STRATEGY.md**
+   - Use the standardized `.github/workflows/deploy.yml` template
+   - Use organization secrets: `WHM_HOST`, `WHM_USERNAME`, `WHM_SSH_KEY`
+   - Deploy to standard path structure
+   - **NEVER** hardcode server details or create custom workflows
+
+## **DEPLOYMENT VALIDATION CHECKLIST**
+
+**✅ Before Starting Deployment - Verify:**
+- [ ] I have read DEPLOYMENT_STRATEGY.md completely
+- [ ] I understand the organization's standard deployment process
+- [ ] I am NOT creating a custom workflow
+- [ ] I am using the exact template from DEPLOYMENT_STRATEGY.md
+
+**✅ Repository Setup - Must Have:**
+- [ ] Repository is PUBLIC (organization secrets require public repos)
+- [ ] `.gitignore` created BEFORE `git init` (excludes .env)
+- [ ] Using exact workflow template from DEPLOYMENT_STRATEGY.md
+- [ ] Repository created in `2mags-sites` organization
+- [ ] Following naming convention: `2mags-sites/client-name`
+
+**✅ Workflow Requirements - Must Use:**
+- [ ] `appleboy/scp-action@v0.1.4` for file deployment
+- [ ] `appleboy/ssh-action@v0.1.5` for permissions
+- [ ] Organization secrets: `WHM_HOST`, `WHM_USERNAME`, `WHM_SSH_KEY`
+- [ ] Standard target path: `/home/CPANEL_USER/public_html`
+- [ ] Proper permissions script from template
+
+**✅ Post-Deployment - Must Complete:**
+- [ ] Upload .env file manually (not in git)
+- [ ] Verify file permissions are correct
+- [ ] Test website functionality
+- [ ] Test admin mode access
+
+## **STANDARD DEPLOYMENT PROCESS**
+
+**Following DEPLOYMENT_STRATEGY.md exactly:**
 
 ```bash
-# Quick setup (from php-website folder)
+# 1. PREPARE (from php-website folder)
 cd project-clientname/php-website
 
-# Create .gitignore (MUST do before git init)
-echo -e ".env\n*.log\n*.backup" > .gitignore
+# 2. CREATE .gitignore FIRST (prevents secrets in git)
+cat > .gitignore << 'EOF'
+# Environment variables (CRITICAL - must exclude)
+.env
+.env.local
+.env.*.local
 
-# Initialize and create repo
+# Backups
+*.backup
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+error_log
+EOF
+
+# 3. INITIALIZE GIT
 git init
-gh repo create 2mags-sites/client-name --public
 
-# Add deployment workflow
+# 4. CREATE REPOSITORY
+gh repo create 2mags-sites/CLIENT-NAME --public --description "CLIENT business description"
+
+# 5. ADD STANDARD WORKFLOW (copy exactly from DEPLOYMENT_STRATEGY.md)
 mkdir -p .github/workflows
-# Copy workflow from DEPLOYMENT_STRATEGY.md
+# COPY the exact deploy.yml template from DEPLOYMENT_STRATEGY.md
+# UPDATE only the CPANEL_USER and target paths for the specific client
 
-# Commit and push
+# 6. COMMIT AND DEPLOY
 git add -A
-git commit -m "Initial commit"
+git commit -m "Initial commit - CLIENT NAME website"
+git branch -M main
+git remote add origin https://github.com/2mags-sites/CLIENT-NAME.git
 git push -u origin main
 ```
 
-**Important:**
-- Each client gets their own PUBLIC repository
-- Organization secrets work with PUBLIC repos only
-- Upload .env manually after deployment
-- See `DEPLOYMENT_STRATEGY.md` for troubleshooting
+## **CRITICAL WARNINGS**
+
+**❌ NEVER DO THESE:**
+- Create custom FTP-based deployment workflows
+- Hardcode server credentials in workflows
+- Use private repositories (organization secrets won't work)
+- Include .env in git commits
+- Create client-specific deployment secrets
+
+**✅ ALWAYS DO THESE:**
+- Read DEPLOYMENT_STRATEGY.md before any deployment
+- Use the exact standardized workflow template
+- Use organization secrets (WHM_HOST, WHM_USERNAME, WHM_SSH_KEY)
+- Create PUBLIC repositories in 2mags-sites organization
+- Upload .env manually after first deployment
+
+## **IF YOU DEVIATE FROM DEPLOYMENT_STRATEGY.md**
+
+**🛑 STOP IMMEDIATELY**
+1. Review why you're deviating
+2. Check if DEPLOYMENT_STRATEGY.md needs updating
+3. Follow the established process
+4. **DO NOT** improvise or create custom solutions
+
+**The deployment strategy exists because of hard-learned lessons from previous deployments. Follow it exactly.**
 
 ## User Checkpoints Summary
 

@@ -1,0 +1,40 @@
+{
+  "site_structure": {
+    "type": "single_page_landing",
+    "total_pages": 1,
+    "main_pages": [
+      {
+        "name": "Homepage/Landing",
+        "url": "/",
+        "file": "index.php",
+        "type": "landing_page",
+        "sections": [
+          "Hero Section",
+          "Coming Soon Message",
+          "Description",
+          "Contact Form Modal",
+          "Prescription Portal Link"
+        ]
+      }
+    ],
+    "future_expansion": {
+      "planned_sections": [
+        "About Section",
+        "Services Overview",
+        "Team Section",
+        "Testimonials",
+        "Blog/News"
+      ]
+    }
+  },
+  "navigation": {
+    "type": "minimal_landing",
+    "items": []
+  },
+  "features": {
+    "contact_form": true,
+    "modal_system": true,
+    "responsive_design": true,
+    "prescription_portal_link": true
+  }
+}

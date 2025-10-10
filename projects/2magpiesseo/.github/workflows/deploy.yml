@@ -1,0 +1,34 @@
+name: Deploy to Production (2magpiesseo.co.uk)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🚀 Checkout code
+      uses: actions/checkout@v3
+    
+    # SSH Deployment with SCP - Non-destructive
+    - name: 🔑 Setup SSH Agent
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.WHM_SSH_KEY }}
+
+    - name: 📤 Deploy to cPanel via SCP (Non-Destructive)
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.WHM_HOST }}
+        username: ${{ secrets.WHM_USERNAME }}
+        key: ${{ secrets.WHM_SSH_KEY }}
+        source: "output/*"
+        target: "/home/twomagseo/public_html"
+        rm: false  # CRITICAL: Never remove existing files - preserves WordPress
+        strip_components: 1  # Removes 'output' directory level
+        
+    - name: ✅ Deployment Complete
+      run: echo "Successfully deployed to 2magpiesseo.co.uk without removing WordPress or other files"

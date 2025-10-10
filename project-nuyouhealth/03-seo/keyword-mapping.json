@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "index": {
+      "url": "/",
+      "title": "NU: YOU HEALTH - Coming Soon | Personalized Wellness Solutions",
+      "meta_description": "Your personalized approach to wellness is coming soon. Nu:You Health is crafting a comprehensive health experience that puts you at the center of your care journey.",
+      "keywords": {
+        "primary": "personalized health solutions",
+        "secondary": [
+          "wellness consultation",
+          "comprehensive health experience",
+          "personalized wellness"
+        ],
+        "long_tail": [
+          "personalized approach to wellness",
+          "comprehensive health experience center",
+          "nu you health wellness solutions"
+        ]
+      },
+      "schema_type": "Organization"
+    }
+  },
+  "brand_keywords": [
+    "Nu:You Health",
+    "HALE",
+    "personalized wellness",
+    "health experience"
+  ]
+}

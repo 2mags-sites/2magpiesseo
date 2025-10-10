@@ -1,0 +1,35 @@
+# Development files
+*.log
+*.backup
+deploy-answers.txt
+urls.txt
+
+# Build scripts (not needed for deployment)
+build-*.js
+generate-sitemap.js
+add-google-analytics.js
+
+# Documentation (not needed for deployment)
+*.md
+elementor-header-template.json
+
+# Folders to exclude  
+temp_delete/
+inspiration/
+/content/
+components/
+.claude/
+output/.claude/
+output/temp_delete/
+
+# Files to exclude from output
+output/urls.txt
+
+# Exclude markdown files in output/content but keep images
+output/content/*.md
+
+# Other files
+project-config.json
+temp_copy.bat
+
+# Keep only the output folder contents for deployment

@@ -1,0 +1,29 @@
+{
+  "business_name": "Nu:You Health",
+  "subtitle": "HALE",
+  "tagline": "Coming Soon",
+  "description": "Your personalized approach to wellness is on its way. We're crafting a comprehensive health experience that puts you at the center of your care journey.",
+  "type": "Health & Wellness Landing Page",
+  "services": [
+    "Personalized Health Solutions",
+    "Wellness Consultation",
+    "Comprehensive Health Experience"
+  ],
+  "contact_methods": [
+    "Contact Form"
+  ],
+  "brand_colors": {
+    "primary": "#2c3e35",
+    "secondary": "#6b8a7a",
+    "accent": "#4a6b5a",
+    "light": "#a0bfae",
+    "background": "#f8fffe",
+    "gradient": "linear-gradient(135deg, #f8fffe 0%, #f0f9f7 100%)"
+  },
+  "typography": {
+    "font_family": "Playfair Display, serif",
+    "style": "Elegant serif with sophisticated spacing"
+  },
+  "design_style": "Minimalist, elegant, health-focused with subtle decorative elements",
+  "current_status": "Coming Soon Landing Page"
+}
