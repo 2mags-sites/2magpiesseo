@@ -20,6 +20,8 @@ Transform any existing website into a modern, SEO-optimized PHP website with AI-
 **📚 ESSENTIAL TEMPLATE DOCUMENTATION TO REFERENCE:**
 - `DEPLOYMENT_STRATEGY.md` - **CRITICAL: Read before any deployment - contains ALL deployment procedures**
 - `templates/SETUP_NEW_PROJECT.md` - Complete project setup checklist with all files to copy
+- `templates/github-workflow-deploy.yml` - **Standardized GitHub Actions deployment workflow**
+- `templates/WORKFLOW_SETUP.md` - **Quick setup guide for deployment workflows**
 - `templates/core/SESSION_CSRF_GUIDE.md` - Critical session/CSRF implementation guide
 - `templates/core/config.php` - Proper session handling and CSRF token generation
 - `templates/core/email-service.php` - SendGrid + PHP mail() fallback implementation
@@ -1001,14 +1003,17 @@ For complete implementation details, refer to **`EDITABLE_PHP_GUIDE.md`** which 
    - Rate limiting and honeypot protection
 
 **Environment Variable Setup for All Projects**
-1. Copy `templates/.env.template` to project as `.env`
+1. Copy `templates/core/.env.template` to project as `.env`
 2. Copy `templates/core/env-loader.php` to `includes/`
-3. Copy `templates/core/sendgrid-mailer.php` to `includes/`
+3. Copy `templates/core/email-service.php` to `includes/`
 4. Copy security rules from `templates/.htaccess.security`
 5. Update project-specific values in .env:
    - Replace PROJECT_NAME with actual project name
+   - Set SITE_NAME for email branding
    - Update CONTACT_TO_EMAIL with client's email
    - Update APP_URL with production domain
+   - Configure EMAIL_SERVICE ('sendgrid' or 'mail')
+   - Add SENDGRID_API_KEY if using SendGrid
    - Admin keys are auto-generated per project
 6. SendGrid API key is pre-configured and shared across all projects
 
@@ -1313,11 +1318,44 @@ To preview locally:
    - **DO NOT** create custom deployment workflows
    - **ALWAYS** use the standardized templates
 
-2. **🔄 FOLLOW EXACT PROCESS FROM DEPLOYMENT_STRATEGY.md**
+2. **📋 USE STANDARDIZED WORKFLOW TEMPLATES**
+   - **Template Location**: `templates/github-workflow-deploy.yml`
+   - **Setup Guide**: `templates/WORKFLOW_SETUP.md`
+   - Simple, reliable workflow that always deploys all files
+   - **CRITICAL**: Avoids "smart deployment" logic that can delete content
+
+3. **🔄 FOLLOW EXACT PROCESS FROM DEPLOYMENT_STRATEGY.md**
    - Use the standardized `.github/workflows/deploy.yml` template
    - Use organization secrets: `WHM_HOST`, `WHM_USERNAME`, `WHM_SSH_KEY`
    - Deploy to standard path structure
    - **NEVER** hardcode server details or create custom workflows
+
+### ⚠️ LESSON LEARNED: Smart Deployment Bug
+
+**Problem Discovered:**
+Previous workflows used "smart" conditional logic that would:
+- Detect if content JSON files changed in a commit
+- If NO content changes detected, remove JSON files before deployment
+- This left production with empty content directories despite files being in git
+
+**The Critical Bug:**
+```yaml
+# ❌ WRONG - This deletes content before deployment
+if [[ "${{ steps.changes.outputs.content_changed }}" == "false" ]]; then
+  rm -f content/*.json
+fi
+```
+
+**The Fix:**
+- Removed ALL conditional "smart" logic
+- Workflow now ALWAYS deploys all files including content
+- Simple, predictable, and reliable
+
+**Why This Matters:**
+- Manual content management on production is preserved by downloading before changes
+- GitHub always has complete state
+- No risk of accidentally wiping production content
+- **See `templates/WORKFLOW_SETUP.md` for complete explanation**
 
 ## **DEPLOYMENT VALIDATION CHECKLIST**
 
@@ -1335,17 +1373,110 @@ To preview locally:
 - [ ] Following naming convention: `2mags-sites/client-name`
 
 **✅ Workflow Requirements - Must Use:**
+- [ ] Template from `templates/github-workflow-deploy.yml` (see `templates/WORKFLOW_SETUP.md`)
 - [ ] `appleboy/scp-action@v0.1.4` for file deployment
 - [ ] `appleboy/ssh-action@v0.1.5` for permissions
 - [ ] Organization secrets: `WHM_HOST`, `WHM_USERNAME`, `WHM_SSH_KEY`
-- [ ] Standard target path: `/home/CPANEL_USER/public_html`
+- [ ] Standard target path: `/home/twomagseo/SUBDOMAIN.2magpiesseo.co.uk`
 - [ ] Proper permissions script from template
+- [ ] Simple deployment (no conditional content logic)
 
 **✅ Post-Deployment - Must Complete:**
 - [ ] Upload .env file manually (not in git)
 - [ ] Verify file permissions are correct
 - [ ] Test website functionality
 - [ ] Test admin mode access
+- [ ] Sync uploaded images (see below)
+
+### **⚠️ IMPORTANT: Uploaded Images Are Not Deployed**
+
+**The Problem:**
+When moving from dev to production (or between environments), uploaded images are NOT included in the deployment because:
+- Images are stored in `assets/images/uploads/`
+- This directory is typically gitignored (binary files shouldn't bloat the repo)
+- JSON content files reference these images, but the actual files don't deploy
+- Result: Broken image links on the new environment
+
+**Why Images Aren't in Git:**
+- Binary files bloat git history
+- Every image upload would create commits
+- Repo size grows exponentially
+- Git is for code, not binary assets
+
+**Current Manual Solution:**
+1. FTP/SSH into dev environment
+2. Download entire `assets/images/uploads/` folder
+3. Upload to production environment via FTP/SSH
+4. Verify images appear correctly
+
+**Future Enhancement Needed:**
+Add an "Image Sync" feature to the admin system:
+- Scans all JSON content files for image references
+- Identifies missing images (referenced but not on disk)
+- Allows downloading from source environment URL
+- One-click sync from dev → production or production → dev
+
+**Use Cases:**
+- **Dev → Production**: Initial go-live, need all dev images on production
+- **Production → Dev**: Client uploads images in production, need them locally for development
+- **Between Staging Environments**: Multiple environments need same image assets
+
+**Until This Feature Exists:**
+Always manually copy the `uploads/` folder when deploying to a new environment or when images have been added via admin mode.
+
+### **🔷 HEADLESS WORDPRESS INTEGRATION (If Using Blog)**
+
+If your site includes WordPress as a headless CMS for blog posts, complete these additional post-deployment steps:
+
+**✅ WordPress Setup Checklist:**
+- [ ] WordPress installed in `/news` subdirectory (not root)
+- [ ] WordPress accessible at `https://yourdomain.com/news/wp-admin`
+- [ ] Created admin user for content management
+- [ ] Published at least 3 test posts with featured images
+- [ ] Verified WordPress REST API is accessible
+
+**✅ Blog Integration Verification:**
+- [ ] Homepage displays 3 latest posts (matching design of other card sections)
+- [ ] Blog index page (`/blog-news.php`) shows paginated posts (9 per page)
+- [ ] Pagination controls work (Previous/Next buttons, page numbers)
+- [ ] Single post page (`/blog-post.php?slug=X`) displays correctly in site template
+- [ ] All blog posts use site header/footer (not WordPress theme)
+
+**✅ SEO Protection (CRITICAL):**
+- [ ] `.htaccess` includes 301 redirects for old WordPress URLs
+  - `/YYYY/MM/post-slug/` → `/blog-post.php?slug=post-slug`
+  - `/news/post-slug/` → `/blog-post.php?slug=post-slug`
+- [ ] `.htaccess` includes X-Robots-Tag header for `/news/*`
+- [ ] `robots.txt` blocks entire `/news/` directory from indexing
+- [ ] Test: Visit `/news/some-post/` - should 301 redirect to `/blog-post.php?slug=some-post`
+- [ ] Test: Check HTTP headers on `/news/` - should include `X-Robots-Tag: noindex, nofollow`
+
+**✅ Content Workflow:**
+1. **To add new blog post:**
+   - Log into WordPress at `/news/wp-admin`
+   - Create post with featured image
+   - Publish
+   - Post automatically appears on homepage and `/blog-news.php`
+   - Post displays in your PHP template (not WordPress theme)
+
+2. **URLs to verify:**
+   - Homepage: Latest 3 posts in card layout
+   - `/blog-news.php`: All posts with pagination
+   - `/blog-news.php?page=2`: Second page of posts
+   - `/blog-post.php?slug=your-post-slug`: Single post in site template
+
+**Why This Matters:**
+- WordPress at `/news` is backend only - never seen by visitors
+- All public-facing posts use your PHP template
+- No duplicate content penalties from search engines
+- Consistent branding across entire site
+- Old WordPress URLs redirect properly (preserves SEO)
+
+**Common Issues:**
+- **Posts not showing:** Check WordPress REST API at `/news/wp-json/wp/v2/posts`
+- **Images not loading:** Check featured images are set in WordPress
+- **404 on single posts:** Verify slug matches exactly (case-sensitive)
+- **Duplicate content:** Ensure robots.txt blocks `/news/` and X-Robots-Tag is set
 
 ## **STANDARD DEPLOYMENT PROCESS**
 
@@ -1385,10 +1516,15 @@ git init
 # 4. CREATE REPOSITORY
 gh repo create 2mags-sites/CLIENT-NAME --public --description "CLIENT business description"
 
-# 5. ADD STANDARD WORKFLOW (copy exactly from DEPLOYMENT_STRATEGY.md)
+# 5. ADD STANDARD WORKFLOW
 mkdir -p .github/workflows
-# COPY the exact deploy.yml template from DEPLOYMENT_STRATEGY.md
-# UPDATE only the CPANEL_USER and target paths for the specific client
+# OPTION 1: Use quick setup from WORKFLOW_SETUP.md
+cp ../../templates/github-workflow-deploy.yml .github/workflows/deploy.yml
+# Replace SUBDOMAIN with actual subdomain (e.g., barr, dynasurf)
+sed -i 's/SUBDOMAIN/your-subdomain/g' .github/workflows/deploy.yml
+
+# OPTION 2: Follow complete guide in DEPLOYMENT_STRATEGY.md
+# CRITICAL: Always deploy all files - no conditional content logic
 
 # 6. COMMIT AND DEPLOY
 git add -A
