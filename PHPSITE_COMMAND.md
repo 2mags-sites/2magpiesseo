@@ -1028,16 +1028,61 @@ For complete implementation details, refer to **`EDITABLE_PHP_GUIDE.md`** which 
 2. Copy `templates/core/email-service.php` to `includes/` **[CRITICAL - Not sendgrid-mailer.php]**
 3. Copy `templates/core/env-loader.php` to `includes/` **[CRITICAL - Missing causes 500 errors]**
 4. Copy `templates/core/config.php` to `includes/` **[Has session/CSRF setup]**
-5. Update `.env` with user's email configuration
+5. Update `.env` with user's email configuration and spam protection settings
 6. Add form HTML with:
    - AJAX submission (no page refresh)
-   - Honeypot field (hidden spam trap)
+   - **Multi-layer anti-spam protection:**
+     - Honeypot field (hidden spam trap)
+     - Time-based validation field (form_loaded_time)
+     - reCAPTCHA token field (if using reCAPTCHA)
    - CSRF token protection
    - Privacy policy checkbox
    - Success/error messages inline
 7. Add JavaScript to footer.php for AJAX handling
 8. Test with rate limiting (20/hour default)
 9. Localhost development has CSRF bypass for testing
+
+**🛡️ SPAM PROTECTION LAYERS:**
+
+**Basic Protection (Included by default):**
+- ✅ Honeypot field (catches dumb bots)
+- ✅ CSRF tokens (prevents automated submissions)
+- ✅ Session-based rate limiting (5/hour)
+
+**Enhanced Protection (Recommended for high-spam sites):**
+- ✅ **Time-based validation** - Reject forms submitted < 3 seconds
+- ✅ **IP-based rate limiting** - 3 submissions/hour per IP (tracks in `/cache`)
+- ✅ **Cyrillic character filtering** - Blocks Russian/Ukrainian spam
+- ✅ **Link spam detection** - Max 2 links per message
+- ✅ **Google reCAPTCHA Enterprise v3** - Invisible bot detection with scoring
+
+**To Add reCAPTCHA Enterprise:**
+1. Get keys from: https://console.cloud.google.com/security/recaptcha
+2. Add to `.env`:
+   ```
+   RECAPTCHA_API_KEY=your_api_key_here
+   RECAPTCHA_PROJECT_ID=your_project_id
+   RECAPTCHA_SITE_KEY=your_site_key_here
+   RECAPTCHA_MIN_SCORE=0.5
+   ```
+3. Add script to `includes/header.php`:
+   ```html
+   <script src="https://www.google.com/recaptcha/enterprise.js?render=YOUR_SITE_KEY"></script>
+   ```
+4. Add hidden field to form:
+   ```html
+   <input type="hidden" name="recaptcha_token" id="recaptchaToken">
+   ```
+5. Update form JavaScript to generate token before submit:
+   ```javascript
+   const token = await grecaptcha.enterprise.execute('YOUR_SITE_KEY', {action: 'contact_form'});
+   document.getElementById('recaptchaToken').value = token;
+   ```
+6. Add verification to `contact-handler.php` (see Barringtons example)
+
+**Reference Implementation:**
+- See `project-barringtons/php-website/contact-handler.php` for complete example
+- All 6 spam protection layers implemented
 
 **📚 CRITICAL REFERENCE DOCUMENTATION:**
 - `templates/core/SESSION_CSRF_GUIDE.md` - **Session/CSRF implementation guide**
